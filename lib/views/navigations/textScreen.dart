@@ -260,6 +260,97 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.absorbTrappedEmotionsAss,
         'intention': Intentions.absorbTrappedEmotionsInt
       };
+    } else if (widget.parentScreen == '3rd Molar (Wisdom)') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == '1st Biscupid') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == '2nd Molar') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Canine') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == '1st Molar') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Lateral Incisor') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == '2ndBiscupid') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Central Incisor') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Cavitation') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Amalgam Filling') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Root Canal') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Dental Product') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Cavity') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
     }
   }
 }

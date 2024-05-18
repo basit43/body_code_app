@@ -14,21 +14,13 @@ class ThirdScreen extends StatefulWidget {
 
 class _ThirdScreenState extends State<ThirdScreen> {
   List<Map<String, String>> data = [
-    {
-      'imageUrl': '${Images.upperTeeth}',
-      'text': 'Upper Teeth',
-      'screen': RoutesName.textScreen
-    },
-    {
-      'imageUrl': '${Images.lowerTeeth}',
-      'text': 'Lower Teeth',
-      'screen': RoutesName.textScreen
-    }
+    {'imageUrl': '${Images.energy}', 'text': 'third'},
     // Add more items here
   ];
 
   @override
   void initState() {
+    print('parent screen ${widget.parentScreen}');
     setScreen();
     // TODO: implement initState
     super.initState();
@@ -254,6 +246,19 @@ class _ThirdScreenState extends State<ThirdScreen> {
           'text': "Hallucinogen",
           'screen': RoutesName.textScreen
         },
+      ];
+    } else if (widget.parentScreen == 'Teeth (for reference)') {
+      data = [
+        {
+          'imageUrl': '${Images.upperTeeth}',
+          'text': 'Upper Teeth',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': '${Images.lowerTeeth}',
+          'text': 'Lower Teeth',
+          'screen': RoutesName.beforeTextScreen
+        }
       ];
     }
   }

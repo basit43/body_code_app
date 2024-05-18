@@ -124,6 +124,18 @@ class Images {
   static const String cavity = 'assets/images/cavity.png';
   static const String upperTeeth = 'assets/images/upperTeeth.png';
   static const String lowerTeeth = 'assets/images/lowerTeeth.png';
+  static const String leftLowerTeeth = 'assets/images/leftLowerTeeth.png';
+  static const String rightLowerTeeth = 'assets/images/rightLowerTeeth.png';
+  static const String leftUpperTeeth = 'assets/images/leftUpperTeeth.png';
+  static const String rightUpperTeeth = 'assets/images/rightUpperTeeth.png';
+  static const String thirdMolar = 'assets/images/3rdMolar.png';
+  static const String secondMolar = 'assets/images/2ndMolar.png';
+  static const String firstBiscupid = 'assets/images/1stBiscupid.png';
+  static const String canine = 'assets/images/canine.png';
+  static const String firstMolar = 'assets/images/1stMolar.png';
+  static const String lateralIncisor = 'assets/images/lateralIncisor.png';
+  static const String secondBiscupid = 'assets/images/2ndBicupid.png';
+  static const String centralIncisor = 'assets/images/centralIncisor.png';
 
   // static const String like_ic = "assets/icons/like_ic.png";
   static const String like_ic = "assets/images/logo.webp";

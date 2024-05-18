@@ -164,4 +164,13 @@ class Explanations {
 ● The emotion resonates with your own imbalances.
 ● The energy of the emotion is overwhelming to you in some way.
 ''';
+  static const String thirdMolar = '''
+NOTE: This page is intended for reference only, to be used after you have found a dental toxin, and simply want to identify the affected tooth. There are no directions on this page. 
+
+If you arrived at this page prior to identifying the toxin: first, note that this tooth may need attention, then back up to the Dental Toxins page (Toxins>Dental) to identify the type of toxin, then proceed as directed there. 
+
+The teeth are associated with the 12 Main Meridians in the Acupuncture System. When a tooth becomes imbalanced by toxins, there may be a negative influence on the energy flow of its associated meridian, and any associated body parts may be impacted.
+
+\t\t ● Tooth #16 - Third Molar (Wisdom Tooth)
+''';
 }

@@ -1043,6 +1043,237 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
           'screen': RoutesName.textScreen
         },
       ];
+    } else if (widget.parentScreen == 'Upper Teeth') {
+      data = [
+        {
+          'imageUrl': Images.leftUpperTeeth,
+          'text': 'Left Upper Teeth',
+          'screen': RoutesName.beforeTextScreen,
+        },
+        {
+          'imageUrl': Images.rightUpperTeeth,
+          'text': 'Right Upper Teeth',
+          'screen': RoutesName.beforeTextScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Lower Teeth') {
+      data = [
+        {
+          'imageUrl': Images.leftLowerTeeth,
+          'text': 'Left Lower Teeth',
+          'screen': RoutesName.beforeTextScreen,
+        },
+        {
+          'imageUrl': Images.rightLowerTeeth,
+          'text': 'Right Lower Teeth',
+          'screen': RoutesName.beforeTextScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Left Lower Teeth') {
+      data = [
+        {
+          'imageUrl': Images.thirdMolar,
+          'text': '3rd Molar (Wisdom)',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.firstBiscupid,
+          'text': '1st Biscupid',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.secondMolar,
+          'text': '2nd Molar',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.canine,
+          'text': 'Canine',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.firstMolar,
+          'text': '1st Molar',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.lateralIncisor,
+          'text': 'Lateral Incisor',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.secondBiscupid,
+          'text': '2ndBiscupid',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.centralIncisor,
+          'text': 'Central Incisor',
+          'screen': RoutesName.textScreen,
+        }
+      ];
+    } else if (widget.parentScreen == 'Right Lower Teeth') {
+      data = [
+        {
+          'imageUrl': Images.thirdMolar,
+          'text': '3rd Molar (Wisdom)',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.firstBiscupid,
+          'text': '1st Biscupid',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.secondMolar,
+          'text': '2nd Molar',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.canine,
+          'text': 'Canine',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.firstMolar,
+          'text': '1st Molar',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.lateralIncisor,
+          'text': 'Lateral Incisor',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.secondBiscupid,
+          'text': '2ndBiscupid',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.centralIncisor,
+          'text': 'Central Incisor',
+          'screen': RoutesName.textScreen,
+        }
+      ];
+    } else if (widget.parentScreen == 'Left Lower Teeth') {
+      data = [
+        {
+          'imageUrl': Images.thirdMolar,
+          'text': '3rd Molar (Wisdom)',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.firstBiscupid,
+          'text': '1st Biscupid',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.secondMolar,
+          'text': '2nd Molar',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.canine,
+          'text': 'Canine',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.firstMolar,
+          'text': '1st Molar',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.lateralIncisor,
+          'text': 'Lateral Incisor',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.secondBiscupid,
+          'text': '2ndBiscupid',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.centralIncisor,
+          'text': 'Central Incisor',
+          'screen': RoutesName.textScreen,
+        }
+      ];
+    } else if (widget.parentScreen == 'Left Upper Teeth') {
+      data = [
+        {
+          'imageUrl': Images.thirdMolar,
+          'text': '3rd Molar (Wisdom)',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.firstBiscupid,
+          'text': '1st Biscupid',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.secondMolar,
+          'text': '2nd Molar',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.canine,
+          'text': 'Canine',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.firstMolar,
+          'text': '1st Molar',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.lateralIncisor,
+          'text': 'Lateral Incisor',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.secondBiscupid,
+          'text': '2ndBiscupid',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.centralIncisor,
+          'text': 'Central Incisor',
+          'screen': RoutesName.textScreen,
+        }
+      ];
+    } else if (widget.parentScreen == 'Right Upper Teeth') {
+      data = [
+        {
+          'imageUrl': Images.upperTeeth,
+          'text': '2nd Molar',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.upperTeeth,
+          'text': 'Canine',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.upperTeeth,
+          'text': '1st Molar',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.upperTeeth,
+          'text': 'Lateral Incisor',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.upperTeeth,
+          'text': '2nd Bicuspid',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.upperTeeth,
+          'text': 'Central Incisor',
+          'screen': RoutesName.textScreen,
+        }
+      ];
     }
   }
 }

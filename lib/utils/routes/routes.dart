@@ -38,6 +38,7 @@ class Routes {
       case RoutesName.textScreen:
         print('current route name ${settings.name}');
         final parentScreen = settings.arguments as String;
+        print('And parent screen is $parentScreen');
         return MaterialPageRoute(
             builder: (BuildContext context) =>
                 TextScreen(parentScreen: parentScreen));
