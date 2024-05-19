@@ -201,14 +201,13 @@ class _SecondScreenState extends State<SecondScreen> {
           'text': 'Energy Body',
           'screen': RoutesName.beforeTextScreen
         },
-
         // Add more items here
       ];
     } else if (widget.parentScreen == "Misalignment") {
       data = [
         {
           'imageUrl': Images.systemMis,
-          'text': 'Misalignment of System',
+          'text': 'System or Micromanaging',
           'screen': RoutesName.beforeTextScreen
         },
         {

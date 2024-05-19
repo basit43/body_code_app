@@ -98,7 +98,6 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
                                               ))))
                                   : const SizedBox.shrink()
                             ]),
-
                             Padding(
                               padding: const EdgeInsets.all(5.0),
                               child: Text(
@@ -144,6 +143,69 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
         },
 
         // Add more items here
+      ];
+    } else if (widget.parentScreen == "System or Micromanaging") {
+      data = [
+        {
+          'imageUrl': Images.integumentary,
+          'text': "Integumentary System",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.circulatory,
+          'text': "Circulatory System",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.urinary,
+          'text': "Urinary System",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.digestive,
+          'text': "Digestive System",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.skeletal,
+          'text': "Skeletal System",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.endocrine,
+          'text': "Endocrine System",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.muscular,
+          'text': "Muscular System",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.immune,
+          'text': "Immune/Lymphatic System",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.respiratory,
+          'text': "Respiratory System",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.microbiome,
+          'text': "Microbiome",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.reproductive,
+          'text': "Reproductive System",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.nervous,
+          'text': "Nervous System",
+          'screen': RoutesName.thirdScreen
+        },
       ];
     } else if (widget.parentScreen == "Allergy or Intolerance") {
       data = [
@@ -685,69 +747,6 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
           'imageUrl': Images.like_ic,
           'text': "Midbrain",
           'screen': RoutesName.textScreen
-        },
-      ];
-    } else if (widget.parentScreen == "System") {
-      data = [
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Integumentary System",
-          'screen': RoutesName.thirdScreen
-        },
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Circulatory System",
-          'screen': RoutesName.thirdScreen
-        },
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Urinary System",
-          'screen': RoutesName.thirdScreen
-        },
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Digestive System",
-          'screen': RoutesName.thirdScreen
-        },
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Skeletal System",
-          'screen': RoutesName.thirdScreen
-        },
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Endocrine System",
-          'screen': RoutesName.thirdScreen
-        },
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Muscular System",
-          'screen': RoutesName.thirdScreen
-        },
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Immune/Lymphatic System",
-          'screen': RoutesName.thirdScreen
-        },
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Respiratory System",
-          'screen': RoutesName.thirdScreen
-        },
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Microbiome",
-          'screen': RoutesName.thirdScreen
-        },
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Reproductive System",
-          'screen': RoutesName.thirdScreen
-        },
-        {
-          'imageUrl': Images.like_ic,
-          'text': "Nervous System",
-          'screen': RoutesName.thirdScreen
         },
       ];
     } else if (widget.parentScreen == "Gland") {

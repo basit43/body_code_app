@@ -281,6 +281,24 @@ class _ThirdScreenState extends State<ThirdScreen> {
           'screen': RoutesName.beforeTextScreen
         }
       ];
+    } else if (widget.parentScreen == 'Integumentary System') {
+      data = [
+        {
+          'imageUrl': '${Images.skin}',
+          'text': 'Skin',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': '${Images.nail}',
+          'text': 'Nail',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': '${Images.hair}',
+          'text': 'Hair',
+          'screen': RoutesName.textScreen
+        }
+      ];
     }
   }
 }

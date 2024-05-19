@@ -185,6 +185,21 @@ class Images {
   static const String airPollution = 'assets/images/airPollution.png';
   static const String waterPollution = 'assets/images/waterPollution.png';
   static const String plastics = 'assets/images/plastics.png';
+  static const String integumentary = 'assets/images/integumentary.png';
+  static const String circulatory = 'assets/images/circulatory.png';
+  static const String urinary = 'assets/images/urinary.png';
+  static const String digestive = 'assets/images/digestive.png';
+  static const String skeletal = 'assets/images/skeletal.png';
+  static const String endocrine = 'assets/images/endocrine.png';
+  static const String muscular = 'assets/images/muscular.png';
+  static const String immune = 'assets/images/immune.png';
+  static const String respiratory = 'assets/images/respiratory.png';
+  static const String microbiome = 'assets/images/microbiome.png';
+  static const String reproductive = 'assets/images/reproductive.png';
+  static const String nervous = 'assets/images/nervous.png';
+  static const String skin = 'assets/images/skin.png';
+  static const String nail = 'assets/images/nail.png';
+  static const String hair = 'assets/images/hair.png';
 
   // static const String like_ic = "assets/icons/like_ic.png";
   static const String like_ic = "assets/images/logo.webp";
