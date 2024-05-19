@@ -845,32 +845,32 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == "Heavy Metal") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.mercury,
           'text': "Mercury",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.cadmium,
           'text': "Cadmium",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.lead,
           'text': "Lead Filling",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.aluminium,
           'text': "Aluminum",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.arsenic,
           'text': "Arsenic Product",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.otherHeavyMetal,
           'text': "Other Heavy Metal",
           'screen': RoutesName.textScreen
         },
@@ -878,50 +878,83 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == "Biological Poison") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.poisonousPlant,
           'text': "Poisonous Plant",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.venom,
           'text': "Venom",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.microbialPoison,
           'text': "Microbial Poison",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Pernicious Influence') {
+      data = [
+        {
+          'imageUrl': Images.cold,
+          'text': "Cold",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.dryness,
+          'text': "Dryness",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.summerHeat,
+          'text': "Summer Heat",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.heat,
+          'text': "Heat",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.wind,
+          'text': "Wind",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.dampness,
+          'text': "Dampness",
           'screen': RoutesName.textScreen
         },
       ];
     } else if (widget.parentScreen == "Excess") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.perniciousInfluence,
           'text': "Pernicious Influence",
-          'screen': RoutesName.textScreen
+          'screen': RoutesName.beforeTextScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.stressHormone,
           'text': "Stress Hormone",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.freePadical,
           'text': "Free Radical",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.metabolicWaste,
           'text': "Metabolic Waste",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.nutrientToxicity,
           'text': "Nutrient Toxicity",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.toxicSound,
           'text': "Toxin Sound",
           'screen': RoutesName.textScreen
         },
@@ -929,37 +962,37 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == "Food Toxin") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.flavorEnhancer,
           'text': "Flavor Enhancer",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.preservative,
           'text': "Preservative",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.processingAgent,
           'text': "Processing Agent",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.gmoFood,
           'text': "GMO Food",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
-          'text': "Sweeter",
+          'imageUrl': Images.sweetener,
+          'text': "Sweetener",
           'screen': RoutesName.beforeTextScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.nutritionAdditive,
           'text': "Nutritional Additive",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.foodColoring,
           'text': "Food Coloring",
           'screen': RoutesName.textScreen
         },
@@ -967,32 +1000,32 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == "Electromagnetic Radiation") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.dirtyElectricity,
           'text': "'Dirty' Electricity",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.magneticField,
           'text': "Magnetic Field",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.electricalField,
           'text': "Electric Field",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.radioFrequency,
           'text': "Radio Frequency",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.xRay,
           'text': "X-Ray",
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.radioActivity,
           'text': "Radioactivity",
           'screen': RoutesName.textScreen
         },
@@ -1000,12 +1033,12 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == "Drug") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.drug,
           'text': "Pharmaceutical",
           'screen': RoutesName.thirdScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.recredential,
           'text': "Recreational",
           'screen': RoutesName.thirdScreen
         },
@@ -1013,32 +1046,32 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == "Environmental") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.cosmetic,
           'text': "Cosmetic",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.buildingMaterial,
           'text': "Building Material",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.cleaningProduct,
           'text': "Cleaning Product",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.carpetFurnishing,
           'text': "Carpet & Furnishing",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.toxin,
           'text': "Pollution",
-          'screen': RoutesName.textScreen
+          'screen': RoutesName.thirdScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.agricultural,
           'text': "Agriculture",
           'screen': RoutesName.textScreen
         },

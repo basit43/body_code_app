@@ -22,9 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
 
     Future.delayed(const Duration(seconds: 3), () {
-
       Navigator.pushReplacementNamed(context, RoutesName.home);
-
     });
   }
 
@@ -44,16 +42,14 @@ class _SplashScreenState extends State<SplashScreen> {
             color: AppColors.black,
             width: double.infinity,
             height: double.infinity,
-
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 SizedBox(
                   height: 170,
-                  width:170,
+                  width: 170,
                   child: ClipRRect(
-
                     borderRadius: BorderRadius.all(Radius.circular(70)),
                     child: Image.asset(
                       Images.logo, // replace with your image asset
@@ -62,7 +58,6 @@ class _SplashScreenState extends State<SplashScreen> {
                     ),
                   ),
                 ),
-
               ],
             ),
           ),

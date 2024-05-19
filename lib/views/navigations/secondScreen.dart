@@ -284,6 +284,8 @@ class _SecondScreenState extends State<SecondScreen> {
 
         // Add more items here
       ];
+    } else if (widget.parentScreen == 'Pernicious Influence') {
+      print('000000000');
     } else if (widget.parentScreen == "Nutrition or Lifestyle") {
       data = [
         {

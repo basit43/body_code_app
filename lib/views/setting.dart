@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../resources/images.dart';
+import '../themeProvider.dart';
 
 class Setting extends StatefulWidget {
   const Setting({super.key});
@@ -14,6 +16,8 @@ class Setting extends StatefulWidget {
 class _SettingState extends State<Setting> {
   @override
   Widget build(BuildContext context) {
+    var themeProvider = Provider.of<ThemeProvider>(context);
+    bool isDarkMode = themeProvider.themeMode == ThemeMode.dark;
     return Scaffold(
       // backgroundColor: Colors.deepPurple[50],
       appBar: AppBar(
@@ -62,6 +66,33 @@ class _SettingState extends State<Setting> {
                         ),
                       ],
                     ),
+                  ),
+                ],
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              Row(
+                children: [
+                  Row(
+                    // Inner Row for content
+                    children: [
+                      Icon(
+                        size: 24.0,
+                        Icons.dark_mode,
+                      ),
+                      SizedBox(width: 20.0),
+                      Text(
+                        "Dark Mode",
+                        style: TextStyle(fontSize: 18.0, color: Colors.black87),
+                      ),
+                      Switch(
+                        value: isDarkMode,
+                        onChanged: (value) {
+                          themeProvider.toggleTheme(value);
+                        },
+                      )
+                    ],
                   ),
                 ],
               ),

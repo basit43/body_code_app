@@ -1,13 +1,14 @@
 class Explanations {
   // ■ ● ○   •
-  static const String physicalTraumaExp =
+  static String physicalTraumaExp =
       '''Physical trauma energy is a vibrational frequency that may become stuck in the body during an intense trauma that is physically shocking or stressful...
-■ Normally this type of energy is processed and released automatically, but it could become stuck if it is very extreme, or if the body is already imbalanced in some way.
-■ This type of energy could come from trauma such as: 
-● Injury like a fall, hit or car accident
-● Illness (usually extreme)
-● Surgery 
-''';
+  ● Normally this type of energy is processed and released automatically, but it could become stuck if it is very extreme, or if the body is already imbalanced in some way.
+  ■ This type of energy could come from trauma such as: 
+  ● Injury like a fall, hit or car accident
+  ● Illness (usually extreme)
+  ● Surgery
+  ''';
+
   static const String recoveryTraumaExp =
       '''This is a type of energy that develops when the body’s recovery process (from minor to severe injury or illness) is interrupted, and the body is unable to return to a balanced state.
       ■ Having a recovery interference energy could potentially interfere with normal body processes, and could create frustrating symptoms including:
@@ -171,6 +172,6 @@ If you arrived at this page prior to identifying the toxin: first, note that thi
 
 The teeth are associated with the 12 Main Meridians in the Acupuncture System. When a tooth becomes imbalanced by toxins, there may be a negative influence on the energy flow of its associated meridian, and any associated body parts may be impacted.
 
-\t\t ● Tooth #16 - Third Molar (Wisdom Tooth)
+● Tooth #16 - Third Molar (Wisdom Tooth)
 ''';
 }

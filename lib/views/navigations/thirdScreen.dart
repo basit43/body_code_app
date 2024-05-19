@@ -214,17 +214,17 @@ class _ThirdScreenState extends State<ThirdScreen> {
     } else if (widget.parentScreen == "Pharmaceutical") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.drug,
           'text': "Medication",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.vaccination,
           'text': "Vaccination",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.otcMedicine,
           'text': "OTC Medicine",
           'screen': RoutesName.textScreen
         },
@@ -232,17 +232,38 @@ class _ThirdScreenState extends State<ThirdScreen> {
     } else if (widget.parentScreen == "Recreational") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.depressant,
           'text': "Depressant",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.stimulant,
           'text': "Stimulant",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.hallucinogen,
+          'text': "Hallucinogen",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Pernicious Influence') {
+      print('000000000');
+    } else if (widget.parentScreen == 'Pollution') {
+      print('1111111111');
+      data = [
+        {
+          'imageUrl': Images.airPollution,
+          'text': "Hallucinogen",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.waterPollution,
+          'text': "Hallucinogen",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.plastics,
           'text': "Hallucinogen",
           'screen': RoutesName.textScreen
         },

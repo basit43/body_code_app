@@ -18,6 +18,40 @@ class TextScreen extends StatefulWidget {
 }
 
 class _TextScreenState extends State<TextScreen> {
+  // RichText buildFormattedText(String text) {
+  //   List<TextSpan> spans = [];
+  //   List<String> lines = text.split('\n');
+  //
+  //   for (String line in lines) {
+  //     if (line.trim().startsWith('●') || line.trim().startsWith('■')) {
+  //       spans.add(TextSpan(
+  //         text: '${line.trim()}\n',
+  //         style: const TextStyle(
+  //           color: Colors.black,
+  //           fontSize: 14,
+  //           height: 1.5, // Adjust line height
+  //         ),
+  //       ));
+  //     } else {
+  //       spans.add(TextSpan(
+  //         text: '${line.trim()}\n',
+  //         style: const TextStyle(
+  //           color: Colors.black,
+  //           fontSize: 14,
+  //           height: 1.5,
+  //         ),
+  //       ));
+  //     }
+  //   }
+  //
+  //   return RichText(
+  //     text: TextSpan(
+  //       children: spans,
+  //     ),
+  //     textAlign: TextAlign.justify,
+  //   );
+  // }
+
   Map<String, String> data = {
     'explanation': 'Images.energy',
     'decoding': 'third',
@@ -69,6 +103,7 @@ class _TextScreenState extends State<TextScreen> {
                 data['explanation'] ?? "",
                 textAlign: TextAlign.justify,
               ),
+              // buildFormattedText(data['explanation'] ?? ""),
               const SizedBox(
                 height: 20,
               ),
@@ -345,6 +380,48 @@ class _TextScreenState extends State<TextScreen> {
         'intention': Intentions.absorbTrappedEmotionsInt
       };
     } else if (widget.parentScreen == 'Cavity') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Mercury') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Cadmium') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Lead') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Aluminium') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Arsenic') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'otherHeavyMetal') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
