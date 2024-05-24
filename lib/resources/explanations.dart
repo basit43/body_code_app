@@ -167,7 +167,10 @@ class Explanations {
 ''';
 
   static const String parentalEmotionalCompound = '''
-  A 
+  A prenatal emotional compound is a type of trapped energy that is similar to a prenatal trapped emotion, but instead of one pure emotional frequency, there are two, or occasionally three (1% of the time) that are blended together. 
+
+● This may be compared to green paint that was made by mixing blue and yellow paint, and that is now a unique shade of green. An emotional compound is one unique energy made from two different emotional energies. The emotions cannot be released separately from one another, although they can usually be individually identified (but not always). 
+● An emotional compound forms when two emotions are experienced during the same moment in time, and become trapped together as one ball of energy.
   ''';
 
   static const String thirdMolar = '''
@@ -179,4 +182,103 @@ The teeth are associated with the 12 Main Meridians in the Acupuncture System. W
 
 ● Tooth #16 - Third Molar (Wisdom Tooth)
 ''';
+  static const String commonEmotionalCompound = '''
+A common emotional compound is a type of trapped energy that is similar to a common trapped emotion, but instead of one pure emotional frequency, there are two, or occasionally three (1% of the time) that are blended together. 
+
+This may be compared to green paint that was made by mixing blue and yellow paint, and that is now a unique shade of green. An emotional compound is one unique energy made from two different emotional energies. The emotions cannot be released separately from one another, although they can usually be individually identified (but not always). 
+An emotional compound forms when two emotions are experienced during the same moment in time, and become trapped together as one ball of energy. ''';
+  static const String sharedEmotionalCompound = '''
+  Shared emotions are created when people experience an emotionally intense event and together, develop the same vibrational frequency. 
+
+● These energies are very specific, and must meet the following three criteria:
+○ The people are experiencing the same exact event.
+○ The people respond emotionally in the exact same way (the exact same frequency of emotion is created).
+○ The event/stimulus is experienced at the exact same moment.
+● Shared emotions can be any emotion, but most are innately more painful or extreme, such as fear, grief, or shame.
+● A shared emotion needs only to be released from one person in order to release it from everyone else, since it is the same vibrational frequency.
+ A shared emotional compound is a type of trapped energy that is similar to a shared trapped emotion, but instead of one pure emotional frequency, there are two, or occasionally three (1% of the time) that are blended together. 
+
+● This may be compared to green paint that was made by mixing blue and yellow paint, and that is now a unique shade of green. An emotional compound is one unique energy made from two different emotional energies. The emotions cannot be released separately from one another, although they can usually be individually identified (but not always). 
+● An emotional compound forms when two emotions are experienced during the same moment in time, and become trapped together as one ball of energy. ''';
+  static const String absorbEmotionalCompoundExp = '''
+  On rare occasions one person may trap the emotional energy of another person if the latter is feeling those emotions in a powerful way. An absorbed emotional compound is a type of trapped energy that is similar to an absorbed trapped emotion, but instead of one pure emotional frequency, there are two, or occasionally three (1% of the time) that are blended together, that were absorbed from another person.
+
+● This may be compared to green paint that was made by mixing blue and yellow paint, and that is now a unique shade of green. An emotional compound is one unique energy made from two different emotional energies. The emotions cannot be released separately from one another, although they can usually be individually identified (but not always). 
+● An emotional compound forms when two emotions are experienced during the same moment in time, and become trapped together as one ball of energy. 
+● Emotions are more likely to be absorbed if:
+○ The emotions resonate with your own imbalances
+○ The energy of the emotions is overwhelming to you in some way''';
+  static const String heartWallEmotionExp = '''
+  A Heart-Wall is made of one or more trapped emotions that the subconscious mind uses to surround the heart as a protective barrier against emotional pain. 
+
+● Each trapped emotion in the Heart-Wall is known as a Heart-Wall emotion. 
+● A Heart-Wall emotion is one layer in the collective Heart-Wall. When all Heart-Wall emotions have been removed, the Heart-Wall is gone.
+● The Heart-Wall is usually created in response to emotional distress. The subconscious mind then uses pre-existing trapped emotions to form the wall. Therefore, the Heart-Wall may be made up of any emotion(s), new or old.
+● Heart-Wall emotions may be from any time in your own life and they can also be inherited. (It is rare to find any other type of trapped emotion other than common or Inherited making up a Heart-Wall). 
+● Most individuals have a Heart-Wall consisting of between five and 25 Heart-Wall emotions.
+● A Heart-Wall may cause you to feel disconnected from others, lonely, sad, anxious, and unmotivated. 
+● Physical symptoms such as neck and shoulder discomfort may be present. 
+● It’s generally best to let the subconscious indicate what imbalances need to be released and in what order. If you find only one prenatal Heart-Wall emotion in a session, allow the process to unfold naturally. 
+Prenatal trapped emotions usually occur during the third trimester, and are often absorbed emotions from the mother, but can also originate with the fetus.''';
+  static const String commonHeartWallEmotionExp =
+      '''  A Heart-Wall is made of one or more trapped emotions that the subconscious mind uses to surround the heart as a protective barrier against emotional pain. 
+
+● Each trapped emotion in the Heart-Wall is known as a Heart-Wall emotion. 
+● A Heart-Wall emotion is one layer in the collective Heart-Wall. When all Heart-Wall emotions have been removed, the Heart-Wall is gone.
+● The Heart-Wall is usually created in response to emotional distress. The subconscious mind then uses pre-existing trapped emotions to form the wall. Therefore, the Heart-Wall may be made up of any emotion(s), new or old.
+● Heart-Wall emotions may be from any time in your own life and they can also be inherited. (It is rare to find any other type of trapped emotion other than common or Inherited making up a Heart-Wall). 
+● Most individuals have a Heart-Wall consisting of between five and 25 Heart-Wall emotions.
+● A Heart-Wall may cause you to feel disconnected from others, lonely, sad, anxious, and unmotivated. 
+● Physical symptoms such as neck and shoulder discomfort may be present. 
+● It’s generally best to let the subconscious indicate what imbalances need to be released and in what order. If you find only one prenatal Heart-Wall emotion in a session, allow the process to unfold naturally. 
+Prenatal trapped emotions usually occur during the third trimester, and are often absorbed emotions from the mother, but can also originate with the fetus.
+  ''';
+  static const String preconceptionHeartWallEmotionExo =
+      '''  A Heart-Wall is made of one or more trapped emotions that the subconscious mind uses to surround the heart as a protective barrier against emotional pain. 
+
+● Each trapped emotion in the Heart-Wall is known as a Heart-Wall emotion. 
+● A Heart-Wall emotion is one layer in the collective Heart-Wall. When all Heart-Wall emotions have been removed, the Heart-Wall is gone.
+● The Heart-Wall is usually created in response to emotional distress. The subconscious mind then uses pre-existing trapped emotions to form the wall. Therefore, the Heart-Wall may be made up of any emotion(s), new or old.
+● Heart-Wall emotions may be from any time in your own life and they can also be inherited. (It is rare to find any other type of trapped emotion other than common or Inherited making up a Heart-Wall). 
+● Most individuals have a Heart-Wall consisting of between five and 25 Heart-Wall emotions.
+● A Heart-Wall may cause you to feel disconnected from others, lonely, sad, anxious, and unmotivated. 
+● Physical symptoms such as neck and shoulder discomfort may be present. 
+● It’s generally best to let the subconscious indicate what imbalances need to be released and in what order. If you find only one prenatal Heart-Wall emotion in a session, allow the process to unfold naturally. 
+Prenatal trapped emotions usually occur during the third trimester, and are often absorbed emotions from the mother, but can also originate with the fetus.''';
+  static const String sharedHeartWallEmotionExo =
+      '''  A Heart-Wall is made of one or more trapped emotions that the subconscious mind uses to surround the heart as a protective barrier against emotional pain. 
+
+● Each trapped emotion in the Heart-Wall is known as a Heart-Wall emotion. 
+● A Heart-Wall emotion is one layer in the collective Heart-Wall. When all Heart-Wall emotions have been removed, the Heart-Wall is gone.
+● The Heart-Wall is usually created in response to emotional distress. The subconscious mind then uses pre-existing trapped emotions to form the wall. Therefore, the Heart-Wall may be made up of any emotion(s), new or old.
+● Heart-Wall emotions may be from any time in your own life and they can also be inherited. (It is rare to find any other type of trapped emotion other than common or Inherited making up a Heart-Wall). 
+● Most individuals have a Heart-Wall consisting of between five and 25 Heart-Wall emotions.
+● A Heart-Wall may cause you to feel disconnected from others, lonely, sad, anxious, and unmotivated. 
+● Physical symptoms such as neck and shoulder discomfort may be present. 
+● It’s generally best to let the subconscious indicate what imbalances need to be released and in what order. If you find only one prenatal Heart-Wall emotion in a session, allow the process to unfold naturally. 
+Prenatal trapped emotions usually occur during the third trimester, and are often absorbed emotions from the mother, but can also originate with the fetus.''';
+  static const String inheritedHeartWallEmotionExp =
+      '''  A Heart-Wall is made of one or more trapped emotions that the subconscious mind uses to surround the heart as a protective barrier against emotional pain. 
+
+● Each trapped emotion in the Heart-Wall is known as a Heart-Wall emotion. 
+● A Heart-Wall emotion is one layer in the collective Heart-Wall. When all Heart-Wall emotions have been removed, the Heart-Wall is gone.
+● The Heart-Wall is usually created in response to emotional distress. The subconscious mind then uses pre-existing trapped emotions to form the wall. Therefore, the Heart-Wall may be made up of any emotion(s), new or old.
+● Heart-Wall emotions may be from any time in your own life and they can also be inherited. (It is rare to find any other type of trapped emotion other than common or Inherited making up a Heart-Wall). 
+● Most individuals have a Heart-Wall consisting of between five and 25 Heart-Wall emotions.
+● A Heart-Wall may cause you to feel disconnected from others, lonely, sad, anxious, and unmotivated. 
+● Physical symptoms such as neck and shoulder discomfort may be present. 
+● It’s generally best to let the subconscious indicate what imbalances need to be released and in what order. If you find only one prenatal Heart-Wall emotion in a session, allow the process to unfold naturally. 
+Prenatal trapped emotions usually occur during the third trimester, and are often absorbed emotions from the mother, but can also originate with the fetus.''';
+  static const String absorbedHeartWallEmotionExp =
+      '''  A Heart-Wall is made of one or more trapped emotions that the subconscious mind uses to surround the heart as a protective barrier against emotional pain. 
+
+● Each trapped emotion in the Heart-Wall is known as a Heart-Wall emotion. 
+● A Heart-Wall emotion is one layer in the collective Heart-Wall. When all Heart-Wall emotions have been removed, the Heart-Wall is gone.
+● The Heart-Wall is usually created in response to emotional distress. The subconscious mind then uses pre-existing trapped emotions to form the wall. Therefore, the Heart-Wall may be made up of any emotion(s), new or old.
+● Heart-Wall emotions may be from any time in your own life and they can also be inherited. (It is rare to find any other type of trapped emotion other than common or Inherited making up a Heart-Wall). 
+● Most individuals have a Heart-Wall consisting of between five and 25 Heart-Wall emotions.
+● A Heart-Wall may cause you to feel disconnected from others, lonely, sad, anxious, and unmotivated. 
+● Physical symptoms such as neck and shoulder discomfort may be present. 
+● It’s generally best to let the subconscious indicate what imbalances need to be released and in what order. If you find only one prenatal Heart-Wall emotion in a session, allow the process to unfold naturally. 
+Prenatal trapped emotions usually occur during the third trimester, and are often absorbed emotions from the mother, but can also originate with the fetus.''';
 }

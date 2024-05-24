@@ -351,4 +351,497 @@ Ask: Is it necessary to identify more about this emotion?
 ○ Use a process of elimination to locate this. The Systems section in Circuit or System>Systems may be helpful. 
 ■ When you do not need to know more, move to Association.
 ''';
+  static const String prenatalEmotionalCompoundDec = '''
+  If necessary, use these directions to identify each emotional frequency: 
+
+Step 1: 
+
+Ask: Is the first emotion in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B. 
+○ Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4, or 6).
+○ Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third if necessary) frequency.
+● When you do not need to know more, move to Association. 
+Step 5:
+
+Ask: Is it necessary to identify more about this emotion?
+
+● If no, move to Association.
+● If yes, you may need to identify one or more of the following: 
+○ If it was absorbed, and if so, from whom. 
+● Ask: Was this absorbed? If yes, ask: Did you absorb it from your mother?
+○ In which trimester (first, second or third) it became trapped. 
+○ Location in the body 
+● Use a process of elimination to locate this. The Systems section in Circuit or System>Systems may be helpful. 
+● When you do not need to know more, move to Association. 
+  ''';
+  static const String commonEmotionalCompoundDec = '''
+  If necessary, use these directions to identify each emotional frequency, one at a time: 
+
+Step 1: 
+
+Ask: Is the first emotion in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B. 
+○ Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4, or 6).
+○ Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third, if necessary) frequency.
+● When you do not need to know more, move to Association. 
+Step 5:
+
+Ask: Is it necessary to identify more about this emotional compound?
+
+● If no, move to Association.
+● If yes, you may need to identify one or two of the below pieces of information:
+○ The emotions that make up this compound
+■ If this is needed, use the chart of emotions to identify the two or three emotional frequencies. Step by step directions are below. 
+○ The age of occurrence
+■ Use a process of elimination to find the age.
+■ Divide the subject’s age roughly in half, and muscle test to determine if the emotion became trapped during the first or second half of life. 
+■ Continue dividing and muscle testing in this fashion until you’ve determined the age when the emotion became trapped.
+○ Any associated life event
+■ Knowing when it happened may be useful. 
+○ Location in the body 
+■ Use a process of elimination to locate this. The Systems section in Circuit or System>Systems may be helpful. ''';
+  static const String preconceptionEmotionalCompoundDec = '''
+  Step 1: 
+
+Ask: Is the first emotion in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B. 
+Move to Step 2
+Step 2:
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4, or 6).
+Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third, if necessary) frequency.
+● When you do not need to know more, move to Association. ''';
+  static const String sharedEmotionCompoundDec = '''
+  If necessary, use these directions to identify each emotional frequency, one at a time: 
+
+Step 1: 
+
+Ask: Is the emotion in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B. 
+○ Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4 or 6).
+○ Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third, if necessary) frequency.
+● When you do not need to know more, move to Association. 
+Step 5:
+
+Ask: Is it necessary to identify more about this shared emotional compound?
+
+● If no, move to Association.
+● If yes, you may need to identify one or more of the following: 
+○ The emotions that make up this compound
+■ If this is needed, use the chart of emotions to identify the two or three emotional frequencies. Step by step directions are below.
+○ The age of occurence
+■ Use a process of elimination to find the age.
+■ Divide the subject’s age roughly in half, and muscle test to determine if the emotional compound became trapped during the first or second half of life.
+■ Continue dividing and muscle testing in this fashion until you’ve determined the age when the emotional compound became trapped.
+○ The event that produced this emotional compound.
+■ Knowing when it happened may be useful.
+○ Another person that shares this energy (rare).
+○ An approximate number of people who it is shared with (rare).
+● When you do not need to know more, move to Association.''';
+  static const String absorbEmotionalCompoundDec = '''
+    If necessary, use these directions to identify each emotional frequency, one at a time: 
+
+Step 1: 
+
+Ask: Is the emotion in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B. 
+○ Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4 or 6).
+○ Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third, if necessary) frequency.
+● When you do not need to know more, move to Association. 
+Step 5:
+
+Ask: Is it necessary to identify more about this shared emotional compound?
+
+● If no, move to Association.
+● If yes, you may need to identify one or more of the following: 
+○ The emotions that make up this compound
+■ If this is needed, use the chart of emotions to identify the two or three emotional frequencies. Step by step directions are below.
+○ The age of occurence
+■ Use a process of elimination to find the age.
+■ Divide the subject’s age roughly in half, and muscle test to determine if the emotional compound became trapped during the first or second half of life.
+■ Continue dividing and muscle testing in this fashion until you’ve determined the age when the emotional compound became trapped.
+○ The event that produced this emotional compound.
+■ Knowing when it happened may be useful.
+○ Another person that shares this energy (rare).
+○ An approximate number of people who it is shared with (rare).
+● When you do not need to know more, move to Association.''';
+  static const String heartWallEmotionalDec = '''
+      If necessary, use these directions to identify each emotional frequency, one at a time: 
+
+Step 1: 
+
+Ask: Is the emotion in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B. 
+○ Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4 or 6).
+○ Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third, if necessary) frequency.
+● When you do not need to know more, move to Association. 
+Step 5:
+
+Ask: Is it necessary to identify more about this shared emotional compound?
+
+● If no, move to Association.
+● If yes, you may need to identify one or more of the following: 
+○ The emotions that make up this compound
+■ If this is needed, use the chart of emotions to identify the two or three emotional frequencies. Step by step directions are below.
+○ The age of occurence
+■ Use a process of elimination to find the age.
+■ Divide the subject’s age roughly in half, and muscle test to determine if the emotional compound became trapped during the first or second half of life.
+■ Continue dividing and muscle testing in this fashion until you’ve determined the age when the emotional compound became trapped.
+○ The event that produced this emotional compound.
+■ Knowing when it happened may be useful.
+○ Another person that shares this energy (rare).
+○ An approximate number of people who it is shared with (rare).
+● When you do not need to know more, move to Association.''';
+  static const String commonHeartWallEmotionDec = '''
+        If necessary, use these directions to identify each emotional frequency, one at a time: 
+
+Step 1: 
+
+Ask: Is the emotion in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B. 
+○ Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4 or 6).
+○ Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third, if necessary) frequency.
+● When you do not need to know more, move to Association. 
+Step 5:
+
+Ask: Is it necessary to identify more about this shared emotional compound?
+
+● If no, move to Association.
+● If yes, you may need to identify one or more of the following: 
+○ The emotions that make up this compound
+■ If this is needed, use the chart of emotions to identify the two or three emotional frequencies. Step by step directions are below.
+○ The age of occurence
+■ Use a process of elimination to find the age.
+■ Divide the subject’s age roughly in half, and muscle test to determine if the emotional compound became trapped during the first or second half of life.
+■ Continue dividing and muscle testing in this fashion until you’ve determined the age when the emotional compound became trapped.
+○ The event that produced this emotional compound.
+■ Knowing when it happened may be useful.
+○ Another person that shares this energy (rare).
+○ An approximate number of people who it is shared with (rare).
+● When you do not need to know more, move to Association.''';
+  static const String preconceptionHeartWallDec = '''
+        If necessary, use these directions to identify each emotional frequency, one at a time: 
+
+Step 1: 
+
+Ask: Is the emotion in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B. 
+○ Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4 or 6).
+○ Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third, if necessary) frequency.
+● When you do not need to know more, move to Association. 
+Step 5:
+
+Ask: Is it necessary to identify more about this shared emotional compound?
+
+● If no, move to Association.
+● If yes, you may need to identify one or more of the following: 
+○ The emotions that make up this compound
+■ If this is needed, use the chart of emotions to identify the two or three emotional frequencies. Step by step directions are below.
+○ The age of occurence
+■ Use a process of elimination to find the age.
+■ Divide the subject’s age roughly in half, and muscle test to determine if the emotional compound became trapped during the first or second half of life.
+■ Continue dividing and muscle testing in this fashion until you’ve determined the age when the emotional compound became trapped.
+○ The event that produced this emotional compound.
+■ Knowing when it happened may be useful.
+○ Another person that shares this energy (rare).
+○ An approximate number of people who it is shared with (rare).
+● When you do not need to know more, move to Association.''';
+  static const String sharedHeartWallDec = '''
+        If necessary, use these directions to identify each emotional frequency, one at a time: 
+
+Step 1: 
+
+Ask: Is the emotion in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B. 
+○ Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4 or 6).
+○ Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third, if necessary) frequency.
+● When you do not need to know more, move to Association. 
+Step 5:
+
+Ask: Is it necessary to identify more about this shared emotional compound?
+
+● If no, move to Association.
+● If yes, you may need to identify one or more of the following: 
+○ The emotions that make up this compound
+■ If this is needed, use the chart of emotions to identify the two or three emotional frequencies. Step by step directions are below.
+○ The age of occurence
+■ Use a process of elimination to find the age.
+■ Divide the subject’s age roughly in half, and muscle test to determine if the emotional compound became trapped during the first or second half of life.
+■ Continue dividing and muscle testing in this fashion until you’ve determined the age when the emotional compound became trapped.
+○ The event that produced this emotional compound.
+■ Knowing when it happened may be useful.
+○ Another person that shares this energy (rare).
+○ An approximate number of people who it is shared with (rare).
+● When you do not need to know more, move to Association.''';
+  static const String inheritedHeartWallDec = '''
+        If necessary, use these directions to identify each emotional frequency, one at a time: 
+
+Step 1: 
+
+Ask: Is the emotion in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B. 
+○ Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4 or 6).
+○ Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third, if necessary) frequency.
+● When you do not need to know more, move to Association. 
+Step 5:
+
+Ask: Is it necessary to identify more about this shared emotional compound?
+
+● If no, move to Association.
+● If yes, you may need to identify one or more of the following: 
+○ The emotions that make up this compound
+■ If this is needed, use the chart of emotions to identify the two or three emotional frequencies. Step by step directions are below.
+○ The age of occurence
+■ Use a process of elimination to find the age.
+■ Divide the subject’s age roughly in half, and muscle test to determine if the emotional compound became trapped during the first or second half of life.
+■ Continue dividing and muscle testing in this fashion until you’ve determined the age when the emotional compound became trapped.
+○ The event that produced this emotional compound.
+■ Knowing when it happened may be useful.
+○ Another person that shares this energy (rare).
+○ An approximate number of people who it is shared with (rare).
+● When you do not need to know more, move to Association.''';
+  static const String absorbedHeartWallDec = '''
+        If necessary, use these directions to identify each emotional frequency, one at a time: 
+
+Step 1: 
+
+Ask: Is the emotion in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B. 
+○ Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4 or 6).
+○ Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third, if necessary) frequency.
+● When you do not need to know more, move to Association. 
+Step 5:
+
+Ask: Is it necessary to identify more about this shared emotional compound?
+
+● If no, move to Association.
+● If yes, you may need to identify one or more of the following: 
+○ The emotions that make up this compound
+■ If this is needed, use the chart of emotions to identify the two or three emotional frequencies. Step by step directions are below.
+○ The age of occurence
+■ Use a process of elimination to find the age.
+■ Divide the subject’s age roughly in half, and muscle test to determine if the emotional compound became trapped during the first or second half of life.
+■ Continue dividing and muscle testing in this fashion until you’ve determined the age when the emotional compound became trapped.
+○ The event that produced this emotional compound.
+■ Knowing when it happened may be useful.
+○ Another person that shares this energy (rare).
+○ An approximate number of people who it is shared with (rare).
+● When you do not need to know more, move to Association.''';
 }

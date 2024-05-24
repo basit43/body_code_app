@@ -19,40 +19,6 @@ class TextScreen extends StatefulWidget {
 }
 
 class _TextScreenState extends State<TextScreen> {
-  // RichText buildFormattedText(String text) {
-  //   List<TextSpan> spans = [];
-  //   List<String> lines = text.split('\n');
-  //
-  //   for (String line in lines) {
-  //     if (line.trim().startsWith('●') || line.trim().startsWith('■')) {
-  //       spans.add(TextSpan(
-  //         text: '${line.trim()}\n',
-  //         style: const TextStyle(
-  //           color: Colors.black,
-  //           fontSize: 14,
-  //           height: 1.5, // Adjust line height
-  //         ),
-  //       ));
-  //     } else {
-  //       spans.add(TextSpan(
-  //         text: '${line.trim()}\n',
-  //         style: const TextStyle(
-  //           color: Colors.black,
-  //           fontSize: 14,
-  //           height: 1.5,
-  //         ),
-  //       ));
-  //     }
-  //   }
-  //
-  //   return RichText(
-  //     text: TextSpan(
-  //       children: spans,
-  //     ),
-  //     textAlign: TextAlign.justify,
-  //   );
-  // }
-
   Map<String, String> data = {
     'explanation': 'Images.energy',
     'decoding': 'third',
@@ -428,10 +394,89 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.absorbTrappedEmotionsAss,
         'intention': Intentions.absorbTrappedEmotionsInt
       };
-    } else if (widget.parentScreen == 'Parental Emotional Compound') {
+    } else if (widget.parentScreen == 'Prenatal Emotional Compound') {
       data = {
         'explanation': Explanations.parentalEmotionalCompound,
-        'decoding': DecodingData.absorbTrappedEmotionsDec
+        'decoding': DecodingData.prenatalEmotionalCompoundDec,
+        'association': Associations.prenatalEmotionalCompoundAss,
+        'intention': Intentions.prenatalEmotionalCompoundInt,
+      };
+    } else if (widget.parentScreen == 'Common Emotional Compound') {
+      data = {
+        'explanation': Explanations.commonEmotionalCompound,
+        'decoding': DecodingData.commonEmotionalCompoundDec,
+        'association': Associations.commonEmotionalCompoundAss,
+        'intention': Intentions.commonEmotionalCompoundInt,
+      };
+    } else if (widget.parentScreen == 'Preconception Emotional Compound') {
+      data = {
+        'explanation': Explanations.preconceptionTrappedEmotionsExp,
+        'decoding': DecodingData.commonEmotionalCompoundDec,
+        'association': Associations.commonEmotionalCompoundAss,
+        'intention': Intentions.commonEmotionalCompoundInt,
+      };
+    } else if (widget.parentScreen == 'Shared Emotional Compound') {
+      data = {
+        'explanation': Explanations.sharedTrappedEmotionsExp,
+        'decoding': DecodingData.sharedTrappedEmotionsDec,
+        'association': Associations.sharedEmotionalCompoundAss,
+        'intention': Intentions.sharedTrappedEmotionsInt,
+      };
+    } else if (widget.parentScreen == 'Inherited Emotional Compound') {
+      data = {
+        'explanation': Explanations.inheritedTrappedEmotionsExp,
+        'decoding': DecodingData.inheritedTrappedEmotionsDec,
+        'association': Associations.inheritedTrappedEmotionsAss,
+        'intention': Intentions.inheritedTrappedEmotionsInt,
+      };
+    } else if (widget.parentScreen == 'Absorb Emotional Compound') {
+      data = {
+        'explanation': Explanations.absorbEmotionalCompoundExp,
+        'decoding': DecodingData.absorbEmotionalCompoundDec,
+        'association': Associations.inheritedTrappedEmotionsAss,
+        'intention': Intentions.inheritedTrappedEmotionsInt,
+      };
+    } else if (widget.parentScreen == 'Prenatal Heart-Wall Emotion') {
+      data = {
+        'explanation': Explanations.heartWallEmotionExp,
+        'decoding': DecodingData.heartWallEmotionalDec,
+        'association': Associations.heartWallEmotionAss,
+        'intention': Intentions.prenatalHeartWallEmotionsInt,
+      };
+    } else if (widget.parentScreen == 'Common Heart-Wall Emotion') {
+      data = {
+        'explanation': Explanations.commonHeartWallEmotionExp,
+        'decoding': DecodingData.commonHeartWallEmotionDec,
+        'association': Associations.commonHeartWallEmotionAss,
+        'intention': Intentions.commonHeartWallEmotionsInt,
+      };
+    } else if (widget.parentScreen == 'Preconception Heart-Wall Emotion') {
+      data = {
+        'explanation': Explanations.preconceptionHeartWallEmotionExo,
+        'decoding': DecodingData.preconceptionHeartWallDec,
+        'association': Associations.preconceptionHeartWallAss,
+        'intention': Intentions.preconceptionHeartWallEmotionInt,
+      };
+    } else if (widget.parentScreen == 'Shared Heart-Wall Emotion') {
+      data = {
+        'explanation': Explanations.sharedHeartWallEmotionExo,
+        'decoding': DecodingData.sharedHeartWallDec,
+        'association': Associations.sharedHeartWallAss,
+        'intention': Intentions.sharedHeartWallEmotionInt,
+      };
+    } else if (widget.parentScreen == 'Inherited Heart-Wall Emotion') {
+      data = {
+        'explanation': Explanations.inheritedHeartWallEmotionExp,
+        'decoding': DecodingData.inheritedHeartWallDec,
+        'association': Associations.inheritedHeartWallAss,
+        'intention': Intentions.inheritedHeartWallInt,
+      };
+    } else if (widget.parentScreen == 'Absorbed Heart-Wall Emotion') {
+      data = {
+        'explanation': Explanations.absorbedHeartWallEmotionExp,
+        'decoding': DecodingData.absorbedHeartWallDec,
+        'association': Associations.absorbedHeartWallAss,
+        'intention': Intentions.absorbedHeartWallInt,
       };
     }
   }

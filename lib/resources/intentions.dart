@@ -49,13 +49,33 @@ There are three options for removing an entity.
 
   static const String commonTrappedEmotionsInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the trapped emotion.''';
-static const String preconceptionTrappedEmotionsInt =
+  static const String preconceptionTrappedEmotionsInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the trapped emotion.''';
-static const String sharedTrappedEmotionsInt =
+  static const String sharedTrappedEmotionsInt =
       '''Swipe ten times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the shared emotion, and with the intention to release it from anyone else who has it. ''';
-static const String inheritedTrappedEmotionsInt =
+  static const String inheritedTrappedEmotionsInt =
       '''Swipe ten times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the inherited trapped emotion. ''';
-static const String absorbTrappedEmotionsInt =
+  static const String absorbTrappedEmotionsInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the trapped emotion.
 ''';
+  static const String prenatalEmotionalCompoundInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the prenatal emotional compound.''';
+  static const String commonEmotionalCompoundInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound. ''';
+  static const String sharedEmotionalCompoundInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+  static const String absorbedEmotionalCompoundInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+  static const String prenatalHeartWallEmotionsInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+  static const String commonHeartWallEmotionsInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+  static const String preconceptionHeartWallEmotionInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+  static const String sharedHeartWallEmotionInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+  static const String inheritedHeartWallInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+  static const String absorbedHeartWallInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
 }
