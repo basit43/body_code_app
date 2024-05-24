@@ -3,6 +3,7 @@ import 'package:bodycode/resources/intentions.dart';
 import 'package:bodycode/resources/size_config.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 import '../../resources/decoding.dart';
 import '../../resources/images.dart';
@@ -69,7 +70,6 @@ class _TextScreenState extends State<TextScreen> {
 
   @override
   Widget build(BuildContext context) {
-    print('text Screen');
     return Scaffold(
       appBar: AppBar(
         centerTitle: true, // Center the app bar title
@@ -427,6 +427,11 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
         'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Parental Emotional Compound') {
+      data = {
+        'explanation': Explanations.parentalEmotionalCompound,
+        'decoding': DecodingData.absorbTrappedEmotionsDec
       };
     }
   }

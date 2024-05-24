@@ -165,6 +165,11 @@ class Explanations {
 ● The emotion resonates with your own imbalances.
 ● The energy of the emotion is overwhelming to you in some way.
 ''';
+
+  static const String parentalEmotionalCompound = '''
+  A 
+  ''';
+
   static const String thirdMolar = '''
 NOTE: This page is intended for reference only, to be used after you have found a dental toxin, and simply want to identify the affected tooth. There are no directions on this page. 
 

@@ -5,4 +5,5 @@ class RoutesName {
   static const String thirdScreen = 'ThirdScreen';
   static const String beforeTextScreen = 'thirdScreen';
   static const String textScreen = 'textScreen';
+  static const String physicalTraumaScreen = 'physicalTrauma';
 }
