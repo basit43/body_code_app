@@ -281,4 +281,377 @@ Prenatal trapped emotions usually occur during the third trimester, and are ofte
 ● Physical symptoms such as neck and shoulder discomfort may be present. 
 ● It’s generally best to let the subconscious indicate what imbalances need to be released and in what order. If you find only one prenatal Heart-Wall emotion in a session, allow the process to unfold naturally. 
 Prenatal trapped emotions usually occur during the third trimester, and are often absorbed emotions from the mother, but can also originate with the fetus.''';
+  static const String willToExp = '''
+  It is possible to develop and trap a unique frequency of energy when one has a will to do something, even if the desire is experienced temporarily. 
+
+● The energies in the will category are problematic because they may influence thoughts, feelings, behaviors and relationships, as well as potentially preventing balance and healing in the physical body. 
+● What one had the “will” to do in a past moment determines what kind of energy was developed. 
+● Use the chart to help you identify it, and keep in mind that the specific energy may be slightly different than what is listed on the chart. The key is getting close enough when decoding. ''';
+  static const String memoryFieldExp = '''
+  A memory field is simply the energy of memories, stored in the energy field. 
+
+● This can develop from events that are troubling and difficult to move past, or if any memory or type of memory is often recalled (e.g. focusing on past rejections). 
+● This can be compared to a rain cloud that follows one everywhere. A memory field can create trouble moving forward in life and letting go of the past. It could also exert an effect on one’s mood and general emotional resilience. 
+● These are often located in front of one’s face, and therefore could potentially interfere with the Brow Chakra as well as the eyes. ''';
+  static const String noWillToExp = '''
+  A memory field is simply the energy of memories, stored in the energy field. 
+
+● This can develop from events that are troubling and difficult to move past, or if any memory or type of memory is often recalled (e.g. focusing on past rejections). 
+● This can be compared to a rain cloud that follows one everywhere. A memory field can create trouble moving forward in life and letting go of the past. It could also exert an effect on one’s mood and general emotional resilience. 
+● These are often located in front of one’s face, and therefore could potentially interfere with the Brow Chakra as well as the eyes. ''';
+  static const String despairAnchor = '''
+  A despair anchor is the energy of a negative statement, that is perceived as a truth by the subconscious mind. 
+
+● The subconscious, being a computer, which will seek to verify or fulfill that direction, or that "truth."
+● These are usually created from severe or repetitive negative thought patterns, and are often related to feelings such as despair, self-abuse, resentment and shame.
+● Like most negative trapped energies, these can affect one externally, but the effect is mostly internal. They may influence your emotions, self-image and create future negative thought patterns, creating a vicious cycle of negative energy.
+● Use intuition and common sense when decoding. Keep in mind that this is an interpretation process—you may interpret the vibration a little differently than was originally stated. The key is getting close enough when decoding. 
+● If you are working on another person, ask them to tell you if anything comes to mind. ''';
+  static const String broadcastMessage = '''
+  A broadcast message is a specific type of vibrational frequency that is stored in the body and continually sent out, similar to a message from a radio tower.
+
+● Having a negative broadcast message could have a harmful influence on the (subconsciously formed) opinions of others about you, and could cause you to attract people, behavior or situations that you’d rather not. 
+● A broadcast message also has the potential to affect you internally, and may influence your emotions, self-image and other aspects of your life. 
+● Most broadcast messages are short sentences, consisting of two to five words. 
+● There are generally two types: 
+○ Command messages, such as: Abuse me or Ignore me
+○ Descriptive messages, such as: I’m stupid or I’m invisible
+● Use the chart of broadcast messages to determine what the message is, or close to it. The chart is not exhaustive, and the actual vibration may be a little different. 
+● Keep in mind that this is an interpretation process—you may interpret the vibration a little differently than was originally stated. The key is getting close enough when decoding. 
+● If you are working on another person, you may also ask them to tell you if anything comes to mind. ''';
+  static const String imageExp = '''
+ An image is the energy of a picture, often trapped in the subconscious mind, but can be located elsewhere in the body. No matter the location, the subconscious mind will recognize that image as a truth, and/or a direction, and it will seek to fulfill it in any way necessary.
+
+● An image may develop from an actual event, a recalled memory, from something imagined, and may even be symbolic (e.g. a teddy bear that signifies being lonely).
+● An image could interfere with goals, health, relationships, self-image, and more, all depending on what the image is of and what it represents. 
+● Use intuition and common sense when decoding. Keep in mind that this is an interpretation process—you may interpret the vibration a little differently than the original image. The key is getting close enough when decoding. 
+● If you are working on another person, ask them to tell you if anything comes to mind. ''';
+  static const String beliefCodeExp =
+      '''The Belief Code is a special method developed to deal with faulty core belief systems.  If you have been led here it means there is a faulty core belief system that needs addressing.
+
+The Belief Code access is reserved to level 3 practitioners. ''';
+  static const String broadCastMessageExp = '''
+  A broadcast message is a specific type of vibrational frequency that is stored in the body and continually sent out, similar to a message from a radio tower.
+
+● Having a negative broadcast message could have a harmful influence on the (subconsciously formed) opinions of others about you, and could cause you to attract people, behavior or situations that you’d rather not. 
+● A broadcast message also has the potential to affect you internally, and may influence your emotions, self-image and other aspects of your life. 
+● Most broadcast messages are short sentences, consisting of two to five words. 
+● There are generally two types: 
+○ Command messages, such as: Abuse me or Ignore me
+○ Descriptive messages, such as: I’m stupid or I’m invisible
+● Use the chart of broadcast messages to determine what the message is, or close to it. The chart is not exhaustive, and the actual vibration may be a little different. 
+● Keep in mind that this is an interpretation process—you may interpret the vibration a little differently than was originally stated. The key is getting close enough when decoding. 
+● If you are working on another person, you may also ask them to tell you if anything comes to mind. ''';
+  static const String seekingHeartEnergyExp = '''
+  Formerly Addictive Heart Energy. The heart is designed to feel joy, love and other positive emotions, and is the core of a person’s being. If the heart is unable to experience these positive emotions, it can become desperate for something pleasurable— it is in situations like this that the vibration of seeking heart energy can be created.
+
+● When the heart gets a hint of joy from some activity or substance, it creates this vibrational frequency and keeps reverberating, in order to get more of that pleasurable activity/substance.
+● The magnetic quality of this energy is specifically designed to attract substitutes for joy and love. These substitutes often end up being inappropriate, extreme, harmful, and/or pleasurable things. 
+● Seeking heart energy has the potential to create addiction to many things, not limited to: 
+○ Negative emotions
+○ Sugar
+○ Food
+○ Drugs
+○ Alcohol
+○ Tobacco
+○ Pornography
+○ Chronic illness
+○ Work
+○ Exercise
+● Seeking heart energy has the potential to cause other obsessive, compulsive, addictive, or destructive behaviors. 
+● This vibrational frequency can be created due to: 
+○ The existence of a Heart-Wall (blocks the heart from experiencing much love and joy)
+○ Associated imbalances
+○ Abuse or neglect
+○ Isolation or loneliness
+○ Negative core beliefs 
+● Finding what someone may be addicted to is NOT necessary and not part of the decoding process. 
+● Having seeking heart energy does NOT automatically mean that someone has what would be classified as an addiction. ''';
+  static const String organCommunication =
+      '''Sometimes an organ will ask for attention because it is vibrating at a negative emotional frequency and feeling the negative effects of that emotion. 
+
+● Identifying how an organ is feeling can help you to recognize and process any vibrations it is currently experiencing, as well as foster deeper connection and awareness with all body parts.
+● It is important to be thorough and identify any associated imbalances. ''';
+  static const String currentSymptom =
+      '''Symptoms are important because they can help bring awareness of imbalance in the body. However, symptoms can sometimes be overwhelming, and the body can get stuck reverberating with them, making it harder to move on. 
+
+● This practice may help to manually process the vibration of that symptom, ideally helping to prevent it from being trapped, as well as potentially helping to let go of the symptom sooner.
+● It is important to be thorough and identify any associated imbalances. 
+● Common symptom reverberations include:
+“○ Nausea”
+“○ Pain”
+“○ Sickness”''';
+  static const String emotionalReverberation = '''
+  An emotional reverberation is one form of current (being experienced at the moment) or unprocessed (old) emotional energy that can imbalance the body.
+
+● An emotional reverberation can be compared to an emotional ringing in the body, much like the ringing that continues long after hitting a bell with a hammer.
+● Just like trapped emotions, if a similar stimulus or emotion is experienced in the future, it may exacerbate an emotional reverberation that is already there.''';
+  static const String sicknessMemory = '''
+  A sickness memory is a reverberation of a sickness— a vibrational frequency that develops in a person when they have a sickness that isn’t able to be processed completely. 
+
+● A sickness memory is a picture of the whole sickness. 
+● It may have the potential to be very imbalancing to the energy field, creating problems both emotional and physical wherever the energy is trapped in the body. It could also create recurrences of the initial sickness. 
+● It is not important to identify the exact sickness that created this. 
+● When a sickness memory is passed down to a child, it becomes known as a miasm. ''';
+  static const String miasm = '''
+  A miasm is a reverberation of a sickness, just like a sickness memory, however it is inherited from an ancestor. 
+
+● A miasm starts out just like a sickness memory— a vibrational frequency that develops in a person when they have a sickness that isn’t able to be processed completely. Then that sickness memory energy is later inherited by a child that the person conceives. The energy is then known as a miasm.
+● A miasm contains information about the whole sickness. It may have the potential to be very imbalancing to the energy field, creating problems both emotional and physical wherever the energy is trapped in the body. 
+● It is possible that a miasm could cause a chain of the same sickness to develop in all generations who inherited it. However, it is not important to identify the exact sickness that created this initially. ''';
+  static const String moldExp =
+      '''This category includes fungal organisms that the subconscious mind specifically designates as mold. This is difficult to diagnose with regular medical testing.
+
+● Mold organisms are opportunistic and difficult to avoid. The best defense against mold infection is a strong immune system, although keeping damp spaces in the home dry is also wise.
+● Mold can grow anywhere in the body, damaging tissues and creating troubling symptoms. 
+● Antibiotic use, hormone therapy, pregnancy, diabetes onset, and a high sugar/starch diet all contribute to optimum conditions for mold overgrowth.
+● This indicates that both the physical and energetic forms are present. (Physical organisms without the energetic form are dead, and may show up as a microbial toxin when using The Body Code.)
+● Notable types of mold include: 
+○ Alternaria
+○ Aspergillus
+○ Chaetomium
+○ Cladosporium
+○ Fusarium
+○ Penicillium 
+○ Stachybotrys
+● Mold could cause a wide variety of symptoms, including:
+○ Joint and muscle pain
+○ Fatigue
+○ Brain fog
+○ Sinus and respiratory issues
+○ Eye irritation
+○ Skin irritation
+○ Fever
+○ Headaches
+More Information on Mold.''';
+  static const String parasiteExp = '''
+  Parasites are organisms that grow, shelter and feed in the body of a host. They are rarely deadly, as they are dependent on the host for their survival.
+
+● Parasites steal nutrients, invade bodily tissues and create microbial toxins (both from their waste products and their own eventual death). Parasites may benefit from the host also having a bacterial pathogen. 
+● Parasites are incredibly common in both developed as well as developing nations. It may be difficult to detect parasites via medical testing. 
+● This indicates that both the physical and energetic forms are present. (Physical organisms without the energetic form are dead, and will show up as a microbial toxin when using The Body Code.)
+● There are many different strains of parasites, ranging from microscopic to large organisms. There are three main classes of parasites that could cause problems for humans:
+○ Protozoa: Single-celled, microscopic organisms that live inside the host’s body 
+○ Helminths: Parasitic worms that live inside the host’s body 
+■ e.g. roundworm, hookworm, pinworm, tapeworm, fluke
+○ Ectoparasites: Live ON rather than inside the host’s body
+■ e.g. lice, fleas, bedbugs 
+● Parasites could create no symptoms at all, or a wide variety of symptoms, including but not limited to:  
+○ Digestive upset (e.g. pain, diarrhea, vomiting)
+○ Muscle aches
+○ Fatigue or weakness
+○ Anxiety 
+○ Rash
+○ Weight loss
+○ Appetite increase or decrease
+○ Sleeping problems
+○ Anemia
+○ Allergies
+○ Generally feeling “unwell”
+○ Fever
+More Information on Parasitism.''';
+  static const String virusExp = '''
+  Viruses are extremely small (1/100th bacterial size), and invade healthy cells, taking over the reproductive machinery of the cell in order to duplicate and then spread to other cells.
+
+● Many types of viruses are contagious, spreading via contact with the bodily fluids of the contagious party. 
+● This indicates that both the physical and energetic forms are present.
+● Notable viruses include:
+○ Influenza
+○ Common cold
+○ Herpes
+○ HIV
+○ Hepatitis 
+○ Mumps
+○ Measles
+○ Chicken pox
+● Common symptoms of viral infection may include: 
+○ Fever
+○ Fatigue
+○ Rash
+○ Muscle aches
+○ Digestive upset
+More Information on Viruses.''';
+  static const String fungus = '''
+  Viruses are extremely small (1/100th bacterial size), and invade healthy cells, taking over the reproductive machinery of the cell in order to duplicate and then spread to other cells.
+
+● Many types of viruses are contagious, spreading via contact with the bodily fluids of the contagious party. 
+● This indicates that both the physical and energetic forms are present.
+● Notable viruses include:
+○ Influenza
+○ Common cold
+○ Herpes
+○ HIV
+○ Hepatitis 
+○ Mumps
+○ Measles
+○ Chicken pox
+● Common symptoms of viral infection may include: 
+○ Fever
+○ Fatigue
+○ Rash
+○ Muscle aches
+○ Digestive upset
+More Information on Viruses.''';
+  static const String fungusExp = '''
+  Fungal organisms are everywhere, and there are over 300 types that are known to be pathogenic to humans. These organisms may be difficult to avoid in day to day life, thus, the best defense against fungal infection is a strong immune system. A fungus can begin to grow anywhere in the body, damaging tissues and creating troubling symptoms. Fungal pathogens benefit from the host having other co-infections due to their weakening of the immune system. 
+
+● Antibiotic use, hormone therapy, pregnancy, diabetes onset, and a high sugar/starch diet all contribute to optimum conditions for fungal overgrowth.
+● This indicates that both the physical and energetic forms are present. (Physical organisms without the energetic form are dead, and will show up as a microbial toxin when using The Body Code.)
+● Some notable strains of infectious fungi are:
+○ Blastomyces
+○ Candida
+■ Thrush
+■ Vaginal candidiasis
+■ Intestinal and systemic issues (see symptoms list below)
+○ Coccidioides
+○ Cryptococcus gattii
+○ Histoplasma
+○ Paracoccidioides
+○ Pneumocystis jirovecii.
+○ Tinea 
+● Causes ringworm, athlete's foot and jock itch
+● Common symptoms of fungal infection may include: 
+○ Anxiety
+○ Asthma or allergies
+○ Bloodstream infections
+○ Brain fog
+○ Cravings for sugar/starch/alcohol
+○ Fatigue
+○ Intestinal discomfort, gas, bloating
+○ Lung infections
+○ Nail infections
+○ Skin problems
+More Information on Fungus.''';
+  static const String prionExp = '''
+  Prions, or “proteinaceous infectious particles” are pathogenic particles containing misfolded proteins. Unlike other pathogens, prions do not replicate, but can trigger other normal proteins to also fold abnormally.
+
+● The protein that prions are made of is called prion protein— this is a normal protein, and our DNA has a gene (PRNP) that tells our cells how to make it. This protein— known as PrPc in its healthy state— is capable of converting or misfolding and becoming pathogenic in nature— it then is known as PrPSc. 
+● This conversion can occur for different reasons: spontaneously, due to a genetic mutation of the PRNP gene, or due to exposure to a prion from an external source.
+● It may be possible for prions to be created by exposure to heavy metals in the body, via a process called metal ion catalysis or electrostatic catalysis, where metal ions trigger the change in the protein. 
+● While prions do have the potential to create devastating neurological diseases (there is a high concentration of PrPc in the nervous system), it’s quite possible that many relatively healthy people have prions in their bodies as well, and the immune system is simply able to eliminate them before they can do much damage. 
+● It is important to identify Associated imbalances when prions show up using The Body Code. 
+● Prions may create the following symptoms:
+○ Fatigue
+○ Insomnia
+○ Confusion
+○ Hallucinations
+○ Personality changes 
+○ Dementia
+○ Loss of coordination
+○ Muscle stiffness
+○ Pins and needles (paresthesias)
+● This indicates that both the physical and energetic forms of prions may be present. 
+More Information on Prions.''';
+  static const String bacteria = '''
+  Bacteria are single cell organisms. Most strains of bacteria are harmless, but a few can be dangerous, cause infectious diseases and are contagious.
+
+● Bacteria cause disease by directly affecting the host cells. They might produce endotoxins, or they may cause an immune response in the host cells.
+● This indicates that both the physical and energetic forms are present. (Physical organisms without the energetic form are dead, and will show up as a microbial toxin when using The Body Code.)
+● Problematic bacterial strains include:
+○ Campylobacter
+○ Clostridium perfringens
+○ Escherichia coli (E. coli)
+○ Helicobacter pylori
+○ Listeria
+○ Salmonella
+○ Staphylococcus Aureus
+○ Streptococcus (group A)
+○ Streptococcus pneumoniae
+● Common symptoms of bacterial infection may include: 
+○ Fever
+○ Fatigue
+○ Rash
+○ Muscle aches
+○ Digestive upset
+○ Odor
+More Information on Bacteria.''';
+  static const String biofilm = '''
+  Biofilms are created in the presence of microorganisms that combine to create a slimy, sticky protective barrier, but are also recognized as a complex biological system.
+
+● The organisms (bacteria, mold, fungi or parasites) organize themselves into a coordinated functional community.
+● The biofilm organisms can share nutrients and are sheltered from harmful factors such as antibiotics, and the body's immune system. 
+● Types include:
+○ Plaque on teeth
+○ Biofilms surrounding any other areas of infection in the body
+More Information on Biofilm.''';
+  static const String spiritFetus =
+      '''Disconnections between the mother and fetus could create symptoms of morning sickness, also called nausea and vomiting of pregnancy (NVP), which affects millions of women worldwide. 
+
+● A pure and strong connection is required between the mother (brain, body and spirit) and the fetus (including the spirit, physical body, placenta, amniotic fluid and umbilical cord).
+● As long as this connection is stable, morning sickness could be minimized. 
+● It is common to have multiple disconnections if morning sickness is present, so make sure to identify and correct all disconnections that you find.
+This indicates that the mother’s brain has become disconnected from the spirit fetus. ''';
+  static const String fetus = '''
+  Disconnections between the mother and fetus could create symptoms of morning sickness, also called nausea and vomiting of pregnancy (NVP), which affects millions of women worldwide. 
+
+● A pure and strong connection is required between the mother (brain, body and spirit) and the fetus (including the spirit, physical body, placenta, amniotic fluid and umbilical cord).
+● As long as this connection is stable, morning sickness could be minimized. 
+● It is common to have multiple disconnections if morning sickness is present, so make sure to identify and correct all disconnections that you find.
+This indicates that the mother’s brain has become disconnected from the physical fetus. ''';
+  static const String amnioticFluid = '''
+  Disconnections between the mother and fetus could create symptoms of morning sickness, also called nausea and vomiting of pregnancy (NVP), which affects millions of women worldwide. 
+
+● A pure and strong connection is required between the mother (brain, body and spirit) and the fetus (including the spirit, physical body, placenta, amniotic fluid and umbilical cord).
+● As long as this connection is stable, morning sickness could be minimized. 
+● It is common to have multiple disconnections if morning sickness is present, so make sure to identify and correct all disconnections that you find.
+This indicates that the mother’s brain has become disconnected from the physical amniotic fluid. ''';
+  static const String placenta = '''
+  Disconnections between the mother and fetus could create symptoms of morning sickness, also called nausea and vomiting of pregnancy (NVP), which affects millions of women worldwide. 
+
+● A pure and strong connection is required between the mother (brain, body and spirit) and the fetus (including the spirit, physical body, placenta, amniotic fluid and umbilical cord).
+● As long as this connection is stable, morning sickness could be minimized. 
+● It is common to have multiple disconnections if morning sickness is present, so make sure to identify and correct all disconnections that you find.
+This indicates that the mother’s brain has become disconnected from the physical placenta. ''';
+  static const String umbilical = '''
+  Disconnections between the mother and fetus could create symptoms of morning sickness, also called nausea and vomiting of pregnancy (NVP), which affects millions of women worldwide. 
+
+● A pure and strong connection is required between the mother (brain, body and spirit) and the fetus (including the spirit, physical body, placenta, amniotic fluid and umbilical cord).
+● As long as this connection is stable, morning sickness could be minimized. 
+● It is common to have multiple disconnections if morning sickness is present, so make sure to identify and correct all disconnections that you find.
+This indicates that the mother’s brain has become disconnected from the physical placenta. ''';
+  static const String spirit = '''
+  Death is the complete separation of the spirit (aka energy body) and the physical body, but it is also possible to have a partial separation of the two. This is when the spirit has actually dislodged, and is located partially outside of the body. 
+
+● The spirit is the intelligence and life-force of the body, and without it there to govern the physical body, other imbalances may accumulate. 
+● This is different from a Spirit/Physical Disconnection where the communication and state of wholeness has broken down.
+● This usually occurs due to a physical trauma or an intensely stressful emotional event, but may also occur due to ongoing physical or emotional stress or abuse. 
+● Symptoms may include but are not limited to:
+○ Fatigue
+○ Discomfort
+○ Lowered immunity
+○ Persistent misalignment
+○ Malfunction of body parts
+● You may choose to identify the percentage of the spirit that is located within the physical body, if desired (this is not important but can be helpful to track your progress). The percentage of connection will usually match the level of vitality one seems to experience in day to day life (e.g. someone with 70% connection might feel 70% as much energy as they used to). 
+● The desired end result should be 100%, however, that may not be possible to achieve immediately, especially if someone has a very low percentage to start with. In these cases, it is wise to let the subconscious mind dictate how reconnected the spirit and body become immediately, while holding the intention for the connection level to climb as much as possible over time. ''';
+  static const String physicalExp = '''
+  This kind of disconnection can be thought of as a breakdown in communication between two body parts that should be connected.
+
+● The disconnected parts will usually be in the same area (e.g. two muscles of the right knee), but may also affect two body parts in different areas that usually have a strong connection (e.g. the pituitary and the thyroid).
+● There are almost always Associated imbalances, and it is wise to find and remove them before attempting to correct the disconnection.
+● You may choose to identify the percentage of connection, if desired (this is not important but can be helpful to track your progress). The percentage of connection will usually match the level of vitality one seems to experience in day to day life (e.g. someone with 70% connection might feel 70% as good in that area as they used to). 
+● The desired end result should be 100%, however, that may not be possible to achieve immediately, especially if someone has a very low percentage to start with. In these cases, it is wise to let the subconscious mind dictate how reconnected the body parts become immediately, while holding the intention for the connection level to climb as much as possible over time. ''';
+  static const String spiritPhysicalExp = '''
+  This is a disconnection of the spirit (aka energy body) and physical body, where the spirit is still located entirely within the physical body, but the ability of the two to communicate has somehow broken down. 
+
+● The spirit and body should be whole, functioning as one complete entity, with the spirit intelligence giving life and animation to the structures and processes of the physical body. 
+● Lowered connection between the spirit and body will interfere with communication and physical balance. The lower the percentage of connection, the worse the problem becomes, and the more imbalances may accumulate. 
+● The entire spirit and body may be disconnected, or it may be that only a part of the spirit and body are disconnected (e.g. the spirit liver and physical liver are disconnected). 
+● This usually occurs due to ongoing physical or emotional stress, and often results from associated imbalances (these should always be removed in order to prevent recurrence of this disconnection).
+● Symptoms may include but are not limited to:
+○ Fatigue
+○ Discomfort
+○ Lower immunity
+○ Persistent misalignment within (or related to) the area that is disconnected
+○ Malfunction of body parts within (or related to) the area that is disconnected
+● You may choose to identify the percentage of connection, if desired (this is not important but can be helpful to track your progress). The percentage of connection will usually match the level of vitality one seems to experience in day to day life (e.g. someone with 70% connection might feel 70% as much energy as they used to). 
+● The desired end result should be 100%, however, that may not be possible to achieve immediately, especially if someone has a very low percentage to start with. In these cases, it is wise to let the subconscious mind dictate how reconnected the spirit and body become immediately, while holding the intention for the connection level to climb as much as possible over time. ''';
+  static const String spiritBreakExp = '''
+  This kind of disconnection can be thought of as a break, fracture or tear in the spirit. 
+
+● This almost always affects the energetic version of the heart, and may be the imbalance long referred to as a “broken heart.”
+○ This would indicate that the heart was “broken” into 2 or more "pieces", which are now not connected or whole as they should be. 
+● It is possible that any other body part or even the whole spirit body could have this kind of disconnection, though it is rare.
+● There are almost always Associated imbalances, and it is wise to find and remove them before attempting to correct the disconnection.
+● You may choose to identify the percentage of connection, if desired (this is not important but can be helpful to track your progress). The percentage of connection will usually match the level of vitality one seems to experience in day to day life (e.g. someone with 70% connection might feel 70% as happy as they used to). 
+● The desired end result should be 100%, however, that may not be possible to achieve immediately, especially if someone has a very low percentage to start with. In these cases, it is wise to let the subconscious mind dictate how reconnected the spirit parts become immediately, while holding the intention for the connection level to climb as much as possible over time.''';
 }

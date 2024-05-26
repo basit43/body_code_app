@@ -471,12 +471,209 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.inheritedHeartWallAss,
         'intention': Intentions.inheritedHeartWallInt,
       };
-    } else if (widget.parentScreen == 'Absorbed Heart-Wall Emotion') {
+    } else if (widget.parentScreen == 'Absorb Heart-Wall Emotion') {
       data = {
         'explanation': Explanations.absorbedHeartWallEmotionExp,
         'decoding': DecodingData.absorbedHeartWallDec,
         'association': Associations.absorbedHeartWallAss,
         'intention': Intentions.absorbedHeartWallInt,
+      };
+    } else if (widget.parentScreen == 'Will to...') {
+      data = {
+        'explanation': Explanations.willToExp,
+        'decoding': DecodingData.willToDec,
+        'association': Associations.wilToAss,
+        'intention': Intentions.willToInt,
+      };
+    } else if (widget.parentScreen == 'Memory Field') {
+      data = {
+        'explanation': Explanations.memoryFieldExp,
+        'decoding': DecodingData.memoryFieldDec,
+        'association': Associations.memoryFieldAss,
+        'intention': Intentions.memoryFieldInt,
+      };
+    } else if (widget.parentScreen == 'No Will to...') {
+      data = {
+        'explanation': Explanations.noWillToExp,
+        'decoding': DecodingData.noWillToDec,
+        'association': Associations.noWillToAss,
+        'intention': Intentions.noWillToInt,
+      };
+    } else if (widget.parentScreen == 'Despair Anchor') {
+      data = {
+        'explanation': Explanations.despairAnchor,
+        'decoding': DecodingData.despairAnchorDec,
+        'association': Associations.despairAss,
+        'intention': Intentions.despairInt,
+      };
+    } else if (widget.parentScreen == 'Image') {
+      data = {
+        'explanation': Explanations.imageExp,
+        'decoding': DecodingData.imageDec,
+        'association': Associations.imageAss,
+        'intention': Intentions.imageInt,
+      };
+    } else if (widget.parentScreen == 'Broadcast Message') {
+      data = {
+        'explanation': Explanations.broadCastMessageExp,
+        'decoding': DecodingData.broadCastMessageDec,
+        'association': Associations.broadCastMessageAss,
+        'intention': Intentions.broadCaseMessageInt,
+      };
+    } else if (widget.parentScreen == 'Seeking Hear Energy') {
+      data = {
+        'explanation': Explanations.seekingHeartEnergyExp,
+        'decoding': DecodingData.seekingHeartEnergyDec,
+        'association': Associations.seekingHeartEnergyAss,
+        'intention': Intentions.seekingHeartEnergyInt,
+      };
+    } else if (widget.parentScreen == 'Organ Communication') {
+      data = {
+        'explanation': Explanations.organCommunication,
+        'decoding': DecodingData.organCommunicationDec,
+        'association': Associations.organCommunicationAss,
+        'intention': Intentions.organCommunication,
+      };
+    } else if (widget.parentScreen == 'Current Symptom') {
+      data = {
+        'explanation': Explanations.currentSymptom,
+        'decoding': DecodingData.currentSymptomDec,
+        'association': Associations.currentSymptom,
+        'intention': Intentions.currentSymptom,
+      };
+    } else if (widget.parentScreen ==
+        'Emotional Reverberation (formerly Resonance)') {
+      data = {
+        'explanation': Explanations.emotionalReverberation,
+        'decoding': DecodingData.emotionalReverberation,
+        'association': Associations.emotionalReverBeration,
+        'intention': Intentions.emotionalReverberation,
+      };
+    } else if (widget.parentScreen == 'Sickness Memory') {
+      data = {
+        'explanation': Explanations.sicknessMemory,
+        'decoding': DecodingData.sicknessMemoryDec,
+        'association': Associations.sicknessMemory,
+        'intention': Intentions.sicknessMemoryInt,
+      };
+    } else if (widget.parentScreen == 'Miasm') {
+      data = {
+        'explanation': Explanations.sicknessMemory,
+        'decoding': DecodingData.sicknessMemoryDec,
+        'association': Associations.sicknessMemory,
+        'intention': Intentions.sicknessMemoryInt,
+      };
+    } else if (widget.parentScreen == 'Mold') {
+      data = {
+        'explanation': Explanations.moldExp,
+        'decoding': DecodingData.moldDec,
+        'association': Associations.moldAss,
+        'intention': Intentions.moldInt,
+      };
+    } else if (widget.parentScreen == 'Parasite') {
+      data = {
+        'explanation': Explanations.parasiteExp,
+        'decoding': DecodingData.parasiteDec,
+        'association': Associations.parasiteAss,
+        'intention': Intentions.parasiteInt,
+      };
+    } else if (widget.parentScreen == 'Virus') {
+      data = {
+        'explanation': Explanations.virusExp,
+        'decoding': DecodingData.visrusDec,
+        'association': Associations.virusAss,
+        'intention': Intentions.virusInt,
+      };
+    } else if (widget.parentScreen == 'Fungus') {
+      data = {
+        'explanation': Explanations.fungusExp,
+        'decoding': DecodingData.fungusDec,
+        'association': Associations.fungusAss,
+        'intention': Intentions.fungusInt,
+      };
+    } else if (widget.parentScreen == 'Prion') {
+      data = {
+        'explanation': Explanations.prionExp,
+        'decoding': DecodingData.prionDec,
+        'association': Associations.prionAss,
+        'intention': Intentions.prionInt,
+      };
+    } else if (widget.parentScreen == 'Bacteria') {
+      data = {
+        'explanation': Explanations.bacteria,
+        'decoding': DecodingData.bacteriaDec,
+        'association': Associations.bacteriaAss,
+        'intention': Intentions.bacteriaInt,
+      };
+    } else if (widget.parentScreen == 'Biofilm') {
+      data = {
+        'explanation': Explanations.biofilm,
+        'decoding': DecodingData.biofilmDec,
+        'association': Associations.biofilmAss,
+        'intention': Intentions.biofilmInt,
+      };
+    } else if (widget.parentScreen == 'Spirit Fetus') {
+      data = {
+        'explanation': Explanations.biofilm,
+        'decoding': DecodingData.biofilmDec,
+        'association': Associations.biofilmAss,
+        'intention': Intentions.biofilmInt,
+      };
+    } else if (widget.parentScreen == 'Fetus') {
+      data = {
+        'explanation': Explanations.fetus,
+        'decoding': DecodingData.fetusDec,
+        'association': Associations.fetusAss,
+        'intention': Intentions.fetusInt,
+      };
+    } else if (widget.parentScreen == 'Amniotic fluid') {
+      data = {
+        'explanation': Explanations.amnioticFluid,
+        'decoding': DecodingData.amnioticDec,
+        'association': Associations.amnioticAss,
+        'intention': Intentions.amnioticInt,
+      };
+    } else if (widget.parentScreen == 'Placenta') {
+      data = {
+        'explanation': Explanations.placenta,
+        'decoding': DecodingData.placentaDec,
+        'association': Associations.placentaAss,
+        'intention': Intentions.placentaInt,
+      };
+    } else if (widget.parentScreen == 'Umbilical Cord') {
+      data = {
+        'explanation': Explanations.umbilical,
+        'decoding': DecodingData.umbilicalDec,
+        'association': Associations.umbilicalAss,
+        'intention': Intentions.umbilicalInt,
+      };
+    } else if (widget.parentScreen == 'Spirit Out of Body') {
+      data = {
+        'explanation': Explanations.spirit,
+        'decoding': DecodingData.spiritDec,
+        'association': Associations.spiritAss,
+        'intention': Intentions.spiritInt,
+      };
+    } else if (widget.parentScreen == 'Physical Disconnection') {
+      data = {
+        'explanation': Explanations.physicalExp,
+        'decoding': DecodingData.physicalDec,
+        'association': Associations.physicalAss,
+        'intention': Intentions.physicalInt,
+      };
+    } else if (widget.parentScreen == 'Spirit/Physical Disconnection') {
+      data = {
+        'explanation': Explanations.physicalExp,
+        'decoding': DecodingData.physicalDec,
+        'association': Associations.physicalAss,
+        'intention': Intentions.physicalInt,
+      };
+    } else if (widget.parentScreen == 'Spirit Break') {
+      data = {
+        'explanation': Explanations.spiritBreakExp,
+        'decoding': DecodingData.spiritBreakDec,
+        'association': Associations.spiritBreakAss,
+        'intention': Intentions.spiritBreakInt,
       };
     }
   }

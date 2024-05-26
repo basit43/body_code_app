@@ -200,6 +200,9 @@ class Images {
   static const String skin = 'assets/images/skin.png';
   static const String nail = 'assets/images/nail.png';
   static const String hair = 'assets/images/hair.png';
+  static const String despairAnchor = 'assets/images/despairAnchor.png';
+  static const String image = 'assets/images/imageProgramming.png';
+  static const String beliefCodeProgramming = 'assets/images/beliefCode.png';
 
   // static const String like_ic = "assets/icons/like_ic.png";
   static const String like_ic = "assets/images/logo.webp";

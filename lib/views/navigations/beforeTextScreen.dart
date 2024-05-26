@@ -416,18 +416,18 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == "Programming") {
       data = [
         {
-          'imageUrl': Images.trappedEmotion,
-          'text': 'Trapped Emotion',
+          'imageUrl': Images.despairAnchor,
+          'text': 'Despair Anchor',
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.compound,
-          'text': 'Compound (old:psychic Trauma)',
+          'imageUrl': Images.image,
+          'text': 'Image',
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.heartWallEmotion,
-          'text': 'Heart-Wall Emotion',
+          'imageUrl': Images.beliefCodeProgramming,
+          'text': 'Belief Code',
           'screen': RoutesName.textScreen
         },
       ];
