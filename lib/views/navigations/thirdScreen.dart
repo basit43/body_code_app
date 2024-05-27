@@ -299,6 +299,39 @@ class _ThirdScreenState extends State<ThirdScreen> {
           'screen': RoutesName.textScreen
         }
       ];
+    } else if (widget.parentScreen == 'Male Glands') {
+      data = [
+        {
+          'imageUrl': Images.testes,
+          'text': 'Testes',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.prostate,
+          'text': 'Prostate',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.seminalVesivles,
+          'text': 'Seminal Vesicles',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.epididymis,
+          'text': 'Epididymis',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.bulboGland,
+          'text': 'Bulbo-Urethral Gland',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.vasDeferense,
+          'text': 'Vas Deferense',
+          'screen': RoutesName.beforeTextScreen
+        }
+      ];
     }
   }
 }

@@ -721,4 +721,154 @@ If you have been guided to this page by the subconscious mind through testing, i
   Hair strands are made from protein and grow from follicles in the skin.
 
 If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String uterus = '''
+  The uterus is a muscular organ, the part of the female reproductive system that provides a growth environment for the fetus.
+
+● Common symptoms of imbalance may include:
+○ Discomfort in the low back
+○ Discomfort in the lower abdomen
+○ Discomfort during or after intercourse
+○ Discomfort in the left hip
+○ Infertility
+● Hormones Produced: None known
+● The uterus generates the following emotions: Humiliation, jealousy, longing, lust, overwhelm, pride, shame, shock unworthy, worthlessness
+● Muscle connections: Gluteal muscles (buttocks), adductor muscles (inner thigh)
+● Diurnal cycle: Not known  
+If you have been guided to this page by the subconscious mind through testing, it indicates that the uterus is imbalanced in some way. 
+''';
+  static const String bladder = '''
+  The bladder is a muscular, elastic organ that acts as a reservoir, holding urine from the kidney until it is voided.
+
+● Common symptoms of imbalance may include:
+○ Discomfort in the  low back
+○ Discomfort in the knee, ankle or foot
+○ Interrupted sleep  due to urination
+● Hormones Produced: None known.
+● The bladder generates the following emotions: Blaming, dread, fear, horror, peeved, conflict, creative insecurity, terror, unsupported, wishy-washy
+● Muscle connections: paraspinal muscles, tibialis anterior, peroneus longus and brevis
+● Diurnal cycle: The bladder comes into prominence during the time of the bladder meridian, 3pm to 5pm.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates that the bladder is imbalanced in some way.''';
+  static const String stomach = '''
+  The stomach is a muscular organ that secretes protein-digesting enzymes, hydrochloric acid and mucous, and churns swallowed food to begin the digestion process.
+
+● Common symptoms of imbalance may include:
+● Discomfort in the neck
+○ Discomfort in the shoulder area
+○ Discomfort in the elbow or wrist
+○ Hiatal Hernia
+○ Acid reflux
+○ Stomach pain
+○ Ulcers
+○ Bloating and gas
+○ Diarrhea or constipation
+● Hormones Produced: Ghrelin, leptin, somatostatin and trefoil peptides
+● The Stomach generates the following emotions: Anxiety, despair, disgust, nervousness, worry, failure, helplessness, hopelessness, lack of control and low self-esteem
+● Muscle connections: Neck flexor muscles and pectoralis major clavicular, brachioradialis muscles
+● Diurnal cycle: The stomach comes into prominence during the time of the stomach Meridian, 7am to 9am.
+If you have been guided to this page by the subconscious mind through testing, it indicates that the stomach is imbalanced in some way. ''';
+  static const String gallBladder = '''
+  The gallbladder secretes bile, which helps us to absorb fat. The gallbladder lies just beneath the liver.
+
+● Common symptoms of imbalance may include:
+○ Discomfort in the right knee
+○ Discomfort in the right shoulder
+○ Discomfort under the right rib cage
+● Hormones Produced: None known.
+● The gallbladder generates the following emotions: Anger, bitterness, guilt, hatred, resentment, depression, frustration, indecisiveness, panic, taken for granted.
+● Muscle connections:  Anterior deltoid muscles and right popliteus muscle (back of right knee).
+● Diurnal cycle: The gallbladder comes into prominence during the time of the gallbladder meridian, 11pm to 1am.
+If you have been guided to this page by the subconscious mind through testing, it indicates that the gallbladder is imbalanced in some way. 
+''';
+  static const String spleen = '''
+  The spleen is a blood reservoir that disposes of old red blood cells and is important for certain important immune functions, Including the removal of bacteria from the bloodstream. Platelets, as well as red blood cells are stored in the spleen. 
+
+● Common symptoms of imbalance may include:
+○ Discomfort in the mid back
+○ Discomfort in the left shoulder
+○ Lowered Immunity
+● Hormones Produced: None known
+● The spleen generates the following emotions: Anxiety, despair, disgust, nervousness, worry, failure, helplessness, hopelessness, lack of control and low self-esteem
+● Muscle connections: Lower trapezius muscles
+● Diurnal cycle: The spleen comes into prominence during the time of the spleen Meridian, 9am to 11am.
+If you have been guided to this page by the subconscious mind through testing, it indicates that the spleen is imbalanced in some way. ''';
+  static const String heart = '''
+  The heart is a muscular organ about the size of its owner's clenched fist. It not only pumps blood throughout the body, providing oxygenation to all the cells of the body, but it is also a second brain, our source of creativity and love, and the seat of the subconscious mind. 
+
+● Common symptoms of imbalance may include:
+○ Low energy
+○ Skipped beats (palpitations)
+○ Discomfort in the chest and shoulders
+○ Depression
+○ Anxiety
+● Hormones Produced: None known. 
+● The heart generates the following emotions: Abandonment, betrayal, forlorn, lost, love unreceived, effort unreceived, heartache, insecurity, overjoy and vulnerability.
+● Muscle connections:  Subscapularis (underside of shoulder blade)
+● Diurnal cycle: The heart comes into prominence during the time of the heart Meridian, 11am to 1pm.
+If you have been guided to this page by the subconscious mind through testing, it indicates that the heart is imbalanced in some way. ''';
+  static const String lungs = '''
+  The lungs are responsible for absorbing oxygen from the air we breathe, and eliminating carbon dioxide. 
+
+● Common symptoms of imbalance may include:
+○ Asthma
+○ Discomfort in between the shoulders
+○ Discomfort in the ribs or the upper back
+● Hormones Produced: None known 
+● The lungs generate the following emotions: Crying, discouragement, rejection, sadness, sorrow, confusion, defensiveness, grief, self-abuse, stubbornness.
+● Muscle connections:  Deltoid muscles, coracobrachialis muscles and serratus anterior.
+● Diurnal cycle: The lungs come into prominence during the time of the lung Meridian, 3am to 5am.
+If you have been guided to this page by the subconscious mind through testing, it indicates that one or both of the lungs are imbalanced in some way.''';
+  static const String kidneys = '''
+  The kidneys are located behind the abdomen, in front of the lower ribs.
+
+● The kidneys:
+○ Cleanse and filter the blood
+○ Regulate blood pressure
+○ Create urine
+○ Serve as energy reservoirs for the acupuncture system
+● Common symptoms of imbalance may include:
+○ Discomfort in the lower back
+○ Discomfort in the mid back
+○ Discomfort in the lower rib areas
+○ Discomfort in the lower side of the neck
+○ Discomfort in the jaw (TMJ)
+● Hormones Produced: Erythropoetin and renin.
+● The kidneys generate the following emotions: Blaming, dread, fear, horror, peeved, conflict, creative insecurity, terror, unsupported, wishy-washy.
+● Muscle connections: upper trapezius, psoas
+● Diurnal cycle: The kidneys comes into prominence during the time of the kidney meridian, 5pm to 7pm.
+If you have been guided to this page by the subconscious mind through testing, it indicates that one or both of the kidneys are imbalanced in some way. ''';
+  static const String liver = '''
+  The liver supports the immune system and cleans the blood, detoxifying foreign substances and chemicals. The liver is located on the right side of the body, just below the diaphragm.
+
+● Common symptoms of imbalance may include:
+○ Discomfort between the shoulder blades
+○ Discomfort in the right shoulder
+● Hormones Produced: Thrombopoietin, insulin-like growth factor-1, angiotensinogen.
+● The liver generates the following emotions: Anger, bitterness, guilt, hatred, resentment, depression, frustration, indecisiveness, panic, taken for granted.
+● Muscle connections:  pectoralis major muscle, right rhomboid muscle.
+● Diurnal cycle: The liver comes into prominence during the time of the liver meridian, 1am to 3am.
+If you have been guided to this page by the subconscious mind through testing, it indicates that the liver is imbalanced in some way. ''';
+  static const String interstitium = '''
+  The interstitium is a fluid-filled space that exists between the skin and the body organs including the circulatory system and the muscles. The fluid that fills the space is called the interstitial fluid which is made of water and other components. Interstitial fluid ultimately drains into the lymph system. The interstitium is believed to be important for cell communication as well as providing a "shock absorbing" function to protect the various components of the body. It's believed that the interstitial fluid circulates via peristalsis and that it may play a role in cell signaling as well as inflammation.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates that the interstitium is imbalanced in some way. ''';
+  static const String testes = '''
+  The testes are part of the male reproductive system and have essentially two functions: 
+
+● Produce sperm for reproduction, 
+● Produce testosterone, an androgenic hormone. Testosterone is necessary for proper physical development, bone density, and muscle strength. 
+Common symptoms of Imbalance: 
+○ Sterility
+○ Lowered sex drive
+○ Lowered initiative
+○ Lowered healing response
+○ Hair loss
+○ Fatigue
+○ Loss of muscle mass
+○ Memory loss
+● Hormones Produced: Testosterone
+● The testes generate the following emotions: Humiliation, jealousy, longing, lust, overwhelm, pride, shame, shock, unworthy, worthlessness.
+● Muscle connections: None known
+● Diurnal cycle: The testes come into prominence during the time of the triple warmer meridian 9pm to 11pm.  
+If you have been guided to this page by the subconscious mind through testing, it indicates that one or both of the testes are imbalanced in some way. ''';
 }

@@ -724,6 +724,83 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.hairAss,
         'intention': Intentions.hairInt,
       };
+    } else if (widget.parentScreen == 'Uterus (Female only)') {
+      data = {
+        'explanation': Explanations.uterus,
+        'decoding': DecodingData.uterusDec,
+        'association': Associations.uterusAss,
+        'intention': Intentions.uterusInt,
+      };
+    } else if (widget.parentScreen == 'Bladder') {
+      data = {
+        'explanation': Explanations.bladder,
+        'decoding': DecodingData.bladderDec,
+        'association': Associations.bladderAss,
+        'intention': Intentions.bladderInt,
+      };
+    } else if (widget.parentScreen == 'Stomach') {
+      data = {
+        'explanation': Explanations.stomach,
+        'decoding': DecodingData.stomachDec,
+        'association': Associations.stomachAss,
+        'intention': Intentions.stomachInt,
+      };
+    } else if (widget.parentScreen == 'Gallbladder') {
+      data = {
+        'explanation': Explanations.gallBladder,
+        'decoding': DecodingData.gallBladder,
+        'association': Associations.gallbladderAss,
+        'intention': Intentions.gallBladderInt,
+      };
+    } else if (widget.parentScreen == 'Spleen') {
+      data = {
+        'explanation': Explanations.spleen,
+        'decoding': DecodingData.spleen,
+        'association': Associations.spleenAss,
+        'intention': Intentions.spleenInt,
+      };
+    } else if (widget.parentScreen == 'Heart') {
+      data = {
+        'explanation': Explanations.heart,
+        'decoding': DecodingData.heartDec,
+        'association': Associations.heartAss,
+        'intention': Intentions.heartInt,
+      };
+    } else if (widget.parentScreen == 'Lungs') {
+      data = {
+        'explanation': Explanations.lungs,
+        'decoding': DecodingData.lungsDec,
+        'association': Associations.lungsAss,
+        'intention': Intentions.lungsInt,
+      };
+    } else if (widget.parentScreen == 'Kidneys') {
+      data = {
+        'explanation': Explanations.kidneys,
+        'decoding': DecodingData.kidneysDec,
+        'association': Associations.kidneysAss,
+        'intention': Intentions.kidneysInt,
+      };
+    } else if (widget.parentScreen == 'Liver') {
+      data = {
+        'explanation': Explanations.liver,
+        'decoding': DecodingData.liverDec,
+        'association': Associations.liverAss,
+        'intention': Intentions.liverInt,
+      };
+    } else if (widget.parentScreen == 'Interstitium') {
+      data = {
+        'explanation': Explanations.interstitium,
+        'decoding': DecodingData.interstitium,
+        'association': Associations.interstitium,
+        'intention': Intentions.interstitium,
+      };
+    } else if (widget.parentScreen == 'Testes') {
+      data = {
+        'explanation': Explanations.testes,
+        'decoding': DecodingData.testesDec,
+        'association': Associations.testesAss,
+        'intention': Intentions.testesInt,
+      };
     }
   }
 }

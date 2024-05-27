@@ -605,63 +605,126 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == "Organ") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.uterus,
           'text': "Uterus (Female only)",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.bladder,
           'text': "Bladder",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.stomach,
           'text': "Stomach",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.gallBladder,
           'text': "Gallbladder",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.spleen,
           'text': "Spleen",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.heartOrgan,
           'text': "Heart",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.lungs,
           'text': "Lungs",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.kidneys,
           'text': "Kidneys",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.liver,
           'text': "Liver",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.intestines,
           'text': "Intestines",
           'screen': RoutesName.thirdScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.brain,
           'text': "Brain",
           'screen': RoutesName.thirdScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.gallBladder,
           'text': "Gallbladder",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'System') {
+      data = [
+        {
+          'imageUrl': Images.integumentary,
+          'text': "Hypothalamus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.circulatory,
+          'text': "Pineal Gland",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.urinary,
+          'text': "Hypothalamus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.digestive,
+          'text': "Pineal Gland",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.skeletal,
+          'text': "Hypothalamus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.endocrine,
+          'text': "Pineal Gland",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.muscular,
+          'text': "Hypothalamus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.immune,
+          'text': "Pineal Gland",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.respiratory,
+          'text': "Hypothalamus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.microbiome,
+          'text': "Pineal Gland",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.reproductive,
+          'text': "Hypothalamus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.nervous,
+          'text': "Pineal Gland",
           'screen': RoutesName.textScreen
         },
       ];

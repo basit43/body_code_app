@@ -180,4 +180,26 @@ There are three options for removing an entity.
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
   static const String hairInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String uterusInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String bladderInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String stomachInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String gallBladderInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String spleenInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String heartInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String lungsInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String kidneysInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String liverInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String interstitium =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String testesInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
 }

@@ -208,6 +208,24 @@ class Images {
   static const String root = 'assets/images/root.png';
   static const String throat = 'assets/images/throat.png';
   static const String solarPlexus = 'assets/images/solarPlexus.png';
+  static const String uterus = 'assets/images/uterus.png';
+  static const String bladder = 'assets/images/bladder.png';
+  static const String stomach = 'assets/images/stomach.png';
+  static const String gallBladder = 'assets/images/gallBladder.png';
+  static const String spleen = 'assets/images/spleen.png';
+  static const String heartOrgan = 'assets/images/heartOrgan.png';
+  static const String lungs = 'assets/images/lungs.png';
+  static const String kidneys = 'assets/images/kidneys.png';
+  static const String liver = 'assets/images/liver.png';
+  static const String intestines = 'assets/images/intestines.png';
+  static const String brain = 'assets/images/brain.png';
+  static const String interstitium = 'assets/images/interstitium.png';
+  static const String testes = 'assets/images/testes.png';
+  static const String prostate = 'assets/images/prostate.png';
+  static const String seminalVesivles = 'assets/images/seminalVesicles.png';
+  static const String epididymis = 'assets/images/epididymis.png';
+  static const String bulboGland = 'assets/images/bulboGland.png';
+  static const String vasDeferense = 'assets/images/vasDeferense.png';
 
   // static const String like_ic = "assets/icons/like_ic.png";
   static const String like_ic = "assets/images/logo.webp";

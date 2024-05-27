@@ -1362,4 +1362,30 @@ If yes (unlikely), muscle test to see which of the following pieces of informati
 ○ Which area of the body is this?
 ○ How old were you when you got this?
 ○ Was this associated with a life event?''';
+  static const String uterusDec =
+      '''You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String bladderDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String stomachDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String gallBladder = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String spleen = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String heartDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String lungsDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String kidneysDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String liverDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String interstitium = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String testesDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
 }
