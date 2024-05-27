@@ -675,6 +675,55 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.spiritBreakAss,
         'intention': Intentions.spiritBreakInt,
       };
+    } else if (widget.parentScreen == 'Diurnal Cycle') {
+      data = {
+        'explanation': Explanations.spiritBreakExp,
+        'decoding': DecodingData.spiritBreakDec,
+        'association': Associations.spiritBreakAss,
+        'intention': Intentions.spiritBreakInt,
+      };
+    } else if (widget.parentScreen == 'Circadian Rhythm') {
+      data = {
+        'explanation': Explanations.circadianCycleExp,
+        'decoding': DecodingData.circadianDec,
+        'association': Associations.circadianCycleAss,
+        'intention': Intentions.circadianCycleInt,
+      };
+    } else if (widget.parentScreen == 'Spirit Body') {
+      data = {
+        'explanation': Explanations.spiritBodyExp,
+        'decoding': DecodingData.spiritBodyDec,
+        'association': Associations.spiritBodyAss,
+        'intention': Intentions.spiritBodyInt,
+      };
+    } else if (widget.parentScreen == 'Aura') {
+      data = {
+        'explanation': Explanations.auraExp,
+        'decoding': DecodingData.auraDec,
+        'association': Associations.auraAss,
+        'intention': Intentions.auraInt,
+      };
+    } else if (widget.parentScreen == 'Skin') {
+      data = {
+        'explanation': Explanations.skin,
+        'decoding': DecodingData.skinDec,
+        'association': Associations.skinAss,
+        'intention': Intentions.skinInt,
+      };
+    } else if (widget.parentScreen == 'Nail') {
+      data = {
+        'explanation': Explanations.skin,
+        'decoding': DecodingData.skinDec,
+        'association': Associations.skinAss,
+        'intention': Intentions.skinInt,
+      };
+    } else if (widget.parentScreen == 'Hair') {
+      data = {
+        'explanation': Explanations.hair,
+        'decoding': DecodingData.hairDec,
+        'association': Associations.hairAss,
+        'intention': Intentions.hairInt,
+      };
     }
   }
 }

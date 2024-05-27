@@ -1273,6 +1273,44 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
           'screen': RoutesName.textScreen,
         }
       ];
+    } else if (widget.parentScreen == 'Chakra') {
+      data = [
+        {
+          'imageUrl': Images.chakra,
+          'text': 'Crown',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.solarPlexus,
+          'text': 'Solar Plexus',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.brow,
+          'text': 'Brow',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.chakra,
+          'text': 'Sacral',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.throat,
+          'text': 'Throat',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.root,
+          'text': 'Root',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.heart,
+          'text': 'Heart',
+          'screen': RoutesName.beforeTextScreen
+        }
+      ];
     } else if (widget.parentScreen == 'Right Upper Teeth') {
       data = [
         {

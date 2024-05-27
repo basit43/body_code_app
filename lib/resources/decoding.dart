@@ -1325,4 +1325,41 @@ Use a process of elimination to find the percentage of connection (or skip to As
 ○ If yes, continue up from there, finding if it is more or less than 75%. Continue dividing and muscle testing in this fashion until you’ve determined the exact percentage. 
 ○ If no, continue down from there, finding if it is more or less than 25%. Continue dividing and muscle testing in this fashion until you’ve determined the exact percentage. 
 ● Move to Association.''';
+  static const String diurnalCycleDec = '''
+  Ask: Is there a specific time frame from the diurnal cycles that needs to be identified?
+
+● If yes, test through each period above to identify. 
+● If no, continue to Association.''';
+  static const String circadianDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String spiritBodyDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String auraDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String skinDec = '''
+  Ask: Is it necessary to identify more about this misalignment?
+
+If no, move to Association.
+
+If yes (unlikely), muscle test to see which of the following pieces of information need to be identified. You should never need to identify any other piece of information than these:
+
+● Where in the body is this located?
+● How old were you when you got this?
+● Was this associated with a life event?''';
+  static const String nailDec = '''
+  Ask: Is it necessary to identify more about this misalignment?
+
+● If no, move to Association.
+● If yes (unlikely), muscle test to see which of the following pieces of information need to be identified. You should never need to identify any other piece of information than these:
+○ Which nail is this?
+○ How old were you when you got this?
+○ Was this associated with a life event?''';
+  static const String hairDec = '''
+  Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes (unlikely), muscle test to see which of the following pieces of information need to be identified. You should never need to identify any other piece of information than these:
+○ Which area of the body is this?
+○ How old were you when you got this?
+○ Was this associated with a life event?''';
 }

@@ -654,4 +654,71 @@ This indicates that the mother’s brain has become disconnected from the physic
 ● There are almost always Associated imbalances, and it is wise to find and remove them before attempting to correct the disconnection.
 ● You may choose to identify the percentage of connection, if desired (this is not important but can be helpful to track your progress). The percentage of connection will usually match the level of vitality one seems to experience in day to day life (e.g. someone with 70% connection might feel 70% as happy as they used to). 
 ● The desired end result should be 100%, however, that may not be possible to achieve immediately, especially if someone has a very low percentage to start with. In these cases, it is wise to let the subconscious mind dictate how reconnected the spirit parts become immediately, while holding the intention for the connection level to climb as much as possible over time.''';
+  static const String diurnalCycleExp = '''
+  A diurnal cycle refers to any recurring pattern that happens every 24 hours.
+
+● The diurnal chart shows the energy flow cycles of the 12 main meridians throughout the 24 hour cycle.  
+● The period noted on the chart is that organs' “rebooting” and peak time. 
+● Each organ has a two hour section of time. 
+● The cycles begin with the lungs and end with the liver. 
+○ 3-5am: Lung (Yin) energy is at its peak. Sleep is deep with rhythmic breaths that help to process emotions. The lungs generate emotions such as grief. 
+○ 5-7am: Large Intestine (Yang) energy is at its peak. A healthy body empties it bowels soon after waking to remove toxins. The Large intestine generates the same emotions as the lungs.  
+○ 7-9am: Stomach (Yang) energy is at its peak. This is an ideal time to eat the biggest meal of the day as the energy of the stomach is at its highest, making the body more efficient at digestion and absorption, optimizing digestion. The stomach generates emotions such as anxiety.  
+○ 9-11am: Spleen (Yin) energy is at its peak. This is a great time of the day to get work done and exercise! The spleen generates the same emotions as the stomach.  
+○ 11-1pm: Heart (Yin) energy is at its peak. The body is now focusing upon circulating nutrients absorbed by the food to the entirety of the system. The heart generates emotions such as insecurity.  
+○ 1-3pm: Small Intestine (Yang) energy is at its peak. The small intestine generates the same emotions as the heart.  
+○ 3-5pm: Bladder (Yang) energy is at its peak. This is often when people feel a lull in energy especially if they are not well hydrated. The bladder generates emotions such as fear.  
+○ 5-7pm: Kidney (Yin) energy is at its peak. The kidneys generate the same emotions as the bladder.  
+○ 7-9pm: Pericardium (Yin) energy is at its peak. The pericardium is known as the protector of the Heart. This time frame is a wonderful time to do activities to nourish the heart such as socialize with loved ones, create art and music, or go dancing.  
+○ 9-11pm: Triple warmer (Yang) energy is at its peak. It is a great time to wind down, relax and drift off to sleep. This is when melatonin secretion begins within our circadian rhythm. 
+○ 11-1am: Gallbladder (Yang) energy is at its peak. The gallbladder generates emotions such as panic. 
+○ 1-3am: Liver (Yin) energy is at its peak. This is the best time for deep sleep and dreaming. Often people with imbalance wake during this time. The liver generates the same emotions as the gallbladder.  
+● If you have been guided to this page by the subconscious mind through muscle testing, it indicates that one of the organs is imbalanced to some degree. This imbalance may only appear or become symptomatic during the diurnal cycle time, when that organ and meridian comes into prominence, and is a bit more stressed than normal.
+● The above diurnal cycles can be used as reference when an already known time of day is problematic.''';
+  static const String circadianCycleExp = '''
+  The circadian rhythm is a physiological, recurring pattern that happens every 24 hours.
+
+● The circadian rhythm is mostly controlled by the hypothalamus gland in the brain.
+● It can be influenced by external cues such as sunlight and temperature.
+● It will be connected to the time zone that you live in.
+● All biological activities such as brain wave activity, hormone production, cell regeneration, etc. can be linked with certain times of the circadian rhythm. 
+● Some notable changes in the circadian rhythm include:
+○ 2:00am– Deepest sleep
+○ 4:30am– Lowest body temperature
+○ 7:00am– Sharpest rise in blood pressure
+○ 10:00am– Highest alertness
+○ 2:30pm– Best coordination
+○ 5:00pm– Greatest cardiovascular efficiency and muscle strength
+○ 9:00pm– Melatonin secretion starts
+If you have been guided to this page by the subconscious mind through muscle testing, it indicates that the circadian rhythm is imbalanced in some way. ''';
+  static const String spiritBodyExp = '''
+  We have a dual nature in that we exist in our mortal form with both a physical body and a spirit or energy body. The existence of the spirit within us is a belief that goes back to the beginning of recorded history, and that is supported throughout history and documented worldwide. We believe that at the moment of death, the spirit separates from the body and continues to live on. It is the essence of who we are as eternal beings. But during this mortal experience, our spirit is somewhat of a “passenger” in our physical body even though we believe they are in the exact likeness of each other.
+
+If you are brought to this area through muscle testing, it means that some kind of imbalance exists in the energy body or spirit. ''';
+  static const String auraExp = '''
+  The human energy field or bioelectromagnetic field extends beyond the surface for some distance, usually estimated at two to three feet, but possibly extending much further. This field, commonly referred to as the Aura, can be visualized and measured with various instruments and can be seen by individuals with that ability. Illness, stress and strong emotions may disrupt the continuity of the energy field. 
+
+If you have been guided to this page by the subconscious mind through muscle testing, it indicates that the aura is imbalanced in some way. ''';
+  static const String skin = '''
+  The skin is considered the largest organ of the body, and is responsible for protecting the inner body from the environment, regulating temperature and providing sensation. In an adult human being the skin covers an area of about 20 ft.², and also has the function of helping detoxification.
+
+Common symptoms of imbalance may include:
+
+● Dry skin
+● Rough skin
+● Cracking skin
+● Etc.
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String nail = '''
+  Fingernails and toenails are made of keratin, the same material that horns are made of.
+
+Common symptoms of imbalance may include:
+
+● Abnormal nail growth
+● Increased susceptibility to irritants or fungal infection
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String hair = '''
+  Hair strands are made from protein and grow from follicles in the skin.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
 }

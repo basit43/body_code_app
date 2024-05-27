@@ -247,4 +247,32 @@ class Associations {
         Ask: Is there an associated imbalance that needs to be decoded? 
 ■ If no, move to Intention.
 ■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String diurnalCycleAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String circadianCycleAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String spiritBodyAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String auraAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String skinAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String nailAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String hairAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
 }

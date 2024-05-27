@@ -327,7 +327,6 @@ class _SecondScreenState extends State<SecondScreen> {
           'text': 'Hydration',
           'screen': RoutesName.beforeTextScreen
         },
-
         // Add more items here
       ];
     }

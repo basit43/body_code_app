@@ -203,6 +203,11 @@ class Images {
   static const String despairAnchor = 'assets/images/despairAnchor.png';
   static const String image = 'assets/images/imageProgramming.png';
   static const String beliefCodeProgramming = 'assets/images/beliefCode.png';
+  static const String brow = 'assets/images/brow.png';
+  static const String heart = 'assets/images/heart.png';
+  static const String root = 'assets/images/root.png';
+  static const String throat = 'assets/images/throat.png';
+  static const String solarPlexus = 'assets/images/solarPlexus.png';
 
   // static const String like_ic = "assets/icons/like_ic.png";
   static const String like_ic = "assets/images/logo.webp";
