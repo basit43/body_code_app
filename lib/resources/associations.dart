@@ -319,4 +319,76 @@ class Associations {
         Ask: Is there an associated imbalance that needs to be decoded? 
 ■ If no, move to Intention.
 ■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String prostateAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String seminalVesicles = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String epididymis = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String bulboAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String vasAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String hypothalamus = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String pituitaryAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String pinealAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String amygdalaAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String thalamusAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String overiesAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String mammaryAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String thymusAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String adrenalsAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String pancreaseAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String adiposeAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String parathyroidAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String thyroidAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
 }

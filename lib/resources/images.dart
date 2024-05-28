@@ -226,6 +226,20 @@ class Images {
   static const String epididymis = 'assets/images/epididymis.png';
   static const String bulboGland = 'assets/images/bulboGland.png';
   static const String vasDeferense = 'assets/images/vasDeferense.png';
+  static const String hypothalamus = 'assets/images/hypothalamus.png';
+  static const String pituitary = 'assets/images/pituitary.png';
+  static const String pineal = 'assets/images/pineal.png';
+  static const String amygdala = 'assets/images/Amygdala.png';
+  static const String thalamus = 'assets/images/thalamus.png';
+  static const String ovaries = 'assets/images/ovaries.png';
+  static const String placenta = 'assets/images/placenta.png';
+  static const String mammary = 'assets/images/mammary.png';
+  static const String thymus = 'assets/images/thymus.png';
+  static const String adrenals = 'assets/images/adrenals.png';
+  static const String thyroid = 'assets/images/thyroid.png';
+  static const String pancrease = 'assets/images/pancrease.png';
+  static const String parathyroid = 'assets/images/parathyroid.png';
+  static const String adipose = 'assets/images/adipose.png';
 
   // static const String like_ic = "assets/icons/like_ic.png";
   static const String like_ic = "assets/images/logo.webp";

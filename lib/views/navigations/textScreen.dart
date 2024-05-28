@@ -801,6 +801,139 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.testesAss,
         'intention': Intentions.testesInt,
       };
+    } else if (widget.parentScreen == 'Prostate') {
+      data = {
+        'explanation': Explanations.prostate,
+        'decoding': DecodingData.prostateDec,
+        'association': Associations.prostateAss,
+        'intention': Intentions.prostateInt,
+      };
+    } else if (widget.parentScreen == 'Seminal Vesicles') {
+      data = {
+        'explanation': Explanations.seminalVesicle,
+        'decoding': DecodingData.seminalVesicle,
+        'association': Associations.seminalVesicles,
+        'intention': Intentions.seminalVesicles,
+      };
+    } else if (widget.parentScreen == 'Epididymis') {
+      data = {
+        'explanation': Explanations.epididymis,
+        'decoding': DecodingData.epididymisDec,
+        'association': Associations.epididymis,
+        'intention': Intentions.epididymisInt,
+      };
+    } else if (widget.parentScreen == 'Bulbo-Urethral Gland') {
+      data = {
+        'explanation': Explanations.bulbo,
+        'decoding': DecodingData.bulboDec,
+        'association': Associations.bulboAss,
+        'intention': Intentions.bulboInt,
+      };
+    } else if (widget.parentScreen == 'Vas Deferense') {
+      data = {
+        'explanation': Explanations.vasDeferense,
+        'decoding': DecodingData.vasDeferense,
+        'association': Associations.vasAss,
+        'intention': Intentions.vasInt,
+      };
+    } else if (widget.parentScreen == 'Hypothalamus') {
+      data = {
+        'explanation': Explanations.hypothalamus,
+        'decoding': DecodingData.hypothalamus,
+        'association': Associations.hypothalamus,
+        'intention': Intentions.hypothalamusInt,
+      };
+    } else if (widget.parentScreen == 'Pituitary') {
+      data = {
+        'explanation': Explanations.pituitary,
+        'decoding': DecodingData.pituitaryDec,
+        'association': Associations.pituitaryAss,
+        'intention': Intentions.pituitaryInt,
+      };
+    } else if (widget.parentScreen == 'Pineal') {
+      data = {
+        'explanation': Explanations.pineal,
+        'decoding': DecodingData.pinealDec,
+        'association': Associations.pinealAss,
+        'intention': Intentions.pinealInt,
+      };
+    } else if (widget.parentScreen == 'Amygdala') {
+      data = {
+        'explanation': Explanations.amygdala,
+        'decoding': DecodingData.amygdalaDec,
+        'association': Associations.amygdalaAss,
+        'intention': Intentions.amygdalaInt,
+      };
+    } else if (widget.parentScreen == 'Thalamus') {
+      data = {
+        'explanation': Explanations.thalamus,
+        'decoding': DecodingData.thalamusDec,
+        'association': Associations.thalamusAss,
+        'intention': Intentions.thalamusInt,
+      };
+    } else if (widget.parentScreen == 'Ovaries') {
+      data = {
+        'explanation': Explanations.overies,
+        'decoding': DecodingData.vasDeferense,
+        'association': Associations.overiesAss,
+        'intention': Intentions.ovariesInt,
+      };
+    } else if (widget.parentScreen == 'Placenta (Pregnancy Only)') {
+      data = {
+        'explanation': Explanations.placenta,
+        'decoding': DecodingData.placentaDec,
+        'association': Associations.placentaAss,
+        'intention': Intentions.placentaInt,
+      };
+    } else if (widget.parentScreen == 'Mammary Glands') {
+      data = {
+        'explanation': Explanations.mammary,
+        'decoding': DecodingData.mammaryDec,
+        'association': Associations.mammaryAss,
+        'intention': Intentions.mammaryInt,
+      };
+    } else if (widget.parentScreen == 'Thymus') {
+      data = {
+        'explanation': Explanations.thymus,
+        'decoding': DecodingData.thymusDec,
+        'association': Associations.thymusAss,
+        'intention': Intentions.thymusInt,
+      };
+    } else if (widget.parentScreen == 'Adrenals') {
+      data = {
+        'explanation': Explanations.adrenals,
+        'decoding': DecodingData.adrenalsDec,
+        'association': Associations.adrenalsAss,
+        'intention': Intentions.adrenalsInt,
+      };
+    } else if (widget.parentScreen == 'Thyroid') {
+      data = {
+        'explanation': Explanations.thyroid,
+        'decoding': DecodingData.thyroidDec,
+        'association': Associations.thyroidAss,
+        'intention': Intentions.thyroidInt,
+      };
+    } else if (widget.parentScreen == 'Pancrease') {
+      data = {
+        'explanation': Explanations.pancrease,
+        'decoding': DecodingData.pancreaseDec,
+        'association': Associations.pancreaseAss,
+        'intention': Intentions.pancreaseInt,
+      };
+    } else if (widget.parentScreen == 'Parathyroid') {
+      data = {
+        'explanation': Explanations.parathyroid,
+        'decoding': DecodingData.parathyroidDec,
+        'association': Associations.parathyroidAss,
+        'intention': Intentions.parathyroidInt,
+      };
+    } else if (widget.parentScreen == 'Adipose Tissue') {
+      data = {
+        'explanation': Explanations.adipose,
+        'decoding': DecodingData.adiposeDec,
+        'association': Associations.adiposeAss,
+        'intention': Intentions.adiposeInt,
+      };
     }
   }
 }

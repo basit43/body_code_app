@@ -1388,4 +1388,68 @@ If yes (unlikely), muscle test to see which of the following pieces of informati
 ● If no, move to Association.
 ● If yes, determine the left or  right side and continue to Association.
   ''';
+  static const String prostateDec =
+      '''You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String seminalVesicle = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String epididymisDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String bulboDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String vasDeferense = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String mammaryDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String hypothalamus = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String pituitaryDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String pinealDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String amygdalaDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String thalamusDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String thymusDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String thyroidDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String pancreaseDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String parathyroidDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String adiposeDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String overiesDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String adrenalsDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
 }

@@ -19,8 +19,12 @@ class _EmotionCodeState extends State<EmotionCode> {
         automaticallyImplyLeading: false, // Remove the back button
         title: const Text('Emotion Code'), // Add an app bar
       ),
-      body: Image.asset(Images.emotionCode,
-      fit: BoxFit.fill,),
+      body: Center(
+        child: Image.asset(
+          Images.emotionCode,
+          fit: BoxFit.fill,
+        ),
+      ),
     );
   }
 }

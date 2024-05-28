@@ -309,12 +309,12 @@ class _ThirdScreenState extends State<ThirdScreen> {
         {
           'imageUrl': Images.prostate,
           'text': 'Prostate',
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         },
         {
           'imageUrl': Images.seminalVesivles,
           'text': 'Seminal Vesicles',
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         },
         {
           'imageUrl': Images.epididymis,
@@ -324,13 +324,92 @@ class _ThirdScreenState extends State<ThirdScreen> {
         {
           'imageUrl': Images.bulboGland,
           'text': 'Bulbo-Urethral Gland',
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         },
         {
           'imageUrl': Images.vasDeferense,
           'text': 'Vas Deferense',
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         }
+      ];
+    } else if (widget.parentScreen == 'Brain Glands') {
+      data = [
+        {
+          'imageUrl': Images.hypothalamus,
+          'text': 'Hypothalamus',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.pituitary,
+          'text': 'Pituitary',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.pineal,
+          'text': 'Pineal',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.amygdala,
+          'text': 'Amygdala',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.thalamus,
+          'text': 'Thalamus',
+          'screen': RoutesName.textScreen,
+        },
+      ];
+    } else if (widget.parentScreen == 'Female Glands') {
+      data = [
+        {
+          'imageUrl': Images.ovaries,
+          'text': 'Ovaries',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.placenta,
+          'text': 'Placenta (Pregnancy Only)',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.mammary,
+          'text': 'Mammary Glands',
+          'screen': RoutesName.textScreen,
+        },
+      ];
+    } else if (widget.parentScreen == 'Other') {
+      data = [
+        {
+          'imageUrl': Images.thymus,
+          'text': 'Thymus',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.adrenals,
+          'text': 'Adrenals',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.thyroid,
+          'text': 'Thyroid',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.pancrease,
+          'text': 'Pancrease',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.parathyroid,
+          'text': 'Parathyroid',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.adipose,
+          'text': 'Adipose Tissue',
+          'screen': RoutesName.textScreen,
+        },
       ];
     }
   }
