@@ -176,37 +176,37 @@ class _ThirdScreenState extends State<ThirdScreen> {
     } else if (widget.parentScreen == "Brain") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.deep,
           'text': "Deep Structures",
           'screen': RoutesName.beforeTextScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.cerebrum,
           'text': "Cerebrum",
           'screen': RoutesName.beforeTextScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.cranial,
           'text': "Cranial Nerves",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.cerebellum,
           'text': "Cerebellum",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.vestibular,
           'text': "Vestibular System",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.stem,
           'text': "Brain Stem",
           'screen': RoutesName.beforeTextScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.cerebrospinal,
           'text': "Cerebrospinal Fluid",
           'screen': RoutesName.textScreen
         },
@@ -298,6 +298,39 @@ class _ThirdScreenState extends State<ThirdScreen> {
           'text': 'Hair',
           'screen': RoutesName.textScreen
         }
+      ];
+    } else if (widget.parentScreen == 'Circulatory System') {
+      data = [
+        {
+          'imageUrl': '${Images.heartOrgan}',
+          'text': 'Heart',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': '${Images.lowerLimb}',
+          'text': 'Lower Limb Vessel',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': '${Images.upperLimb}',
+          'text': 'Upper Limb Vessel',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': '${Images.abdominal}',
+          'text': 'Abdominal Vessel',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': '${Images.thoracic}',
+          'text': 'Thoracic Circulation',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': '${Images.headNeck}',
+          'text': 'Head or Neck Vessel',
+          'screen': RoutesName.beforeTextScreen
+        },
       ];
     } else if (widget.parentScreen == 'Male Glands') {
       data = [

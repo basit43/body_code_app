@@ -283,6 +283,19 @@ class Associations {
         Ask: Is there an associated imbalance that needs to be decoded? 
 ■ If no, move to Intention.
 ■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+
+  static const String cerebellumAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String cranialNervesAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String poplitealAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
   static const String stomachAss = '''
         Ask: Is there an associated imbalance that needs to be decoded? 
 ■ If no, move to Intention.
@@ -290,6 +303,58 @@ class Associations {
   static const String gallbladderAss = '''
         Ask: Is there an associated imbalance that needs to be decoded? 
 ■ If no, move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String stomachMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String lungMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String bladderMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String liverMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String tripleMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String kidneyMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String smallIntestineMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String spleenMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String yangHeelAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String largeMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String pericardiumMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String gallbladderMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String heartMeridianAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no (unlikely), move to Intention.
 ■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
   static const String spleenAss = '''
         Ask: Is there an associated imbalance that needs to be decoded? 
@@ -383,11 +448,55 @@ class Associations {
         Ask: Is there an associated imbalance that needs to be decoded? 
 ■ If no, skip to Intention.
 ■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String sleepAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String herbAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String essentialAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
   static const String parathyroidAss = '''
         Ask: Is there an associated imbalance that needs to be decoded? 
 ■ If no, skip to Intention.
 ■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
   static const String thyroidAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String basalAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String pinealGland = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String limbic = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String crownAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String solarAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String browAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String sacralAss = '''
+        Ask: Is there an associated imbalance that needs to be decoded? 
+■ If no, skip to Intention.
+■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
+  static const String throatAss = '''
         Ask: Is there an associated imbalance that needs to be decoded? 
 ■ If no, skip to Intention.
 ■ If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';

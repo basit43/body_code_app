@@ -238,4 +238,181 @@ There are three options for removing an entity.
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
   static const String adiposeInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String sleepInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String basalInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String yangHeelInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String poplitealInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String cranialNervesInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String cerebellumInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String herbInt = '''
+  Add the herb/spice to your diet, using common sense and moderation.
+
+● Consult your healthcare provider or a herbalist with any concerns or questions.
+● All herbs must be used with caution. Some herbs can be toxic in high doses, some can induce abortion, some can interfere with certain medications, etc. 
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String essentialInt = '''
+  Add the herb/spice to your diet, using common sense and moderation.
+
+● Consult your healthcare provider or a herbalist with any concerns or questions.
+● All herbs must be used with caution. Some herbs can be toxic in high doses, some can induce abortion, some can interfere with certain medications, etc. 
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String crownInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the crown chakra.
+
+To help rebalance this chakra, you could consider:
+
+● Meditation focused around self-love, rediscovering your personal power, or increasing connection with the divine.
+● Using herbs that come from plants with purple petals or leaves, such as lavender or holy basil.
+● Breathwork.''';
+  static const String solarInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the solar plexus chakra.
+
+● To help rebalance this chakra, you could consider:
+○ Meditation focused improving your self-esteem or motivation.
+○ Breathwork.
+○ Goal setting (with follow through!)
+○ Honest self examination of unhealthy relationships (others, food, vices, etc.) and forming healthy boundaries for what might be causing you harm.
+○ Exercising.''';
+  static const String browInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the brow chakra.
+
+● To help rebalance this chakra, you could consider:
+○ Meditation focused on strengthening intuition.
+○ Creative activities that call for stretches of concentration.
+○ Finding ways to stretch your mind and create more open mindedness. 
+○ Spending time outdoors.
+○ Wearing indigo.
+○ Spending time in self reflection.''';
+  static const String sacralInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the sacral chakra.
+
+● To help rebalance this chakra, you could consider:
+○ Meditation focused on finding and being more open with your personal passions.
+○ Honest self-reflection about areas of your life that might be holding you back.
+○ Breathwork
+○ Finding ways to express yourself creatively. 
+○ Creating a mantra and repeating it to yourself, out loud, often.
+○ Clearing imbalances related to sexual health.''';
+  static const String throatInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the throat chakra.
+
+● To help rebalance this chakra, you could consider:
+○ Meditation focused on self care.
+○ Practicing speaking your mind in safe spaces.
+○ Practicing empowering self talk.
+○ Singing or a low vibrational hum with intention to purify the throat chakra.
+○ Journaling your thoughts, and try to put them into action.
+○ Writing a mantra for yourself and say it out loud to yourself at least once per day.
+○ Finding a creative outlet in which you may be able to express yourself.''';
+  static const String rootInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the root chakra.
+
+● To help rebalance this chakra, you could consider:
+○ Spending time outdoors
+○ “Earthing” or “grounding.” Take off your shoes and walk through the grass, or even lie on the ground (where safe)''';
+  static const String stomachMeridianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to balance the energy flow of the meridian.
+
+● To further rebalance this meridian, you could:
+○ Chew food thoroughly
+○ Eat at peak diurnal times
+○ Avoid overeating
+○ Relax when eating
+○ Avoid toxic foods
+○ Avoid dental toxins''';
+  static const String lungMeridianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to balance the energy flow of the meridian.
+
+● To further rebalance this meridian, you could:
+○ Breathe clean, fresh air as much as possible 
+○ Work on proper hydration
+○ Work to let go of grief and self-rejection
+○ Keep your environmental humidity as balanced as possible 
+○ Avoid sugar ''';
+  static const String bladderMeridianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to balance the energy flow of the meridian.
+
+● To further rebalance this meridian, you could:
+○ Relax, avoid stress
+○ Drink plenty of pure water 
+○ Use high quality salt 
+○ Eat an alkaline diet
+○ Avoid toxins including heavy metals''';
+  static const String heartMeridianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to balance the energy flow of the meridian.
+
+● To further rebalance this meridian, you could:
+○ Do regular meditation, work to stay focused
+○ Keep your diet simple and balanced
+○ Work on emotional health 
+○ Cultivate a safe and friendly environment with good friendships 
+○ Avoid sugars and spicy foods ''';
+  static const String gallbladderMeridianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to balance the energy flow of the meridian.
+
+● To further rebalance this meridian, you could:
+○ Eat healthy fats, in moderation
+○ Eat fresh fruits, vegetables and fiber
+○ Avoid sugar, alcohol, dairy, refined carbohydrates, and toxins
+○ Exercise regularly ''';
+  static const String pericardiumMeridianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to balance the energy flow of the meridian.
+
+● To further rebalance this meridian, you could:
+○ Work on being present 
+○ Work on letting go of the past, especially sorrows, grudges and jealousy
+○ Release any heart imbalances, especially the Heart-Wall''';
+  static const String liverMeridianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to balance the energy flow of the meridian.
+
+● To further rebalance this meridian, you could:
+○ Work to create a balanced lifestyle, avoid stress 
+○ Detox periodically, avoid toxins
+○ Do yoga and stretching
+○ Eat a balanced, moderate diet with healthy fats in moderation, balanced salt intake
+○ Work toward healthy emotional balance, release imbalances  ''';
+  static const String tripleMeridian = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to balance the energy flow of the meridian.
+
+● To further rebalance this meridian, you could:
+○ Work toward a greater connection with the divine as well as your divine self
+○ Avoid taking on more than you can reasonably handle
+○ Work toward speaking your truth in all things
+○ Let go of judgment, focus on acceptance''';
+  static const String kidneyMeridianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to balance the energy flow of the meridian.
+
+● To further rebalance this meridian, you could:
+○ Get proper rest and relaxation
+○ Avoid pushing yourself too hard
+○ Respect fluctuations in your energy
+○ Avoid caffeine, sugar
+○ Avoid high stress situations or environments ''';
+  static const String smallIntestineMeridianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to balance the energy flow of the meridian.
+
+● To further rebalance this meridian, you could:
+○ Try abdominal breathing exercises 
+○ Chew food thoroughly 
+○ Avoid toxins including GMO food, any irritating food
+○ Take care to balance intestinal flora, especially after taking an antibiotic
+○ Avoid spicy foods''';
+  static const String largeMeridianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to balance the energy flow of the meridian.
+
+● To further rebalance this meridian, you could:
+○ Stay hydrated
+○ Chew food thoroughly
+○ Meditation/Yoga
+○ Massage
+○ Regular movement or exercise
+○ Release Trapped Emotions
+○ Eat an alkaline diet
+○ Avoid toxins such as dairy, sugar, gluten, GMO food, processed food, yeast, unhealthy fats''';
 }

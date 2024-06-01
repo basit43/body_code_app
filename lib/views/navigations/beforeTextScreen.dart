@@ -731,37 +731,37 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == "Deep Structures") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.hypothalamusBlue,
           'text': "Hypothalamus",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.pinealBlue,
           'text': "Pineal Gland",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.basal,
           'text': "Basal Ganglia",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.thalamusBlue,
           'text': "Thalamus",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.limbic,
           'text': "Limbic System",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.pituitaryBlue,
           'text': "Pituitary",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.amygdalaBlue,
           'text': "Amygdala",
           'screen': RoutesName.textScreen
         },
@@ -797,17 +797,17 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == "Brain Stem") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.medulla,
           'text': "Medulla",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.pons,
           'text': "Pons",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.midbrain,
           'text': "Midbrain",
           'screen': RoutesName.textScreen
         },
@@ -1339,39 +1339,39 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == 'Chakra') {
       data = [
         {
-          'imageUrl': Images.chakra,
+          'imageUrl': Images.crown,
           'text': 'Crown',
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         },
         {
           'imageUrl': Images.solarPlexus,
           'text': 'Solar Plexus',
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         },
         {
           'imageUrl': Images.brow,
           'text': 'Brow',
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.chakra,
+          'imageUrl': Images.sacral,
           'text': 'Sacral',
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         },
         {
           'imageUrl': Images.throat,
           'text': 'Throat',
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         },
         {
           'imageUrl': Images.root,
           'text': 'Root',
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         },
         {
           'imageUrl': Images.heart,
           'text': 'Heart',
-          'screen': RoutesName.beforeTextScreen
+          'screen': RoutesName.textScreen
         }
       ];
     } else if (widget.parentScreen == 'Right Upper Teeth') {
@@ -1406,6 +1406,249 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
           'text': 'Central Incisor',
           'screen': RoutesName.textScreen,
         }
+      ];
+    } else if (widget.parentScreen == 'Meridian') {
+      data = [
+        {
+          'imageUrl': Images.meridian,
+          'text': 'Main Meridian',
+          'screen': RoutesName.beforeTextScreen,
+        },
+        {
+          'imageUrl': Images.extraMeridian,
+          'text': 'Extraordinary Meridian',
+          'screen': RoutesName.beforeTextScreen,
+        }
+      ];
+    } else if (widget.parentScreen == 'Main Meridian') {
+      {
+        data = [
+          {
+            'imageUrl': Images.stomachMeridian,
+            'text': 'Stomach Meridian',
+            'screen': RoutesName.textScreen,
+          },
+          {
+            'imageUrl': Images.lung,
+            'text': 'Lung Meridian',
+            'screen': RoutesName.textScreen,
+          },
+          {
+            'imageUrl': Images.bladderMeridian,
+            'text': 'Bladder Meridian',
+            'screen': RoutesName.textScreen,
+          },
+          {
+            'imageUrl': Images.heartMeridian,
+            'text': 'Heart Meridian',
+            'screen': RoutesName.textScreen,
+          },
+          {
+            'imageUrl': Images.gallbladder,
+            'text': 'Gallbladder Meridian',
+            'screen': RoutesName.textScreen,
+          },
+          {
+            'imageUrl': Images.pericardium,
+            'text': 'Pericardium Meridian',
+            'screen': RoutesName.textScreen,
+          },
+          {
+            'imageUrl': Images.liverMeridian,
+            'text': 'Liver Meridian',
+            'screen': RoutesName.textScreen,
+          },
+          {
+            'imageUrl': Images.triple,
+            'text': 'Triple Warmer Meridian',
+            'screen': RoutesName.textScreen,
+          },
+          {
+            'imageUrl': Images.kidney,
+            'text': 'Kidney Meridian',
+            'screen': RoutesName.textScreen,
+          },
+          {
+            'imageUrl': Images.small,
+            'text': 'Small Intestine Meridian',
+            'screen': RoutesName.textScreen,
+          },
+          {
+            'imageUrl': Images.spleenMeridian,
+            'text': 'Spleen Meridian',
+            'screen': RoutesName.textScreen,
+          },
+          {
+            'imageUrl': Images.extraMeridian,
+            'text': 'Large Intestine Meridian',
+            'screen': RoutesName.textScreen,
+          }
+        ];
+      }
+    } else if (widget.parentScreen == 'Extraordinary Meridian') {
+      data = [
+        {
+          'imageUrl': Images.yang,
+          'text': 'Yang Heel Meridian',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.yang,
+          'text': 'Conception Meridian',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.yang,
+          'text': 'Yin Heel Meridian',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.yang,
+          'text': 'Governing Meridian',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.yang,
+          'text': 'Yang Linking Meridian',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.yang,
+          'text': 'Penetrating Meridian',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.yang,
+          'text': 'Yin Linking Meridian',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.yang,
+          'text': 'Girdle Meridian',
+          'screen': RoutesName.textScreen,
+        }
+      ];
+    } else if (widget.parentScreen == 'Lower Limb Vessel') {
+      data = [
+        {
+          'imageUrl': Images.popliteal,
+          'text': 'Popliteal Artery',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.anterior,
+          'text': 'Anterior Tibial Artery',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.greatVein,
+          'text': 'Great Saphenous Vein',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.posterior,
+          'text': 'Posterior Tibial Artery',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.femoral,
+          'text': 'Femoral Artery',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.peroneal,
+          'text': 'Peroneal Vein',
+          'screen': RoutesName.textScreen,
+        }
+      ];
+    } else if (widget.parentScreen == 'Upper Limb Vessel') {
+      data = [
+        {
+          'imageUrl': Images.basilar,
+          'text': 'Basilar Vein',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.brachial,
+          'text': 'Brachial Vein',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.radial,
+          'text': 'Radial Artery',
+          'screen': RoutesName.textScreen,
+        }
+      ];
+    } else if (widget.parentScreen == 'Abdominal Vessel') {
+      data = [
+        {
+          'imageUrl': Images.basilar,
+          'text': 'Basilar Vein',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.brachial,
+          'text': 'Brachial Vein',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.radial,
+          'text': 'Radial Artery',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.basilar,
+          'text': 'Basilar Vein',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.brachial,
+          'text': 'Brachial Vein',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.radial,
+          'text': 'Radial Artery',
+          'screen': RoutesName.textScreen,
+        }
+      ];
+    } else if (widget.parentScreen == 'Tharocic Circulation') {
+      data = [
+        {
+          'imageUrl': Images.radial,
+          'text': 'Radial Artery',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.radial,
+          'text': 'Radial Artery',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.radial,
+          'text': 'Radial Artery',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.radial,
+          'text': 'Radial Artery',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.radial,
+          'text': 'Radial Artery',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.radial,
+          'text': 'Radial Artery',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.radial,
+          'text': 'Radial Artery',
+          'screen': RoutesName.textScreen,
+        },
       ];
     }
   }

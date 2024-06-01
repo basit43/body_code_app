@@ -1330,6 +1330,26 @@ Use a process of elimination to find the percentage of connection (or skip to As
 
 ● If yes, test through each period above to identify. 
 ● If no, continue to Association.''';
+  static const String yangLinkingDec = '''
+  Ask: Is there a specific time frame from the diurnal cycles that needs to be identified?
+
+● If yes, test through each period above to identify. 
+● If no, continue to Association.''';
+  static const String girdleDec = '''
+  Ask: Is there a specific time frame from the diurnal cycles that needs to be identified?
+
+● If yes, test through each period above to identify.
+● If no, continue to Association.''';
+  static const String yinLinkingDec = '''
+  Ask: Is there a specific time frame from the diurnal cycles that needs to be identified?
+
+● If yes, test through each period above to identify. 
+● If no, continue to Association.''';
+  static const String penetratingDec = '''
+  Ask: Is there a specific time frame from the diurnal cycles that needs to be identified?
+
+● If yes, test through each period above to identify. 
+● If no, continue to Association.''';
   static const String circadianDec = '''
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String spiritBodyDec = '''
@@ -1382,7 +1402,15 @@ If yes (unlikely), muscle test to see which of the following pieces of informati
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String interstitium = '''
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String cerebellumDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String testesDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String cranialNervesDec = '''
     Ask: Is it necessary to identify more about this imbalance?
 
 ● If no, move to Association.
@@ -1403,6 +1431,12 @@ If yes (unlikely), muscle test to see which of the following pieces of informati
 ● If yes, determine the left or  right side and continue to Association.
   ''';
   static const String bulboDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String popliteal = '''
     Ask: Is it necessary to identify more about this imbalance?
 
 ● If no, move to Association.
@@ -1440,7 +1474,41 @@ If yes (unlikely), muscle test to see which of the following pieces of informati
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String adiposeDec = '''
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String sleepDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String pinealGland = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String basal = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String limbic = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String crownDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String solarDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String browDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String sacralDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String throatDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String conceptionDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String governingDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String overiesDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String stomachMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String yinHeelDec = '''
     Ask: Is it necessary to identify more about this imbalance?
 
 ● If no, move to Association.
@@ -1452,4 +1520,156 @@ If yes (unlikely), muscle test to see which of the following pieces of informati
 ● If no, move to Association.
 ● If yes, determine the left or  right side and continue to Association.
   ''';
+  static const String lungMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String bladderMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String gallbladderMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String tripleMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String kidneyMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String smallIntestineMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String spleenMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String largeMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String yangHeelDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String liverMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String pericardiumMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String heartMeridianDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String herbDec = '''
+  Step 1: 
+
+Ask: Is the herb/spice in Column A, or C?
+
+If yes, it is in Column A, or C. 
+If no, it is in Column B, or D.
+Move to Step 2 when you have your answer.
+Step 2: 
+
+For A, or C, ask: Is it in Column A?
+
+● If yes, move to Step 3. 
+● If no, ask: Is it in Column C? 
+○ If yes, move to Step 3. 
+For B, or D, ask: Is it in Column B? 
+
+● If yes, move to Step 3. 
+● If no, it is in column D. Move to Step 3.
+Step 3: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4, or 6).
+○ Move to Step 4 when you have your answer.
+Step 4:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 5 when you have your answer.
+Step 5:
+
+Ask: Is it ______? 
+
+● Name each herb/spice in that box, one by one. A strong answer indicates a yes answer. 
+● Move to Association.
+● If it is not possible to obtain this herb/spice locally, repeat the Decoding process to identify the next best herb/spice for the body. ''';
+  static const String essentialDec = '''
+  Step 1: 
+
+Ask: Is the herb/spice in Column A, or C?
+
+If yes, it is in Column A, or C. 
+If no, it is in Column B, or D.
+Move to Step 2 when you have your answer.
+Step 2: 
+
+For A, or C, ask: Is it in Column A?
+
+● If yes, move to Step 3. 
+● If no, ask: Is it in Column C? 
+○ If yes, move to Step 3. 
+For B, or D, ask: Is it in Column B? 
+
+● If yes, move to Step 3. 
+● If no, it is in column D. Move to Step 3.
+Step 3: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4, or 6).
+○ Move to Step 4 when you have your answer.
+Step 4:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 5 when you have your answer.
+Step 5:
+
+Ask: Is it ______? 
+
+● Name each herb/spice in that box, one by one. A strong answer indicates a yes answer. 
+● Move to Association.
+● If it is not possible to obtain this herb/spice locally, repeat the Decoding process to identify the next best herb/spice for the body. ''';
 }

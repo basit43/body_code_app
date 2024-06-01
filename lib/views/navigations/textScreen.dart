@@ -703,12 +703,264 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.auraAss,
         'intention': Intentions.auraInt,
       };
+    } else if (widget.parentScreen == 'Stomach Meridian') {
+      data = {
+        'explanation': Explanations.stomachMeridian,
+        'decoding': DecodingData.stomachMeridianDec,
+        'association': Associations.stomachMeridianAss,
+        'intention': Intentions.stomachMeridianInt,
+      };
+    } else if (widget.parentScreen == 'Lung Meridian') {
+      data = {
+        'explanation': Explanations.lungMeridian,
+        'decoding': DecodingData.lungMeridianDec,
+        'association': Associations.lungMeridianAss,
+        'intention': Intentions.lungMeridianInt,
+      };
+    } else if (widget.parentScreen == 'Bladder Meridian') {
+      data = {
+        'explanation': Explanations.bladderMeridian,
+        'decoding': DecodingData.bladderMeridianDec,
+        'association': Associations.bladderMeridianAss,
+        'intention': Intentions.bladderMeridianInt,
+      };
+    } else if (widget.parentScreen == 'Heart Meridian') {
+      data = {
+        'explanation': Explanations.heartMeridian,
+        'decoding': DecodingData.heartMeridianDec,
+        'association': Associations.heartMeridianAss,
+        'intention': Intentions.heartMeridianInt,
+      };
+    } else if (widget.parentScreen == 'Gallbladder Meridian') {
+      data = {
+        'explanation': Explanations.heartMeridian,
+        'decoding': DecodingData.heartMeridianDec,
+        'association': Associations.heartMeridianAss,
+        'intention': Intentions.heartMeridianInt,
+      };
+    } else if (widget.parentScreen == 'Pericardium Meridian') {
+      data = {
+        'explanation': Explanations.pericardiumMeridian,
+        'decoding': DecodingData.pericardiumMeridianDec,
+        'association': Associations.pericardiumMeridianAss,
+        'intention': Intentions.pericardiumMeridianInt,
+      };
+    } else if (widget.parentScreen == 'Liver Meridian') {
+      data = {
+        'explanation': Explanations.liverMeridian,
+        'decoding': DecodingData.liverMeridianDec,
+        'association': Associations.liverMeridianAss,
+        'intention': Intentions.liverMeridianInt,
+      };
+    } else if (widget.parentScreen == 'Triple Warmer Meridian') {
+      data = {
+        'explanation': Explanations.tripleMeridian,
+        'decoding': DecodingData.tripleMeridianDec,
+        'association': Associations.tripleMeridianAss,
+        'intention': Intentions.tripleMeridian,
+      };
+    } else if (widget.parentScreen == 'Kidney Meridian') {
+      data = {
+        'explanation': Explanations.kidneyMeridian,
+        'decoding': DecodingData.kidneyMeridianDec,
+        'association': Associations.kidneyMeridianAss,
+        'intention': Intentions.kidneyMeridianInt,
+      };
+    } else if (widget.parentScreen == 'Small Intestine Meridian') {
+      data = {
+        'explanation': Explanations.smallIntestineMeridian,
+        'decoding': DecodingData.smallIntestineMeridianDec,
+        'association': Associations.smallIntestineMeridianAss,
+        'intention': Intentions.smallIntestineMeridianInt,
+      };
+    } else if (widget.parentScreen == 'Spleen Meridian') {
+      data = {
+        'explanation': Explanations.spleenMeridian,
+        'decoding': DecodingData.spleenMeridianDec,
+        'association': Associations.spleenMeridianAss,
+        'intention': Intentions.spleenInt,
+      };
+    } else if (widget.parentScreen == 'Large Intestine Meridian') {
+      data = {
+        'explanation': Explanations.largeMeridian,
+        'decoding': DecodingData.largeMeridianDec,
+        'association': Associations.largeMeridianAss,
+        'intention': Intentions.largeMeridianInt,
+      };
+    } else if (widget.parentScreen == 'Yang Heel Meridian') {
+      data = {
+        'explanation': Explanations.yangMeridian,
+        'decoding': DecodingData.yangHeelDec,
+        'association': Associations.yangHeelAss,
+        'intention': Intentions.yangHeelInt,
+      };
+    } else if (widget.parentScreen == 'Conception Meridian') {
+      data = {
+        'explanation': Explanations.conceptionMeridianExtra,
+        'decoding': DecodingData.conceptionDec,
+        'association': Associations.yangHeelAss,
+        'intention': Intentions.yangHeelInt,
+      };
+    } else if (widget.parentScreen == 'Yin Heel Meridian') {
+      data = {
+        'explanation': Explanations.yinHeelMeridian,
+        'decoding': DecodingData.yinHeelDec,
+        'association': Associations.yangHeelAss,
+        'intention': Intentions.yangHeelInt,
+      };
+    } else if (widget.parentScreen == 'Penetrating Meridian') {
+      data = {
+        'explanation': Explanations.penetratingMeridian,
+        'decoding': DecodingData.penetratingDec,
+        'association': Associations.yangHeelAss,
+        'intention': Intentions.yangHeelInt,
+      };
+    } else if (widget.parentScreen == 'Governing Meridian') {
+      data = {
+        'explanation': Explanations.governingMeridian,
+        'decoding': DecodingData.governingDec,
+        'association': Associations.yangHeelAss,
+        'intention': Intentions.yangHeelInt,
+      };
+    } else if (widget.parentScreen == 'Yang Linking Meridian') {
+      data = {
+        'explanation': Explanations.yangLinking,
+        'decoding': DecodingData.yangLinkingDec,
+        'association': Associations.yangHeelAss,
+        'intention': Intentions.yangHeelInt,
+      };
+    } else if (widget.parentScreen == 'Popliteal Artery') {
+      data = {
+        'explanation': Explanations.popliteal,
+        'decoding': DecodingData.popliteal,
+        'association': Associations.poplitealAss,
+        'intention': Intentions.poplitealInt,
+      };
+    } else if (widget.parentScreen == 'Anterior Tibial Artery') {
+      data = {
+        'explanation': Explanations.popliteal,
+        'decoding': DecodingData.popliteal,
+        'association': Associations.poplitealAss,
+        'intention': Intentions.poplitealInt,
+      };
+    } else if (widget.parentScreen == 'Great Saphenous Vein') {
+      data = {
+        'explanation': Explanations.popliteal,
+        'decoding': DecodingData.popliteal,
+        'association': Associations.poplitealAss,
+        'intention': Intentions.poplitealInt,
+      };
+    } else if (widget.parentScreen == 'Posterior Tibial Artery') {
+      data = {
+        'explanation': Explanations.popliteal,
+        'decoding': DecodingData.popliteal,
+        'association': Associations.poplitealAss,
+        'intention': Intentions.poplitealInt,
+      };
+    } else if (widget.parentScreen == 'Femoral Artery') {
+      data = {
+        'explanation': Explanations.popliteal,
+        'decoding': DecodingData.popliteal,
+        'association': Associations.poplitealAss,
+        'intention': Intentions.poplitealInt,
+      };
+    } else if (widget.parentScreen == 'Peroneal Vein') {
+      data = {
+        'explanation': Explanations.popliteal,
+        'decoding': DecodingData.popliteal,
+        'association': Associations.poplitealAss,
+        'intention': Intentions.poplitealInt,
+      };
+    } else if (widget.parentScreen == 'Basilar Vein') {
+      data = {
+        'explanation': Explanations.popliteal,
+        'decoding': DecodingData.popliteal,
+        'association': Associations.poplitealAss,
+        'intention': Intentions.poplitealInt,
+      };
+    } else if (widget.parentScreen == 'Brachial Vein') {
+      data = {
+        'explanation': Explanations.popliteal,
+        'decoding': DecodingData.popliteal,
+        'association': Associations.poplitealAss,
+        'intention': Intentions.poplitealInt,
+      };
+    } else if (widget.parentScreen == 'Radial Artery') {
+      data = {
+        'explanation': Explanations.popliteal,
+        'decoding': DecodingData.popliteal,
+        'association': Associations.poplitealAss,
+        'intention': Intentions.poplitealInt,
+      };
+    } else if (widget.parentScreen == 'Cranial Nerves') {
+      data = {
+        'explanation': Explanations.cranialNerves,
+        'decoding': DecodingData.cranialNervesDec,
+        'association': Associations.cranialNervesAss,
+        'intention': Intentions.cranialNervesInt,
+      };
+    } else if (widget.parentScreen == 'Cerebellum') {
+      data = {
+        'explanation': Explanations.cerebellum,
+        'decoding': DecodingData.cerebellumDec,
+        'association': Associations.cerebellumAss,
+        'intention': Intentions.cranialNervesInt,
+      };
+    } else if (widget.parentScreen == 'Vestibular System') {
+      data = {
+        'explanation': Explanations.cerebellum,
+        'decoding': DecodingData.cerebellumDec,
+        'association': Associations.cerebellumAss,
+        'intention': Intentions.cranialNervesInt,
+      };
+    } else if (widget.parentScreen == 'Medulla') {
+      data = {
+        'explanation': Explanations.medulla,
+        'decoding': DecodingData.cerebellumDec,
+        'association': Associations.cerebellumAss,
+        'intention': Intentions.cranialNervesInt,
+      };
+    } else if (widget.parentScreen == 'Pons') {
+      data = {
+        'explanation': Explanations.cerebellum,
+        'decoding': DecodingData.cerebellumDec,
+        'association': Associations.cerebellumAss,
+        'intention': Intentions.cranialNervesInt,
+      };
+    } else if (widget.parentScreen == 'Midbrain') {
+      data = {
+        'explanation': Explanations.cerebellum,
+        'decoding': DecodingData.cerebellumDec,
+        'association': Associations.cerebellumAss,
+        'intention': Intentions.cranialNervesInt,
+      };
+    } else if (widget.parentScreen == 'Cerebrospinal Fluid') {
+      data = {
+        'explanation': Explanations.cerebellum,
+        'decoding': DecodingData.cerebellumDec,
+        'association': Associations.cerebellumAss,
+        'intention': Intentions.cranialNervesInt,
+      };
     } else if (widget.parentScreen == 'Skin') {
       data = {
         'explanation': Explanations.skin,
         'decoding': DecodingData.skinDec,
         'association': Associations.skinAss,
         'intention': Intentions.skinInt,
+      };
+    } else if (widget.parentScreen == 'Yin Linking Meridian') {
+      data = {
+        'explanation': Explanations.yinLinking,
+        'decoding': DecodingData.yinLinkingDec,
+        'association': Associations.yangHeelAss,
+        'intention': Intentions.yangHeelInt,
+      };
+    } else if (widget.parentScreen == 'Girdle Meridian') {
+      data = {
+        'explanation': Explanations.girdle,
+        'decoding': DecodingData.girdleDec,
+        'association': Associations.yangHeelAss,
+        'intention': Intentions.yangHeelInt,
       };
     } else if (widget.parentScreen == 'Nail') {
       data = {
@@ -933,6 +1185,97 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.adiposeDec,
         'association': Associations.adiposeAss,
         'intention': Intentions.adiposeInt,
+      };
+    } else if (widget.parentScreen == 'Sleep') {
+      data = {
+        'explanation': Explanations.sleep,
+        'decoding': DecodingData.sleepDec,
+        'association': Associations.sleepAss,
+        'intention': Intentions.sleepInt,
+      };
+    } else if (widget.parentScreen == 'Herb & Spice') {
+      data = {
+        'explanation': Explanations.herb,
+        'decoding': DecodingData.herbDec,
+        'association': Associations.herbAss,
+        'intention': Intentions.herbInt,
+      };
+    } else if (widget.parentScreen == 'Essential Oil') {
+      data = {
+        'explanation': Explanations.essential,
+        'decoding': DecodingData.essentialDec,
+        'association': Associations.essentialAss,
+        'intention': Intentions.essentialInt,
+      };
+    } else if (widget.parentScreen == 'Pineal Gland') {
+      data = {
+        'explanation': Explanations.pinealGland,
+        'decoding': DecodingData.pinealGland,
+        'association': Associations.pinealGland,
+        'intention': Intentions.pinealInt,
+      };
+    } else if (widget.parentScreen == 'Basal Ganglia') {
+      data = {
+        'explanation': Explanations.basal,
+        'decoding': DecodingData.basal,
+        'association': Associations.basalAss,
+        'intention': Intentions.basalInt,
+      };
+    } else if (widget.parentScreen == 'Limbic System') {
+      data = {
+        'explanation': Explanations.limbic,
+        'decoding': DecodingData.limbic,
+        'association': Associations.limbic,
+        'intention': Intentions.basalInt,
+      };
+    } else if (widget.parentScreen == 'Crown') {
+      data = {
+        'explanation': Explanations.crown,
+        'decoding': DecodingData.crownDec,
+        'association': Associations.crownAss,
+        'intention': Intentions.crownInt,
+      };
+    } else if (widget.parentScreen == 'Solar Plexus') {
+      data = {
+        'explanation': Explanations.solar,
+        'decoding': DecodingData.solarDec,
+        'association': Associations.solarAss,
+        'intention': Intentions.solarInt,
+      };
+    } else if (widget.parentScreen == 'Brow') {
+      data = {
+        'explanation': Explanations.brow,
+        'decoding': DecodingData.browDec,
+        'association': Associations.browAss,
+        'intention': Intentions.browInt,
+      };
+    } else if (widget.parentScreen == 'Sacral') {
+      data = {
+        'explanation': Explanations.sacral,
+        'decoding': DecodingData.sacralDec,
+        'association': Associations.sacralAss,
+        'intention': Intentions.sacralInt,
+      };
+    } else if (widget.parentScreen == 'Throat') {
+      data = {
+        'explanation': Explanations.throat,
+        'decoding': DecodingData.throatDec,
+        'association': Associations.throatAss,
+        'intention': Intentions.throatInt,
+      };
+    } else if (widget.parentScreen == 'Root') {
+      data = {
+        'explanation': Explanations.root,
+        'decoding': DecodingData.throatDec,
+        'association': Associations.throatAss,
+        'intention': Intentions.throatInt,
+      };
+    } else if (widget.parentScreen == 'Heart') {
+      data = {
+        'explanation': Explanations.heart,
+        'decoding': DecodingData.heartDec,
+        'association': Associations.heartAss,
+        'intention': Intentions.heartInt,
       };
     }
   }
