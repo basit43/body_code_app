@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../resources/images.dart';
 import '../themeProvider.dart';
 
 class Setting extends StatefulWidget {

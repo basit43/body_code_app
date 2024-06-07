@@ -1382,9 +1382,14 @@ If yes (unlikely), muscle test to see which of the following pieces of informati
 ○ Which area of the body is this?
 ○ How old were you when you got this?
 ○ Was this associated with a life event?''';
+  static const String vomerDec = '''
+  You’ve already identified the misaligned bone. Continue to Association.
+''';
   static const String uterusDec =
       '''You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String bladderDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String c1Dec = '''
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String stomachDec = '''
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
@@ -1404,6 +1409,8 @@ If yes (unlikely), muscle test to see which of the following pieces of informati
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String cerebellumDec = '''
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String leftSubclavianDec = '''
+  You already identified the misalignment continue to Association''';
   static const String testesDec = '''
     Ask: Is it necessary to identify more about this imbalance?
 
@@ -1488,20 +1495,108 @@ If yes (unlikely), muscle test to see which of the following pieces of informati
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String browDec = '''
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String tongueDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String sacralDec = '''
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String fasciaDec = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String tendon = '''
+  Explanation
+Tendons are found at the ends of every muscle in the body and attach the muscles to their bony attachment points.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Decoding
+It may be necessary to determine the tendon that is misaligned. 
+
+Ask: Is it necessary to identify more about this misalignment?
+
+● If no, continue to Association.
+● If yes, use a process of elimination to determine the approximate location of the tendon. 
+○ First, if there is discomfort present in some part of the body, and you are trying to address that part of the body at the moment, it's likely that the tendon in question is in that area. 
+○ If you don't have any idea where this tendon misalignment might be, you might start by asking if it is in the upper body, or the lower body, then the left side of the body or the right side of the body, continuing in this way until you have identified an area.''';
   static const String throatDec = '''
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String conceptionDec = '''
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
   static const String governingDec = '''
   You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String cardiacSphincter = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String pyloricSphincter = '''
+  You've already identified a circadian rhythm imbalance. Continue to Association.''';
+  static const String ligamentDec = '''
+  It may be necessary to determine the ligament that is misaligned. 
+
+Ask: Is it necessary to identify more about this misalignment?
+
+● If no, continue to Association.
+● If yes, use a process of elimination to determine the approximate location of the ligament. 
+○ First, if there is discomfort present in some part of the body, and you are trying to address that part of the body at the moment, it's likely that the ligament in question is in that area. 
+○ If you don't have any idea where this ligament misalignment might be, you might start by asking if it is in the upper body, or the lower body, then the left side of the body or the right side of the body, continuing in this way until you have identified an area.''';
+
   static const String overiesDec = '''
     Ask: Is it necessary to identify more about this imbalance?
 
 ● If no, move to Association.
 ● If yes, determine the left or  right side and continue to Association.
   ''';
+  static const String cervicalDec = '''
+  It may be necessary to determine the exact Disc that is misaligned. 
+
+Ask: Is it necessary to identify more about this misalignment?
+
+● If no, continue to Association.
+● If yes, use the following list to determine the disc that is misaligned (note that there is no disc between C1 and C2)
+○ C2 – C3 Disc
+○ C3 – C4 Disc
+○ C4 – C5 Disc
+○ C-5 – C6 Disc
+○ C6 – C7 Disc
+○ C7 - T1 Disc''';
+  static const String lumbarDec = '''
+  It may be necessary to determine the exact Disc that is misaligned. 
+
+Ask: Is it necessary to identify more about this misalignment?
+If no, continue to Association.
+If yes, use the following list to determine the disc that is misaligned.
+● L1 – L2 Disc
+● L2 – L3 Disc 
+● L3 – L4 Disc
+● L4 – L5 Disc
+● L5 – S1 Disc
+''';
+  static const String tibiaDec = '''
+  Ask: Is it necessary to determine which side this imbalance is on? 
+
+● If no, move to Association.
+● If yes, determine left or right side and continue to Association.''';
+  static const String upperDec = '''
+  It may be necessary to determine the exact Disc that is misaligned. 
+
+Ask: Is it necessary to identify more about this misalignment?
+
+If no, continue to Association.
+If yes, use the following list to determine the disc that is misaligned.
+● T1 – T2 Disc
+● T2 – T-3 Disc
+● T3 – T4 Disc
+● T4 – T5 Disc
+● T5 – T6 Disc''';
+  static const String lowerDiscDec = '''
+  It may be necessary to determine the exact Disc that is misaligned. 
+
+● Ask: Is it necessary to identify more about this imbalance?
+● If no, continue to Association.
+● If yes, use the following list to determine the disc that is imbalanced.
+○ T6 – T7 Disc
+○ T7 – T8 Disc
+○ T8 – T9 Disc
+○ T9 – T10 Disc
+○ T10 – T11 Disc
+○ T11 – T12 Disc
+○ T12 – L1 Disc''';
   static const String stomachMeridianDec = '''
     Ask: Is it necessary to identify more about this imbalance?
 
@@ -1514,6 +1609,233 @@ If yes (unlikely), muscle test to see which of the following pieces of informati
 ● If no, move to Association.
 ● If yes, determine the left or  right side and continue to Association.
   ''';
+  static const String lead = '''
+  Ask: Is it necessary to know any details about this toxin?  
+
+● If no, move to Association.
+● If yes, muscle test to see which of the following details need to be identified. (Continue to Association only once you have identified the necessary details.)
+○ Which form: energetic or physical 
+○ Age of exposure 
+○ Source of exposure''';
+  static const String venomDec = '''
+  Ask: Is it necessary to know any details about this toxin?  
+
+If no, move to Association.
+If yes, muscle test to see which of the above classifications of animals is the source.  See below for additional details that may need to be identified. (Continue to Association only once you have identified the necessary details.)
+Which form: energetic or physical 
+Age of exposure 
+Source of exposure''';
+  static const String poisonousDec = '''
+  Ask: Is it necessary to know any details about this toxin?  
+
+● If no, move to Association.
+● If yes, muscle test to see which of the following details need to be identified. (Continue to Association only once you have identified the necessary details.)
+○ Which form: energetic or physical 
+○ Age of exposure 
+○ Source of exposure''';
+  static const String herbSpiceDec = '''
+  Step 1: 
+
+Ask: Is the herb/spice in Column A, or C?
+
+● If yes, it is in Column A, or C. 
+● If no, it is in Column B, or D.
+○ Move to Step 2 when you have your answer.
+Step 2: 
+
+For A, or C, ask: Is it in Column A?
+
+● If yes, move to Step 3. 
+● If no, ask: Is it in Column C? 
+○ If yes, move to Step 3. 
+For B, or D, ask: Is it in Column B? 
+
+● If yes, move to Step 3. 
+● If no, it is in column D. Move to Step 3.
+Step 3: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4, or 6).
+○ Move to Step 4 when you have your answer.
+Step 4:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 5 when you have your answer.
+Step 5:
+
+Ask: Is it ______? 
+
+● Name each herb/spice in that box, one by one. A strong answer indicates a yes answer. 
+● Move to Association.
+● If it is not possible to obtain this herb/spice locally, repeat the Decoding process to identify the next best herb/spice for the body. ''';
+  static const String adjunctiveDec = '''
+  Ask: Would you benefit from a homeopathic remedy?
+
+● Please inform yourself about the laws in your country as to what extent you are allowed to recommend homeopathy and Bach flowers.
+Ask: Would you benefit from a flower remedy?
+
+● Identify the particular remedy your body would like. (Either can be selected based on the symptoms present, however it is suggested that you do some research, as well as muscle test to see which remedy may benefit you at your local store or online.)''';
+  static const String energyDec = '''
+  Ask: Would you benefit from doing ______? (Fill in the blank using list above)
+
+● Find an energy medicine practitioner who seems like a good fit for you and proceed.''';
+  static const String stressDec = '''
+  Ask: Would you benefit from doing ______? (Fill in the blank using list above) 
+
+● Ask friends for suggestions and do research online to help you decide how to proceed. ''';
+  static const String nutrientDec = '''
+  Step 1: 
+
+Ask: Is the nutrient in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B.
+Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4, or 6).
+Move to Step 3 when you have your answer.
+Step 3:
+
+○ For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+○ For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Name each nutrient, one by one. A strong answer indicates a yes answer. 
+● Once the nutrient is identified, continue the decoding process by asking the below questions.
+Step 5: 
+
+Ask: Are you taking in enough of this nutrient?
+
+● If no, look for information about the recommended daily allowance online or in other resources available. Then continue by asking the next question. 
+● If yes, continue decoding by asking the next question.
+Ask: Are you taking in the right quality of this nutrient?
+
+● If no, make an effort to find a different or higher quality source of this nutrient. 
+● If yes, continue decoding by asking the next question.
+Ask: Are you able to properly absorb this nutrient?
+
+● If no, move to Association and ask the Absorption question. Follow the directions and return to this question.
+● If yes, continue decoding by asking the next question.
+Ask: Are you able to properly utilize this nutrient?
+
+● If no, move to Association and ask the Utilization question. Follow the directions and return to this question.
+● If yes, move to Intention.''';
+  static const String medicationDec = '''
+  Ask: Is it necessary to know any details about this medication toxin?
+
+● If no, move to Association.
+● If yes, muscle test and identify if the medication toxin is either physical or energetic.
+● If energetic, note this and move to Association.
+● If physical, we recommend that you talk to your prescribing doctor regarding this medication, its dosage, and possible alternatives. Continue to Association.''';
+  static const String artificialDec = '''
+  Ask: Is it necessary to know any details about this toxin?  
+
+● If no, move to Association. 
+● If yes, muscle test to see which of the following details need to be identified. (Continue to Association only once you have identified the necessary details.)
+○ Which form: energetic or physical 
+○ Age of exposure 
+○ Source of exposure''';
+  static const flavorDec = '''
+  Ask: Is it necessary to know any details about this toxin?  
+
+● If no, move to Association. 
+● If yes, muscle test to see which of the following details need to be identified. (Continue to Association only once you have identified the necessary details.)
+○ Which form: energetic or physical 
+○ Age of exposure 
+○ Source of exposure''';
+  static const String coldDec = '''
+  Ask: Is it necessary to identify more about this Cold energy?
+
+● If no, move to Association.
+● If yes (unlikely), muscle test to see which of the following pieces of information need to be identified. You should never need to identify any other piece of information than the below. (Continue to Association only once you have identified the necessary details.)
+○ Where in the body is this located?
+○ How old were you when you got this?
+○ Was this associated with a life event?''';
+  static const String metabolicDec = '''
+  Ask: Is it necessary to know any details about this metabolic waste?  
+
+● If no, move to Association.
+● If yes, muscle test to see which of the following details need to be identified. (Continue to Association only once you have identified the necessary details.) Note: there is no need to identify which specific type of metabolic waste is present.
+○ Which form: energetic or physical 
+○ Age of exposure ''';
+  static const String freeDec = '''
+  Ask: Is it necessary to know any details about this excess free radical toxicity?  
+
+● If no, move to Association.
+● If yes, muscle test to see which of the following details need to be identified. (Continue to Association only once you have identified the necessary details.)
+○ Which form: energetic or physical 
+○ Age of exposure 
+○ Source of exposure''';
+  static const String bodyWorkDec = '''
+  Ask: Would you benefit from doing ______? (Fill in the blank using list above)
+
+● Find a provider who seems like a good fit for you and proceed. ''';
+  static const String needMovement = '''
+  You’ve already identified the need for movement. Continue to Association.''';
+  static const String stresssDec = '''
+  Ask: Is it necessary to know any details about this excess of stress hormones?  
+
+● If no, move to Association.
+● If yes, muscle test to see which of the following details need to be identified. (Continue to Association only once you have identified the necessary details.)
+○ Which form: energetic or physical
+○ Was this recent? If not, age of occurrance
+○ Was this associated with a specific life event?
+○ Where in the body is the excess located?''';
+  static const String microbialDec = '''
+  Ask: Is it necessary to know any details about this toxin?  
+
+● If no, move to Association section, below.
+● If yes, muscle test to see which of the following details need to be identified. (Continue to Association section only once you have identified the necessary details.)
+○ Which form: energetic or physical 
+○ Age of exposure 
+○ Source of exposure''';
+  static const String otherDec = '''
+  Ask: 1. Is it necessary to identify this heavy metal?
+
+● If no, move to question 2.
+● If yes, Ask: Is it on the list above?
+○ If no, try searching the internet for a more expansive list.
+○ If yes, identify it using the list above.
+● 2. Ask: Is it necessary to know any details about this toxin?  
+○ If no, move to Association.
+○ If yes, muscle test to see which of the following details need to be identified. (Continue to Association only once you have identified the necessary details.)
+● Which form: energetic or physical 
+● Age of exposure 
+● Source of exposure ''';
+  static const String eightRib = '''
+  Ask: Is it necessary to determine which side this misalignment is on? 
+
+● If no, move to Association.
+● If yes, determine left or right side and continue to Association.''';
+  static const String mitralDec = '''
+  You’ve already identified the misaligned valve. Continue to Association.''';
+  static const String rightSubclavian = '''
+  You already identified the misalignment. Continue to Association
+''';
+  static const String xiphoidProcessDec = '''
+  You already identified the misalignment. Continue to Association
+''';
+  static const String urethra = '''
+  You’ve already identified the misalignment. Continue to Association.''';
+  static const String aorticDec = '''
+Ask: Do we need to know which side this misalignment is on? 
+
+● If no, move to Association.
+● If yes, determine left or right side and continue to Association''';
   static const String adrenalsDec = '''
     Ask: Is it necessary to identify more about this imbalance?
 
@@ -1538,12 +1860,27 @@ If yes (unlikely), muscle test to see which of the following pieces of informati
 ● If no, move to Association.
 ● If yes, determine the left or  right side and continue to Association.
   ''';
+  static const String ureterDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
+  static const String inferiorDec = '''
+    Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes, determine the left or  right side and continue to Association.
+  ''';
   static const String tripleMeridianDec = '''
     Ask: Is it necessary to identify more about this imbalance?
 
 ● If no, move to Association.
 ● If yes, determine the left or  right side and continue to Association.
   ''';
+  static const String sacrumDec = '''
+  You’ve already identified the misaligned bone. Continue to Association.''';
+
   static const String kidneyMeridianDec = '''
     Ask: Is it necessary to identify more about this imbalance?
 

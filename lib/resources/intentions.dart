@@ -250,6 +250,20 @@ There are three options for removing an entity.
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
   static const String cerebellumInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  static const String leftSubclavianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to realign this particular vessel. 
+''';
+  static const String aorticInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to realign this particular vessel. ''';
+  static const String rightSubclavianInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to realign this particular vessel. 
+''';
+  static const String ureterInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to correct the misalignment. ''';
+  static const String urethraInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to correct the misalignment. ''';
+  static const String mitralInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to realign this particular valve. ''';
   static const String herbInt = '''
   Add the herb/spice to your diet, using common sense and moderation.
 
@@ -415,4 +429,112 @@ To help rebalance this chakra, you could consider:
 ○ Release Trapped Emotions
 ○ Eat an alkaline diet
 ○ Avoid toxins such as dairy, sugar, gluten, GMO food, processed food, yeast, unhealthy fats''';
+  static const String cervicalInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to correct the misalignment. 
+
+● It's important to note that some of the time, surgical intervention is the appropriate treatment for disc problems. Persistent numbness, tingling or weakness in the upper limbs is a sign that should be taken seriously and an appropriate medical professional should be consulted.''';
+  static const String stressInt = '''
+  Try any or all of the activities that tested good for you, and see what feels right and nourishing.
+
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String energyInt = '''
+  It is suggested to continue using The Body Code in conjunction with whatever protocol your energy medicine practitioner recommends.
+
+● Use common sense and moderation, and consult your healthcare provider with any concerns. 
+● The subconscious is indicating that energy medicine is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String adjunctiveInt = '''
+  Take any remedies as directed, following manufacturer recommendations, and consulting your healthcare provider or homeopathic doctor for advice. 
+
+● Use common sense and moderation, and consult your healthcare provider with any concerns. 
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String lowerDiscInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to correct the misalignment. 
+
+● It's important to note that some of the time, surgical intervention is the appropriate treatment for disc problems. Persistent numbness, tingling or weakness in the upper limbs is a sign that should be taken seriously and an appropriate medical professional should be consulted.''';
+  static const String proteinInt = '''
+  Add the protein source to your diet, using common sense and moderation.
+
+● If it is not possible to obtain this protein source locally, repeat the Decoding process to identify the next best food for the body. 
+● Consult your healthcare provider or a nutritionist with any concerns or questions.
+● As with any change in nutrition, always use common sense and moderation. 
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String superfoodInt = '''
+  Incorporate the food into your diet, using common sense and moderation.
+
+● As with any change in nutrition, consult your healthcare provider or a nutritionist with any concerns or questions.
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String nutrientInt = '''
+  Using caution and common sense add the needed nutrient into your diet via food or supplement. For more information about each nutrient and their Recommended Daily Allowance (RDA), search online. 
+
+● Consult your healthcare provider or a nutritionist with any concerns or questions.
+● As with any change in nutrition, always use common sense and moderation. 
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String herbSpiceInt = '''
+  Add the herb/spice to your diet, using common sense and moderation.
+
+● Consult your healthcare provider or a herbalist with any concerns or questions.
+● All herbs must be used with caution. Some herbs can be toxic in high doses, some can induce abortion, some can interfere with certain medications, etc. 
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String cardiacSphincter = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to correct the misalignment. ''';
+  static const String sacrumInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to realign this bone. 
+''';
+  static const String xRayInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this X-ray from the body, while at the same time directing the body to repair any damage experienced.
+
+● Using good judgement and common sense, avoid X-rays in the future if possible.''';
+  static const String artificialInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
+
+● Note that additional physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this substance from the body. 
+● Using good judgement and common sense, avoid this toxin in the future if possible. ''';
+  static const String flavorInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
+
+● Note that additional physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this substance from the body. 
+● Using good judgement and common sense, avoid this toxin in the future if possible. ''';
+  static const String coldInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy from the body.
+''';
+  static const String bodyWorkInt = '''
+  t is suggested to continue using The Body Code in conjunction with whatever protocol your bodyworker recommends. 
+
+● Use common sense and moderation, and consult your health care provider with any concerns. 
+● The subconscious is indicating that bodywork is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.
+''';
+  static const String needInt = '''
+  Incorporate regular and consistent movement into your lifestyle. Start small and build up in volume and intensity over time. 
+
+● Consider reaching out to a professional trainer or gym of your liking. 
+● Always consult your health care provider before beginning any new exercise routine.  
+● Take any necessary precautions to avoid injury. 
+● The subconscious is indicating that movement is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String stresssInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
+
+● Note that physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this substance from the body. 
+● Note that physical exercise may be necessary to complete the detoxification process. See Nutrition and Lifestyle > Outside Needs > Physical Needs > Movement for more information. Also consider Nutrition and Lifestyle > Outside Needs > Mental & Emotional Fitness > Stress Processing to help lower stress levels. Always consult your health care provider before beginning any new exercise plan.''';
+  static const String venomInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.''';
+  static const String poisonousInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
+
+● Note that physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this substance from the body. 
+● Using good judgement and common sense, avoid this toxin in the future if possible. ''';
+  static const String leadInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
+
+● Note that physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this substance from the body. 
+● Using good judgement and common sense, avoid this toxin in the future if possible. 
+''';
+  static const String c1Int = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to realign this bone. 
+''';
+  static const String tibiaInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to correct the misalignment. ''';
+  static const String pyloricSphincter = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to correct the misalignment. ''';
+  static const String tongueInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to correct the misalignment. ''';
 }

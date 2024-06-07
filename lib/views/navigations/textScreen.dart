@@ -23,7 +23,8 @@ class _TextScreenState extends State<TextScreen> {
     'explanation': 'Images.energy',
     'decoding': 'third',
     'Association': 'third',
-    'Intention': 'third'
+    'Intention': 'third',
+    'Chart': Images.white,
   };
   // Add more items here
 
@@ -36,6 +37,8 @@ class _TextScreenState extends State<TextScreen> {
 
   @override
   Widget build(BuildContext context) {
+    print('${Images.broadcastChart}');
+    print('Chart${data['Chart']}');
     return Scaffold(
       appBar: AppBar(
         centerTitle: true, // Center the app bar title
@@ -127,6 +130,10 @@ class _TextScreenState extends State<TextScreen> {
               const SizedBox(
                 height: 20,
               ),
+              Image.asset(
+                data['Chart'] ?? '',
+                fit: BoxFit.contain,
+              )
             ],
           ),
         )),
@@ -224,42 +231,48 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.prenatalTrappedEmotionsExp,
         'decoding': DecodingData.prenatalTrappedEmotionsDec,
         'association': Associations.prenatalTrappedEmotionsAss,
-        'intention': Intentions.prenatalTrappedEmotionsInt
+        'intention': Intentions.prenatalTrappedEmotionsInt,
+        'Chart': Images.prenatalChart
       };
     } else if (widget.parentScreen == "Common Trapped Emotion") {
       data = {
         'explanation': Explanations.commonTrappedEmotionsExp,
         'decoding': DecodingData.commonTrappedEmotionsDec,
         'association': Associations.commonTrappedEmotionsAss,
-        'intention': Intentions.commonTrappedEmotionsInt
+        'intention': Intentions.commonTrappedEmotionsInt,
+        'Chart': Images.prenatalChart
       };
     } else if (widget.parentScreen == "Preconception Trapped Emotion") {
       data = {
         'explanation': Explanations.preconceptionTrappedEmotionsExp,
         'decoding': DecodingData.preconceptionTrappedEmotionsDec,
         'association': Associations.preconceptionTrappedEmotionsAss,
-        'intention': Intentions.preconceptionTrappedEmotionsInt
+        'intention': Intentions.preconceptionTrappedEmotionsInt,
+        'Chart': Images.prenatalChart
       };
     } else if (widget.parentScreen == "Shared Trapped Emotion") {
       data = {
         'explanation': Explanations.sharedTrappedEmotionsExp,
         'decoding': DecodingData.sharedTrappedEmotionsDec,
         'association': Associations.sharedTrappedEmotionsAss,
-        'intention': Intentions.sharedTrappedEmotionsInt
+        'intention': Intentions.sharedTrappedEmotionsInt,
+        'Chart': Images.prenatalChart,
       };
     } else if (widget.parentScreen == "Inherited Trapped Emotion") {
       data = {
         'explanation': Explanations.inheritedTrappedEmotionsExp,
         'decoding': DecodingData.inheritedTrappedEmotionsDec,
         'association': Associations.inheritedTrappedEmotionsAss,
-        'intention': Intentions.inheritedTrappedEmotionsInt
+        'intention': Intentions.inheritedTrappedEmotionsInt,
+        'Chart': Images.prenatalChart,
       };
     } else if (widget.parentScreen == "Absorb Trapped Emotion") {
       data = {
         'explanation': Explanations.absorbTrappedEmotionsExp,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.absorbTrappedEmotionsInt,
+        'Chart': Images.prenatalChart,
       };
     } else if (widget.parentScreen == '3rd Molar (Wisdom)') {
       data = {
@@ -311,6 +324,125 @@ class _TextScreenState extends State<TextScreen> {
         'intention': Intentions.absorbTrappedEmotionsInt
       };
     } else if (widget.parentScreen == 'Central Incisor') {
+      data = {
+        'explanation': Explanations.thirdMolar,
+        'decoding': DecodingData.absorbTrappedEmotionsDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Vomer Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Inferior Nasal Conchae') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.inferiorDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Lacrimal Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Palatine Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Hyoid Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Zygomatic Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Mandible Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Nasal Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Maxilla Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Frontal Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Middle Ear Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Parietal Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Ethmoid Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Temporal Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Sphenoid Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == 'Occipital Bone') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
+    } else if (widget.parentScreen == '2nd Bicuspid') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
@@ -400,6 +532,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.prenatalEmotionalCompoundDec,
         'association': Associations.prenatalEmotionalCompoundAss,
         'intention': Intentions.prenatalEmotionalCompoundInt,
+        'Chart': Images.prenatalChart,
       };
     } else if (widget.parentScreen == 'Common Emotional Compound') {
       data = {
@@ -407,6 +540,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.commonEmotionalCompoundDec,
         'association': Associations.commonEmotionalCompoundAss,
         'intention': Intentions.commonEmotionalCompoundInt,
+        'Chart': Images.prenatalChart,
       };
     } else if (widget.parentScreen == 'Preconception Emotional Compound') {
       data = {
@@ -414,6 +548,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.commonEmotionalCompoundDec,
         'association': Associations.commonEmotionalCompoundAss,
         'intention': Intentions.commonEmotionalCompoundInt,
+        'Chart': Images.prenatalChart,
       };
     } else if (widget.parentScreen == 'Shared Emotional Compound') {
       data = {
@@ -421,6 +556,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.sharedTrappedEmotionsDec,
         'association': Associations.sharedEmotionalCompoundAss,
         'intention': Intentions.sharedTrappedEmotionsInt,
+        'Chart': Images.prenatalChart,
       };
     } else if (widget.parentScreen == 'Inherited Emotional Compound') {
       data = {
@@ -428,6 +564,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.inheritedTrappedEmotionsDec,
         'association': Associations.inheritedTrappedEmotionsAss,
         'intention': Intentions.inheritedTrappedEmotionsInt,
+        'Chart': Images.prenatalChart
       };
     } else if (widget.parentScreen == 'Absorb Emotional Compound') {
       data = {
@@ -435,6 +572,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.absorbEmotionalCompoundDec,
         'association': Associations.inheritedTrappedEmotionsAss,
         'intention': Intentions.inheritedTrappedEmotionsInt,
+        'Chart': Images.prenatalChart
       };
     } else if (widget.parentScreen == 'Prenatal Heart-Wall Emotion') {
       data = {
@@ -442,6 +580,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.heartWallEmotionalDec,
         'association': Associations.heartWallEmotionAss,
         'intention': Intentions.prenatalHeartWallEmotionsInt,
+        'Chart': Images.prenatalChart
       };
     } else if (widget.parentScreen == 'Common Heart-Wall Emotion') {
       data = {
@@ -449,6 +588,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.commonHeartWallEmotionDec,
         'association': Associations.commonHeartWallEmotionAss,
         'intention': Intentions.commonHeartWallEmotionsInt,
+        'Chart': Images.prenatalChart,
       };
     } else if (widget.parentScreen == 'Preconception Heart-Wall Emotion') {
       data = {
@@ -456,6 +596,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.preconceptionHeartWallDec,
         'association': Associations.preconceptionHeartWallAss,
         'intention': Intentions.preconceptionHeartWallEmotionInt,
+        'Chart': Images.prenatalChart
       };
     } else if (widget.parentScreen == 'Shared Heart-Wall Emotion') {
       data = {
@@ -463,6 +604,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.sharedHeartWallDec,
         'association': Associations.sharedHeartWallAss,
         'intention': Intentions.sharedHeartWallEmotionInt,
+        'Chart': Images.prenatalChart
       };
     } else if (widget.parentScreen == 'Inherited Heart-Wall Emotion') {
       data = {
@@ -470,6 +612,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.inheritedHeartWallDec,
         'association': Associations.inheritedHeartWallAss,
         'intention': Intentions.inheritedHeartWallInt,
+        'Chart': Images.prenatalChart,
       };
     } else if (widget.parentScreen == 'Absorb Heart-Wall Emotion') {
       data = {
@@ -477,6 +620,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.absorbedHeartWallDec,
         'association': Associations.absorbedHeartWallAss,
         'intention': Intentions.absorbedHeartWallInt,
+        'Chart': Images.prenatalChart,
       };
     } else if (widget.parentScreen == 'Will to...') {
       data = {
@@ -484,6 +628,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.willToDec,
         'association': Associations.wilToAss,
         'intention': Intentions.willToInt,
+        'Chart': Images.mentalChart
       };
     } else if (widget.parentScreen == 'Memory Field') {
       data = {
@@ -498,6 +643,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.noWillToDec,
         'association': Associations.noWillToAss,
         'intention': Intentions.noWillToInt,
+        'Chart': Images.noWillToChart
       };
     } else if (widget.parentScreen == 'Despair Anchor') {
       data = {
@@ -505,6 +651,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.despairAnchorDec,
         'association': Associations.despairAss,
         'intention': Intentions.despairInt,
+        'Chart': Images.despairChart
       };
     } else if (widget.parentScreen == 'Image') {
       data = {
@@ -519,6 +666,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.broadCastMessageDec,
         'association': Associations.broadCastMessageAss,
         'intention': Intentions.broadCaseMessageInt,
+        'Chart': Images.broadcastChart
       };
     } else if (widget.parentScreen == 'Seeking Hear Energy') {
       data = {
@@ -541,6 +689,1008 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.currentSymptom,
         'intention': Intentions.currentSymptom,
       };
+    } else if (widget.parentScreen == 'Tongue') {
+      data = {
+        'explanation': Explanations.tongue,
+        'decoding': DecodingData.tongueDec,
+        'association': Associations.tongueAss,
+        'intention': Intentions.tongueInt,
+      };
+    } else if (widget.parentScreen == 'Liver') {
+      data = {
+        'explanation': Explanations.liverExp,
+        'decoding': DecodingData.tongueDec,
+        'association': Associations.tongueAss,
+        'intention': Intentions.tongueInt,
+      };
+    } else if (widget.parentScreen == 'Tendon') {
+      data = {
+        'explanation': Explanations.tendon,
+        'decoding': DecodingData.tongueDec,
+        'association': Associations.tongueAss,
+        'intention': Intentions.tongueInt,
+      };
+    } else if (widget.parentScreen == 'Fascia') {
+      data = {
+        'explanation': Explanations.fascia,
+        'decoding': DecodingData.fasciaDec,
+        'association': Associations.fasciaAss,
+        'intention': Intentions.tongueInt,
+      };
+    } else if (widget.parentScreen == 'Ligament') {
+      data = {
+        'explanation': Explanations.ligament,
+        'decoding': DecodingData.ligamentDec,
+        'association': Associations.fasciaAss,
+        'intention': Intentions.tongueInt,
+      };
+    } else if (widget.parentScreen == 'Cervical Disc') {
+      data = {
+        'explanation': Explanations.cervicalDisc,
+        'decoding': DecodingData.cervicalDec,
+        'association': Associations.cervicalAss,
+        'intention': Intentions.cervicalInt,
+      };
+    } else if (widget.parentScreen == 'Lower Thoracic Disc') {
+      data = {
+        'explanation': Explanations.lowerDisc,
+        'decoding': DecodingData.lowerDiscDec,
+        'association': Associations.cervicalAss,
+        'intention': Intentions.lowerDiscInt,
+      };
+    } else if (widget.parentScreen == 'Upper Thoracic Disc') {
+      data = {
+        'explanation': Explanations.upperDisc,
+        'decoding': DecodingData.upperDec,
+        'association': Associations.cervicalAss,
+        'intention': Intentions.lowerDiscInt,
+      };
+    } else if (widget.parentScreen == 'Lumbar Disc') {
+      data = {
+        'explanation': Explanations.upperDisc,
+        'decoding': DecodingData.lumbarDec,
+        'association': Associations.cervicalAss,
+        'intention': Intentions.lowerDiscInt,
+      };
+    } else if (widget.parentScreen == 'Tibia') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Femur') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Patella') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Febula') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Meniscus') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Ilium') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Isohium') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Pubis') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Tarsal Bone') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Distal Phalange') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Proximal Phalange') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Medial Phalange') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Metatarsal Bone') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Distal Phalange Bone') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Metacarpal Bone') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Medial Phalange') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Proximal Phalange Bone') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Hamate') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Scaphoid') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Capitate') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Lunate') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Trapezoid') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Triquetrum') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Trapezium') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Pisiform') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Clavicle Bone') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Ulna Bone') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Scapula Bone') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Radius Bone') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Sacrum') {
+      data = {
+        'explanation': Explanations.sacrum,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'Coccyx') {
+      data = {
+        'explanation': Explanations.sacrum,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'C1 (Atlas)') {
+      data = {
+        'explanation': Explanations.sacrum,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'C7') {
+      data = {
+        'explanation': Explanations.c7,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'L1') {
+      data = {
+        'explanation': Explanations.l1,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'L2') {
+      data = {
+        'explanation': Explanations.l2,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'L3') {
+      data = {
+        'explanation': Explanations.l3,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'L4') {
+      data = {
+        'explanation': Explanations.l4,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'L5') {
+      data = {
+        'explanation': Explanations.l5,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T1') {
+      data = {
+        'explanation': Explanations.t1,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T2') {
+      data = {
+        'explanation': Explanations.t2,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T3') {
+      data = {
+        'explanation': Explanations.t3,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T4') {
+      data = {
+        'explanation': Explanations.t4,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T5') {
+      data = {
+        'explanation': Explanations.t5,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T6') {
+      data = {
+        'explanation': Explanations.t6,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T7') {
+      data = {
+        'explanation': Explanations.t7,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T8') {
+      data = {
+        'explanation': Explanations.t8,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T9') {
+      data = {
+        'explanation': Explanations.t9,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T10') {
+      data = {
+        'explanation': Explanations.t10,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T11') {
+      data = {
+        'explanation': Explanations.t11,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'T12') {
+      data = {
+        'explanation': Explanations.t12,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'C2 (Axis)') {
+      data = {
+        'explanation': Explanations.sacrum,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'C6') {
+      data = {
+        'explanation': Explanations.c6,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'C3') {
+      data = {
+        'explanation': Explanations.c3,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'C5') {
+      data = {
+        'explanation': Explanations.c5,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'C5') {
+      data = {
+        'explanation': Explanations.c5,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'C4') {
+      data = {
+        'explanation': Explanations.c4,
+        'decoding': DecodingData.sacrumDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '8th Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '9th Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '10th Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '11th Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '12th Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '13th Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '4th Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '7th Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '1st Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '6th Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '2nd Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '5th Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'Fascial distortion') {
+      data = {
+        'explanation': Explanations.fascialDistortion,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == '3rd Rib') {
+      data = {
+        'explanation': Explanations.eightRib,
+        'decoding': DecodingData.eightRib,
+        'association': Associations.eightRibAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'Xiphoid Process') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.xiphoidProcessDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'Manubrium') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.xiphoidProcessDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'Sternum') {
+      data = {
+        'explanation': Explanations.vomer,
+        'decoding': DecodingData.xiphoidProcessDec,
+        'association': Associations.sacrumAss,
+        'intention': Intentions.sacrumInt,
+      };
+    } else if (widget.parentScreen == 'Humerus Bone') {
+      data = {
+        'explanation': Explanations.tibia,
+        'decoding': DecodingData.tibiaDec,
+        'association': Associations.tibiaAss,
+        'intention': Intentions.tibiaInt,
+      };
+    } else if (widget.parentScreen == 'Lead Filling') {
+      data = {
+        'explanation': Explanations.lead,
+        'decoding': DecodingData.lead,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Aluminum') {
+      data = {
+        'explanation': Explanations.aluminium,
+        'decoding': DecodingData.lead,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Arsenic Product') {
+      data = {
+        'explanation': Explanations.arsenic,
+        'decoding': DecodingData.lead,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Poisonous Plant') {
+      data = {
+        'explanation': Explanations.poisonousPlant,
+        'decoding': DecodingData.poisonousDec,
+        'association': Associations.poisonousAss,
+        'intention': Intentions.poisonousInt,
+      };
+    } else if (widget.parentScreen == 'Venom') {
+      data = {
+        'explanation': Explanations.venom,
+        'decoding': DecodingData.venomDec,
+        'association': Associations.venomAss,
+        'intention': Intentions.venomInt,
+      };
+    } else if (widget.parentScreen == 'Stress Hormone') {
+      data = {
+        'explanation': Explanations.stress,
+        'decoding': DecodingData.stressDec,
+        'association': Associations.stressAss,
+        'intention': Intentions.stressInt,
+      };
+    } else if (widget.parentScreen == 'Free Radical') {
+      data = {
+        'explanation': Explanations.free,
+        'decoding': DecodingData.freeDec,
+        'association': Associations.stressAss,
+        'intention': Intentions.stressInt,
+      };
+    } else if (widget.parentScreen == 'Metabolic Waste') {
+      data = {
+        'explanation': Explanations.metabolic,
+        'decoding': DecodingData.metabolicDec,
+        'association': Associations.stressAss,
+        'intention': Intentions.stressInt,
+      };
+    } else if (widget.parentScreen == 'Nutrient Toxicity') {
+      data = {
+        'explanation': Explanations.nutrient,
+        'decoding': DecodingData.metabolicDec,
+        'association': Associations.stressAss,
+        'intention': Intentions.stressInt,
+      };
+    } else if (widget.parentScreen == 'Toxin Sound') {
+      data = {
+        'explanation': Explanations.toxic,
+        'decoding': DecodingData.metabolicDec,
+        'association': Associations.stressAss,
+        'intention': Intentions.stressInt,
+      };
+    } else if (widget.parentScreen == 'Cold') {
+      data = {
+        'explanation': Explanations.cold,
+        'decoding': DecodingData.coldDec,
+        'association': Associations.coldAss,
+        'intention': Intentions.coldInt,
+      };
+    } else if (widget.parentScreen == 'Dampness') {
+      data = {
+        'explanation': Explanations.cold,
+        'decoding': DecodingData.coldDec,
+        'association': Associations.coldAss,
+        'intention': Intentions.coldInt,
+      };
+    } else if (widget.parentScreen == 'Dryness') {
+      data = {
+        'explanation': Explanations.dryness,
+        'decoding': DecodingData.coldDec,
+        'association': Associations.coldAss,
+        'intention': Intentions.coldInt,
+      };
+    } else if (widget.parentScreen == 'Summer Heat') {
+      data = {
+        'explanation': Explanations.summer,
+        'decoding': DecodingData.coldDec,
+        'association': Associations.coldAss,
+        'intention': Intentions.coldInt,
+      };
+    } else if (widget.parentScreen == 'Heat') {
+      data = {
+        'explanation': Explanations.heat,
+        'decoding': DecodingData.coldDec,
+        'association': Associations.coldAss,
+        'intention': Intentions.coldInt,
+      };
+    } else if (widget.parentScreen == 'Wind') {
+      data = {
+        'explanation': Explanations.wind,
+        'decoding': DecodingData.coldDec,
+        'association': Associations.coldAss,
+        'intention': Intentions.coldInt,
+      };
+    } else if (widget.parentScreen == 'Flavor Enhancer') {
+      data = {
+        'explanation': Explanations.flavor,
+        'decoding': DecodingData.flavorDec,
+        'association': Associations.flavorAss,
+        'intention': Intentions.flavorInt,
+      };
+    } else if (widget.parentScreen == 'Preservative') {
+      data = {
+        'explanation': Explanations.flavor,
+        'decoding': DecodingData.flavorDec,
+        'association': Associations.flavorAss,
+        'intention': Intentions.flavorInt,
+      };
+    } else if (widget.parentScreen == 'Processing Agent') {
+      data = {
+        'explanation': Explanations.flavor,
+        'decoding': DecodingData.flavorDec,
+        'association': Associations.flavorAss,
+        'intention': Intentions.flavorInt,
+      };
+    } else if (widget.parentScreen == 'GMO Food') {
+      data = {
+        'explanation': Explanations.flavor,
+        'decoding': DecodingData.flavorDec,
+        'association': Associations.flavorAss,
+        'intention': Intentions.flavorInt,
+      };
+    } else if (widget.parentScreen == 'Nutritional Additive') {
+      data = {
+        'explanation': Explanations.flavor,
+        'decoding': DecodingData.flavorDec,
+        'association': Associations.flavorAss,
+        'intention': Intentions.flavorInt,
+      };
+    } else if (widget.parentScreen == 'Artificial Sweetener') {
+      data = {
+        'explanation': Explanations.artificial,
+        'decoding': DecodingData.artificialDec,
+        'association': Associations.flavorAss,
+        'intention': Intentions.artificialInt,
+      };
+    } else if (widget.parentScreen == 'Sugars') {
+      data = {
+        'explanation': Explanations.sugars,
+        'decoding': DecodingData.artificialDec,
+        'association': Associations.flavorAss,
+        'intention': Intentions.artificialInt,
+      };
+    } else if (widget.parentScreen == 'Natural Sweetener') {
+      data = {
+        'explanation': Explanations.natural,
+        'decoding': DecodingData.artificialDec,
+        'association': Associations.flavorAss,
+        'intention': Intentions.artificialInt,
+      };
+    } else if (widget.parentScreen == 'Sugar Alcohols') {
+      data = {
+        'explanation': Explanations.sugarAlcohols,
+        'decoding': DecodingData.artificialDec,
+        'association': Associations.flavorAss,
+        'intention': Intentions.artificialInt,
+      };
+    } else if (widget.parentScreen == 'Food Coloring') {
+      data = {
+        'explanation': Explanations.flavor,
+        'decoding': DecodingData.flavorDec,
+        'association': Associations.flavorAss,
+        'intention': Intentions.flavorInt,
+      };
+    } else if (widget.parentScreen == 'Flavor Enhancer') {
+      data = {
+        'explanation': Explanations.flavor,
+        'decoding': DecodingData.flavorDec,
+        'association': Associations.flavorAss,
+        'intention': Intentions.flavorInt,
+      };
+    } else if (widget.parentScreen == 'Microbial Poison') {
+      data = {
+        'explanation': Explanations.microbial,
+        'decoding': DecodingData.microbialDec,
+        'association': Associations.poisonousAss,
+        'intention': Intentions.poisonousInt,
+      };
+    } else if (widget.parentScreen == 'Other Heavy Metal') {
+      data = {
+        'explanation': Explanations.otherMetal,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == '"Dirty" Electricity') {
+      data = {
+        'explanation': Explanations.dirtyElectricity,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Magnetic Field') {
+      data = {
+        'explanation': Explanations.magnetic,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Electrical Field') {
+      data = {
+        'explanation': Explanations.electricField,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'X-Ray') {
+      data = {
+        'explanation': Explanations.xRay,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Radioactivity') {
+      data = {
+        'explanation': Explanations.radioActivity,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.artificialInt,
+      };
+    } else if (widget.parentScreen == 'Medication') {
+      data = {
+        'explanation': Explanations.medication,
+        'decoding': DecodingData.medicationDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.artificialInt,
+      };
+    } else if (widget.parentScreen == 'Vaccination') {
+      data = {
+        'explanation': Explanations.vaccination,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'OTC Medicine') {
+      data = {
+        'explanation': Explanations.medication,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Depressant') {
+      data = {
+        'explanation': Explanations.depressant,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Stimulant') {
+      data = {
+        'explanation': Explanations.stimulant,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Hallucinogen') {
+      data = {
+        'explanation': Explanations.hallucinogen,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Cosmetic') {
+      data = {
+        'explanation': Explanations.cosmetic,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Building Material') {
+      data = {
+        'explanation': Explanations.building,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Cleaning Product') {
+      data = {
+        'explanation': Explanations.cleaning,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Carpet & Furnishing') {
+      data = {
+        'explanation': Explanations.carpet,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Agricultural') {
+      data = {
+        'explanation': Explanations.agricultural,
+        'decoding': DecodingData.otherDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Sleep') {
+      data = {
+        'explanation': Explanations.sleepExp,
+        'decoding': DecodingData.sleepDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.leadInt,
+      };
+    } else if (widget.parentScreen == 'Herb & Spice') {
+      data = {
+        'explanation': Explanations.herbSpice,
+        'decoding': DecodingData.herbSpiceDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.herbSpiceInt,
+      };
+    } else if (widget.parentScreen == 'Essential Oil') {
+      data = {
+        'explanation': Explanations.essentialOil,
+        'decoding': DecodingData.herbSpiceDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.herbSpiceInt,
+      };
+    } else if (widget.parentScreen == 'Nutrient') {
+      data = {
+        'explanation': Explanations.nutrientExp,
+        'decoding': DecodingData.nutrientDec,
+        'association': Associations.nutrientAss,
+        'intention': Intentions.nutrientInt,
+      };
+    } else if (widget.parentScreen == 'Food') {
+      data = {
+        'explanation': Explanations.food,
+        'decoding': DecodingData.nutrientDec,
+        'association': Associations.nutrientAss,
+        'intention': Intentions.nutrientInt,
+      };
+    } else if (widget.parentScreen == 'Superfood') {
+      data = {
+        'explanation': Explanations.superFood,
+        'decoding': DecodingData.herbSpiceDec,
+        'association': Associations.leadAss,
+        'intention': Intentions.superfoodInt,
+      };
+    } else if (widget.parentScreen == 'Protein') {
+      data = {
+        'explanation': Explanations.protein,
+        'decoding': DecodingData.herbSpiceDec,
+        'association': Associations.proteinAss,
+        'intention': Intentions.proteinInt,
+      };
+    } else if (widget.parentScreen == 'Adjunctive Therapy') {
+      data = {
+        'explanation': Explanations.adjunctiveTherapy,
+        'decoding': DecodingData.adjunctiveDec,
+        'association': Associations.proteinAss,
+        'intention': Intentions.adjunctiveInt,
+      };
+    } else if (widget.parentScreen == 'Energy Medicine') {
+      data = {
+        'explanation': Explanations.energyMed,
+        'decoding': DecodingData.energyDec,
+        'association': Associations.proteinAss,
+        'intention': Intentions.energyInt,
+      };
+    } else if (widget.parentScreen == 'Stress Processing') {
+      data = {
+        'explanation': Explanations.stressProcessing,
+        'decoding': DecodingData.stresssDec,
+        'association': Associations.stressAss,
+        'intention': Intentions.stresssInt,
+      };
+    } else if (widget.parentScreen == 'Spiritual Nutrition') {
+      data = {
+        'explanation': Explanations.spiritualNutrition,
+        'decoding': DecodingData.stressDec,
+        'association': Associations.stressAss,
+        'intention': Intentions.stressInt,
+      };
+    } else if (widget.parentScreen == 'Creativity') {
+      data = {
+        'explanation': Explanations.creativity,
+        'decoding': DecodingData.stressDec,
+        'association': Associations.stressAss,
+        'intention': Intentions.stressInt,
+      };
+    } else if (widget.parentScreen == 'Need for Movement') {
+      data = {
+        'explanation': Explanations.needMovement,
+        'decoding': DecodingData.needMovement,
+        'association': Associations.stressAss,
+        'intention': Intentions.needInt,
+      };
+    } else if (widget.parentScreen == 'Body Work') {
+      data = {
+        'explanation': Explanations.bodyWork,
+        'decoding': DecodingData.bodyWorkDec,
+        'association': Associations.stressAss,
+        'intention': Intentions.bodyWorkInt,
+      };
+    } else if (widget.parentScreen == "Detoxification") {
+      data = {
+        'explanation': Explanations.detoxification,
+        'decoding': DecodingData.needMovement,
+        'association': Associations.stressAss,
+        'intention': Intentions.needInt,
+      };
+    } else if (widget.parentScreen == 'Distortion') {
     } else if (widget.parentScreen ==
         'Emotional Reverberation (formerly Resonance)') {
       data = {
@@ -548,6 +1698,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.emotionalReverberation,
         'association': Associations.emotionalReverBeration,
         'intention': Intentions.emotionalReverberation,
+        'Chart': Images.emotionalReverberation
       };
     } else if (widget.parentScreen == 'Sickness Memory') {
       data = {
@@ -934,6 +2085,41 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.cerebellumAss,
         'intention': Intentions.cranialNervesInt,
       };
+    } else if (widget.parentScreen == 'Cropus Callosum') {
+      data = {
+        'explanation': Explanations.corpus,
+        'decoding': DecodingData.cerebellumDec,
+        'association': Associations.cerebellumAss,
+        'intention': Intentions.cranialNervesInt,
+      };
+    } else if (widget.parentScreen == 'Frontal Lobe') {
+      data = {
+        'explanation': Explanations.frontal,
+        'decoding': DecodingData.cerebellumDec,
+        'association': Associations.cerebellumAss,
+        'intention': Intentions.cranialNervesInt,
+      };
+    } else if (widget.parentScreen == 'Temporal Lobe') {
+      data = {
+        'explanation': Explanations.temporal,
+        'decoding': DecodingData.testesDec,
+        'association': Associations.cerebellumAss,
+        'intention': Intentions.cranialNervesInt,
+      };
+    } else if (widget.parentScreen == 'Parietal Lobe') {
+      data = {
+        'explanation': Explanations.parietal,
+        'decoding': DecodingData.testesDec,
+        'association': Associations.cerebellumAss,
+        'intention': Intentions.cranialNervesInt,
+      };
+    } else if (widget.parentScreen == 'Occipital Lobe') {
+      data = {
+        'explanation': Explanations.occipital,
+        'decoding': DecodingData.cerebellumDec,
+        'association': Associations.cerebellumAss,
+        'intention': Intentions.cranialNervesInt,
+      };
     } else if (widget.parentScreen == 'Cerebrospinal Fluid') {
       data = {
         'explanation': Explanations.cerebellum,
@@ -1165,7 +2351,7 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.thyroidAss,
         'intention': Intentions.thyroidInt,
       };
-    } else if (widget.parentScreen == 'Pancrease') {
+    } else if (widget.parentScreen == 'Pancreas') {
       data = {
         'explanation': Explanations.pancrease,
         'decoding': DecodingData.pancreaseDec,
@@ -1276,6 +2462,209 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.heartDec,
         'association': Associations.heartAss,
         'intention': Intentions.heartInt,
+      };
+    } else if (widget.parentScreen == 'Small Intestine') {
+      data = {
+        'explanation': Explanations.smallIntestine,
+        'decoding': DecodingData.heartDec,
+        'association': Associations.heartAss,
+        'intention': Intentions.heartInt,
+      };
+    } else if (widget.parentScreen == 'Ileocecal Valve') {
+      data = {
+        'explanation': Explanations.Ileocal,
+        'decoding': DecodingData.heartDec,
+        'association': Associations.heartAss,
+        'intention': Intentions.heartInt,
+      };
+    } else if (widget.parentScreen == 'Left Subclavian') {
+      data = {
+        'explanation': Explanations.leftSubclavian,
+        'decoding': DecodingData.leftSubclavianDec,
+        'association': Associations.leftSubclavianAss,
+        'intention': Intentions.leftSubclavianInt,
+      };
+    } else if (widget.parentScreen == 'Aortic Arch') {
+      data = {
+        'explanation': Explanations.aortic,
+        'decoding': DecodingData.aorticDec,
+        'association': Associations.aorticAss,
+        'intention': Intentions.aorticInt,
+      };
+    } else if (widget.parentScreen == 'Right Subclavian Artery') {
+      data = {
+        'explanation': Explanations.rightSubclavian,
+        'decoding': DecodingData.rightSubclavian,
+        'association': Associations.rightSubclavianAss,
+        'intention': Intentions.rightSubclavianInt,
+      };
+    } else if (widget.parentScreen == 'Mitral Valve') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Intercostal Artery') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Left Pulmonary Artery') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Right Pulmonary Artery') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Cornary Artery') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Pulmonary Valve') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Aortic Valve') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Tricuspid Valve') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Vertebral artery') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Anterior Facial Artery') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Carotid Artery') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Internal Jugular Vein') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'External Jugular Vein') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Inferior Sagittal Sinus') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Superior Sagittal Sinus') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Straight Sinus') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'urethra') {
+      data = {
+        'explanation': Explanations.urethra,
+        'decoding': DecodingData.urethra,
+        'association': Associations.urethraAss,
+        'intention': Intentions.urethraInt,
+      };
+    } else if (widget.parentScreen == 'Ureter') {
+      data = {
+        'explanation': Explanations.ureter,
+        'decoding': DecodingData.urethra,
+        'association': Associations.urethraAss,
+        'intention': Intentions.urethraInt,
+      };
+    } else if (widget.parentScreen == 'Bladder') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Kidney') {
+      data = {
+        'explanation': Explanations.mitral,
+        'decoding': DecodingData.mitralDec,
+        'association': Associations.mitralAss,
+        'intention': Intentions.mitralInt,
+      };
+    } else if (widget.parentScreen == 'Colon') {
+      data = {
+        'explanation': Explanations.colon,
+        'decoding': DecodingData.heartDec,
+        'association': Associations.heartAss,
+        'intention': Intentions.heartInt,
+      };
+    } else if (widget.parentScreen == 'Cardiac Sphincter') {
+      data = {
+        'explanation': Explanations.cardiacSphincter,
+        'decoding': DecodingData.cardiacSphincter,
+        'association': Associations.cardianSphincter,
+        'intention': Intentions.cardiacSphincter,
+      };
+    } else if (widget.parentScreen == 'Esophagus') {
+      data = {
+        'explanation': Explanations.esophagus,
+        'decoding': DecodingData.cardiacSphincter,
+        'association': Associations.cardianSphincter,
+        'intention': Intentions.cardiacSphincter,
+      };
+    } else if (widget.parentScreen == 'Pyloric Sphincter') {
+      data = {
+        'explanation': Explanations.pyloricSphincter,
+        'decoding': DecodingData.pyloricSphincter,
+        'association': Associations.pyloricSphincter,
+        'intention': Intentions.cardiacSphincter,
       };
     }
   }

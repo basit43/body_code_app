@@ -1942,4 +1942,1031 @@ If you have been guided to this page by the subconscious mind through testing, i
 ● Eye movement
 ● Body movement
 If you have been guided to this page by the subconscious mind through testing, it indicates that the midbrain is imbalanced in some way. ''';
+  static const String corpus = '''
+  The corpus callosum is a flat, thick bundle of nerves that connects the left side of the brain to the right side of the brain, carrying messages including sensory, motor and cognitive information.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates that the corpus callosum is imbalanced in some way. ''';
+  static const String frontal = '''
+  The frontal lobe is associated with:
+
+● Reasoning
+● Planning
+● Parts of speech
+● Movement
+● Emotions
+● Problem solving.
+If you have been guided to this page by the subconscious mind through testing, it indicates that the frontal lobe is imbalanced in some way. ''';
+  static const String temporal = '''
+  The temporal lobes are associated with:
+
+● Perception and recognition of auditory stimuli 
+● Memory
+● Speech
+If you have been guided to this page by the subconscious mind through testing, it indicates that one or both of the temporal lobes are imbalanced in some way. ''';
+  static const String parietal = '''
+  The parietal lobe is associated with:
+
+● Movement
+● Orientation
+● Recognition
+● Perception of stimuli
+If you have been guided to this page by the subconscious mind through testing,  it indicates that one or both of the parietal lobes are imbalanced in some way. ''';
+  static const String occipital = '''
+  The occipital lobe is located at the back of the brain, and is associated with visual processing.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates that the occipital lobe is imbalanced in some way. ''';
+  static const String smallIntestine = '''
+  The small intestine absorbs nutrients from food, and is actually composed of three parts:
+
+● The duodenum, approximately 8 to 10 in in length, which connects the end of the stomach to:
+● The jejunum, approximately 7 to 8 ft long, which connects to:
+● The ileum, approximately 9 feet long, which terminates in the ileocecal valve.
+Common symptoms of imbalance may include:
+○ Pain in the low back
+○ Pain in the knees
+○ Bloating and gas
+○ Diarrhea
+○ Nausea
+○ Skin problems due to lack of nutrients
+● Hormones Produced: Cholecystokinin, secretin, big and little gastrin, glucose-dependent insulinotropic.
+● The small intestine generates the following emotions: Abandonment, betrayal, forlorn, lost, love unreceived, effort unreceived, heartache, insecurity, overjoy and vulnerability.
+● Muscle connections:  Abdominal muscles and quadriceps femoris muscles.
+● Diurnal cycle: The small intestine comes into prominence during the time of the  small intestine Meridian, 1pm to 3pm.
+If you have been guided to this page by the subconscious mind through testing, it indicates that the small intestine is imbalanced in some way. ''';
+  static const String Ileocal = '''
+  The ileocecal valve controls the flow of fecal material from the small intestine into the large intestine. It is easily imbalanced due to emotional stress and poor diet. 
+
+● Common symptoms of imbalance may include:
+○ Discomfort in the appendix area (lower right abdomen)
+○ Discomfort in the low back or right hip
+○ Sinus Problems (due to reabsorption of toxins)
+● Hormones Produced: None known 
+● The ileocecal valve generates the following emotions: Abandonment, betrayal, forlorn, lost, love unreceived, effort unreceived, heartache, insecurity, overjoy and vulnerability.
+● Muscle connections:  Right iliacus muscle.
+● Diurnal cycle: The ileocecal valve comes into prominence during the time of the  small intestine Meridian, 1pm to 3pm.
+If you have been guided to this page by the subconscious mind through testing, it indicates that the ileocecal valve is imbalanced in some way. ''';
+  static const String colon = '''
+  The colon or large intestine absorbs water and salt from fecal material.
+
+● Common symptoms of imbalance may include:
+○ Discomfort in the low back
+○ Discomfort in the hips
+○ Diarrhea, constipation, colitis
+● Hormones Produced: None known.
+● The colon generates the following emotions: Crying, discouragement, rejection, sadness, sorrow, confusion, defensiveness, grief, self-abuse, stubbornness.
+● Muscle connections:  Tensor fasciae latae muscle, hamstring muscles.
+● Diurnal cycle: The colon comes into prominence during the time of the large intestine meridian, 5am to 7am.
+If you have been guided to this page by the subconscious mind through testing, it indicates that the colon is imbalanced in some way.''';
+  static const String leftSubclavian = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String aortic = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String rightSubclavian = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String mitral = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String urethra = '''
+  The urethra is a tube that connects to the urinary and allows for the elimination of urine.
+
+Common symptoms of imbalance may include:
+
+● Discomfort during urination
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String ureter = '''
+  The ureters are muscular tubes that propel urine from the kidneys to the bladder. The top half of the ureters are in the abdominal cavity, well the bottom half of the ureters are in the pelvic area. In an adult human, the ureters are usually from 25 to 30 cm long (10 to 12 inches) and around 3 to 4 mm in diameter (.12 – .16 inches).
+
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String cardiacSphincter = '''
+  The cardiac sphincter is situated at the top of the stomach and opens to allow swallowed food entrance into the stomach. If the cardiac sphincter malfunctions, acid chyme from the stomach can enter the esophagus and cause acid reflux symptoms.
+
+Common symptoms of imbalance may include:
+
+● Acid reflux
+● Stomach discomfort
+● Digestive difficulties including gas and bloating
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion.''';
+  static const String pyloricSphincter = '''
+  The pyloric sphincter is situated at the bottom of the stomach and controls the passage of partially digested food from the stomach into the small intestine.
+
+Common symptoms of imbalance may include:
+
+● Digestive difficulties including gas and bloating
+● Discomfort in the stomach region
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String esophagus = '''
+  The esophagus is a muscular tube that conducts swallowed food from the back of the throat or pharynx to the stomach.
+
+Common symptoms of imbalance may include:
+
+● Difficulty swallowing
+● Feeling of something stuck in the throat
+● Acid reflux
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String tongue = '''
+  The tongue is a muscular organ that assists in chewing food and mixing it with salivary enzymes, the first step in digestion. The tongue also plays a role in taste and is covered with taste buds. 
+
+Common symptoms of imbalance may include:
+
+● Diminished ability to taste
+● Tongue discomfort
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String liverExp = '''
+  The liver supports the immune system and cleans the blood, detoxifying foreign substances and chemicals. The liver is located on the right side of the body, just below the diaphragm.
+
+● Common symptoms of imbalance may include:
+○ Discomfort between the shoulder blades
+○ Discomfort in the right shoulder
+● Hormones Produced: Thrombopoietin, insulin-like growth factor-1, angiotensinogen.
+● The liver generates the following emotions: Anger, bitterness, guilt, hatred, resentment, depression, frustration, indecisiveness, panic, taken for granted.
+● Muscle connections:  pectoralis major muscle, right rhomboid muscle.
+● Diurnal cycle: The liver comes into prominence during the time of the liver meridian, 1am to 3am.
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String tendon = '''
+  Tendons are found at the ends of every muscle in the body and attach the muscles to their bony attachment points.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String fascia = '''
+  Fascia is the connective tissue that is found throughout the body, in the skin, wrapping around the bones (periosteum), around the heart (pericardium) and every organ. Fascia has been found to have a Piezo electric conductive effect, and is believed to be another method of communication used by the body. Sometimes fascia can become distorted or twisted due to emotional or physical stress or trauma of some kind. This is known as "fascial distortion," and will usually have an underlying cause that can be determined using the Body Code.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String ligament = '''
+  Ligaments are found throughout the body and are the specific connective tissue that connects bones to other bones.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String cervicalDisc = '''
+  Spinal discs are "shock absorbers" between the vertebrae that help to transmit weight down the spinal column, supporting the spine and allowing us to move, twist and bend our bodies. Without discs, no movement would occur in the spine. Sometimes, spinal discs can become severely damaged and require surgery. In our experience, it's far more common that spinal discs will become misaligned or energetically imbalanced.
+
+Common symptoms of cervical disc misalignment may include:
+
+● Discomfort, numbness or tingling in the upper limbs
+● Discomfort in the neck
+● Stiffness in the neck
+● Weakness in the upper limbs
+If you have been guided to this page by the subconscious mind through muscle testing, it indicates a misalignment is present.''';
+  static const String lowerDisc = '''
+  Spinal discs are "shock absorbers" between the vertebrae that help to transmit weight down the spinal column, supporting the spine and allowing us to move, twist and bend our bodies. Without discs, no movement would occur in the spine. Sometimes, spinal discs can become severely damaged and require surgery. In our experience, it's far more common that spinal discs will become misaligned.
+
+Common symptoms of lower thoracic disc misalignment may include:
+
+● Discomfort in the mid to lower back
+● Stiffness in the mid to lower back
+● Digestive issues
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String upperDisc = '''
+  Spinal discs are "shock absorbers" between the vertebrae that help to transmit weight down the spinal column, supporting the spine and allowing us to move, twist and bend our bodies. Without discs, no movement would occur in the spine. Sometimes, spinal discs can become severely damaged and require surgery. In our experience, it's far more common that spinal discs will become misaligned.
+
+Common symptoms of upper thoracic disc misalignment may include:
+
+● Discomfort, numbness, weakness or tingling in the upper limbs
+● Discomfort in the upper back
+● Stiffness in the upper back
+● Heart palpitations
+● Digestive issues
+● Lung issues and difficulty breathing
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String tibia = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion.''';
+  static const String sacrum = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Hip bones, buttocks, rectum, sex organs, genitalia, urinary bladder, ureter, prostate
+
+Misalignment: Symptoms: Sacroialic conditions, spinal curvatures''';
+  static const String c7 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Thyroid gland, bursa in the shoulders, elbows
+
+Possible Symptoms: Bursitis, colds, thyroid conditions, goiter''';
+  static const String c4 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Nose, lips, mouth, Eustachian tube, mucus membranes, lungs
+
+Possible Symptoms: Hay fever, catarrh, hard of hearing, adenoids''';
+  static const String c5 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Vocal cords, neck glands, pharynx
+
+Possible Symptoms: Laryngitis, hoarseness, throat conditions such as sore throat or tonsillar abscess''';
+  static const String c3 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Cheeks, outer ear, face, bones, teeth, trifacial nerve, lungs
+
+Possible Symptoms: Neuralgia, neuritis, acne or pimples, eczema''';
+  static const String t1 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Arms from the elbows down, hands, wrists and fingers; esophagus and trachea, heart
+
+Possible Symptoms: Asthma, cough, shortness of breath, pain in the lower arms and hands''';
+  static const String t2 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections:Heart, its valves and coronary arteries; lungs bronchial tubes
+
+Possible Symptoms: Functional heart conditions and certain chest pains''';
+  static const String t3 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Lungs, bronchial tubes, pleura, chest, breast, heart
+
+Possible Symptoms: Bronchitis, pleurisy, pneumonia, congestion, influenza, asthma''';
+  static const String t4 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Gallbladder, common duct, heart, lungs, bronchial tubes
+
+Possible Symptoms: Gall bladder conditions, jaundice, shingles''';
+  static const String t6 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Stomach, esophagus, peritoneum, liver, duodenum
+
+Possible Symptoms: Stomach troubles, including nervous stomach, indigestion, heartburn, dyspepsia, etc.''';
+  static const String t5 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Liver, solar plexus, circulation, heart, esophagus, stomach
+
+Possible Symptoms: Liver conditions, fever, low blood pressure, anemia, poor circulation, arthritis''';
+  static const String l2 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Appendix, abdomen, upper leg, urinary bladder
+
+Possible Symptoms: Appendicitis, cramps, difficult breathing, acidosis, varicose veins''';
+  static const String t7 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Kidneys, appendix, testes, ovaries, uterus, adrenal cortex, spleen, pancreas, large intestine
+
+Possible Symptoms: Diabetes, ulcers, gastritis''';
+  static const String t8 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Spleen, stomach, liver, pancreas, gallbladder, adrenal cortex, small intestine, pyloric valve
+
+Possible Symptoms: Hiccups, lowered resistance''';
+  static const String lead = '''
+  Lead is a heavy metal that is toxic to the body even in low concentrations. 
+
+● Sources of lead may include:
+○ Lead-based paint
+○ Lead water pipes
+○ Toys
+○ Jewelry
+○ Contaminated candy
+○ Leaded gasoline
+○ Air pollution
+● Toxins may be from any time in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String fascialDistortion = '''
+  Fascia is the connective tissue that is found throughout the body, in the skin, wrapping around the bones (periosteum), around the heart (pericardium) and every organ. Fascia has been found to have a Piezo electric conductive effect, and is believed to be another method of communication used by the body. Sometimes fascia can become distorted or twisted due to emotional or physical stress or trauma of some kind. This is known as "fascial distortion," and will usually have an underlying cause that can be determined using the Body Code.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment/distortion is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion.''';
+  static const String aluminium = '''
+  Aluminum is a heavy metal that is toxic to the body even in low concentrations. 
+
+● Sources of aluminum include:
+○ Antiperspirants
+○ Baking powder
+○ Cooking pans and utensils
+○ Aluminum foil
+○ Concrete
+○ Processed foods and drinks
+○ Bleached flour
+● Toxins may be from any time in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String arsenic = '''
+  Arsenic is a heavy metal that is toxic to the body even in low concentrations. 
+
+● Sources of arsenic could include: 
+○ Fish
+○ Shellfish
+○ Meat
+○ Poultry
+○ Dairy products
+○ Grain
+○ Largest source is usually contaminated groundwater
+
+● Toxins may be from any time in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String otherMetal = '''
+  This indicates that there is a less common heavy metal that may need to be identified. These heavy metals may be essential nutrients or relatively harmless in low concentrations, but can become toxic in higher concentrations. 
+
+● Common examples: 
+○ Titanium
+○ Vanadium
+○ Chromium
+○ Manganese
+○ Iron
+○ Cobalt
+○ Nickel
+○ Copper
+○ Zinc
+○ Molybdenum
+○ Silver
+○ Tin
+○ Gold
+● Toxins may be from any time in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String poisonousPlant = '''
+  Poisonous plants are plants that produce chemical toxins to deter and protect themselves. They can create irritation and toxic reactions in people. Seek medical help if you suspect poisoning. 
+
+● Many normally edible foods contain toxins that need to be removed through processing (i.e. cooking) or contain toxins at certain stages of their development. For example the berries from fully mature asparagus can induce vomiting and stomach pains, which is why it is picked and harvested before then.  
+● Sources could include:
+○ Vegetables
+○ Algae
+○ Poison Ivy, Oak, Sumac
+○ Giant Hogsweed
+○ Stinging Nettle
+○ Wild Parsnip
+○ Poison Hemlock
+○ Foxglove
+○ Bitter Nightshade
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String venom = '''
+  Venom is a toxic secretion produced by an animal. Venom is distinguished from poisons in that venoms are injected by a bite, sting, etc., while poisons are ingested.  
+
+● Sources could include:
+○ Reptiles and Amphibians
+○ Snakes
+○ Frogs
+● Arachnid
+○ Spider
+○ Tick
+○ Scorpions
+● Insect
+○ Bees
+○ Wasps
+○ Ants
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String summer = '''
+  General information:
+
+● Chinese medicine recognizes six "pernicious influences" also known as the six pathogenic factors, six excesses, or six evils. This usually comes from being exposed to or overwhelmed by the element via weather or environmental exposure, from diet, and could also be created by internal factors, such as associated imbalances or chronic illness. 
+● Each of these is simply the energy of an element, but an excess of it is considered toxic by the subconscious mind. If the body is unable to process the energy, the flow of Qi (energy) may be imbalanced and symptoms may arise, sometimes even years later. Like the elements in our environment, these could combine within the body to create exacerbated symptoms (e.g. Cold and Wind together may feel more extreme than either element would on its own). For more information, research Chinese Medicine Theory.
+Summer Heat energy possesses the qualities of scorching hot heat in nature, and is more intense than Heat energy. 
+
+● It is a Yang energy.
+● This is always external, created by exposure to intense summertime heat that overwhelmed the body and caused heat stroke. 
+● It depletes bodily fluids and Qi, and can create high fever, dizziness, nausea, lethargy, thirst, blurred vision, headache, profuse sweating, fainting, and exhaustion. 
+● This may cause one to be extra sensitive to heat in the environment, especially when dampness is also present (common).''';
+  static const String flavor = '''
+  A flavor additive is a single or blend of chemicals of natural or synthetic origin that provides part of the flavor impact of processed foods. These chemicals are added in order to provide enhanced flavors. Flavor enhancers are the largest group of food additives with more than 1200 compounds available for commercial use. Most of these enhancers are hidden under the general category of “spices” on nutritional labels. 
+
+● MSG, Monosodium glutamate was the first flavor enhancer to be developed commercially. 
+● Some individuals are highly sensitive to flavor enhancers.
+● Sources could include:
+○ Processed foods.
+○ Most commercial food, including restaurants. 
+● Toxins may come up from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String preservative = '''
+  Food preservatives are classified into main groups and functions: antioxidants and antimicrobials. Antioxidants delay or prevent the deterioration of foods by oxidative mechanisms or oxygen scavenging. Antimicrobial agents inhibit the growth of pathogenic microorganisms in food via cell membrane disruption and enzyme inhibition. 
+
+● Types include:
+○ Anti-Oxidants
+● Sulfites/sulfates 
+● Ascorbic acid 
+● Trans fats  
+○ Anti-Microbial
+● Nitrites/Nitrates
+● Acetic acid 
+● Sorbic acid
+● Benzoic acid
+● Toxins may come up from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String radioActivity = '''
+  Radioactivity refers to the emission of particles from the natural and spontaneous breakdown of atoms.  
+
+These particles can pass through the body disrupting tissue.
+
+● Sources may include:
+○ Natural radiation -  breakdown of elements in the earth
+○ Uranium
+○ Thorium
+○ Radon
+○ Nuclear Waste
+● High levels of radioactive stress damage DNA. 
+● They alter cellular function and impair energy production. 
+● If exposed to radioactivity, your body may be unable to process it on its own for various reasons, and this toxic energy may become trapped in your body.''';
+  static const String xRay = '''
+  X-rays are on the electromagnetic spectrum and like all electromagnetic pollution can cause serious problems and health concerns, especially if the exposure is regular.  
+
+● Sources of exposure:
+○ Natural background radiation - cosmic rays, radioactive elements in soil, etc.
+○ Medical radiation - x-rays, CT scans, etc. 
+○ Man made radiation - airport scanners, food irradiation, consumer products, etc. 
+● Excessive X-rays alter cellular function and impair energy production. 
+● EMFs impair the reproductive system of men and women.
+● If exposed to X-rays, your body may be unable to process it on its own for various reasons, and this toxic energy may become trapped in your body.
+● X-rays may show up from any time in your life.''';
+  static const String radioFrequency = '''
+  The four primary sources of electromagnetic fields (EMFs) are electric fields, magnetic fields, radio frequencies, and dirty electricity from harmonic frequencies. Radio frequencies are the most common type of EMFs.
+
+● Sources of radio frequencies:
+○ Cellphones
+○ Smart meters/ devices
+○ Wi-Fi
+○ Bluetooth
+○ Fluorescent lights
+○ The Electromagnetic Spectrum
+○ High Frequency antennas (HAARP)
+○ And just about everything these days. 
+● EMFs create high levels of oxidative stress that damage DNA and mitochondria.
+● Excessive EMFs alter cellular function and magnetic fields impair energy production. 
+● EMFs impair the reproductive system of men and women.
+● If exposed to EMFs, your body may be unable to process it on its own for various reasons, and this toxic energy may become trapped in your body.
+● EMFs may be from any time in your life.''';
+  static const String electricField = '''
+  The four primary sources of electromagnetic fields (EMFs) are electric fields, magnetic fields, radio frequencies, and dirty electricity from harmonic frequencies. 
+
+● Sources of electric fields (the “E” component of EMF):
+○ House wiring
+○ Corded appliances
+○ Unshielded plastic-jacketed (romex) wiring
+● Electric fields come from voltage, not current, and pass right through walls
+● EMFs create high levels of oxidative stress that damage DNA and mitochondria.
+● Excessive EMFs alter cellular function and impair energy production. 
+● EMFs impair the reproductive system of men and women.
+● If exposed to EMFs, your body may be unable to process it on its own for various reasons, and this toxic energy may become trapped in your body.
+● EMFs may be from any time in your life.''';
+  static const String magnetic = '''
+  The four primary sources of electromagnetic fields (EMFs) are electric fields, magnetic fields, radio frequencies, and dirty electricity from harmonic frequencies. 
+
+● Sources of magnetic fields (the “M” component of EMF):
+○ Power lines
+○ Wiring errors in your home
+○ Electrical current on grounding paths
+○ Electric motors and transformers
+○ Water pipes and TV cables
+● EMFs create high levels of oxidative stress that damage DNA and mitochondria.
+● Excessive EMFs alter cellular function and impair energy production. 
+● EMFs impair the reproductive system of men and women.
+● If exposed to EMFs, your body may be unable to process it on its own for various reasons, and this toxic energy may become trapped in your body.
+● EMFs may be from any time in your life.''';
+  static const String dirtyElectricity = '''
+  The four primary sources of electromagnetic fields (EMFs) are electric fields, magnetic fields, radio frequencies, and dirty electricity from harmonic frequencies. 
+
+● Sources of dirty electricity:
+○ Voltage spikes from appliances, plugged in devices, computers
+● EMFs create high levels of oxidative stress that damage DNA and mitochondria.
+● Excessive EMFs alter cellular function and magnetic fields impair energy production. 
+● EMFs impair the reproductive system of men and women.
+● If exposed to EMFs, your body may be unable to process it on its own for various reasons, and this toxic energy may become trapped in your body.
+● EMFs may be from any time in your life.''';
+  static const String sugarAlcohols = '''
+  Sugar alcohols have about half the calories of sugar and are either naturally occurring or manmade. Sugar alcohols are not as easily absorbed by the intestines, and sometimes can cause gastric distress for some people.
+
+● Sugar alcohols include:
+○ Sorbitol
+○ Mannitol
+○ Xylitol
+○ Maltitol
+Remember that, in general:
+
+● Toxins may come up from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String natural = '''
+  Natural sweeteners are a better alternative to artificial and regular sweeteners.  However, some of these sources can have toxic side effects and allergic reactions in some people. 
+
+● Sources could include:
+○ Stevia
+○ Maple Syrup
+○ Honey
+○ Monk fruit
+○ Molasses
+○ Agave
+○ Coconut Sugar
+● Toxins may come up from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String sleepExp = '''
+  Sleep is a physiological behavior that is common in all animal species. As human beings, we spend one third of our lives sleeping. 
+
+● Sleep is a state where awareness of environmental stimuli is reduced. 
+● Sleep is different from states of coma and other states of unconsciousness because:
+○ Only during sleep does the body actually repair itself
+○ Unique brain wave patterns and brain activity only occur during sleep
+● Unconsciousness brought on through trauma or pharmaceutical drugs is not the same as sleep for the reasons above.
+● Sleep is made up of different recurring stages, and is influenced by the internal circadian clock that aligns with normal day/night cycles. With the advent of artificial light sleep timing has been altered in most modern countries. 
+● The human body has been shown to prefer sleeping at night. Working and wakefulness during the hours of sleep is highly disruptive to health.
+● Sleep disorders include:
+○ Insomnia
+○ Hypersomnia
+○ Narcolepsy
+○ Sleep Apnea
+● There are many different underlying reasons why sleep may be disturbed. A thorough decoding process is recommended.''';
+  static const String agricultural = '''
+  Agricultural toxins come in many forms, each chemical carefully formulated to do a specific job, often regardless of the harmful repercussions. These toxins may pollute rivers, land and our food supply, eventually creating problems for our health.
+
+● Sources could include:
+○ Insecticides
+○ Herbicides
+○ Fungicides
+○ Fumigants
+○ Rodenticides 
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String carpet = '''
+  Many new carpets and furnishings contain chemicals. These may be the materials themselves, or an additive intended to preserve the material. Most toxic exposures are in the form of off-gassing which can take a heavy toll on the respiratory system and skin.
+
+● Sources could include:
+○ New carpet
+○ Mattresses
+○ Wood varnish
+○ Textiles
+○ New Furniture
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String stressProcessing = '''
+  Stress processing indicates that you may benefit from one or more of these activities. Doing any of these, especially with regularity, can help to process stressful feelings and experiences more effectively.
+
+● Some ideas for stress processing methods include:
+○ Laughter 
+○ Counseling or therapy with a licensed professional 
+○ Meditation
+○ Journaling
+○ Focusing on forgiveness of yourself and others 
+○ Movement (see Movement under Nutrition and Lifestyle > Outside Needs > Physical Needs > Movement)''';
+  static const String spiritualNutrition = '''
+  The human spirit needs nourishment just like the physical body. This can be done in many ways: connecting with the divine, with your own divinity, with the energy of nature, and with others. Anything you do that helps you in these ways can be nourishing to your spirit. 
+
+● In general, it is important to keep your intention pure in any endeavor to nourish your spirit. This can be accomplished by focusing on feeling appreciation for the moment, being present, expressing and focusing on love and gratitude, and doing service for others without expectation of public reward or acknowledgement.
+● Some ideas for spiritual nutrition include: 
+Acts of service or charity
+Reading, watching or listening to uplifting materials
+Spending time appreciating nature and/or animals
+Spending quality time with loved ones
+Anything else that helps you feel nourished''';
+  static const String needMovement = '''
+  Regular movement is necessary for the body to have optimal balance. 
+
+● Movement can help you in multiple ways, including:
+○ Soothing the nervous system
+○ Eliminating metabolic waste
+○ Burning off excess stress hormones
+○ Reducing the creation of/likelihood of trapping negative emotions
+○ Improving focus and motivation 
+○ Increasing metabolism
+○ Improving the flow of blood and lymph
+○ Increasing the production of helpful hormones
+○ Reducing stress
+● Here are few options to consider:
+○ Walking
+○ Hiking 
+○ Resistance training 
+○ Yoga 
+○ Dance 
+○ Sports
+○ Swimming
+● The type of movement is not as important as the fact that the subconscious is indicating that more movement is needed. ''';
+  static const String detoxification = '''
+  Detoxification refers to a process of cleansing the body of toxins, usually by removing impurities from the blood in the liver, the primary organ of detoxification. 
+
+● The body also eliminates toxins through the kidneys, colon, lungs, lymphatic system, and skin. 
+● If the body is overwhelmed with too many toxins or if any of these body parts is imbalanced, the normal ability to detoxify naturally can be compromised. 
+● Excess toxins can create a vast range of symptoms. 
+● The body’s natural detoxification process can be assisted with the following approaches:
+○ Using an infrared sauna (follow manufacturer cautions)
+○ Eating a clean diet with many live, raw foods
+○ Fasting to rest the organs (see a professional)
+○ Visiting a health recovery facility (such as Sanoviv, Hippocrates or the Optimum Health Institute)
+○ Colon cleansing (via colon hydrotherapy, enemas, supplements)
+○ Drinking more pure water''';
+  static const String bodyWork = '''
+  Bodywork refers to any therapeutic or personal development technique that involves working with the body. 
+
+● These types of bodywork all attempt to create balance in the body in various ways.
+○ Chiropractic Care
+○ Massage 
+○ Cranio-sacral therapy
+○ Acupressure
+○ Shiatsu 
+○ Rolfing 
+○ Reflexology
+● A wealth of information about each of these methods is available on the internet, or you can learn more by visiting a provider of the method you want to learn about. ''';
+  static const String creativity = '''
+  This indicates a need to express creativity. Creative energy is primarily generated in and emanated from the heart. It is necessary to keep creative energy flowing in order to maintain balance and optimal health. 
+
+● Creativity can take many forms.
+● This can be anything you enjoy doing! 
+● Make an effort to find something you're passionate about and don’t be afraid to try something new.
+● Some ideas for creative outlets include:
+○ Enjoying music, live or otherwise
+○ Hiking
+○ Socializing 
+○ Physical movement (dance, exercise, etc). 
+○ Creating art or pottery
+○ Creative writing''';
+  static const String adjunctiveTherapy = '''
+  Adjunctive therapy is an indication that the body may want outside help or an additional therapy to maximize the effectiveness of healing and recovery. 
+
+● Bach flower remedies and homeopathic remedies can be used to help with both emotional and physical issues. They are both made from extremely diluted natural substances, and are designed to help the body create more balance within itself in a gentle and natural way. 
+● Homeopathics may be helpful for both physical and emotional ailments, while flower remedies are primarily designed to assist with emotions. Many different formulas are available for purchase on the internet or in local stores. ''';
+  static const String energyMed = '''
+  Here are additional energy methods that may be beneficial and essential for complete healing and recovery. 
+
+● These may include any one of following:
+○ Traditional Chinese Medicine 
+○ Acupuncture 
+○ Ayurveda 
+○ Reiki 
+● These types of energy medicine all approach the balancing of the body’s energy in different ways.
+● A wealth of information about each of these methods is available on the internet, or you can learn more by visiting a provider of the method you want to learn about. ''';
+  static const String protein = '''
+  Protein is one of the three essential macronutrients, the others being fats and carbohydrates.  
+
+● Protein requirements increase during times of healing and recovery, and often show up as a need during that time.  
+● Kwashiorkor is a protein deficiency disease seen in children of developing countries.
+● Most populations of modern countries get enough protein.
+● Symptoms of deficiency include:
+○ Swelling
+○ Mood changes
+○ Hair, nail, skin issues
+○ Weakness and fatigue
+○ Hunger
+○ Slow-healing of injuries
+○ Getting or staying sick
+● All food has a specific vibration.
+● Use this chart to decode what protein or protein source the body may want to incorporate into the diet. 
+● Most often, when the body wants a certain protein, it is in order to provide better healing and recovery.''';
+  static const String superFood = '''
+  Superfoods are food that are nutritionally dense and widely considered to be beneficial for the body, although there are no set standards to classify a superfood. 
+
+● The foods on this list are generally high in most or all of the following:
+○ Antioxidants
+○ Good fats
+○ Fiber
+○ Phytochemicals
+○ Vitamins 
+○ Minerals
+○ All food has a specific vibration.
+● Use this chart to decode, one at time, what superfood(s) the body wants to incorporate. 
+● Most often, when the body wants a certain superfood, it is in order to provide better nutritional balance. ''';
+  static const String food = '''
+  Food is any nutritious substance that people eat or drink in order to maintain life and growth. 
+
+●Sometimes a specific food is needed becauses of the individual components of the food or because the food is greater than the summation of its components. 
+● All food has a specific vibration.
+● Use this chart to decode what food the body wants to incorporate, one at time. 
+● Most often, when the body wants a certain food, it is in order to provide better nutritional balance. ''';
+  static const String nutrient = '''
+  Nutrients are any substance that provides nourishment essential for growth, repair, and maintenance of life.
+
+● All nutrients have their own unique vibration.
+● All the nutrients on this chart are needed to help the body function optimally. 
+● Use the decoding process to identify which nutrient(s) your body needs and what has caused the deficiency.  
+● More Information on Dietary Intake and Recommended Dietary Allowances.''';
+  static const String essentialOil = '''
+  Essential oils are extractions that capture the scent and flavor or “essence” of the plant from which they originate. The extractions are combined with a carrier oil to create a product that’s ready for use. 
+
+● Essential oils are used in many types of alternative medicine and can support health and well-being.
+● Each essential oil has its own unique vibration and therefore healing properties. 
+● Essential oils are not meant to be consumed or swallowed, but instead are applied to the skin. 
+● Inhaling the aromas from essential oils can stimulate the limbic system of the brain which plays a role in emotions, behavior, sense of smell, and long term memory. 
+● Health benefits of essential oils include: 
+○ Reduced stress and anxiety
+○ Improvement with headaches and migraines
+○ Help with sleep and insomnia
+○ Reducing inflammation
+○ Antibiotic and antimicrobial properties
+● Use the decoding process to identify which essential oil(s) your body wants.''';
+  static const String herbSpice = '''
+  Herbs come from the leaves of a plant that are used for flavoring, food, or medicine and  can be found either fresh or dried, chopped or whole. 
+
+● Spices are made from aromatic seeds, bark, flowers, and roots of plants that have been dried and crushed. Spices tend to be stronger in flavor because they are made from crushed portions that are especially rich in essential oils. 
+● All Herbs and spices have their own unique vibration.
+● The use of healing herbs can be dated back to 3000 B.C.
+● Some properties of herbs and spices include:
+○ Anti-inflammatory
+○ Anti-bacterial
+○ Antispasmodic
+● Use the decoding process to identify which herb(s) or spice(s) your body wants.''';
+  static const String cleaning = '''
+  Many cleaning supplies have ingredients that can add to the toxic load of the body and may create problems. The fragrances and smells associated with cleaning supplies can take a heavy toll on the respiratory system and skin. Some studies suggest weekly use of harsh cleaning supplies is comparable to smoking a pack a day of cigarettes. 
+
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String building = '''
+  Many conventional building materials contain chemicals. These may be the materials themselves, or an additive intended to preserve the material. Most toxic exposures are in the form of off-gassing.
+
+● Sources could include:
+○ Asbestos
+○ Pressure treated wood 
+○ Flame retardants
+○ Formaldehyde
+○ Paint fumes
+○ Glue fumes
+○ Construction dust
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String cosmetic = '''
+  Cosmetic toxins may refer to any product or ingredient that could add to the toxic load of the body and may create problems. 
+
+● Sources could include:
+○ Shampoo and conditioner
+○ Makeup 
+○ Lotion, cream or other skincare products
+○ Nail polish
+○ Hair dye
+○ Soap
+○ Deodorant and antiperspirant 
+○ Perfume
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String hallucinogen = '''
+● Hallucinogens here refer to any drug that may alter a person’s awareness of their surroundings or their body, as well as interfere with their thoughts, feelings and interactions with others. 
+● Sources could include:
+LSD
+Mescaline
+Psilocybin
+PCP
+DMT
+Ayahuasca
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String stimulant = '''
+  Stimulants or “uppers” generally refer to caffeine, nicotine, as well as drugs of abuse, which may include street drugs or controlled substances that have been taken in excess. 
+
+● Sources could include:
+○ Caffeine
+○ Ephedrine
+○ MDMA
+○ Amphetamine
+○ Methamphetamine
+○ Cocaine
+○ Nicotine 
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String depressant = '''
+  Depressants or “downers” generally refer to drugs of abuse, which may include street drugs or controlled substances that have been taken in excess. 
+
+● Sources could include:
+○ Alcohol
+○ Barbiturates
+○ Benzodiazepines
+○ Cannabis
+○ Opioids
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String otc = '''
+  Over the counter medicine or (OTC), or non-prescription medicine that can be purchased without a prescription. All drugs, including OTC medications, are toxic to the body to some degree, and require the body to process them both physically and energetically.
+
+● Sources could include:
+○ Painkillers
+○ Cold medications
+○ Antiseptics
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String vaccination = '''
+  Many vaccines contain very toxic components, such as aluminum, formaldehyde, and mercury. These are added as ‘adjuvants’ that weaken the organism or preserve the vaccine. 
+
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String medication = '''
+  Medications may be necessary and appropriate at times. All drugs, including medications, are toxic to the body to some degree, and require the body to process them both physically and energetically. 
+
+● Always talk to your doctor about any questions or concerns, or before changing or stopping any medication. 
+● Using muscle testing to determine whether a person should stop taking a medication or to adjust medication dosage is dangerous and illegal, unless you are a prescribing physician. 
+● Categories may include:
+○ Painkillers
+○ Tranquilizers and sleeping pills
+○ Antipsychotic drugs
+○ Antibiotic
+○ Antidepressants
+○ Cardiovascular drugs
+○ Antiasthmatics
+● Medication toxins may be from any prescription that you took during your lifetime.
+● Medication toxins can exist in chemical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String sugars = '''
+  Sugar is a highly addictive substance and in high doses is extremely toxic to the body.  Almost all chronic disease has its roots in overconsumption of processed carbohydrates or sugars. Excess sugar consumption creates glycation of body tissue and disease. 
+
+● Types of Sugars
+● Sucrose
+○ Fructose
+○ Glucose
+○ Galactose
+○ Sources could include:
+○ Corn Syrup
+○ Beet Sugar
+○ Sugarcane 
+● Toxins may come up from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String artificial = '''
+  Artificial sweeteners, also known as non-nutritive sweeteners, and sugar substitutes are synthetic chemicals that bind to taste receptors to transmit a false signal of eating sugar. Most of these were discovered accidentally during the formation of agricultural pesticides. They are highly toxic and can create headaches, digestive issues, depression, and seizures. 
+
+● Types of artificial sweeteners could include:
+○ Saccharin
+○ Aspartame
+○ Acesulfame K
+○ Sucralose
+○ Cyclamate
+● Toxins may come up from any time or point  in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String foodColoring = '''
+  Color is an extremely important sensory characteristic of food, it directly influences the perception of flavor and quality. Synthetic colorants that are added to processed foods are primarily petroleum-based chemical compounds and can be highly toxic.  They can create headaches, hives, and other allergic reactions. 
+
+● Sources could include:
+○ Beverages
+○ Candies
+○ Ice Creams
+○ Bakery Products
+○ Sauces
+○ Processed foods
+● Toxins may come up from any time or point  in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String nutritional = '''
+  Nutritional additives are used for the purpose of restoring nutrients lost or degraded during food processing and production. Fortifying or enriching certain foods in order to correct dietary deficiency has been around since the early 1900s.  Many of these nutritional additives are synthetic and thus toxic and foreign to the body.
+
+● Sources could include:
+○ All Processed Foods
+○ Enriched Flours
+● Toxins may come up from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String gmo = '''
+  Genetically modified organisms or genetically modified foods are bioengineered foods produced from organisms that have had changes introduced to their DNA.  These genetic changes are usually introduced for agricultural reasons.  The two most common DNA changes are: the organism produces pesticides from within itself, or to be pesticide tolerant.
+
+● Sources could include:
+○ Corn
+○ Soybeans
+○ Canola
+○ Sugar Beets
+○ Alfalfa
+○ Hawaiian Papaya
+○ Zucchini
+○ Yellow Crookneck Squash
+● Toxins may come up from any time in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String processingAgent = '''
+  Processing agents are chemical additives that aid in the processing and manufacturing of the food. They also help maintain the desired consistency of the food product.  
+
+● Types could include:
+○ Anti-caking
+○ Humectants - moisture control
+○ Emulsifiers
+○ pH control
+○ Conditioning - potassium bromate
+○ Thickeners
+○ Bleaching
+● Toxins may come up from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String wind = '''
+  General information:
+
+● Chinese medicine recognizes six "pernicious influences" also known as the six pathogenic factors, six excesses, or six evils. This usually comes from being exposed to or overwhelmed by the element via weather or environmental exposure, from diet, and could also be created by internal factors, such as associated imbalances or chronic illness. 
+● Each of these is simply the energy of an element, but an excess of it is considered toxic by the subconscious mind. If the body is unable to process the energy, the flow of Qi (energy) may be imbalanced and symptoms may arise, sometimes even years later. Like the elements in our environment, these could combine within the body to create exacerbated symptoms (e.g. Cold and Wind together may feel more extreme than either element would on its own). For more information, research Chinese Medicine Theory.
+Wind energy is considered to be the most damaging and chaotic, because it possesses the qualities of wind in nature. It exerts excess forceful, unpredictable movement of energy in the body. 
+
+● It is a Yang energy.
+● This is created by exposure to wind in the environment, or may be caused internally by liver imbalance. 
+● It often affects the head, throat, eyes, upper body, and lungs, and can potentially create shaking or spasms, or symptoms that change unpredictably. 
+● This may cause one to be physically sensitive to or emotionally agitated by wind in the environment (even when one is indoors).
+● Often has at least one associated imbalance, especially the other five pernicious influences. ''';
+  static const String heat = '''
+  General information:
+
+● Chinese medicine recognizes six "pernicious influences" also known as the six pathogenic factors, six excesses, or six evils. This usually comes from being exposed to or overwhelmed by the element via weather or environmental exposure, from diet, and could also be created by internal factors, such as associated imbalances or chronic illness. 
+● Each of these is simply the energy of an element, but an excess of it is considered toxic by the subconscious mind. If the body is unable to process the energy, the flow of Qi (energy) may be imbalanced and symptoms may arise, sometimes even years later. Like the elements in our environment, these could combine within the body to create exacerbated symptoms (e.g. Cold and Wind together may feel more extreme than either element would on its own). For more information, research Chinese Medicine Theory.
+Heat energy possesses the qualities of heat or fire in nature. It exerts increased activity and too much movement of Qi in the body. It is the opposite element of dampness.
+
+● It is a Yang energy.
+● This is created by exposure to heat in the environment, or may be caused internally by Liver, Stomach or Heart imbalance. It can also be created by intense emotions such as Anger. Other causes may be hot foods, alcohol, coffee, fried foods or red meat. 
+● It often affects the skin and can potentially create itchiness and rashes, as well as inflammation, fever, thirst, dehydration, constipation, and aversion to heat. Heat may create feelings of restlessness, agitation and even aggression. May create spasms especially when combined with wind.  
+● May produce wind energy when heat imbalances the liver. ''';
+  static const String dryness = '''
+  General information:
+
+● Chinese medicine recognizes six "pernicious influences" also known as the six pathogenic factors, six excesses, or six evils. This usually comes from being exposed to or overwhelmed by the element via weather or environmental exposure, from diet, and could also be created by internal factors, such as associated imbalances or chronic illness. 
+● Each of these is simply the energy of an element, but an excess of it is considered toxic by the subconscious mind. If the body is unable to process the energy, the flow of Qi (energy) may be imbalanced and symptoms may arise, sometimes even years later. Like the elements in our environment, these could combine within the body to create exacerbated symptoms (e.g. Cold and Wind together may feel more extreme than either element would on its own). For more information, research Chinese Medicine Theory.
+Dryness energy possesses the qualities of dryness in nature. It is closely related to heat. 
+
+● It is a Yang energy.
+● This is created by exposure to a dry climate or lack of humidity in the environment. It can also be caused by dehydration, smoking, or lack of bodily fluids, or excess spicy hot foods.
+● It often affects the lungs, skin, hair and mucous membranes. It can potentially create physical discomfort, respiratory problems, as well as chronic dehydration and associated symptoms such as thirst.
+● CAUSES: This may cause one to be sensitive to dryness in the environment, especially when cold, heat or wind is also present.''';
+  static const String cold = '''
+  General information:
+
+Chinese medicine recognizes six "pernicious influences" also known as the six pathogenic factors, six excesses, or six evils. This usually comes from being exposed to or overwhelmed by the element via weather or environmental exposure, from diet, and could also be created by internal factors, such as associated imbalances or chronic illness. 
+● Each of these is simply the energy of an element, but an excess of it is considered toxic by the subconscious mind. If the body is unable to process the energy, the flow of Qi (energy) may be imbalanced and symptoms may arise, sometimes even years later. Like the elements in our environment, these could combine within the body to create exacerbated symptoms (e.g. Cold and Wind together may feel more extreme than either element would on its own). For more information, research Chinese Medicine Theory.
+● Cold energy possesses the same qualities of cold in nature, slowing down movement and creating stagnation in the body. 
+
+● It is a Yin energy.
+● This is created by exposure to cold in the environment, eating too much cold food, or caused internally by spleen, stomach or kidneys imbalance.
+● It may be imbalancing to the muscles, lungs and skin, causing contractions, headaches, stiff neck and upper body, little to no sweating, and clear nasal mucous. 
+● The symptoms created by cold energy may be relieved by warmth.
+● This may cause one to have trouble staying warm.''';
+  static const String toxic = '''
+  Toxic sound refers to any audible sound frequency that has become stuck in the body, usually in the brain.  These sound frequencies can leave a lingering “ringing” in the ear, brain, or body.  The sound frequency can be from anything that produces an audible sound.  
+
+● Sources could include:
+○ Industrial noise
+○ Negative words
+○ Traffic
+○ Environmental noise
+● Toxic sounds may be from any time or point  in your life.
+● Toxin sounds only exists an energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String nutrientExp = '''
+  It’s possible that you can get too much of a good thing. Nutritional supplements that may be acceptable for your body can become toxic if you take in too much. This generally occurs from taking supplements and is rarely from eating food.
+
+● Source are usually from a supplement you are currently taking or have taken in the past. 
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String free = '''
+  Free radicals are unstable atoms due to a missing paired electron. These are highly reactive and short lived. They are naturally occurring and a byproduct of our metabolism, but become problematic when we develop them in excess or are unable to deal with them properly.
+
+● The effect of free radicals in the body can essentially be described as “rusting” in the body. 
+● An excess can be caused by any kind of stress, especially overeating, radiation, tobacco, direct sunlight, smog, pollution, and foods that are high in unhealthy fats and sugar.''';
+  static const String metabolic = '''
+  Metabolic waste refers to the byproducts of all metabolic processes, and consists of anything that our bodies cannot use, is toxic, or just wants elimination. If any of the organs of elimination (liver, kidneys, lungs, intestines, and skin) are compromised in any way, or are working less efficiently than they should, metabolic waste can build up in the body. 
+
+● Some examples of metabolic waste are: carbon dioxide, phosphates, sulfates, nitrogen compounds, and water.''';
+  static const String stress = '''
+  The stress hormones of the body include: Adrenalin, Cortisol and Noradrenaline.
+
+These hormones are produced in response to stress. A single stressful situation may result in these hormones bathing the tissues for up to 24 hours, and they may be perceived as toxins if stress is ongoing, especially intense, and/or if the stress hormones are not appropriately dealt with through vigorous exercise, etc.
+
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String microbial = '''
+  Some pathogens create toxins as a byproduct of their own metabolism and/or their existence in the body. For example, parasites produce uric acid which often causes joint and muscle discomfort. Also, when pathogens die they release additional toxins that create die off symptoms and sickness. 
+
+● Sources could include:
+○ Mold
+○ Fungal
+○ Parasitic
+○ Bacterial
+○ Prion
+○ Viral
+● Toxins may be from any time or point in your life.
+● Toxins can exist in physical form, as well as in an invisible, energetic form. Energetic toxins are vibrational frequencies that were simply unable to be processed, likely because the energy body was imbalanced.''';
+  static const String eightRib = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String vomer = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. ''';
+  static const String t9 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Adrenal cortex, pancreas, spleen, gallbladder, ovaries, uterus, small intestine
+
+Possible Symptoms: Allergies, hives''';
+  static const String t12 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Small intestine, lymph circulation, large intestine, urinary bladder, uterus, kidneys, ileocecal valve
+
+Possible Symptoms: Rheumatism, gas pains, certain types of sterility''';
+  static const String t11 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Kidneys, ureters, large intestine, urinary bladder, adrenal medulla, adrenal cortex, uterus, ovaries, ileocecal valve
+
+Possible Symptoms: Skin conditions like acne, pimples, eczema, or boils''';
+  static const String t10 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Kidneys, appendix, testes, ovaries, uterus, adrenal cortex, spleen, pancreas, large intestine
+
+Possible Symptoms: Kidney troubles, hardening of the arteries, chronic tiredness, nephritis, inflammation of kidneys''';
+  static const String l5 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Lower legs, ankles, feet, prostate
+
+Possible Symptoms: Poor circulation in the legs, swollen ankles, weak ankles and arches, cool feet, weakness in the legs, leg cramps''';
+  static const String l4 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Prostate gland, muscles of the lower back, sciatic nerve
+
+Possible Symptoms: Sciatica, lumbago, difficult, painful, or too frequent urination, backache''';
+  static const String l3 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Sex organs, uterus, bladder, knee, prostate, large intestine
+
+Possible Symptoms: Bladder troubles, menstrual troubles like painful or Irregular periods, miscarriages, bed wetting, impotency, change of life symptoms, many knee pains''';
+  static const String l1 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Large intestine, inguinal rings, uterus
+
+Possible Symptoms: Constipation, colitis, dysentery, diarrhea, ruptures or hernias''';
+  static const String c6 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Neck muscles, shoulders, tonsils
+
+Possible Symptoms: Stiff neck, pain in upper arm, tonsillitis, whooping cough, croup''';
+  static const String c1 = '''
+  If you have been guided to this page by the subconscious mind through testing, it indicates a misalignment is present. Remember that most of the time, misalignments are caused by the distorting effect of some associated imbalance such as a trapped emotion. 
+
+Connections: Blood supply to the head, pituitary gland, scalp, bones of the face, brain inner and middle ear, sympathetic nervous system, eyes, ears
+
+Possible Symptoms: Headaches, nervousness, insomnia, head colds, high blood pressure, migraine headaches,mental conditions, nervous breakdowns, amnesia, sleeping sickness, chronic tiredness, dizziness or vertigo''';
 }

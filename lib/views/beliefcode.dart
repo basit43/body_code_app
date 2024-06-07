@@ -19,8 +19,12 @@ class _BeliefCodeState extends State<BeliefCode> {
         automaticallyImplyLeading: false, // Remove the back button
         title: Text('Belief Code'), // Add an app bar
       ),
-      body: Image.asset(Images.beliefCode,
-        fit: BoxFit.fill,),
+      body: Center(
+        child: Image.asset(
+          Images.beliefCode,
+          fit: BoxFit.fill,
+        ),
+      ),
     );
   }
 }

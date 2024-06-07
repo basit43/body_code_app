@@ -207,6 +207,42 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
           'screen': RoutesName.thirdScreen
         },
       ];
+    } else if (widget.parentScreen == 'Connective Tissue') {
+      data = [
+        {
+          'imageUrl': Images.tendon,
+          'text': 'Tendon',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.fascia,
+          'text': 'Fascia',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.ligament,
+          'text': 'Ligament',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.disc,
+          'text': 'Disc',
+          'screen': RoutesName.thirdScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Skeleton') {
+      data = [
+        {
+          'imageUrl': Images.appendicular,
+          'text': 'Appendicular Skeleton',
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.axial,
+          'text': 'Axial Skeleton',
+          'screen': RoutesName.thirdScreen
+        },
+      ];
     } else if (widget.parentScreen == "Allergy or Intolerance") {
       data = [
         {
@@ -257,6 +293,279 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
           'text': 'Saboteur',
           'screen': RoutesName.textScreen
         },
+      ];
+    } else if (widget.parentScreen == 'Lower Limb') {
+      data = [
+        {
+          'imageUrl': Images.lowerLimbAppend,
+          'text': 'Leg',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.pelvis,
+          'text': 'Pelvis',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.foot,
+          'text': 'Foot',
+          'screen': RoutesName.beforeTextScreen
+        }
+      ];
+    } else if (widget.parentScreen == 'Leg') {
+      data = [
+        {
+          'imageUrl': Images.tibia,
+          'text': 'Tibia',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.femur,
+          'text': 'Femur',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.patella,
+          'text': 'Patella',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.patella,
+          'text': 'Febula',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.meniscus,
+          'text': 'Meniscus',
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Pelvis') {
+      data = [
+        {
+          'imageUrl': Images.ilium,
+          'text': 'Ilium',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.isohium,
+          'text': 'Isohium',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.pubis,
+          'text': 'Pubis',
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Foot') {
+      data = [
+        {
+          'imageUrl': Images.tarsalBone,
+          'text': 'Tarsal Bone',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.distalBone,
+          'text': 'Distal Phalange',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.proximalBone,
+          'text': 'Proximal Phalange',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.medialBone,
+          'text': 'Medial Phalange',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.metatarsalBone,
+          'text': 'Metatarsal Bone',
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Upper Limb') {
+      data = [
+        {
+          'imageUrl': Images.wristBone,
+          'text': 'Wrist or Hand Bone',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.clavicleBone,
+          'text': 'Clavicle Bone',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.ulnaBone,
+          'text': 'Ulna Bone',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.scapulaBone,
+          'text': 'Scapula Bone',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.radiusBone,
+          'text': 'Radius Bone',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.humerusBone,
+          'text': 'Humerus Bone',
+          'screen': RoutesName.textScreen
+        }
+      ];
+    } else if (widget.parentScreen == 'Wrist or Hand Bone') {
+      data = [
+        {
+          'imageUrl': Images.handBone,
+          'text': 'Hand Bone',
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.wristBone,
+          'text': 'Wrist Bone',
+          'screen': RoutesName.beforeTextScreen
+        }
+      ];
+    } else if (widget.parentScreen == 'Hand Bone') {
+      data = [
+        {
+          'imageUrl': Images.distal,
+          'text': 'Distal Phalange Bone',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.metacarpalBone,
+          'text': 'Metacarpal Bone',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.medial,
+          'text': 'Medial Phalange',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.proximal,
+          'text': 'Proximal Phalange Bone',
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Lumbar Vertebrae') {
+      data = [
+        {'imageUrl': Images.l1, 'text': 'L1', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.l5, 'text': 'L5', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.l2, 'text': 'L2', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.l4, 'text': 'L4', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.l3, 'text': 'L3', 'screen': RoutesName.textScreen},
+      ];
+    } else if (widget.parentScreen == 'Thoracic Vertebrae 1-6') {
+      data = [
+        {'imageUrl': Images.t1, 'text': 'T1', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.t2, 'text': 'T2', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.t3, 'text': 'T3', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.t4, 'text': 'T4', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.t5, 'text': 'T5', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.t6, 'text': 'T6', 'screen': RoutesName.textScreen},
+      ];
+    } else if (widget.parentScreen == 'Thoracic Vertebrae 7-12') {
+      data = [
+        {'imageUrl': Images.t7, 'text': 'T7', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.t8, 'text': 'T8', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.t9, 'text': 'T9', 'screen': RoutesName.textScreen},
+        {
+          'imageUrl': Images.t10,
+          'text': 'T10',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.t11,
+          'text': 'T11',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.t12,
+          'text': 'T12',
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Wrist Bone') {
+      data = [
+        {
+          'imageUrl': Images.hamate,
+          'text': 'Hamate',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.scaphoid,
+          'text': 'Scaphoid',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.capitate,
+          'text': 'Capitate',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.lunate,
+          'text': 'Lunate',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.trapezoid,
+          'text': 'Trapezoid',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.triquetrum,
+          'text': 'Triquetrum',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.trapezium,
+          'text': 'Trapezium',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.pisiform,
+          'text': 'Pisiform',
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Sacrum and Coccyx') {
+      data = [
+        {
+          'imageUrl': Images.sacrum,
+          'text': 'Sacrum',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.coccyx,
+          'text': 'Coccyx',
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Cervicle Vertebrae') {
+      data = [
+        {
+          'imageUrl': Images.c1,
+          'text': 'C1 (Atlas)',
+          'screen': RoutesName.textScreen
+        },
+        {'imageUrl': Images.c7, 'text': 'C7', 'screen': RoutesName.textScreen},
+        {
+          'imageUrl': Images.c2,
+          'text': 'C2 (Axis)',
+          'screen': RoutesName.textScreen
+        },
+        {'imageUrl': Images.c6, 'text': 'C6', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.c3, 'text': 'C3', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.c5, 'text': 'C5', 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.c4, 'text': 'C4', 'screen': RoutesName.textScreen},
       ];
     } else if (widget.parentScreen == "Trapped Emotion") {
       data = [
@@ -769,27 +1078,27 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == "Cerebrum") {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.corpus,
           'text': "Cropus Callosum",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.frontal,
           'text': "Frontal Lobe",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.temporal,
           'text': "Temporal Lobe",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.parietal,
           'text': "Parietal Lobe",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.occipital,
           'text': "Occipital Lobe",
           'screen': RoutesName.textScreen
         },
@@ -988,6 +1297,108 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
           'screen': RoutesName.textScreen
         },
       ];
+    } else if (widget.parentScreen == 'Cervical Vertebrae') {
+      data = [
+        {
+          'imageUrl': Images.c1,
+          'text': "C1 (Atlas)",
+          'screen': RoutesName.textScreen
+        },
+        {'imageUrl': Images.c7, 'text': "C7", 'screen': RoutesName.textScreen},
+        {
+          'imageUrl': Images.c2,
+          'text': "C2 (Axis)",
+          'screen': RoutesName.textScreen
+        },
+        {'imageUrl': Images.c6, 'text': "C6", 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.c3, 'text': "C3", 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.c5, 'text': "C5", 'screen': RoutesName.textScreen},
+        {'imageUrl': Images.c4, 'text': "C4", 'screen': RoutesName.textScreen},
+      ];
+    } else if (widget.parentScreen == 'Vertebral-Column') {
+      data = [
+        {
+          'imageUrl': Images.sacrumAndCoccyx,
+          'text': "Sacrum and Coccyx",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.cervicleVertebrae,
+          'text': "Cervical Vertebrae",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.lumbarVertebrae,
+          'text': "Lumbar Vertebrae",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.thoracicVertebrae16,
+          'text': "Thoracic Vertebrae 1-6",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.thoracicVertebrae712,
+          'text': "Thoracic Vertebrae 7-12",
+          'screen': RoutesName.beforeTextScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Common Misalignment') {
+      data = [
+        {
+          'imageUrl': Images.skull,
+          'text': "Skull",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.uterus,
+          'text': "Uterus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.vertebralColumn,
+          'text': "Vertebral Column",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.stomach,
+          'text': "Stomach",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.kidney,
+          'text': "Kidney",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.fascia,
+          'text': "Fascial distortion",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Soft Tissues') {
+      data = [
+        {
+          'imageUrl': Images.organ,
+          'text': "Organ",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.gland,
+          'text': "Gland",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.connectiveTissue,
+          'text': "Connective Tissue",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.fascia,
+          'text': "Fascia",
+          'screen': RoutesName.textScreen
+        },
+      ];
     } else if (widget.parentScreen == "Excess") {
       data = [
         {
@@ -1018,6 +1429,29 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
         {
           'imageUrl': Images.toxicSound,
           'text': "Toxin Sound",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Sweetener') {
+      data = [
+        {
+          'imageUrl': Images.artificialSweetener,
+          'text': "Artificial Sweetener",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.sugars,
+          'text': "Sugars",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.naturalSweetener,
+          'text': "Natural Sweetener",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.sugarAlcohols,
+          'text': "Sugar Alcohols",
           'screen': RoutesName.textScreen
         },
       ];
@@ -1129,13 +1563,72 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
         },
         {
           'imageUrl': Images.toxin,
-          'text': "Pollution",
+          'text': "Toxin",
           'screen': RoutesName.thirdScreen
         },
         {
           'imageUrl': Images.agricultural,
           'text': "Agriculture",
           'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Outside Need') {
+      data = [
+        {
+          'imageUrl': Images.mentalOrEmotionalFitness,
+          'text': 'Mental or Emotional Fitness',
+          'screen': RoutesName.beforeTextScreen,
+        },
+        {
+          'imageUrl': Images.adjunctiveTherapy,
+          'text': 'Adjunctive Therapy',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.physicalNeed,
+          'text': 'Physical Need',
+          'screen': RoutesName.beforeTextScreen,
+        },
+        {
+          'imageUrl': Images.energyMedicine,
+          'text': 'Energy Medicine',
+          'screen': RoutesName.textScreen,
+        },
+      ];
+    } else if (widget.parentScreen == 'Mental or Emotional Fitness') {
+      data = [
+        {
+          'imageUrl': Images.stressProcessing,
+          'text': 'Stress Processing',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.spirtualNutrition,
+          'text': 'Spirtual Nutrition',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.creativity,
+          'text': 'Creativity',
+          'screen': RoutesName.beforeTextScreen,
+        },
+      ];
+    } else if (widget.parentScreen == 'Physical Need') {
+      data = [
+        {
+          'imageUrl': Images.leftUpperTeeth,
+          'text': 'Need for Movement',
+          'screen': RoutesName.beforeTextScreen,
+        },
+        {
+          'imageUrl': Images.leftUpperTeeth,
+          'text': 'Body Work',
+          'screen': RoutesName.beforeTextScreen,
+        },
+        {
+          'imageUrl': Images.leftUpperTeeth,
+          'text': 'Detoxification',
+          'screen': RoutesName.beforeTextScreen,
         },
       ];
     } else if (widget.parentScreen == 'Upper Teeth') {
@@ -1612,41 +2105,67 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
           'screen': RoutesName.textScreen,
         }
       ];
-    } else if (widget.parentScreen == 'Tharocic Circulation') {
+    } else if (widget.parentScreen == 'Thoracic Circulation') {
       data = [
         {
-          'imageUrl': Images.radial,
-          'text': 'Radial Artery',
+          'imageUrl': Images.leftSubclavian,
+          'text': 'Left Subclavian',
           'screen': RoutesName.textScreen,
         },
         {
-          'imageUrl': Images.radial,
-          'text': 'Radial Artery',
+          'imageUrl': Images.aortic,
+          'text': 'Aortic Arch',
           'screen': RoutesName.textScreen,
         },
         {
-          'imageUrl': Images.radial,
-          'text': 'Radial Artery',
+          'imageUrl': Images.rightSubclavian,
+          'text': 'Right Subclavian Artery',
           'screen': RoutesName.textScreen,
         },
         {
-          'imageUrl': Images.radial,
-          'text': 'Radial Artery',
+          'imageUrl': Images.heartCirculation,
+          'text': 'Heart Circulation',
+          'screen': RoutesName.thirdScreen,
+        },
+        {
+          'imageUrl': Images.intercostal,
+          'text': 'Intercostal Artery',
           'screen': RoutesName.textScreen,
         },
         {
-          'imageUrl': Images.radial,
-          'text': 'Radial Artery',
+          'imageUrl': Images.leftPulmonary,
+          'text': 'Left Pulmonary Artery',
           'screen': RoutesName.textScreen,
         },
         {
-          'imageUrl': Images.radial,
-          'text': 'Radial Artery',
+          'imageUrl': Images.rightPulmonary,
+          'text': 'Right Pulmonary Artery',
+          'screen': RoutesName.textScreen,
+        },
+      ];
+    } else if (widget.parentScreen == 'Head or Neck Vessel') {
+      data = [
+        {
+          'imageUrl': Images.faceVessel,
+          'text': 'Face or Neck Vessel',
+          'screen': RoutesName.thirdScreen,
+        },
+        {
+          'imageUrl': Images.skullInterior,
+          'text': 'Skull Interior Vessel',
+          'screen': RoutesName.thirdScreen,
+        },
+      ];
+    } else if (widget.parentScreen == 'Stomach Sphincter') {
+      data = [
+        {
+          'imageUrl': Images.cardiacSphincter,
+          'text': 'Cardiac Sphincter',
           'screen': RoutesName.textScreen,
         },
         {
-          'imageUrl': Images.radial,
-          'text': 'Radial Artery',
+          'imageUrl': Images.pyloricSphincter,
+          'text': 'Pyloric Sphincter',
           'screen': RoutesName.textScreen,
         },
       ];

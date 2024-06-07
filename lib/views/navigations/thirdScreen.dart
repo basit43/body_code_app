@@ -155,20 +155,468 @@ class _ThirdScreenState extends State<ThirdScreen> {
           'screen': RoutesName.beforeTextScreen
         },
       ];
-    } else if (widget.parentScreen == "Intestines") {
+    } else if (widget.parentScreen == 'Heart Circulation') {
       data = [
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.mitral,
+          'text': "Mitral Valve",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.coronary,
+          'text': "Cornary Artery",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.pulmonary,
+          'text': "Pulmonary Valve",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.aorticValve,
+          'text': "Aortic Valve",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.tricuspid,
+          'text': "Tricuspid Valve",
+          'screen': RoutesName.textScreen
+        }
+      ];
+    } else if (widget.parentScreen == 'Face or Neck Vessel') {
+      data = [
+        {
+          'imageUrl': Images.vertebralArtery,
+          'text': "Vertebral artery",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.anteriorArtery,
+          'text': "Anterior Facial Artery",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.carotidArtery,
+          'text': "Carotid Artery",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.internalVein,
+          'text': "Internal Jugular Vein",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.externalVein,
+          'text': "External Jugular Vein",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Urinary System') {
+      data = [
+        {
+          'imageUrl': Images.urethra,
+          'text': "urethra",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.ureter,
+          'text': "Ureter",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.bladder,
+          'text': "Bladder",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.adrenals,
+          'text': "Kidney",
+          'screen': RoutesName.textScreen
+        }
+      ];
+    } else if (widget.parentScreen == 'Digestive System') {
+      data = [
+        {
+          'imageUrl': Images.tongue,
+          'text': "Tongue",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.liver,
+          'text': "Liver",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.stomachSphincter,
+          'text': "Stomach Sphincter",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.colon,
+          'text': "Colon",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.stomach,
+          'text': "Stomach",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.esophagus,
+          'text': "Esophagus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.smallIntestine,
           'text': "Small Intestine",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.gallBladder,
+          'text': "Gallbladder",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.pancrease,
+          'text': "Pancreas",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.Ileocecal,
+          'text': "Ileocecal Valve",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Skull Interior Vessel') {
+      data = [
+        {
+          'imageUrl': Images.inferiorSagittal,
+          'text': "Inferior Sagittal Sinus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.superiorSagittal,
+          'text': "Superior Sagittal Sinus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.straightSinus,
+          'text': "Straight Sinus",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Skeletal System') {
+      data = [
+        {
+          'imageUrl': Images.connectiveTissue,
+          'text': "Connective Tissue",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.skeleton,
+          'text': "Skeleton",
+          'screen': RoutesName.beforeTextScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Disc') {
+      data = [
+        {
+          'imageUrl': Images.cervicalDisc,
+          'text': "Cervical Disc",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.lowerDisc,
+          'text': "Lower Thoracic Disc",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.upperDisc,
+          'text': "Upper Thoracic Disc",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.lumbarDisc,
+          'text': "Lumbar Disc",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Appendicular Skeleton') {
+      data = [
+        {
+          'imageUrl': Images.lowerLimbAppend,
+          'text': "Lower Limb",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.upperLimbAppend,
+          'text': "Upper Limb",
+          'screen': RoutesName.beforeTextScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Teeth') {
+      data = [
+        {
+          'imageUrl': Images.upperTeeth,
+          'text': "Upper Teeth",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.lowerTeeth,
+          'text': "Lower Teeth",
+          'screen': RoutesName.beforeTextScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Axial Skeleton') {
+      data = [
+        {
+          'imageUrl': Images.vertebralColumn,
+          'text': "Vertebral-Column",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.teethForReference,
+          'text': "Teeth",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.skull,
+          'text': "Skull",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.thoracicCage,
+          'text': "Thoracic Cage",
+          'screen': RoutesName.thirdScreen
+        }
+      ];
+    } else if (widget.parentScreen == 'Vertebral Column') {
+      data = [
+        {
+          'imageUrl': Images.sacrumAndCoccyx,
+          'text': "Sacrum and Coccyx",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.cervicleVertebrae,
+          'text': "Cervicle Vertebrae",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.lumbarVertebrae,
+          'text': "Lumbar Vertebrae",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.thoracicVertebrae16,
+          'text': "Thoracic Vertebrae 1-6",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.thoracicVertebrae712,
+          'text': "Thoracic Vertebrae 7-12",
+          'screen': RoutesName.beforeTextScreen
+        }
+      ];
+    } else if (widget.parentScreen == 'Facial Bone') {
+      data = [
+        {
+          'imageUrl': Images.vomerBone,
+          'text': "Vomer Bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.inferiorBone,
+          'text': "Inferior Nasal Conchae",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.lacrimalBone,
+          'text': "Lacrimal Bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.thoracicVertebrae712,
+          'text': "Palatine Bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.hyoidBone,
+          'text': "Hyoid Bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.zygomaticBone,
+          'text': "Zygomatic Bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.mandibleBone,
+          'text': "Mandible Bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.nasalBone,
+          'text': "Nasal Bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.maxillaBone,
+          'text': "Maxilla Bone",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Skull') {
+      data = [
+        {
+          'imageUrl': Images.facialBone,
+          'text': "Facial Bone",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.frontalBone,
+          'text': "Frontal Bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.middleEarBone,
+          'text': "Middle Ear Bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.parietalBone,
+          'text': "Parietal Bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.ethmoidBone,
+          'text': "Ethmoid bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.temporalBone,
+          'text': "Temporal Bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.sphenoidBone,
+          'text': "Sphenoid bone",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.occipitalBone,
+          'text': "Occipital Bone",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'False Rib') {
+      data = [
+        {
+          'imageUrl': Images.falseRib,
+          'text': "9th Rib",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.falseRib,
+          'text': "11th Rib",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.falseRib,
+          'text': "9th Rib",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.falseRib,
+          'text': "12th Rib",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.falseRib,
+          'text': "10th Rib",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'True Rib') {
+      data = [
+        {
+          'imageUrl': Images.falseRib,
+          'text': "4th Rib",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.falseRib,
+          'text': "7th Rib",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.falseRib,
+          'text': "1st Rib",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.falseRib,
+          'text': "6th Rib",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.falseRib,
+          'text': "2nd Rib",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.falseRib,
+          'text': "5th Rib",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.falseRib,
+          'text': "3rd Rib",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Thoracic Cage') {
+      data = [
+        {
+          'imageUrl': Images.falseRib,
+          'text': "False Rib",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.trueRib,
+          'text': "True Rib",
+          'screen': RoutesName.thirdScreen
+        },
+        {
+          'imageUrl': Images.manubrium,
+          'text': "Manubrium",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.xiphoid,
+          'text': "Xiphoid Process",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.sternum,
+          'text': "Sternum",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == "Intestines") {
+      data = [
+        {
+          'imageUrl': Images.smallIntestine,
+          'text': "Small Intestine",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.Ileocecal,
           'text': "Ileocecal Valve",
           'screen': RoutesName.textScreen
         },
         {
-          'imageUrl': Images.like_ic,
+          'imageUrl': Images.colon,
           'text': "Colon",
           'screen': RoutesName.textScreen
         },

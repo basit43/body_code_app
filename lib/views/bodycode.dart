@@ -98,7 +98,6 @@ class _BodyCodeState extends State<BodyCode> {
                             height: height * 0.16, // Adjust image height
                           ),
                           // Display text
-
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
