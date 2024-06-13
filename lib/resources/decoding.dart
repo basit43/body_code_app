@@ -6,6 +6,14 @@ class DecodingData {
 ● If no, move to Association.
 ● If yes, determine left or right side and continue to Association.
 ''';
+  static const String diaphragmDec = '''
+  You have already indentified the imbalance continue with Association''';
+  static const String shoulderDec = '''
+  Ask: Is it necessary to know what precise muscle is imbalanced?
+
+● If no, move to Association.
+● If yes, use the above list to determine the muscle (Continue to Association only once you have identified the necessary details).
+● Remember that all the muscles listed above exist on both left and right sides of the body, and you may need to determine which side this imbalance is on.''';
   static const String hipDec = '''
   Ask: Is it necessary to know what precise muscle is imbalanced?
 

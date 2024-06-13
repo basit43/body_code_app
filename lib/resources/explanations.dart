@@ -1212,6 +1212,245 @@ If you have been guided to this page by the subconscious mind through testing, i
   The limbic system is a complex set of structures that exists deep within the brain at the top of the brainstem, that are involved with emotions, motivation and primitive reactions such as fear and anger, as well as controlling basic behaviors related to food, survival, and more.
 
 If you have been guided to this page by the subconscious mind through testing, it indicates that the limbic system is imbalanced in some way.''';
+  static const String handExp = '''
+  The muscles of the hand include the following:
+
+● Lateral volar
+Thenar
+● opponens pollicis
+● flexor pollicis brevis
+● abductor pollicis brevis
+● adductor pollicis
+● Medial volar
+palmaris brevis
+● Hypothenar
+● abductor digiti minimi
+● flexor digiti minimi brevis
+● opponens digiti minimi
+● Intermediate
+● lumbrical
+● dorsal interossei
+● palmar interossei
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String foreArmExp = '''
+  The muscles of the forearm include the following:
+
+● Anterior compartment
+○ Superficial
+● pronator teres
+● flexor carpi radialis
+● palmaris longus
+● flexor carpi ulnaris
+● flexor digitorum superficialis
+○ Deep
+● pronator quadratus
+● flexor digitorum profundus
+● flexor pollicis longus
+● Posterior compartment
+○ Superficial
+● extensor digitorum
+● extensor digiti minimi
+● extensor carpi ulnaris
+● Mobile wad
+● brachioradialis
+● extensor carpi radialis longus
+● extensor carpi radialis brevis
+○ Deep
+● supinator
+● extensor indicis
+● Anatomical snuff box
+● abductor pollicis longus
+● extensor pollicis brevis
+● extensor pollicis longus
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. 
+
+''';
+  static const String lymph = '''
+  Lymph nodes are widely spread throughout the body and are linked to each other by lymphatic vessels. The lymph nodes, via the lymphatic system, collect pathogenic invaders, waste materials and fluids for processing. Lymph nodes store important blood cells such as B and T cells and other white blood cells. A swollen lymph node is usually a sign of infection or illness.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates that some of the lymph nodes are imbalanced in some way. ''';
+  static const String pectoralisMajor = '''
+  The pectoralis major muscle lies under the breast, and assists with movement of the arm and shoulder blade.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String serratusPosterior = '''
+  The serratus posterior muscles include the following:
+
+● Serratus posterior inferior
+● Serratus posterior superior
+If you have been guided to this page by the subconscious mind through muscle testing, it indicates an imbalance of some sort is present. ''';
+  static const String pectoralisMinor = '''
+  The pectoralis minor muscle helps to stabilize the scapula by pulling it forward and down, and raises the ribs when you breathe in.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String intercostalMuscle = '''
+  The intercostal muscles include the following:
+
+● intercostals
+● external
+● internal
+● innermost
+● subcostales
+● transversus thoracis
+● levatores costarum
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String diaphragm = '''
+  The diaphragm is a sheet of internal skeletal muscle that assists in breathing. It divides the abdominal organs from the organs in the chest.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String serratusAnterior = '''
+  The serratus anterior muscles include the following:
+
+● serratus anterior inferior
+● serratus anterior superior
+● serratus anterior intermediate
+If you have been guided to this page by the subconscious mind through muscle testing, it indicates an imbalance of some sort is present. ''';
+  static const String deepHead = '''
+  The deep head muscles include the following:
+
+● forehead/eyelid
+○ occipitofrontalis
+○ occipitalis
+○ frontalis
+○ corrugator supercilii
+○ depressor supercilii
+● Extraocular muscles
+○ vlevator palpebrae superioris
+○ superior tarsal
+○ Rectus muscles
+● superior
+● inferior
+● medial
+● lateral
+○ Oblique muscles
+● superior
+● inferior
+● Ear
+○ temporoparietalis
+○ Auriculares
+● auricularis anterior
+● auricularis superior
+● auricularis posterior
+○ Muscles of inner ear
+● stapedius
+● tensor tympani
+● Nose
+○ procerus
+○ depressor septi nasi
+○ levator labii superioris alaeque nasi
+○ transverse part (compressor naris)
+○ alar part (dilator naris)
+● Mouth
+○ levator anguli oris (caninus)
+○ depressor anguli oris (triangularis)
+○ levator labii superioris
+○ depressor labii inferioris
+○ buccinator
+○ Zygomatic muscles
+● major
+● minor
+Mastication
+● Pterygoid muscles
+● lateral
+● medial
+● Tongue
+○ Extrinsic muscle
+● genioglossus
+● hyoglossus
+● chondroglossus
+● styloglossus
+● palatoglossus
+○ Intrinsic
+● superior longitudinal
+● transversus
+● inferior longitudinal
+● verticalis muscle
+● Soft palate
+○ levator veli palatini
+○ tensor veli palatini
+○ musculus uvulae
+○ palatoglossus
+○ palatopharyngeus
+● Pharynx
+○ vstylopharyngeus
+○ salpingopharyngeus
+○ Pharyngeal muscles
+● inferior
+● middle
+● superior
+● Larynx
+○ cricothyroid
+○ arytenoid
+○ thyroarytenoid
+○ Cricoarytenoid muscles
+● posterior
+● Lateral
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String superficialHead = '''
+  The superficial head muscles include the following:
+
+● orbicularis oculi
+● nasals
+● mentalis
+● orbicularis oris
+● risorius
+● masseter
+● Temporalis
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String superficial = '''
+  The superficial back muscles include the following:
+
+● trapezius
+● latissimus dorsi
+● rhomboid major 
+● rhomboid minor
+● levator scapulae
+● serratus posterior superior
+● serratus posterior inferior
+If you have been guided to this page by the subconscious mind through muscle testing, it indicates an imbalance of some sort is present. ''';
+  static const String deep = '''
+  The deep back muscles include the following:
+
+● Splenius capitus
+● Splenius cervicus
+● Illiocostalis
+● Longissimus
+● Spinalis
+● Semispinalis
+● Multifidus
+● Rotatores
+● Quadratus Lumborum
+If you have been guided to this page by the subconscious mind through muscle testing, it indicates an imbalance of some sort is present. ''';
+  static const String postreiorNeck = '''
+  The posterior neck muscles include the following:
+
+● rectus capitis posterior minor
+● rectus capitis posterior major
+● semispinalis capitis
+● longissimus capitis
+● splenius capitis
+● obliquus capitis superior
+● obliquus capitis inferior
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String antreiorNeck = '''
+  The anterior neck muscles include the following:
+
+● longus colli
+● longus capitis
+● rectus capitis anterior
+● rectus capitis lateralis
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String upperArmMuscle = '''
+  The muscles of the arm include the following:
+
+● Anterior compartment
+○ coracobrachialis
+○ biceps brachii
+○ brachialis
+● Posterior compartment
+○ triceps brachii
+○ Anconeus
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
   static const String crown = '''
   General chakra information:
 
@@ -1222,10 +1461,47 @@ The crown chakra is located at the top of the head, and radiates upwards and out
 
 ● It is associated with the colors violet or purple. 
 ● The crown chakra is the spiritual center of the body. It is where self-realization, wisdom, awareness and connection to the divine reside. This is where we access enlightenment and inner peace.''';
+  static const String shoulderMuscleExp = '''
+  The muscles of the shoulder include the following:
+
+● deltoid
+● teres major
+● rotator cuff
+○ supraspinatus
+○ infraspinatus
+○ teres minor
+○ subscapularis
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
   static const String transverseAbdominis = '''
   The transverse abdominus muscle is a significant component of a person's core strength.
 
 If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String transverseFascia = '''
+  The transverse fascia is a fascial membrane that defines the transverse muscles of the abdominal wall from the peritoneum or lining separating those muscles from the internal organs of the abdomen.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String rectus = '''
+  The rectus abdominis muscles run vertically on each side of the centerline and are the "abs" that everyone wants.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String inguinal = '''
+The inguinal ligament runs from the pubic bone to the front – lateral portion of the iliac spine, and forms the base of the inguinal canal.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present.  ''';
+  static const String pyramidilis = '''
+  The Pyramidalis muscle is a small triangular muscle at the bottom of the centerline of the abdomen, which functions to tighten the linea alba, or the centerline fascia of the abdomen.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String externalObliqye = '''
+  The external oblique abdominal muscles are the largest and outermost of the three flat abdominal muscles that make up the abdominal wall.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String internalOblique = '''
+  The internal oblique abdominal muscles form part of the lower half of the abdominal wall.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. 
+
+''';
   static const String legExp = '''
   The muscles of the leg include the following:
 

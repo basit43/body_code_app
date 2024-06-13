@@ -578,6 +578,12 @@ Swipe three times with a magnet or your hand on any length of the governing meri
   static const String sacrumInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to realign this bone. 
 ''';
+  static const String lymphInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to reset the lymph nodes.
+''';
+  static const String shoulderInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to balance this particular muscle or muscles. Then retest to see if you were successful.
+''';
   static const String xRayInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this X-ray from the body, while at the same time directing the body to repair any damage experienced.
 

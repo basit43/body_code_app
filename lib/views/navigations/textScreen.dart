@@ -2159,7 +2159,168 @@ class _TextScreenState extends State<TextScreen> {
     'association': Associations.transverseAss,
     'intention': Intentions.transverseAbdominalInt,
     };
-    } else if (widget.parentScreen == 'Posterior Tibial Artery') {
+    } else if (widget.parentScreen == 'Transverse Fascia') {
+    data = {
+    'explanation': Explanations.transverseFascia,
+    'decoding': DecodingData.transverseAbdominalDec,
+    'association': Associations.transverseAss,
+    'intention': Intentions.transverseAbdominalInt,
+    };
+    } else if (widget.parentScreen == 'Rectus Abdominis') {
+    data = {
+    'explanation': Explanations.rectus,
+    'decoding': DecodingData.transverseAbdominalDec,
+    'association': Associations.transverseAss,
+    'intention': Intentions.transverseAbdominalInt,
+    };
+    } else if (widget.parentScreen == 'Inguinal Ligament') {
+    data = {
+    'explanation': Explanations.inguinal,
+    'decoding': DecodingData.transverseAbdominalDec,
+    'association': Associations.transverseAss,
+    'intention': Intentions.transverseAbdominalInt,
+    };
+    } else if (widget.parentScreen == 'Pyramidalis') {
+    data = {
+    'explanation': Explanations.pyramidilis,
+    'decoding': DecodingData.transverseAbdominalDec,
+    'association': Associations.transverseAss,
+    'intention': Intentions.transverseAbdominalInt,
+    };
+    } else if (widget.parentScreen == 'External Oblique') {
+    data = {
+    'explanation': Explanations.externalObliqye,
+    'decoding': DecodingData.transverseAbdominalDec,
+    'association': Associations.transverseAss,
+    'intention': Intentions.transverseAbdominalInt,
+    };
+    } else if (widget.parentScreen == 'Internal Oblique') {
+    data = {
+    'explanation': Explanations.internalOblique,
+    'decoding': DecodingData.transverseAbdominalDec,
+    'association': Associations.transverseAss,
+    'intention': Intentions.transverseAbdominalInt,
+    };
+    } else if (widget.parentScreen == 'Shoulder Muscle') {
+    data = {
+    'explanation': Explanations.shoulderMuscleExp,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Hand Muscle') {
+    data = {
+    'explanation': Explanations.handExp,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Forearm Muscle') {
+    data = {
+    'explanation': Explanations.foreArmExp,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Upper Arm Muscle') {
+    data = {
+    'explanation': Explanations.upperArmMuscle,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Anterior Neck Muscle') {
+    data = {
+    'explanation': Explanations.upperArmMuscle,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Posterior Neck Muscle') {
+    data = {
+    'explanation': Explanations.upperArmMuscle,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Deep') {
+    data = {
+    'explanation': Explanations.deep,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Superficial') {
+    data = {
+    'explanation': Explanations.superficial,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Superficial Head Muscle') {
+    data = {
+    'explanation': Explanations.superficialHead,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Deep Head Muscle') {
+    data = {
+    'explanation': Explanations.deepHead,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Serratus Anterior') {
+    data = {
+    'explanation': Explanations.serratusAnterior,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Diaphragm') {
+    data = {
+    'explanation': Explanations.diaphragm,
+    'decoding': DecodingData.diaphragmDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Intercostal Muscle') {
+    data = {
+    'explanation': Explanations.serratusAnterior,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Pectoralis Minor') {
+    data = {
+    'explanation': Explanations.pectoralisMinor,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Serratus Posterior') {
+    data = {
+    'explanation': Explanations.serratusPosterior,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Pectoralis Major') {
+    data = {
+    'explanation': Explanations.pectoralisMajor,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.shoulderInt,
+    };
+    } else if (widget.parentScreen == 'Lymph Node') {
+    data = {
+    'explanation': Explanations.lymph,
+    'decoding': DecodingData.shoulderDec,
+    'association': Associations.shoulderAss,
+    'intention': Intentions.lymphInt,
+    };
+    }  else if (widget.parentScreen == 'Posterior Tibial Artery') {
       data = {
         'explanation': Explanations.popliteal,
         'decoding': DecodingData.popliteal,
