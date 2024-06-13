@@ -8,6 +8,11 @@ class Explanations {
   ● Illness (usually extreme)
   ● Surgery
   ''';
+  static const String beliefCode = '''
+  The Belief Code is a special method devloped to deal with faulty core belief systems.  If you have been led here it means there is a faulty core belief system that needs addressing.
+
+● The Belief Code access is reserved to level 3 practitioners. ''';
+
 
   static const String recoveryTraumaExp =
       '''This is a type of energy that develops when the body’s recovery process (from minor to severe injury or illness) is interrupted, and the body is unable to return to a balanced state.
@@ -294,11 +299,12 @@ Prenatal trapped emotions usually occur during the third trimester, and are ofte
 ● This can be compared to a rain cloud that follows one everywhere. A memory field can create trouble moving forward in life and letting go of the past. It could also exert an effect on one’s mood and general emotional resilience. 
 ● These are often located in front of one’s face, and therefore could potentially interfere with the Brow Chakra as well as the eyes. ''';
   static const String noWillToExp = '''
-  A memory field is simply the energy of memories, stored in the energy field. 
+It is normal to have the will to do and feel things that are healthy. It is possible to develop and trap a unique frequency of energy when one loses the will to do something, even if this is experienced temporarily. 
 
-● This can develop from events that are troubling and difficult to move past, or if any memory or type of memory is often recalled (e.g. focusing on past rejections). 
-● This can be compared to a rain cloud that follows one everywhere. A memory field can create trouble moving forward in life and letting go of the past. It could also exert an effect on one’s mood and general emotional resilience. 
-● These are often located in front of one’s face, and therefore could potentially interfere with the Brow Chakra as well as the eyes. ''';
+● The energies in the no will category often come from long periods of sadness or hopelessness, or from being too overwhelmed with life, with physical discomfort.
+● These energies are problematic because they may prevent you from finding your willpower about that specific concept. What one lost the will to do in a past moment determines what kind of energy was developed. 
+● These energies may also influence thoughts, feelings, behaviors and relationships, as well as potentially preventing balance and healing in the physical body. 
+● Use the chart to help you identify it, and keep in mind that the specific energy may be slightly different than what is listed on the chart. The key is getting close enough when decoding.  ''';
   static const String despairAnchor = '''
   A despair anchor is the energy of a negative statement, that is perceived as a truth by the subconscious mind. 
 
@@ -1216,6 +1222,84 @@ The crown chakra is located at the top of the head, and radiates upwards and out
 
 ● It is associated with the colors violet or purple. 
 ● The crown chakra is the spiritual center of the body. It is where self-realization, wisdom, awareness and connection to the divine reside. This is where we access enlightenment and inner peace.''';
+  static const String transverseAbdominis = '''
+  The transverse abdominus muscle is a significant component of a person's core strength.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String legExp = '''
+  The muscles of the leg include the following:
+
+● Anterior compartment
+○ tibialis anterior
+○ extensor hallucis longus
+○ extensor digitorum longus
+○ Peroneus tertius
+● Posterior compartment
+○ Superficial
+○ triceps surae
+○ gastrocnemius
+○ soleus
+○ plantaris
+○ Deep
+○ popliteus
+○ tarsal tunnel
+○ flexor hallucis longus
+○ flexor digitorum longus
+○ tibialis posterior
+● Lateral compartment
+○ Peroneus longus
+○ Peroneus brevis
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. 
+''';
+  static const String footExp = '''
+  The muscles of the foot are divided into the muscles on the top of the foot or the:
+
+● dorsal muscles
+○ extensor digitorum brevis
+○ extensor hallucis brevis
+○ dorsal interossei muscles
+and the muscles on the bottom of the foot or the plantar muscles, which are then divided into four layers:
+
+● plantar muscles first layer
+○ abductor hallucis
+○ flexor digitorum brevis
+○ abductor digiti minimi
+● plantar muscles second layer
+○ quadratus plantae
+○ lumbrical muscle
+● plantar muscles third layer
+○ flexor hallicus brevis
+○ adductor hallicus
+○ flexor digitorum minimi brevis
+● plantar muscles fourth layer
+○ plantar interossei muscles
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. ''';
+  static const String hip = '''
+  The hip muscles cause movement in the hip, and are divided into four categories or groups:
+
+● gluteal group
+○ gluteus maximus
+○ gluteus minimus
+○ gluteus medius
+○ tensor fascia lata
+● adductor group
+○ adductor brevis
+○ adductor longs
+○ adductor magnus
+○ pectinous
+○ gracilis
+● ilopsoas group
+○ iliacus
+○ psoas major
+● lateral rotator group
+○ obturator externus
+○ obturator internus
+○ piriformis
+○ superior gemelli
+○ inferior gemelli
+○ quadratus femoris
+If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. 
+''';
   static const String solar = '''
   General chakra information:
 
@@ -1227,6 +1311,21 @@ The solar plexus chakra is located in the diaphragm area in the upper abdomen.
 ● It is energetically linked with the eyes, pancreas, kidneys, and adrenals, and is associated with digestion and metabolism.
 ● It is associated with the color yellow. 
 ● The solar plexus chakra is the base of self-esteem, self-confidence, identity, and personal power. Often called “The Warrior” or the “lustrous gem” chakra for the confidence, power, drive and gleaming within that is felt when it is balanced.''';
+
+  static const String mirobiomeExp = '''
+  The microbiome refers to the trillions of microorganisms that inhabit every individual, including bacteria, fungi, parasites and other organisms in the average adult, the total number of which rivals, or even surpasses our own cells. While most of these organisms live in our intestinal tract, every inch of our skin, and nearly every other area of our body is colonized as well. The microbiome affects our moods, communicates with our brain, and influences our immunity. Microbes can also bypass the brain, communicating directly to the enteric nervous system in the gut, affecting the way our digestive systems function. 
+
+Research on the microbiome and how differences in people’s microbiomes can affect their health is ongoing. Implantation of organism-rich fecal samples from a healthier person to a person suffering from certain illnesses has been shown to have a dramatic effect. For example, fecal transplant therapy (known as fecal microbiota transplants, or FMT) is becoming the method of choice to treat potentially fatal infections of a bacteria called clostridium difficile. 
+
+We have a symbiotic relationship with most of these organisms, and some of them are essential to our existence, such as the bacteria that help us to fight off harmful organisms, and that produce vitamin K and vitamin B12 in our gut.
+
+The microbiome is a collective consciousness that can be communicated with through muscle testing and queried for answers, just as you would muscle test any other part of the body. 
+
+We believe that the microbiome can have trapped emotions, as well as any other energetic imbalance that the body can harbor, and that these imbalances may even be inherited.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates that the microbiome is imbalanced in some way.
+
+Decoding''';
   static const String brow = '''
   General chakra information:
 
@@ -2356,6 +2455,12 @@ These particles can pass through the body disrupting tissue.
 ● High levels of radioactive stress damage DNA. 
 ● They alter cellular function and impair energy production. 
 ● If exposed to radioactivity, your body may be unable to process it on its own for various reasons, and this toxic energy may become trapped in your body.''';
+  static const String nutrient = '''
+  Nutrients are any substance that provides nourishment essential for growth, repair, and maintenance of life.
+
+● All nutrients have their own unique vibration.
+● All the nutrients on this chart are needed to help the body function optimally. 
+● Use the decoding process to identify which nutrient(s) your body needs and what has caused the deficiency.  ''';
   static const String xRay = '''
   X-rays are on the electromagnetic spectrum and like all electromagnetic pollution can cause serious problems and health concerns, especially if the exposure is regular.  
 
@@ -2616,13 +2721,168 @@ Anything else that helps you feel nourished''';
 ● All food has a specific vibration.
 ● Use this chart to decode what food the body wants to incorporate, one at time. 
 ● Most often, when the body wants a certain food, it is in order to provide better nutritional balance. ''';
-  static const String nutrient = '''
-  Nutrients are any substance that provides nourishment essential for growth, repair, and maintenance of life.
+//   static const String nutrient = '''
+//   Nutrients are any substance that provides nourishment essential for growth, repair, and maintenance of life.
+//
+// ● All nutrients have their own unique vibration.
+// ● All the nutrients on this chart are needed to help the body function optimally.
+// ● Use the decoding process to identify which nutrient(s) your body needs and what has caused the deficiency.
+// ● More Information on Dietary Intake and Recommended Dietary Allowances.''';
+  static const String electrolyteDeficiency = '''
+  Proper hydration is required for the body to function optimally. This requires a balance of water as well as minerals (electrolytes). 
 
-● All nutrients have their own unique vibration.
-● All the nutrients on this chart are needed to help the body function optimally. 
-● Use the decoding process to identify which nutrient(s) your body needs and what has caused the deficiency.  
-● More Information on Dietary Intake and Recommended Dietary Allowances.''';
+● An imbalance of hydration is known as “dehydration,” and can occur when we have one or more of the following issues: 
+○ Water deficiency, or a lack of water intake
+○ Water quality problem, or intake of water that is poor quality
+○ Water absorption problem, or improper absorption of water
+○ Water utilization problem, or improper utilization of water
+○ Electrolyte deficiency, or a lack of mineral (electrolyte) intake
+○ Electrolyte absorption or utilization problem 
+● It is not uncommon to have a problem with hydration stemming from several of the above issues. 
+● Common symptoms of dehydration include:
+○ Infrequent or dark urine
+○ Dry skin
+○ Headaches
+○ Dizzy
+○ Rapid breathing or heart rate
+○ Sunken eyes
+○ Lack of energy
+This indicates that there is a lack of mineral (electrolyte) intake.''';
+  static const String electrolyteUtilization = '''
+  Proper hydration is required for the body to function optimally. This requires a balance of water as well as minerals (electrolytes). 
+
+● An imbalance of hydration is known as “dehydration,” and can occur when we have one or more of the following issues: 
+○ Water deficiency, or a lack of water intake
+○ Water quality problem, or intake of water that is poor quality
+○ Water absorption problem, or improper absorption of water
+○ Water utilization problem, or improper utilization of water
+○ Electrolyte deficiency, or a lack of mineral (electrolyte) intake
+○ Electrolyte absorption or utilization problem 
+● It is not uncommon to have a problem with hydration stemming from several of the above issues. 
+● Common symptoms of dehydration include:
+○ Infrequent or dark urine
+○ Dry skin
+○ Headaches
+○ Dizzy
+○ Rapid breathing or heart rate
+○ Sunken eyes
+○ Lack of energy
+This indicates that there is an electrolyte absorption or utilization problem.
+
+● This is usually created by associated imbalances.''';
+  static const String waterUtilization = '''
+  Proper hydration is required for the body to function optimally. This requires a balance of water as well as minerals (electrolytes). 
+
+● An imbalance of hydration is known as “dehydration,” and can occur when we have one or more of the following issues: 
+○ Water deficiency, or a lack of water intake
+○ Water quality problem, or intake of water that is poor quality
+○ Water absorption problem, or improper absorption of water
+○ Water utilization problem, or improper utilization of water
+○ Electrolyte deficiency, or a lack of mineral (electrolyte) intake
+○ Electrolyte absorption or utilization problem 
+● It is not uncommon to have a problem with hydration stemming from several of the above issues. 
+● Common symptoms of dehydration include:
+○ Infrequent or dark urine
+○ Dry skin
+○ Headaches
+○ Dizzy
+○ Rapid breathing or heart rate
+○ Sunken eyes
+○ Lack of energy
+○ This indicates that there is improper utilization of water. 
+
+● This is usually created by associated imbalances.''';
+  static const String waterAbsorption = '''
+  Proper hydration is required for the body to function optimally. This requires a balance of water as well as minerals (electrolytes). 
+
+● An imbalance of hydration is known as “dehydration,” and can occur when we have one or more of the following issues: 
+○ Water deficiency, or a lack of water intake
+○ Water quality problem, or intake of water that is poor quality
+○ Water absorption problem, or improper absorption of water
+○ Water utilization problem, or improper utilization of water
+○ Electrolyte deficiency, or a lack of mineral (electrolyte) intake
+○ Electrolyte absorption or utilization problem 
+● It is not uncommon to have a problem with hydration stemming from several of the above issues. 
+● Common symptoms of dehydration include:
+○ Infrequent or dark urine
+○ Dry skin
+○ Headaches
+○ Dizzy
+○ Rapid breathing or heart rate
+○ Sunken eyes
+○ Lack of energy
+○ This indicates that there is improper absorption of water. 
+
+● A water absorption problem is usually created by associated imbalances, especially imbalance of the kidneys, stomach and/or colon.''';
+  static const String waterQuality = '''
+  Proper hydration is required for the body to function optimally. This requires a balance of water as well as minerals (electrolytes). 
+
+● An imbalance of hydration is known as “dehydration,” and can occur when we have one or more of the following issues: 
+○ Water deficiency, or a lack of water intake
+○ Water quality problem, or intake of water that is poor quality
+○ Water absorption problem, or improper absorption of water
+○ Water utilization problem, or improper utilization of water
+○ Electrolyte deficiency, or a lack of mineral (electrolyte) intake
+○ Electrolyte absorption or utilization problem 
+● It is not uncommon to have a problem with hydration stemming from several of the above issues. 
+● Common symptoms of dehydration include:
+○ Infrequent or dark urine
+○ Dry skin
+○ Headaches
+○ Dizzy
+○ Rapid breathing or heart rate
+○ Sunken eyes
+○ Lack of energy
+○ This indicates that there is an intake of water that is poor quality. 
+
+● Tap water or inadequately filtered/treated water can contain the vibrational information of many impurities, and as a result it may be rejected by the body. ''';
+  static const String waterDeficiency = '''
+  Proper hydration is required for the body to function optimally. This requires a balance of water as well as minerals (electrolytes). 
+
+● An imbalance of hydration is known as “dehydration,” and can occur when we have one or more of the following issues: 
+○ Water deficiency, or a lack of water intake
+○ Water quality problem, or intake of water that is poor quality
+○ Water absorption problem, or improper absorption of water
+○ Water utilization problem, or improper utilization of water
+○ Electrolyte deficiency, or a lack of mineral (electrolyte) intake
+○ Electrolyte absorption or utilization problem 
+● It is not uncommon to have a problem with hydration stemming from several of the above issues. 
+● Common symptoms of dehydration include:
+○ Infrequent or dark urine
+○ Dry skin
+○ Headaches
+○ Dizzy
+○ Rapid breathing or heart rate
+○ Sunken eyes
+○ Lack of energy
+This indicates that there is a lack of water intake.
+
+● Lack of water intake may be caused by simply forgetting to drink enough water, interruption of the thirst mechanism (see Hypothalamus gland), and/or an aversion to drinking water. There may or may not be associated imbalances. ''';
+  static const String colorDeficiency = '''
+  All the colors in the spectrum have their own vibrational frequency, and all can be beneficial to you in different ways. 
+
+● We can become deficient in a certain color, usually if we have been avoiding that color (this is usually due to a negative association with it).
+● Deficiency can also occur if you are not exposed to enough of that color in general (e.g. lack of green in winter), or if you have an associated imbalance that is blocking you from absorbing that color’s vibrational frequency.
+● Below is a list of basic colors, with some variations of each listed in parentheses to help you narrow it down even more, if desired.
+○ Pink (ballet pink, fuschia)
+○ Red (salmon, maroon)
+○ Orange (peach, brown)
+○ Yellow (cream, goldenrod)
+○ Green (lime, mint, forest, emerald, olive)
+○ Blue (baby blue, cyan, electric blue, turquoise, royal, navy) 
+○ Indigo (cornflower, midnight)
+○ Violet (lavender, purple, plum)
+○ White
+○ Black (grey)''';
+  static const String distortion = '''
+  This refers to a distortion in the body’s magnetic field, resulting from an associated imbalance (e.g. a trapped emotion).
+
+● Symptoms may include:
+○ Mild to acute discomfort
+○ Fatigue
+○ Dizziness
+○ Inflammation
+○ Chronic issues''';
   static const String essentialOil = '''
   Essential oils are extractions that capture the scent and flavor or “essence” of the plant from which they originate. The extractions are combined with a carrier oil to create a product that’s ready for use. 
 

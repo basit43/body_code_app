@@ -1,10 +1,33 @@
 class Associations {
   // ■ ● ○   •
+  static const String transverseAss = '''
+  Ask: Is there an associated imbalance that needs to be decoded?
+
+● If no, skip to Intention.
+● If yes, return to the home page, decode and address any associated imbalance, then return here and repeat the above question.  ''';
+  static const String hipAss = '''
+  Ask: Is there an associated imbalance that needs to be decoded?
+
+● If no, skip to Intention.
+● If yes, return to the home page, decode and address any associated imbalance, then return here and repeat the above question.  ''';
+  static const String microbiomeAss = '''
+  Ask: Is there an associated imbalance that needs to be decoded?
+
+● If no, move to Intention section, below.
+● If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.''';
   static const String physicalTraumaAss =
       '''Ask: Is there an associated imbalance that needs to be decoded?
 ■ If no, move to Intention. 
 ■ If yes (likely), return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question. 
 ''';
+  static const String colorDeficiencyAss = '''
+  Return to the home page and ask: What associated imbalance needs to be decoded and released in order for you to be okay with this color? 
+
+● Decode and release any associated imbalance(s), then return here and go to Intention. ''';
+  static const String colorEfficiencyAss = '''
+  Return to the home page and ask: What associated imbalance needs to be decoded and released in order for you to be okay with this color? 
+
+● Decode and release any associated imbalance(s), then return here and go to Intention.  ''';
   static const String recoveryTraumaAss =
       '''Ask: Is there an associated imbalance that needs to be decoded?
 ■ If no, move to Intention. 

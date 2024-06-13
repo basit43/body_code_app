@@ -175,21 +175,30 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.idealAllergyExp,
         'decoding': DecodingData.idealAllergyDec,
         'association': Associations.idealAllergyAss,
-        'intention': Intentions.idealAllergyInt
+        'intention': Intentions.idealAllergyInt,
+        'Charts': Images.ideaAllergyChart,
       };
     } else if (widget.parentScreen == "Idea Intolerance") {
       data = {
         'explanation': Explanations.ideaIntoleranceExp,
         'decoding': DecodingData.ideaIntoleranceDec,
         'association': Associations.ideaIntoleranceAss,
-        'intention': Intentions.ideaIntoleranceInt
+        'intention': Intentions.ideaIntoleranceInt,
+        'Charts': Images.ideaAllergyChart,
+      };
+    } else if(widget.parentScreen == 'Belief Code') {
+      data = {
+        'explanation': Explanations.beliefCode,
+        'decoding': '',
+        'association': '',
+        'intention': '',
       };
     } else if (widget.parentScreen == "Physical Allergy") {
       data = {
         'explanation': Explanations.physicalAllergyExp,
         'decoding': DecodingData.physicalAllergyDec,
         'association': Associations.physicalAllergyAss,
-        'intention': Intentions.physicalAllergyInt
+        'intention': Intentions.physicalAllergyInt,
       };
     } else if (widget.parentScreen == "Curse") {
       data = {
@@ -358,6 +367,13 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.absorbTrappedEmotionsAss,
         'intention': Intentions.absorbTrappedEmotionsInt
       };
+    } else if(widget.parentScreen == 'Radio Frequency') {
+      data = {
+        'explanation': Explanations.radioFrequency,
+        'decoding': DecodingData.vomerDec,
+        'association': Associations.absorbTrappedEmotionsAss,
+        'intention': Intentions.absorbTrappedEmotionsInt
+      };
     } else if (widget.parentScreen == 'Hyoid Bone') {
       data = {
         'explanation': Explanations.vomer,
@@ -454,77 +470,77 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.cavitationInt
       };
     } else if (widget.parentScreen == 'Amalgam Filling') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.amalgamInt
       };
     } else if (widget.parentScreen == 'Root Canal') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.rootCanalInt
       };
     } else if (widget.parentScreen == 'Dental Product') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.dentalProduct
       };
     } else if (widget.parentScreen == 'Cavity') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.cavityInt,
       };
     } else if (widget.parentScreen == 'Mercury') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.mercuryInt
       };
     } else if (widget.parentScreen == 'Cadmium') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.mercuryInt
       };
     } else if (widget.parentScreen == 'Lead') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.mercuryInt
       };
     } else if (widget.parentScreen == 'Aluminium') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.mercuryInt
       };
     } else if (widget.parentScreen == 'Arsenic') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.mercuryInt
       };
     } else if (widget.parentScreen == 'otherHeavyMetal') {
       data = {
         'explanation': Explanations.thirdMolar,
         'decoding': DecodingData.absorbTrappedEmotionsDec,
         'association': Associations.absorbTrappedEmotionsAss,
-        'intention': Intentions.absorbTrappedEmotionsInt
+        'intention': Intentions.mercuryInt
       };
     } else if (widget.parentScreen == 'Prenatal Emotional Compound') {
       data = {
@@ -1296,7 +1312,7 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.poisonousPlant,
         'decoding': DecodingData.poisonousDec,
         'association': Associations.poisonousAss,
-        'intention': Intentions.poisonousInt,
+        'intention': Intentions.mercuryInt,
       };
     } else if (widget.parentScreen == 'Venom') {
       data = {
@@ -1317,28 +1333,28 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.free,
         'decoding': DecodingData.freeDec,
         'association': Associations.stressAss,
-        'intention': Intentions.stressInt,
+        'intention': Intentions.freeRadialInt,
       };
     } else if (widget.parentScreen == 'Metabolic Waste') {
       data = {
         'explanation': Explanations.metabolic,
         'decoding': DecodingData.metabolicDec,
         'association': Associations.stressAss,
-        'intention': Intentions.stressInt,
+        'intention': Intentions.freeRadialInt,
       };
     } else if (widget.parentScreen == 'Nutrient Toxicity') {
       data = {
         'explanation': Explanations.nutrient,
         'decoding': DecodingData.metabolicDec,
         'association': Associations.stressAss,
-        'intention': Intentions.stressInt,
+        'intention': Intentions.nutrientToxicInt,
       };
     } else if (widget.parentScreen == 'Toxin Sound') {
       data = {
         'explanation': Explanations.toxic,
         'decoding': DecodingData.metabolicDec,
         'association': Associations.stressAss,
-        'intention': Intentions.stressInt,
+        'intention': Intentions.toxicInt,
       };
     } else if (widget.parentScreen == 'Cold') {
       data = {
@@ -1464,8 +1480,43 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.microbial,
         'decoding': DecodingData.microbialDec,
         'association': Associations.poisonousAss,
-        'intention': Intentions.poisonousInt,
+        'intention': Intentions.mercuryInt,
       };
+    } else if (widget.parentScreen == 'Microbiome') {
+      data = {
+        'explanation': Explanations.mirobiomeExp,
+        'decoding': DecodingData.microbiomeDec,
+        'association': Associations.microbiomeAss,
+        'intention': Intentions.microbiomeInt,
+      };
+    } else if (widget.parentScreen == 'Hip Muscle') {
+      data = {
+        'explanation': Explanations.hip,
+    'decoding': DecodingData.hipDec,
+    'association': Associations.hipAss,
+    'intention': Intentions.hipInt,
+  };
+    } else if (widget.parentScreen == 'Thigh Muscle') {
+    data = {
+    'explanation': Explanations.hip,
+    'decoding': DecodingData.hipDec,
+    'association': Associations.hipAss,
+    'intention': Intentions.hipInt,
+    };
+    } else if (widget.parentScreen == 'Foot Muscle') {
+    data = {
+    'explanation': Explanations.footExp,
+    'decoding': DecodingData.hipDec,
+    'association': Associations.hipAss,
+    'intention': Intentions.hipInt,
+    };
+    } else if (widget.parentScreen == 'Leg Muscle') {
+    data = {
+    'explanation': Explanations.legExp,
+    'decoding': DecodingData.hipDec,
+    'association': Associations.hipAss,
+    'intention': Intentions.hipInt,
+    };
     } else if (widget.parentScreen == 'Other Heavy Metal') {
       data = {
         'explanation': Explanations.otherMetal,
@@ -1487,7 +1538,14 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.leadAss,
         'intention': Intentions.leadInt,
       };
-    } else if (widget.parentScreen == 'Electrical Field') {
+    } else if(widget.parentScreen == "'Dirty' Electricity") {
+      data = {
+    'explanation': Explanations.dirtyElectricity,
+    'decoding': DecodingData.otherDec,
+    'association': Associations.leadAss,
+    'intention': Intentions.leadInt,
+    };
+    } else if (widget.parentScreen == 'Electric Field') {
       data = {
         'explanation': Explanations.electricField,
         'decoding': DecodingData.otherDec,
@@ -1578,13 +1636,28 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.leadAss,
         'intention': Intentions.leadInt,
       };
-    } else if (widget.parentScreen == 'Agricultural') {
+    } else if (widget.parentScreen == 'Agriculture') {
       data = {
         'explanation': Explanations.agricultural,
         'decoding': DecodingData.otherDec,
         'association': Associations.leadAss,
         'intention': Intentions.leadInt,
       };
+    } else if (widget.parentScreen == 'Magnetic Field') {
+    data = {
+    'explanation': Explanations.magnetic,
+    'decoding': DecodingData.otherDec,
+    'association': Associations.leadAss,
+    'intention': Intentions.leadInt,
+    };
+    } else if (widget.parentScreen == 'Nutrient') {
+    data = {
+    'explanation': Explanations.nutrientExp,
+    'decoding': DecodingData.nutrientDec,
+    'association': Associations.nutrientAss,
+    'intention': Intentions.nutrientInt,
+    'Chart': Images.nutrientChart,
+    };
     } else if (widget.parentScreen == 'Sleep') {
       data = {
         'explanation': Explanations.sleepExp,
@@ -1619,6 +1692,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.nutrientDec,
         'association': Associations.nutrientAss,
         'intention': Intentions.nutrientInt,
+    'Chart': Images.foodChart
       };
     } else if (widget.parentScreen == 'Superfood') {
       data = {
@@ -1626,6 +1700,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.herbSpiceDec,
         'association': Associations.leadAss,
         'intention': Intentions.superfoodInt,
+    'Chart': Images.superFoodChart
       };
     } else if (widget.parentScreen == 'Protein') {
       data = {
@@ -1633,6 +1708,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.herbSpiceDec,
         'association': Associations.proteinAss,
         'intention': Intentions.proteinInt,
+    'Chart': Images.healthyProteinChart,
       };
     } else if (widget.parentScreen == 'Adjunctive Therapy') {
       data = {
@@ -1691,6 +1767,81 @@ class _TextScreenState extends State<TextScreen> {
         'intention': Intentions.needInt,
       };
     } else if (widget.parentScreen == 'Distortion') {
+    data = {
+    'explanation': Explanations.detoxification,
+    'decoding': DecodingData.distortionDec,
+    'association': Associations.stressAss,
+    'intention': Intentions.needInt,
+    };
+    } else if (widget.parentScreen == 'Deficiency') {
+    data = {
+    'explanation': Explanations.detoxification,
+    'decoding': DecodingData.distortionDec,
+    'association': Associations.stressAss,
+    'intention': Intentions.deficiencyInt,
+    };
+    } else if(widget.parentScreen == 'Color Deficiency') {
+    data = {
+    'explanation': Explanations.colorDeficiency,
+    'decoding': DecodingData.colorDeficiencyDec,
+    'association': Associations.colorDeficiencyAss,
+    'intention': Intentions.colorDeficiencyInt,
+    };
+    }
+    else if(widget.parentScreen == 'Color Excess') {
+    data = {
+    'explanation': Explanations.colorDeficiency,
+    'decoding': DecodingData.colorEfficiency,
+    'association': Associations.colorEfficiencyAss,
+    'intention': Intentions.deficiencyInt,
+    };
+    } else if(widget.parentScreen == 'Water Deficiency') {
+    data = {
+    'explanation': Explanations.waterDeficiency,
+    'decoding': DecodingData.colorEfficiency,
+    'association': Associations.colorEfficiencyAss,
+    'intention': Intentions.deficiencyInt,
+    };
+    }
+    else if(widget.parentScreen == 'Water Quality') {
+    data = {
+    'explanation': Explanations.waterQuality,
+    'decoding': DecodingData.colorEfficiency,
+    'association': Associations.colorEfficiencyAss,
+    'intention': Intentions.deficiencyInt,
+    };
+    }
+    else if(widget.parentScreen == 'Water Absorption') {
+    data = {
+    'explanation': Explanations.waterAbsorption,
+    'decoding': DecodingData.colorEfficiency,
+    'association': Associations.colorEfficiencyAss,
+    'intention': Intentions.deficiencyInt,
+    };
+    }
+    else if(widget.parentScreen == 'Water Utilization') {
+    data = {
+    'explanation': Explanations.waterUtilization,
+    'decoding': DecodingData.colorEfficiency,
+    'association': Associations.colorEfficiencyAss,
+    'intention': Intentions.deficiencyInt,
+    };
+    }
+    else if(widget.parentScreen == 'Electrolyte Deficiency') {
+    data = {
+    'explanation': Explanations.electrolyteDeficiency,
+    'decoding': DecodingData.colorEfficiency,
+    'association': Associations.colorEfficiencyAss,
+    'intention': Intentions.deficiencyInt,
+    };
+    }
+    else if(widget.parentScreen == 'Electrolyte Utilization') {
+    data = {
+    'explanation': Explanations.electrolyteUtilization,
+    'decoding': DecodingData.colorEfficiency,
+    'association': Associations.colorEfficiencyAss,
+    'intention': Intentions.deficiencyInt,
+    };
     } else if (widget.parentScreen ==
         'Emotional Reverberation (formerly Resonance)') {
       data = {
@@ -1992,35 +2143,42 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.popliteal,
         'decoding': DecodingData.popliteal,
         'association': Associations.poplitealAss,
-        'intention': Intentions.poplitealInt,
+        'intention': Intentions.anteriorInt,
       };
     } else if (widget.parentScreen == 'Great Saphenous Vein') {
       data = {
         'explanation': Explanations.popliteal,
         'decoding': DecodingData.popliteal,
         'association': Associations.poplitealAss,
-        'intention': Intentions.poplitealInt,
+        'intention': Intentions.greatSaphenousInt,
       };
+    } else if (widget.parentScreen == 'Transverse Abdominis') {
+    data = {
+    'explanation': Explanations.transverseAbdominis,
+    'decoding': DecodingData.transverseAbdominalDec,
+    'association': Associations.transverseAss,
+    'intention': Intentions.transverseAbdominalInt,
+    };
     } else if (widget.parentScreen == 'Posterior Tibial Artery') {
       data = {
         'explanation': Explanations.popliteal,
         'decoding': DecodingData.popliteal,
         'association': Associations.poplitealAss,
-        'intention': Intentions.poplitealInt,
+        'intention': Intentions.posteriorInt,
       };
     } else if (widget.parentScreen == 'Femoral Artery') {
       data = {
         'explanation': Explanations.popliteal,
         'decoding': DecodingData.popliteal,
         'association': Associations.poplitealAss,
-        'intention': Intentions.poplitealInt,
+        'intention': Intentions.femoralInt,
       };
     } else if (widget.parentScreen == 'Peroneal Vein') {
       data = {
         'explanation': Explanations.popliteal,
         'decoding': DecodingData.popliteal,
         'association': Associations.poplitealAss,
-        'intention': Intentions.poplitealInt,
+        'intention': Intentions.peronealInt,
       };
     } else if (widget.parentScreen == 'Basilar Vein') {
       data = {
@@ -2055,77 +2213,77 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.cerebellum,
         'decoding': DecodingData.cerebellumDec,
         'association': Associations.cerebellumAss,
-        'intention': Intentions.cranialNervesInt,
+        'intention': Intentions.cerebellumInt,
       };
     } else if (widget.parentScreen == 'Vestibular System') {
       data = {
         'explanation': Explanations.cerebellum,
         'decoding': DecodingData.cerebellumDec,
         'association': Associations.cerebellumAss,
-        'intention': Intentions.cranialNervesInt,
+        'intention': Intentions.vestibularInt,
       };
     } else if (widget.parentScreen == 'Medulla') {
       data = {
         'explanation': Explanations.medulla,
         'decoding': DecodingData.cerebellumDec,
         'association': Associations.cerebellumAss,
-        'intention': Intentions.cranialNervesInt,
+        'intention': Intentions.medullaInt,
       };
     } else if (widget.parentScreen == 'Pons') {
       data = {
         'explanation': Explanations.cerebellum,
         'decoding': DecodingData.cerebellumDec,
         'association': Associations.cerebellumAss,
-        'intention': Intentions.cranialNervesInt,
+        'intention': Intentions.ponsInt,
       };
     } else if (widget.parentScreen == 'Midbrain') {
       data = {
         'explanation': Explanations.cerebellum,
         'decoding': DecodingData.cerebellumDec,
         'association': Associations.cerebellumAss,
-        'intention': Intentions.cranialNervesInt,
+        'intention': Intentions.midBrainInt,
       };
     } else if (widget.parentScreen == 'Cropus Callosum') {
       data = {
         'explanation': Explanations.corpus,
         'decoding': DecodingData.cerebellumDec,
         'association': Associations.cerebellumAss,
-        'intention': Intentions.cranialNervesInt,
+        'intention': Intentions.corpusInt,
       };
     } else if (widget.parentScreen == 'Frontal Lobe') {
       data = {
         'explanation': Explanations.frontal,
         'decoding': DecodingData.cerebellumDec,
         'association': Associations.cerebellumAss,
-        'intention': Intentions.cranialNervesInt,
+        'intention': Intentions.frontalInt,
       };
     } else if (widget.parentScreen == 'Temporal Lobe') {
       data = {
         'explanation': Explanations.temporal,
         'decoding': DecodingData.testesDec,
         'association': Associations.cerebellumAss,
-        'intention': Intentions.cranialNervesInt,
+        'intention': Intentions.temporalInt,
       };
     } else if (widget.parentScreen == 'Parietal Lobe') {
       data = {
         'explanation': Explanations.parietal,
         'decoding': DecodingData.testesDec,
         'association': Associations.cerebellumAss,
-        'intention': Intentions.cranialNervesInt,
+        'intention': Intentions.parietalInt,
       };
     } else if (widget.parentScreen == 'Occipital Lobe') {
       data = {
         'explanation': Explanations.occipital,
         'decoding': DecodingData.cerebellumDec,
         'association': Associations.cerebellumAss,
-        'intention': Intentions.cranialNervesInt,
+        'intention': Intentions.occipitalInt,
       };
     } else if (widget.parentScreen == 'Cerebrospinal Fluid') {
       data = {
         'explanation': Explanations.cerebellum,
         'decoding': DecodingData.cerebellumDec,
         'association': Associations.cerebellumAss,
-        'intention': Intentions.cranialNervesInt,
+        'intention': Intentions.cerebroInt,
       };
     } else if (widget.parentScreen == 'Skin') {
       data = {
@@ -2232,7 +2390,7 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.interstitium,
         'intention': Intentions.interstitium,
       };
-    } else if (widget.parentScreen == 'Testes') {
+    } else if (widget.parentScreen == 'Testes' || widget.parentScreen == 'Teste') {
       data = {
         'explanation': Explanations.testes,
         'decoding': DecodingData.testesDec,
@@ -2337,7 +2495,7 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.thymusAss,
         'intention': Intentions.thymusInt,
       };
-    } else if (widget.parentScreen == 'Adrenals') {
+    } else if (widget.parentScreen == 'Adrenals' || widget.parentScreen == 'Adrenal') {
       data = {
         'explanation': Explanations.adrenals,
         'decoding': DecodingData.adrenalsDec,
@@ -2358,7 +2516,7 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.pancreaseAss,
         'intention': Intentions.pancreaseInt,
       };
-    } else if (widget.parentScreen == 'Parathyroid') {
+    } else if (widget.parentScreen == 'Parathyroid' || widget.parentScreen == 'Parathyroid Gland') {
       data = {
         'explanation': Explanations.parathyroid,
         'decoding': DecodingData.parathyroidDec,
@@ -2412,7 +2570,7 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.limbic,
         'decoding': DecodingData.limbic,
         'association': Associations.limbic,
-        'intention': Intentions.basalInt,
+        'intention': Intentions.limbicInt,
       };
     } else if (widget.parentScreen == 'Crown') {
       data = {
@@ -2468,14 +2626,14 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.smallIntestine,
         'decoding': DecodingData.heartDec,
         'association': Associations.heartAss,
-        'intention': Intentions.heartInt,
+        'intention': Intentions.smallIntestineInt,
       };
     } else if (widget.parentScreen == 'Ileocecal Valve') {
       data = {
         'explanation': Explanations.Ileocal,
         'decoding': DecodingData.heartDec,
         'association': Associations.heartAss,
-        'intention': Intentions.heartInt,
+        'intention': Intentions.IleocecalInt,
       };
     } else if (widget.parentScreen == 'Left Subclavian') {
       data = {
@@ -2643,7 +2801,7 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.colon,
         'decoding': DecodingData.heartDec,
         'association': Associations.heartAss,
-        'intention': Intentions.heartInt,
+        'intention': Intentions.colonInt,
       };
     } else if (widget.parentScreen == 'Cardiac Sphincter') {
       data = {

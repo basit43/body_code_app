@@ -978,63 +978,335 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
       data = [
         {
           'imageUrl': Images.integumentary,
-          'text': "Hypothalamus",
-          'screen': RoutesName.textScreen
+          'text': "Integumentary System",
+          'screen': RoutesName.thirdScreen
         },
         {
           'imageUrl': Images.circulatory,
-          'text': "Pineal Gland",
-          'screen': RoutesName.textScreen
+          'text': "Circulatory System",
+          'screen': RoutesName.thirdScreen
         },
         {
           'imageUrl': Images.urinary,
-          'text': "Hypothalamus",
-          'screen': RoutesName.textScreen
+          'text': "Urinary System",
+          'screen': RoutesName.thirdScreen
         },
         {
           'imageUrl': Images.digestive,
-          'text': "Pineal Gland",
-          'screen': RoutesName.textScreen
+          'text': "Digestive System",
+          'screen': RoutesName.thirdScreen
         },
         {
           'imageUrl': Images.skeletal,
-          'text': "Hypothalamus",
-          'screen': RoutesName.textScreen
+          'text': "Skeletal System",
+          'screen': RoutesName.thirdScreen
         },
         {
           'imageUrl': Images.endocrine,
-          'text': "Pineal Gland",
-          'screen': RoutesName.textScreen
+          'text': "Endocrine System",
+          'screen': RoutesName.thirdScreen
         },
         {
           'imageUrl': Images.muscular,
-          'text': "Hypothalamus",
-          'screen': RoutesName.textScreen
+          'text': "Muscular System",
+          'screen': RoutesName.thirdScreen
         },
         {
           'imageUrl': Images.immune,
-          'text': "Pineal Gland",
-          'screen': RoutesName.textScreen
+          'text': "Immune/Lymphatic System",
+          'screen': RoutesName.beforeTextScreen
         },
         {
           'imageUrl': Images.respiratory,
-          'text': "Hypothalamus",
-          'screen': RoutesName.textScreen
+          'text': "Respiratory System",
+          'screen': RoutesName.beforeTextScreen
         },
         {
           'imageUrl': Images.microbiome,
-          'text': "Pineal Gland",
+          'text': "Microbiome",
           'screen': RoutesName.textScreen
         },
         {
           'imageUrl': Images.reproductive,
-          'text': "Hypothalamus",
-          'screen': RoutesName.textScreen
+          'text': "Reproductive System",
+          'screen': RoutesName.beforeTextScreen
         },
         {
           'imageUrl': Images.nervous,
-          'text': "Pineal Gland",
+          'text': "Nervous System",
+          'screen': RoutesName.beforeTextScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Lower Limb Muscle') {
+      data = [
+        {
+          'imageUrl': Images.hipMuscle,
+          'text': "Hip Muscle",
           'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.thighMuscle,
+          'text': "Thigh Muscle",
+          'screen': RoutesName.textScreen
+        },        {
+          'imageUrl': Images.footMuscle,
+          'text': "Foot Muscle",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.legMuscle,
+          'text': "Leg Muscle",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Abdominal Muscle') {
+      data = [
+        {
+          'imageUrl': Images.transverseAbdominis,
+          'text': "Transverse Abdominis",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.transverseFascia,
+          'text': "Transverse fascia",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.rectusAbdominis,
+          'text': "Rectus Abdominis",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.inguinalLigament,
+          'text': "Inguinal Ligament",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.pyramidalis,
+          'text': "Pyramidalis",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.externalOblique,
+          'text': "External Oblique",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.internalOblique,
+          'text': "Internal Oblique",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Upper Limb Muscle') {
+      data = [
+        {
+          'imageUrl': Images.shoulderMuscle,
+          'text': "Shoulder Muscle",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.handMuscle,
+          'text': "Hand Muscle",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.foreArmMuscle,
+          'text': "Forearm Muscle",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.upperArmMuscle,
+          'text': "Upper Arm Muscle",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Neck Muscle') {
+      data = [
+        {
+          'imageUrl': Images.neckMuscle,
+          'text': "Anterior Neck Muscle",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.posteriorNeck,
+          'text': "Posterior Neck Muscle",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Back Muscle') {
+      data = [
+        {
+          'imageUrl': Images.deepMuscle,
+          'text': "Deep",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.superficial,
+          'text': "Superficial",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Head Muscle') {
+      data = [
+        {
+          'imageUrl': Images.superficialHead,
+          'text': "Superficial Head Muscle",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.deepHead,
+          'text': "Deep Head Muscle",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Thoracic Muscle') {
+      data = [
+        {
+          'imageUrl': Images.serratusAnterior,
+          'text': "Serratus Anterior",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.diaphragm,
+          'text': "Diaphragm",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.intercostalMuscle,
+          'text': "Intercostal Muscle",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.pectoralisMinor,
+          'text': "Pectoralis Minor",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.serratusPosterior,
+          'text': "Serratus Posterior",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.pectoralisMajor,
+          'text': "Pectoralis Major",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Immune/Lymphatic System') {
+      data = [
+        {
+          'imageUrl': Images.lymph,
+          'text': "Lymph Node",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.boneMarrow,
+          'text': "Bone Marrow",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.thymus,
+          'text': "Thymus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.liver,
+          'text': "Liver",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.tongue,
+          'text': "Tonsil or Adenoid",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.spleen,
+          'text': "Spleen",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.peyers,
+          'text': "Peyers Patch",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.appendix,
+          'text': "Appendix",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if (widget.parentScreen == 'Respiratory System') {
+      data = [
+        {
+          'imageUrl': Images.alveoli,
+          'text': "Alveoli",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.lungs,
+          'text': "Lung",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.bronchiole,
+          'text': "Bronchiole",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.nose,
+          'text': "Nose",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.bronchialTube,
+          'text': "Bronchial Tube",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.trachea,
+          'text': "Trachea",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.larynx,
+          'text': "Larynx",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.pharynx,
+          'text': "Pharynx",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.nasalCavity,
+          'text': "Nasal Cavity",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Reproductive System') {
+      data = [
+        {
+          'imageUrl': Images.maleGlands,
+          'text': "Male",
+          'screen': RoutesName.thirdScreen,
+        },
+        {
+          'imageUrl': Images.femaleGlands,
+          'text': "Female",
+          'screen': RoutesName.thirdScreen,
+        },
+      ];
+    } else if(widget.parentScreen == 'Nervous System') {
+      data = [
+        {
+          'imageUrl': Images.centralNervousSystem,
+          'text': "Central Nervous System",
+          'screen': RoutesName.thirdScreen,
+        },
+        {
+          'imageUrl': Images.peripheralNervousSystem,
+          'text': "Peripheral Nervous System",
+          'screen': RoutesName.thirdScreen,
         },
       ];
     } else if (widget.parentScreen == "Deep Structures") {
@@ -1493,6 +1765,88 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
           'screen': RoutesName.textScreen
         },
       ];
+    } else if (widget.parentScreen == 'Nutrition') {
+      data = [
+        {
+          'imageUrl': Images.nutrition,
+          'text': 'Nutrient',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.food,
+          'text': "Food",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.superFood,
+          'text': "SuperFood",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.protein,
+          'text': 'Protein',
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Hydration') {
+      data = [
+        {
+          'imageUrl': Images.waterDeficiency,
+          'text': 'Water Deficiency',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.waterQuality,
+          'text': 'Water Quality',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.waterAbsorption,
+          'text': 'Water Absorption',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.waterUtilization,
+          'text': 'Water Utilization',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.electrolyteDeficiency,
+          'text': 'Electrolyte Deficiency',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.electrolyteUtilization,
+          'text': 'Electrolyte Utilization',
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Color Imbalance') {
+      data = [
+        {
+          'imageUrl': Images.colorDeficiency,
+          'text': 'Color Deficiency',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.colorExcess,
+          'text': 'Color Excess',
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Magnetic Field') {
+      data = [
+        {
+          'imageUrl': Images.distortion,
+          'text': 'Distortion',
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.deficiency,
+          'text': 'Deficiency',
+          'screen': RoutesName.textScreen
+        },
+      ];
     } else if (widget.parentScreen == "Electromagnetic Radiation") {
       data = [
         {
@@ -1564,7 +1918,7 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
         {
           'imageUrl': Images.toxin,
           'text': "Toxin",
-          'screen': RoutesName.thirdScreen
+          'screen': RoutesName.secondScreen
         },
         {
           'imageUrl': Images.agricultural,
@@ -1616,17 +1970,17 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
     } else if (widget.parentScreen == 'Physical Need') {
       data = [
         {
-          'imageUrl': Images.leftUpperTeeth,
+          'imageUrl': Images.needForMovement,
           'text': 'Need for Movement',
           'screen': RoutesName.beforeTextScreen,
         },
         {
-          'imageUrl': Images.leftUpperTeeth,
+          'imageUrl': Images.bodyWork,
           'text': 'Body Work',
           'screen': RoutesName.beforeTextScreen,
         },
         {
-          'imageUrl': Images.leftUpperTeeth,
+          'imageUrl': Images.detoxification,
           'text': 'Detoxification',
           'screen': RoutesName.beforeTextScreen,
         },

@@ -4,8 +4,31 @@ class Intentions {
       '''Swipe three times with a magnet or your hand on any length of the governing meridian while holding the intention to release the physical trauma energy. 
 ''';
   static const String recoveryTraumaInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian while holding the intention to release the physical trauma energy. 
-''';
+     '''
+     Swipe three times with a magnet or your hand on any length of the governing meridian while holding the intention to release the recovery interference energy. 
+
+● Always seek medical care if symptoms are persistent or troubling in any way.''';
+  static const String colorExcessInt = '''
+  Find the opposite color on the color wheel (found easily online). For example, if you had an excess of red, the opposite of that color is green. 
+
+● Now expose yourself to more of that opposite 
+color, to balance out the excess. 
+● This can be through wearing clothing of that color family, looking at pictures of that color, visiting buildings containing that color, finding that color in nature, etc. 
+● Going forward, make an effort to balance out your exposure to all the colors on the spectrum.''';
+  static const String colorDeficiencyInt = '''
+  Expose yourself to more of that color in any way you desire. This can be through wearing clothing of that color family, looking at pictures of that color, visiting buildings containing that color, finding that color in nature, etc. 
+
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String deficiencyInt = '''
+  You can supplement your magnetic field with:
+
+● Grounding or earthing
+○ Spending time outdoors with bare feet, or using earthing products (available on the internet).
+● Therapeutic grade magnetic products such as magnetic insoles (available on the internet).
+○ Note: Do not expose the following people to strong magnets: 
+● Young children
+● Pregnant women
+● Anyone with a medical device or electronic implant, such as a pacemaker''';
   static const String physicalEmotionalInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian while holding the intention to release the physical-emotional shock energy. 
 ''';
@@ -38,7 +61,7 @@ There are three options for removing an entity.
 ● Note:
 ○ It's a good idea to check for the presence of curses or saboteurs after releasing entities.
 ○ On rare occasions, fasting and prayer may be required to get entities to leave.
-■ TIn order to lessen the likelihood of a future entity imbalance, you may want to do some targeted Body Code work focused on raising the vibration and creating wholeness and balance in the energy body and energy field/aura. In addition, it is suggested to avoid anything that interferes with your personal power or the health of your physical and energetic body.
+■ In order to lessen the likelihood of a future entity imbalance, you may want to do some targeted Body Code work focused on raising the vibration and creating wholeness and balance in the energy body and energy field/aura. In addition, it is suggested to avoid anything that interferes with your personal power or the health of your physical and energetic body.
 ''';
   static const String postHypnoticInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian while holding the intention to release the post-hypnotic suggestion.''';
@@ -58,22 +81,48 @@ There are three options for removing an entity.
   static const String absorbTrappedEmotionsInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the trapped emotion.
 ''';
+  static const String mercuryInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
+
+● Note that physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this substance from the body. 
+● Using good judgement and common sense, avoid this toxin in the future if possible. ''';
+  static const String cavityInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to direct the body’s awareness to this problem. 
+
+● It is recommended to see a professional dentist.  ''';
+  static const String dentalProduct = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to direct the body’s awareness to this problem. 
+
+● vLook for natural dental products.''';
+  static const String rootCanalInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to direct the body’s awareness to this problem, in order to help the body begin to remove associated toxins.
+
+● Root canal teeth require surgical removal and cleanup, so it’s recommended to see a professional biological dentist.  ''';
+  static const String amalgamInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to direct the body’s awareness to this problem. 
+
+● Oral chelation and infrared saunas are helpful to detoxify mercury.
+● Removal of metal fillings must be done by a qualified dentist using all possible precautions against further mercury exposure, so it’s recommended to see a professional biological dentist.  ''';
   static const String prenatalEmotionalCompoundInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the prenatal emotional compound.''';
+  static const String cavitationInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to direct the body’s awareness to this problem, in order to help the body begin to remove associated toxins. 
+
+● Cavitations require surgical intervention due to the lack of blood supply to the area, so it is recommended to see a professional biological dentist.''';
   static const String commonEmotionalCompoundInt = '''
-  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound. ''';
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the trapped emotion. ''';
   static const String sharedEmotionalCompoundInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
   static const String absorbedEmotionalCompoundInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
   static const String prenatalHeartWallEmotionsInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the prenatal emotion.''';
   static const String commonHeartWallEmotionsInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
   static const String preconceptionHeartWallEmotionInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
   static const String sharedHeartWallEmotionInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the shared emotion, and with the intention to release it from anyone else who has it.''';
   static const String inheritedHeartWallInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
   static const String absorbedHeartWallInt =
@@ -85,11 +134,11 @@ There are three options for removing an entity.
   static const String noWillToInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
   static const String despairInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the despair anchor.''';
   static const String imageInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian to release the image.''';
   static const String seekingHeartEnergyInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the seeking heart energy.''';
   static const String broadCaseMessageInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian while holding the intention to release the negative broadcast message. 
 ● If necessary, a new, positive broadcast message can be installed as a replacement.
@@ -97,16 +146,16 @@ There are three options for removing an entity.
 ○ Often a new positive broadcast message will need to be opposite or close to opposite of what the negative one was. 
 ○ Install by swiping three times on the governing meridian, intending to place this positive vibration into the body, focusing on love and gratitude. ''';
   static const String organCommunication = '''
-  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional compound, and with the intention to release it from anyone else who has it.''';
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to help the organ compound or gland process the emotional vibration.''';
   static const String currentSymptom = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the vibration of that symptom. 
 ● Always seek medical care if symptoms are persistent or troubling in any way.''';
   static const String emotionalReverberation = '''
-  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the vibration of that symptom.''';
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the emotional reverberation.''';
   static const String sicknessMemoryInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the vibration of that symptom.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the sickness memory energy.''';
   static const String miasmInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the vibration of that symptom.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the miasm.''';
   static const String moldInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.
 
@@ -142,30 +191,30 @@ There are three options for removing an entity.
 ● Note that physical support may be necessary to complete the process of eliminating this biofilm and its organisms. It is recommended to see a health care provider, nutritionist or herbalist for more information. 
 ● Keep in mind that any infection is potentially dangerous. Seek medical advice, especially before taking any remedy. ''';
   static const String spiritFetusInt = '''
-    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.
+    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to connect the mother's brain to the spirit fetus.
 ''';
   static const String fetusInt = '''
-    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.
+    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to connect the mothers brain to the physical fetus.
 ''';
   static const String amnioticInt = '''
     Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.
 ''';
   static const String placentaInt = '''
-    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.
+    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to connect mother's brain to physical placenta.
 ''';
   static const String umbilicalInt = '''
-    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.
+    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to connect the mothers brain to physical umbilical cord.
 ''';
   static const String spiritInt = '''
-    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.
+    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to bring the spirit back to the physical body where it belongs (and for the reconnection process to continue over time if 100% reconnection is not immediately possible).
 ''';
   static const String physicalInt = '''
-    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.
+    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to bring the spirit back to the physical body where it belongs (and for the reconnection process to continue over time if 100% reconnection is not immediately possible)
 ''';
   static const String spiritPhysicalInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
   static const String spiritBreakInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to heal the breaak completely (and for the reconnection process to continue over time if 100% reconnection is not immediately possible).''';
   static const String diurnalCycleInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
   static const String circadianCycleInt =
@@ -175,81 +224,123 @@ There are three options for removing an entity.
   static const String auraInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
   static const String skinInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the skin.''';
   static const String nailInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the nail.''';
   static const String hairInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the hair.''';
   static const String uterusInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the uterus.''';
   static const String bladderInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the bladder.''';
   static const String stomachInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the stomach.''';
   static const String gallBladderInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the gallbladder.''';
   static const String spleenInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the spleen.''';
   static const String heartInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the heart.''';
   static const String lungsInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the lungs.''';
   static const String kidneysInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the kidneys.''';
   static const String liverInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the liver.''';
+  static const String smallIntestineInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the small intestine.
+  ''';
+  static const String IleocecalInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the ileocecal valve.
+  ''';
+  static const String colonInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the colon.
+  ''';
   static const String interstitium =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the interstitium.''';
   static const String testesInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the testes.''';
   static const String prostateInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the prostate.''';
   static const String seminalVesicles =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the seminal vesicles.''';
   static const String epididymisInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the epididymis.''';
   static const String bulboInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reste the bulbo gland.''';
   static const String vasInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the vas.''';
   static const String hypothalamusInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the hypothalamus.''';
+  static const String limbicInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the limbic system.''';
+
   static const String pituitaryInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to release the pituitary gland.''';
   static const String pinealInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the pineal gland.''';
   static const String amygdalaInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the amygdala.''';
   static const String thalamusInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the thalamus.''';
+  static const String corpusInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the corpus callosum.''';
+  static const String frontalInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the frontal lobe.''';
+  static const String temporalInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the temporal lobe.''';
+  static const String parietalInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the parietal lobe.''';
+  static const String occipitalInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the occipital lobe.''';
   static const String ovariesInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the ovaries.''';
   static const String mammaryInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the mammary glands.''';
   static const String thymusInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the thymus.''';
   static const String adrenalsInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the adrenals.''';
   static const String thyroidInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the thyroid.''';
   static const String pancreaseInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the pancreas.''';
   static const String parathyroidInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the parathyroid.''';
   static const String adiposeInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the adipose.''';
   static const String sleepInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the sleep.''';
   static const String basalInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the basal ganglia.''';
   static const String yangHeelInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to balance this particular vessel.''';
   static const String poplitealInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
-  static const String cranialNervesInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to balance this particular vessel.''';
+  static const String femoralInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to balance this particular vessel.''';
+  static const String peronealInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to balance this particular vessel.''';
+  static const String posteriorInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to balance this particular vessel.''';
+  static const String anteriorInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to balance this particular vessel.''';
+  static const String greatSaphenousInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to balance this particular vessel.''';
   static const String cerebellumInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the cerebellum.''';
+  static const String vestibularInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both reset the verstibular systems.''';
+  static const String medullaInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both reset the medulla.''';
+  static const String ponsInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both reset the pons.''';
+  static const String midBrainInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both reset the midbrain.''';
+  static const String cerebroInt =
+  '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both cerebrospinal fluid.''';
+  static const String cranialNervesInt =
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both cranial nerves.''';
   static const String leftSubclavianInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to realign this particular vessel. 
 ''';
@@ -433,10 +524,17 @@ To help rebalance this chakra, you could consider:
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to correct the misalignment. 
 
 ● It's important to note that some of the time, surgical intervention is the appropriate treatment for disc problems. Persistent numbness, tingling or weakness in the upper limbs is a sign that should be taken seriously and an appropriate medical professional should be consulted.''';
-  static const String stressInt = '''
-  Try any or all of the activities that tested good for you, and see what feels right and nourishing.
+  static const String freeRadialInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
 
-● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+● Note that physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this substance from the body. 
+● To support your body further, you may consider incorporating more superfoods/antioxidants into your diet such as: acai berries, organic berries, wheatgrass juice, natural chocolate, etc. 
+● Always consult your health care provider before making any dietary changes.''';
+  static const String stressInt = '''
+Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
+
+● Note that physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this substance from the body. 
+● Note that physical exercise may be necessary to complete the detoxification process. See Nutrition and Lifestyle > Outside Needs > Physical Needs > Movement for more information. Also consider Nutrition and Lifestyle > Outside Needs > Mental & Emotional Fitness > Stress Processing to help lower stress levels. Always consult your health care provider before beginning any new exercise plan.''';
   static const String energyInt = '''
   It is suggested to continue using The Body Code in conjunction with whatever protocol your energy medicine practitioner recommends.
 
@@ -484,6 +582,15 @@ To help rebalance this chakra, you could consider:
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this X-ray from the body, while at the same time directing the body to repair any damage experienced.
 
 ● Using good judgement and common sense, avoid X-rays in the future if possible.''';
+  static const String transverseAbdominalInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to balance this particular muscle or muscles. Then retest to see if you were successfu
+''';
+  static const String microbiomeInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the microbiome.
+''';
+  static const String hipInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to balance this particular muscle or muscles. Then retest to see if you were successfu
+''';
   static const String artificialInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
 
@@ -510,6 +617,15 @@ To help rebalance this chakra, you could consider:
 ● Always consult your health care provider before beginning any new exercise routine.  
 ● Take any necessary precautions to avoid injury. 
 ● The subconscious is indicating that movement is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+  static const String toxicInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body.
+
+● Using good judgement and common sense, avoid this toxin in the future if possible.''';
+  static const String nutrientToxicInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
+
+● Note that physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this nutrient from the body. 
+● Using good judgement and common sense, avoid this particular nutritional supplement in the future if possible. ''';
   static const String stresssInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
 

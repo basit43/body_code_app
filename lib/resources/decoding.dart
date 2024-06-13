@@ -1,5 +1,21 @@
 class DecodingData {
   // ■ ● ○   •
+  static const String transverseAbdominalDec = '''
+  Ask: Do we need to know which side this imbalance is on? 
+
+● If no, move to Association.
+● If yes, determine left or right side and continue to Association.
+''';
+  static const String hipDec = '''
+  Ask: Is it necessary to know what precise muscle is imbalanced?
+
+● If no, move to Association.
+● If yes, use the above list to determine the muscle (Continue to Association only once you have identified the necessary details).
+● Remember that all the muscles listed above exist on both left and right sides of the body, and you may need to determine which side this imbalance is on.''';
+  static const String microbiomeDec = '''
+  You’ve already identified that the microbiome is imbalanced in some way. Continue to Association.
+
+''';
   static const String physicalTraumaDec =
       '''Ask: Is it necessary to identify more about this energy?
 ■ If no, move to Association.
@@ -28,6 +44,52 @@ class DecodingData {
 ○ Use a process of elimination to locate this. The Systems section in Circuit or System>Systems may be helpful. 
 ■ When you do not need to know more, move to Association. 
 ''';
+  static const String nutrientDec = '''
+  Step 1: 
+
+Ask: Is the nutrient in Column A?
+
+● If yes, it is in Column A. 
+● If no, it is in Column B.
+Move to Step 2
+Step 2: 
+
+Ask: Is it in an Odd Row?
+
+● If yes, it is in an Odd Row (1, 3, or 5).
+● If no, it is in an Even Row (2, 4, or 6).
+Move to Step 3 when you have your answer.
+Step 3:
+
+For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+
+For Even, ask: Is it in Row 2? (Name even rows one by one).
+
+● Move to Step 4 when you have your answer.
+Step 4: 
+
+Ask: Is it ______? 
+
+● Name each nutrient, one by one. A strong answer indicates a yes answer. 
+● Once the nutrient is identified, continue the decoding process by asking the below questions.
+Step 5: 
+
+Ask: Are you taking in enough of this nutrient?
+
+● If no, look for information about the recommended daily allowance online or in other resources available. Then continue by asking the next question. 
+● If yes, continue decoding by asking the next question.
+Ask: Are you taking in the right quality of this nutrient?
+
+● If no, make an effort to find a different or higher quality source of this nutrient. 
+● If yes, continue decoding by asking the next question.
+Ask: Are you able to properly absorb this nutrient?
+
+● If no, move to Association and ask the Absorption question. Follow the directions and return to this question.
+● If yes, continue decoding by asking the next question.
+Ask: Are you able to properly utilize this nutrient?
+
+● If no, move to Association and ask the Utilization question. Follow the directions and return to this question.
+● If yes, move to Intention.''';
   static const String physicalEmotionalDec =
       '''Ask: Is it necessary to identify more about this energy?
 ■ If no, move to Association.
@@ -563,11 +625,9 @@ Ask: Is it necessary to identify more about this shared emotional compound?
 ○ An approximate number of people who it is shared with (rare).
 ● When you do not need to know more, move to Association.''';
   static const String heartWallEmotionalDec = '''
-      If necessary, use these directions to identify each emotional frequency, one at a time: 
+      Step 1: 
 
-Step 1: 
-
-Ask: Is the emotion in Column A?
+Ask: Is the prenatal trapped emotion in Column A?
 
 ● If yes, it is in Column A. 
 ● If no, it is in Column B. 
@@ -577,7 +637,7 @@ Step 2:
 Ask: Is it in an Odd Row?
 
 ● If yes, it is in an Odd Row (1, 3, or 5).
-● If no, it is in an Even Row (2, 4 or 6).
+● If no, it is in an Even Row (2, 4, or 6).
 ○ Move to Step 3 when you have your answer.
 Step 3:
 
@@ -590,25 +650,17 @@ Step 4:
 
 Ask: Is it ______? 
 
-● Test each emotion in that box, one by one, until one tests strong. Note the emotion, then repeat for the second (and third, if necessary) frequency.
-● When you do not need to know more, move to Association. 
+● Test each emotion in that box, one by one, until one tests strong.
 Step 5:
 
-Ask: Is it necessary to identify more about this shared emotional compound?
+Ask: Is it necessary to identify more about this emotion?
 
 ● If no, move to Association.
 ● If yes, you may need to identify one or more of the following: 
-○ The emotions that make up this compound
-■ If this is needed, use the chart of emotions to identify the two or three emotional frequencies. Step by step directions are below.
-○ The age of occurence
-■ Use a process of elimination to find the age.
-■ Divide the subject’s age roughly in half, and muscle test to determine if the emotional compound became trapped during the first or second half of life.
-■ Continue dividing and muscle testing in this fashion until you’ve determined the age when the emotional compound became trapped.
-○ The event that produced this emotional compound.
-■ Knowing when it happened may be useful.
-○ Another person that shares this energy (rare).
-○ An approximate number of people who it is shared with (rare).
-● When you do not need to know more, move to Association.''';
+○ If it was absorbed, and if so, from whom. 
+● Ask: Was this absorbed? If yes, ask: Did you absorb it from your mother?
+○ In which trimester (first, second or third) it became trapped.
+● When you do not need to know more, move to Association. ''';
   static const String commonHeartWallEmotionDec = '''
         If necessary, use these directions to identify each emotional frequency, one at a time: 
 
@@ -1684,56 +1736,79 @@ Ask: Would you benefit from a flower remedy?
   Ask: Would you benefit from doing ______? (Fill in the blank using list above)
 
 ● Find an energy medicine practitioner who seems like a good fit for you and proceed.''';
+  static const String colorDeficiencyDec = '''
+  Ask: Do you have a deficiency in _______?  (Fill in the blank using list above)
+
+● Once you’ve identified the color, find out why the deficiency exists. 
+○ Ask: Do you have this color deficiency simply due to a lack of exposure?
+● If yes, move to Intention. 
+● If no, this indicates an associated imbalance. Continue to Association.''';
+  static const String colorEfficiency = '''
+  sk: Is there an excess of _______?  (Fill in the blank using list above)
+
+● Once you’ve identified the color, continue to Association.''';
+  static const String distortionDec = '''
+  Ask: Is it necessary to know any details about this distortion?  
+
+● If no, move to Association.
+● If yes (unlikely), you may need to identify one or more of the following: 
+○ The age of occurence
+● Use a process of elimination to find the age
+○ Any associated life event
+● Knowing when it happened may be useful
+○ Location in the body 
+● See Systems in Circuits and Systems section if desired 
+● When you don’t need to know more, move to Association''';
   static const String stressDec = '''
   Ask: Would you benefit from doing ______? (Fill in the blank using list above) 
 
 ● Ask friends for suggestions and do research online to help you decide how to proceed. ''';
-  static const String nutrientDec = '''
-  Step 1: 
-
-Ask: Is the nutrient in Column A?
-
-● If yes, it is in Column A. 
-● If no, it is in Column B.
-Move to Step 2
-Step 2: 
-
-Ask: Is it in an Odd Row?
-
-● If yes, it is in an Odd Row (1, 3, or 5).
-● If no, it is in an Even Row (2, 4, or 6).
-Move to Step 3 when you have your answer.
-Step 3:
-
-○ For Odd, ask: Is it in Row 1? (Name odd rows one by one).
-
-○ For Even, ask: Is it in Row 2? (Name even rows one by one).
-
-Move to Step 4 when you have your answer.
-Step 4: 
-
-Ask: Is it ______? 
-
-● Name each nutrient, one by one. A strong answer indicates a yes answer. 
-● Once the nutrient is identified, continue the decoding process by asking the below questions.
-Step 5: 
-
-Ask: Are you taking in enough of this nutrient?
-
-● If no, look for information about the recommended daily allowance online or in other resources available. Then continue by asking the next question. 
-● If yes, continue decoding by asking the next question.
-Ask: Are you taking in the right quality of this nutrient?
-
-● If no, make an effort to find a different or higher quality source of this nutrient. 
-● If yes, continue decoding by asking the next question.
-Ask: Are you able to properly absorb this nutrient?
-
-● If no, move to Association and ask the Absorption question. Follow the directions and return to this question.
-● If yes, continue decoding by asking the next question.
-Ask: Are you able to properly utilize this nutrient?
-
-● If no, move to Association and ask the Utilization question. Follow the directions and return to this question.
-● If yes, move to Intention.''';
+//   static const String nutrientDec = '''
+//   Step 1:
+//
+// Ask: Is the nutrient in Column A?
+//
+// ● If yes, it is in Column A.
+// ● If no, it is in Column B.
+// Move to Step 2
+// Step 2:
+//
+// Ask: Is it in an Odd Row?
+//
+// ● If yes, it is in an Odd Row (1, 3, or 5).
+// ● If no, it is in an Even Row (2, 4, or 6).
+// Move to Step 3 when you have your answer.
+// Step 3:
+//
+// ○ For Odd, ask: Is it in Row 1? (Name odd rows one by one).
+//
+// ○ For Even, ask: Is it in Row 2? (Name even rows one by one).
+//
+// Move to Step 4 when you have your answer.
+// Step 4:
+//
+// Ask: Is it ______?
+//
+// ● Name each nutrient, one by one. A strong answer indicates a yes answer.
+// ● Once the nutrient is identified, continue the decoding process by asking the below questions.
+// Step 5:
+//
+// Ask: Are you taking in enough of this nutrient?
+//
+// ● If no, look for information about the recommended daily allowance online or in other resources available. Then continue by asking the next question.
+// ● If yes, continue decoding by asking the next question.
+// Ask: Are you taking in the right quality of this nutrient?
+//
+// ● If no, make an effort to find a different or higher quality source of this nutrient.
+// ● If yes, continue decoding by asking the next question.
+// Ask: Are you able to properly absorb this nutrient?
+//
+// ● If no, move to Association and ask the Absorption question. Follow the directions and return to this question.
+// ● If yes, continue decoding by asking the next question.
+// Ask: Are you able to properly utilize this nutrient?
+//
+// ● If no, move to Association and ask the Utilization question. Follow the directions and return to this question.
+// ● If yes, move to Intention.''';
   static const String medicationDec = '''
   Ask: Is it necessary to know any details about this medication toxin?
 

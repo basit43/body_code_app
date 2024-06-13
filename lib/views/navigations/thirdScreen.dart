@@ -318,6 +318,107 @@ class _ThirdScreenState extends State<ThirdScreen> {
           'screen': RoutesName.beforeTextScreen
         },
       ];
+    } else if(widget.parentScreen == 'Endocrine System') {
+      data = [
+        {
+          'imageUrl': Images.kidneys,
+          'text': "Kidney",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.adrenals,
+          'text': "Adrenal",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.parathyroid,
+          'text': "Parathyroid Gland",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.hypothalamusBlue,
+          'text': "Hypothalamus",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.pancrease,
+          'text': "Pancreas",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.pinealBlue,
+          'text': "Pineal Gland",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.thyroid,
+          'text': "Thyroid",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.pituitaryBlue,
+          'text': "Pituitary Gland",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.ovaries,
+          'text': "Ovaries",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.placenta,
+          'text': "Placenta (Pregnancy Only)",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.testes,
+          'text': "Teste",
+          'screen': RoutesName.textScreen
+        },
+        {
+          'imageUrl': Images.amygdalaBlue,
+          'text': "Amygdala",
+          'screen': RoutesName.textScreen
+        },
+      ];
+    } else if(widget.parentScreen == 'Muscular System') {
+      data = [
+        {
+          'imageUrl': Images.lowerLimbMuscle,
+          'text': "Lower Limb Muscle",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.abdominalMuscle,
+          'text': "Abdominal Muscle",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.upperLimbMuscle,
+          'text': "Upper Limb Muscle",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.neckMuscle,
+          'text': "Neck Muscle",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.backMuscle,
+          'text': "Back Muscle",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.headMuscle,
+          'text': "Head Muscle",
+          'screen': RoutesName.beforeTextScreen
+        },
+        {
+          'imageUrl': Images.thoracicMuscle,
+          'text': "Thoracic Muscle",
+          'screen': RoutesName.beforeTextScreen
+        },
+      ];
     } else if (widget.parentScreen == 'Disc') {
       data = [
         {
@@ -780,7 +881,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
           'screen': RoutesName.beforeTextScreen
         },
       ];
-    } else if (widget.parentScreen == 'Male Glands') {
+    } else if (widget.parentScreen == 'Male Glands' || widget.parentScreen == 'Male') {
       data = [
         {
           'imageUrl': Images.testes,
@@ -841,7 +942,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
           'screen': RoutesName.textScreen,
         },
       ];
-    } else if (widget.parentScreen == 'Female Glands') {
+    } else if (widget.parentScreen == 'Female Glands' || widget.parentScreen == 'Female') {
       data = [
         {
           'imageUrl': Images.ovaries,
@@ -859,7 +960,57 @@ class _ThirdScreenState extends State<ThirdScreen> {
           'screen': RoutesName.textScreen,
         },
       ];
-    } else if (widget.parentScreen == 'Other') {
+    } else if (widget.parentScreen == 'Central Nervous System') {
+      data = [
+        {
+          'imageUrl': Images.brain,
+          'text': 'Brain',
+          'screen': RoutesName.thirdScreen,
+        },
+        {
+          'imageUrl': Images.spinalCord,
+          'text': 'Spinal Cord',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.eyes,
+          'text': 'Eyes',
+          'screen': RoutesName.textScreen,
+        },
+      ];
+    } else if(widget.parentScreen == 'Peripheral Nervous System') {
+      data = [
+        {
+          'imageUrl': Images.somaticNervousSystem,
+          'text': 'Somatic Nervous System',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.autonomicNervousSystem,
+          'text': 'Autonomic Nervous System',
+          'screen': RoutesName.thirdScreen,
+        },
+      ];
+    } else if(widget.parentScreen == 'Autonomic Nervous System') {
+      data = [
+        {
+          'imageUrl': Images.sympathetic,
+          'text': 'Sympathetic Nervous System',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.parasympathetic,
+          'text': 'Parasympathetic Nervous System',
+          'screen': RoutesName.textScreen,
+        },
+        {
+          'imageUrl': Images.enteric,
+          'text': 'Enteric Nervous System',
+          'screen': RoutesName.textScreen,
+        },
+      ];
+    }
+      else if (widget.parentScreen == 'Peripheral Nervous System') {} else if (widget.parentScreen == 'Other') {
       data = [
         {
           'imageUrl': Images.thymus,
