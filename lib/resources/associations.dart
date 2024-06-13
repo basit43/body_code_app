@@ -5,6 +5,11 @@ class Associations {
 
 ● If no, skip to Intention.
 ● If yes, return to the home page, decode and address any associated imbalance, then return here and repeat the above question.  ''';
+  static const String alveoliAss = '''
+  Ask: Is there an associated imbalance that needs to be decoded?
+
+● If no, skip to Intention.
+● If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.  ''';
   static const String shoulderAss = '''
   Ask: Is there an associated imbalance that needs to be decoded?
 

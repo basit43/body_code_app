@@ -578,6 +578,45 @@ Swipe three times with a magnet or your hand on any length of the governing meri
   static const String sacrumInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to realign this bone. 
 ''';
+  static const String nasalint = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the nasal cavity(s).
+''';
+  static const String tracheaInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the trachea.
+''';
+  static const String pharynxInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the pharynx.
+''';
+  static const String larynxInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the larynx.
+''';
+  static const String noseInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the nose.
+''';
+  static const String bronchiaTubeInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the bronchial tube(s).
+''';
+  static const String bronchioleInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the bronchioles.
+''';
+  static const String lungInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the lung(s).
+''';
+  static const String alveoliInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the alveoli.
+''';
+  static const String appendixInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the appendix.
+''';
+  static const String peyersInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the Peyer’s patches.
+''';
+  static const String tonsilInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the tonsil(s) and/or adenoid(s).
+''';
+  static const String boneMarrowInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to reset the bone marrow.
+''';
   static const String lymphInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to reset the lymph nodes.
 ''';

@@ -1,5 +1,41 @@
 class DecodingData {
   // ■ ● ○   •
+  static const String boneMarrowDec = '''
+  You’ve already identified the imbalanced tissue. Continue to Association.
+''';
+  static const String nasalDec = '''
+  Ask: Is it necessary to determine which side this imbalance is on? 
+
+● If no, move to Association.
+● If yes, determine left or right side and continue to Association.''';
+  static const String tracheaDec = '''
+  You’ve already identified the imbalance. Continue to Association.
+''';
+  static const String pharynxDec = '''
+  You’ve already identified the imbalance. Continue to Association.
+''';
+  static const String larynxDec = '''
+  Ask: Is it necessary to know any details about this misalignment?  
+
+● If no, move to Association.
+● vIf yes, muscle test to see which of the following details need to be identified. (Continue to Association only once you have identified the necessary details).
+● Is this a misalignment of the vocal cords?
+● If yes, determine which side.''';
+  static const String alveoliDec = '''
+  Ask: Is it necessary to determine which side this imbalance is on? 
+
+● If no, move to Association.
+● If yes, determine left or right side and continue to Association.''';
+  static const String peyersDec = '''
+  You’ve already identified the imbalanced gland. Continue to Association.
+''';
+  static const String tonsilDec = '''
+  Ask: Is it necessary to identify more about this imbalance?
+
+● If no, move to Association.
+● If yes (unlikely), muscle test to see which of the following pieces of information need to be identified. You should never need to identify any other piece of information than these:
+○ Which side of the body is this on?
+○ Is this a tonsil or an adenoid?''';
   static const String transverseAbdominalDec = '''
   Ask: Do we need to know which side this imbalance is on? 
 

@@ -1265,6 +1265,116 @@ If you have been guided to this page by the subconscious mind through testing, i
 If you have been guided to this page by the subconscious mind through testing, it indicates an imbalance of some sort is present. 
 
 ''';
+  static const String nasal = '''
+  The nasal cavity consists of two large air-filled spaces above and behind the nose, dividing the left and right sides by a partitioned called the nasal septum. The paranasal sinuses are positioned around the nasal cavity and drain into it. 
+
+Common symptoms of imbalance may include:
+
+● Runny nose
+● Discomfort
+If you have been guided to this page by the subconscious mind through testing, it indicates that the one or both nasal cavities are imbalanced in some way. ''';
+  static const String pharynx = '''
+  The pharynx is the open area at the back of the throat above the openings of the trachea and esophagus. The pharynx consists of three continuous areas:
+
+● The upper portion being called the nasopharynx (above the soft palate) which is the back of the nasal cavity
+● The area of the pharynx at the back of the throat, known as the oropharynx
+● The part of the pharynx below the back of the tongue, at the back of the throat, above the esophagus, known as the laryngopharynx.
+Common symptoms of imbalance may include:
+
+● Discomfort in the back of the throat
+If you have been guided to this page by the subconscious mind through testing, it indicates that the pharynx is imbalanced in some way. ''';
+  static const String larynx = '''
+  The larynx is a cartilaginous structure at the top of the trachea that houses the vocal cords and prevents food from entering the trachea. The front of the trachea is known as the thyroid cartilage, commonly known as the "Adam's apple," which is typically larger in men than women. The uppermost part of the larynx is the hyoid bone, which connects to the larynx through various ligaments.
+
+Common symptoms of imbalance may include:
+
+● Singing difficulty
+● Speech difficulty 
+● Discomfort in the throat
+If you have been guided to this page by the subconscious mind through testing, it indicates that the larynx is imbalanced in some way. ''';
+  static const String trachea = '''
+  The trachea (windpipe) is a cartilaginous tube that allows the passage of air from the back of the throat into the lungs.
+
+Common symptoms of imbalance may include:
+
+● Discomfort in between the shoulders
+● Discomfort in the throat or upper chest
+If you have been guided to this page by the subconscious mind through testing, it indicates that the trachea is imbalanced in some way. ''';
+  static const String bronchialTube = '''
+  The bronchial tubes are responsible for allowing the passage of air from the trachea deeper into the lungs, connecting the trachea to the bronchioles. 
+
+● Common symptoms of imbalance may include:
+○ Breathing discomfort
+○ Discomfort in between the shoulders
+○ Discomfort in the ribs or the upper back
+If you have been guided to this page by the subconscious mind through testing, it indicates that one or both bronchial tubes are imbalanced in some way. ''';
+  static const String nose = '''
+  The nose helps to filter and condition incoming air and enables our sense of smell.
+
+Common symptoms of imbalance may include:
+
+● Discomfort in the nose
+If you have been guided to this page by the subconscious mind through testing, it indicates that the nose is imbalanced in some way. ''';
+  static const String bronchiole = '''
+  Bronchioles are the smaller branches of the bronchial airways in the lungs, and contain a layer of smooth muscle, enabling them to expand and contract, to increase or reduce air flow as needed. 
+
+Common symptoms of imbalance may include:
+
+● Breathing discomfort
+● Discomfort in between the shoulders
+● Discomfort in the ribs or the upper back
+If you have been guided to this page by the subconscious mind through testing, it indicates that the bronchioles are imbalanced in some way. ''';
+  static const String lung = '''
+  The lungs are responsible for absorbing oxygen from the air we breathe and eliminating carbon dioxide. 
+
+● Common symptoms of imbalance may include:
+○ Asthma
+○ Discomfort in between the shoulders
+○ Discomfort in the ribs or the upper back
+● Hormones Produced: None known 
+● The lungs generate the following emotions: Crying, discouragement, rejection, sadness, sorrow, confusion, defensiveness, grief, self-abuse, stubbornness.
+● Muscle connections:  Deltoid muscles, coracobrachialis muscles and serratus anterior.
+● vDiurnal cycle: The lungs come into prominence during the time of the lung Meridian, 3am to 5am.
+If you have been guided to this page by the subconscious mind through testing, it indicates that one or both of the lungs are imbalanced in some way.''';
+  static const String alveoli = '''
+  The alveoli (singular alveolus) is the smallest functional unit of the lung, where gas exchange actually takes place. There are approximately 300 million alveoli in a pair of adult human lungs.
+
+Common symptoms of imbalance may include:
+
+● Breathing discomfort
+● Discomfort in between the shoulders
+● Discomfort in the ribs or the upper back
+If you have been guided to this page by the subconscious mind through testing, it indicates that the alveoli are imbalanced in some way. ''';
+  static const String appendix = '''
+  The appendix is a worm–like appendage that is attached to the bottom of the ascending colon, (near the ileocecal valve) in the right lower abdomen. An important function of the appendix is to house healthy gut bacteria that can repopulate the gut in the event that serious illness wipes out the normal healthy flora.
+
+Common symptoms of imbalance may include:
+
+● Discomfort in the right lower abdomen.
+If you have been guided to this page by the subconscious mind through testing, it indicates that the appendix is imbalanced in some way. ''';
+  static const String peyers = '''
+  Peyer’s patches are groupings of lymphatic tissue that line the small intestine, providing important immune functions for the digestive system.
+
+If you have been guided to this page by the subconscious mind through testing, it indicates that the Peyer’s patches are imbalanced in some way.''';
+  static const String tonsil = '''
+  The tonsils and adenoids are lymphatic tissue at the back of the throat that help to provide a first line of defense against pathogenic invaders. While tonsils are easily visible at either side of the back of the throat, adenoids are situated at the back of the nasal cavity, at the back of the throat above the roof of the mouth. Infection will often cause enlargement of these tissues.
+
+Common symptoms of imbalance may include:
+
+● Snoring
+● Difficulty sleeping
+● Difficulty breathing through the nose
+● Sinus drainage
+If you have been guided to this page by the subconscious mind through testing, it indicates that one or both of the tonsils or the adenoids are imbalanced in some way. ''';
+  static const String boneMarrow = '''
+  Bone marrow is semi-solid tissue that is mostly found within the ribs, the vertebrae, the bones of the pelvis and the sternum. The function of bone marrow is to produce blood cells including red blood cells, white blood cells or leukocytes and platelets.
+
+Common symptoms of imbalance may include:
+
+● vLow energy
+● Anemia
+● Recurring infections due to lowered immune function
+If you have been guided to this page by the subconscious mind through testing, it indicates that the bone marrow is imbalanced in some way. ''';
   static const String lymph = '''
   Lymph nodes are widely spread throughout the body and are linked to each other by lymphatic vessels. The lymph nodes, via the lymphatic system, collect pathogenic invaders, waste materials and fluids for processing. Lymph nodes store important blood cells such as B and T cells and other white blood cells. A swollen lymph node is usually a sign of infection or illness.
 
