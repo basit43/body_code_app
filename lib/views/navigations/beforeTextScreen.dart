@@ -1700,7 +1700,7 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
         },
         {
           'imageUrl': Images.toxicSound,
-          'text': "Toxin Sound",
+          'text': "Toxic Sound",
           'screen': RoutesName.textScreen
         },
       ];
@@ -1964,7 +1964,7 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
         {
           'imageUrl': Images.creativity,
           'text': 'Creativity',
-          'screen': RoutesName.beforeTextScreen,
+          'screen': RoutesName.textScreen,
         },
       ];
     } else if (widget.parentScreen == 'Physical Need') {
@@ -1972,17 +1972,17 @@ class _BeforeTextScreenState extends State<BeforeTextScreen> {
         {
           'imageUrl': Images.needForMovement,
           'text': 'Need for Movement',
-          'screen': RoutesName.beforeTextScreen,
+          'screen': RoutesName.textScreen,
         },
         {
           'imageUrl': Images.bodyWork,
           'text': 'Body Work',
-          'screen': RoutesName.beforeTextScreen,
+          'screen': RoutesName.textScreen,
         },
         {
           'imageUrl': Images.detoxification,
           'text': 'Detoxification',
-          'screen': RoutesName.beforeTextScreen,
+          'screen': RoutesName.textScreen,
         },
       ];
     } else if (widget.parentScreen == 'Upper Teeth') {

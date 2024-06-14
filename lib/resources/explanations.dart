@@ -1283,6 +1283,14 @@ Common symptoms of imbalance may include:
 
 ● Discomfort in the back of the throat
 If you have been guided to this page by the subconscious mind through testing, it indicates that the pharynx is imbalanced in some way. ''';
+  static const String rootCanal = '''
+  A root canal is an indication of a dead tooth inhabited by toxic anaerobic bacteria.
+
+● In our experience, root canal teeth usually need to be extracted, and cavitations are very often found underneath the root canal, which also need to be surgically cleaned out and sterilized. This is highly specialized dental work that is performed by relatively very few dentists worldwide.
+● In our opinion, root canals contribute to many conditions including heart and circulatory diseases, arthritis and rheumatism, diseases of the brain and nervous system, and even cancer.
+● It is claimed that 95% or more of breast cancers will have corresponding root canal(s) or cavitations on the same side as the cancer.
+● Root canals cannot be done safely because it is impossible to sterilize the miles of bacteria-containing microtubules found in a typical tooth.
+If you have been guided to this page by the subconscious mind through muscle testing, it indicates a root canal (or a cavitation) may be present.''';
   static const String larynx = '''
   The larynx is a cartilaginous structure at the top of the trachea that houses the vocal cords and prevents food from entering the trachea. The front of the trachea is known as the thyroid cartilage, commonly known as the "Adam's apple," which is typically larger in men than women. The uppermost part of the larynx is the hyoid bone, which connects to the larynx through various ligaments.
 
@@ -1292,6 +1300,13 @@ Common symptoms of imbalance may include:
 ● Speech difficulty 
 ● Discomfort in the throat
 If you have been guided to this page by the subconscious mind through testing, it indicates that the larynx is imbalanced in some way. ''';
+  static const String amalgam = '''
+  Mercury amalgam fillings have been a very popular cavity filling material, and have been widely used as a major dental restorative material since the 1800s.
+
+● Dental filling material that typically contains 50% mercury, the 2nd most toxic material on the planet.
+● Several countries have now banned the use of amalgam fillings.
+● Causes chronic mercury poisoning, resulting in all kinds of physical problems.
+● If you have been guided to this page by the subconscious mind through muscle testing, the subconscious is attempting to get help with amalgam fillings or toxicity, caused either by amalgam fillings that were present at some point, or possibly mercury toxicity from some other source.''';
   static const String trachea = '''
   The trachea (windpipe) is a cartilaginous tube that allows the passage of air from the back of the throat into the lungs.
 

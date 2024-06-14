@@ -1,15 +1,35 @@
 class Associations {
   // ■ ● ○   •
+  static const String electrolyteUtiAss = '''
+  Ask: Is there an associated imbalance that needs to be decoded and released in order to help your body absorb or utilize the electrolytes that you are taking in? 
+
+● If no, continue to Intention. 
+● If yes, return to the home page, decode and release any associated imbalance(s), then return here, and ask the above question again.''';
+  static const String electrolyteAss = '''
+Ask: Is there an associated imbalance that needs to be decoded and released?
+
+● If no, continue to Intention. 
+● If yes, return to the home page, decode and release any associated imbalance(s), then return here, and ask the above question again.''';
   static const String transverseAss = '''
   Ask: Is there an associated imbalance that needs to be decoded?
 
 ● If no, skip to Intention.
 ● If yes, return to the home page, decode and address any associated imbalance, then return here and repeat the above question.  ''';
+  static const String rootCanalAss = '''
+  Ask: Is there an associated imbalance that needs to be decoded?
+
+● If no, skip to Intention.
+● If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question. ''';
   static const String alveoliAss = '''
   Ask: Is there an associated imbalance that needs to be decoded?
 
 ● If no, skip to Intention.
 ● If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question.  ''';
+  static const String amalgamAss = '''
+  Ask: Is there an associated imbalance that needs to be decoded?
+
+● If no, skip to Intention.
+● If yes, return to the home page, decode and address any associated imbalance(s), then return here and repeat the above question. ''';
   static const String shoulderAss = '''
   Ask: Is there an associated imbalance that needs to be decoded?
 
@@ -640,6 +660,16 @@ Ask: Is there an associated imbalance that we need to decode?
 ● If no, skip to Intention.
 ● If yes, return to the home page, decode and address any associated imbalance, then return here and repeat the above question.  
 ''';
+  static const String waterAbsAss = '''
+  Ask: Is there an associated imbalance that needs to be decoded and released in order to help your body absorb the water that you are drinking? 
+
+● If no, continue to Intention. 
+● If yes, return to the home page, decode and release any associated imbalance(s), then return here, and ask the above question again.''';
+  static const String waterUtiAss = '''
+  Ask: Is there an associated imbalance that needs to be decoded and released in order to help your body utilize the water that you are drinking? 
+
+● If no, continue to Intention. 
+● If yes, return to the home page, decode and release any associated imbalance(s), then return here, and ask the above question again.''';
   static const String mitralAss = '''
   Ask: Is there an associated imbalance that needs to be decoded?
 

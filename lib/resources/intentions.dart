@@ -72,6 +72,15 @@ There are three options for removing an entity.
 
   static const String commonTrappedEmotionsInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the trapped emotion.''';
+  static const String waterAbsInt = '''
+  It is wise to follow up on this in a day or two, to make sure that the problem has been resolved. In the meantime, pay additional attention to water intake, water quality and electrolyte intake. 
+
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.
+''';
+  static const String waterUtiInt = '''
+  It is wise to follow up on this in a day or two, to make sure that the problem has been resolved. In the meantime, pay additional attention to water intake, water quality and electrolyte intake. 
+
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
   static const String preconceptionTrappedEmotionsInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, while holding the intention to release the trapped emotion.''';
   static const String sharedTrappedEmotionsInt =
@@ -90,10 +99,20 @@ There are three options for removing an entity.
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to direct the body’s awareness to this problem. 
 
 ● It is recommended to see a professional dentist.  ''';
+  static const String electrolyteUtiInt = '''
+  It is wise to follow up on this in a day or two, to make sure that the problem has been resolved. In the meantime, pay additional attention to water intake, water quality and electrolyte intake.
+
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
   static const String dentalProduct = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to direct the body’s awareness to this problem. 
 
 ● vLook for natural dental products.''';
+  static const String electrolyteInt = '''
+  Make an effort to obtain a high quality source of electrolytes that you can incorporate into your diet every day.
+
+● As with any change in diet, consult your nutritionist or health care professional with any questions or concerns.
+● The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
+
   static const String rootCanalInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to direct the body’s awareness to this problem, in order to help the body begin to remove associated toxins.
 
@@ -200,7 +219,7 @@ There are three options for removing an entity.
     Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.
 ''';
   static const String placentaInt = '''
-    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to connect mother's brain to physical placenta.
+    Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.
 ''';
   static const String umbilicalInt = '''
     Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to connect the mothers brain to physical umbilical cord.
@@ -224,11 +243,11 @@ There are three options for removing an entity.
   static const String auraInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
   static const String skinInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the skin.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.''';
   static const String nailInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the nail.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.''';
   static const String hairInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the hair.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment .''';
   static const String uterusInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the uterus.''';
   static const String bladderInt =
@@ -239,10 +258,16 @@ There are three options for removing an entity.
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the gallbladder.''';
   static const String spleenInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the spleen.''';
+  static const String adrenalInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.''';
+  static const String parathyroiddInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.''';
   static const String heartInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the heart.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.''';
   static const String lungsInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the lungs.''';
+  static const String kidneyInt = '''
+  Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.''';
   static const String kidneysInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the kidneys.''';
   static const String liverInt =
@@ -259,7 +284,7 @@ There are three options for removing an entity.
   static const String interstitium =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the interstitium.''';
   static const String testesInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the testes.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention correct the misalignment.''';
   static const String prostateInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the prostate.''';
   static const String seminalVesicles =
@@ -271,16 +296,16 @@ There are three options for removing an entity.
   static const String vasInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the vas.''';
   static const String hypothalamusInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the hypothalamus.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.''';
   static const String limbicInt =
   '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the limbic system.''';
 
   static const String pituitaryInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to release the pituitary gland.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.''';
   static const String pinealInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the pineal gland.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment''';
   static const String amygdalaInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the amygdala.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.''';
   static const String thalamusInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the thalamus.''';
   static const String corpusInt =
@@ -294,7 +319,7 @@ There are three options for removing an entity.
   static const String occipitalInt =
   '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the occipital lobe.''';
   static const String ovariesInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the ovaries.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.''';
   static const String mammaryInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the mammary glands.''';
   static const String thymusInt =
@@ -302,9 +327,9 @@ There are three options for removing an entity.
   static const String adrenalsInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the adrenals.''';
   static const String thyroidInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the thyroid.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment.''';
   static const String pancreaseInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the pancreas.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to correct the misalignment''';
   static const String parathyroidInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the parathyroid.''';
   static const String adiposeInt =
@@ -524,17 +549,16 @@ To help rebalance this chakra, you could consider:
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to correct the misalignment. 
 
 ● It's important to note that some of the time, surgical intervention is the appropriate treatment for disc problems. Persistent numbness, tingling or weakness in the upper limbs is a sign that should be taken seriously and an appropriate medical professional should be consulted.''';
-  static const String freeRadialInt = '''
+  static const String  freeRadialInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
 
 ● Note that physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this substance from the body. 
 ● To support your body further, you may consider incorporating more superfoods/antioxidants into your diet such as: acai berries, organic berries, wheatgrass juice, natural chocolate, etc. 
 ● Always consult your health care provider before making any dietary changes.''';
   static const String stressInt = '''
-Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
+Try any or all of the activities that tested good for you, and see what feels right and nourishing.
 
-● Note that physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this substance from the body. 
-● Note that physical exercise may be necessary to complete the detoxification process. See Nutrition and Lifestyle > Outside Needs > Physical Needs > Movement for more information. Also consider Nutrition and Lifestyle > Outside Needs > Mental & Emotional Fitness > Stress Processing to help lower stress levels. Always consult your health care provider before beginning any new exercise plan.''';
+○ The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
   static const String energyInt = '''
   It is suggested to continue using The Body Code in conjunction with whatever protocol your energy medicine practitioner recommends.
 
@@ -663,7 +687,9 @@ Swipe three times with a magnet or your hand on any length of the governing meri
 ● Take any necessary precautions to avoid injury. 
 ● The subconscious is indicating that movement is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
   static const String toxicInt = '''
-  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body.
+Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body.
+
+● Using good judgement and common sense, avoid this toxin in the future if possible. 
 
 ● Using good judgement and common sense, avoid this toxin in the future if possible.''';
   static const String nutrientToxicInt = '''
@@ -672,10 +698,9 @@ Swipe three times with a magnet or your hand on any length of the governing meri
 ● Note that physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this nutrient from the body. 
 ● Using good judgement and common sense, avoid this particular nutritional supplement in the future if possible. ''';
   static const String stresssInt = '''
-  Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.
+Try any or all of the activities that tested good for you, and see what feels right and nourishing.
 
-● Note that physical support may be necessary to complete the detoxification process. It is recommended to see a health care provider for more information about detoxifying this substance from the body. 
-● Note that physical exercise may be necessary to complete the detoxification process. See Nutrition and Lifestyle > Outside Needs > Physical Needs > Movement for more information. Also consider Nutrition and Lifestyle > Outside Needs > Mental & Emotional Fitness > Stress Processing to help lower stress levels. Always consult your health care provider before beginning any new exercise plan.''';
+○ The subconscious is indicating that something from the above is needed in order to achieve better balance. It is always important to give this subconscious wisdom and communication the importance it deserves, as doing so may facilitate a more complete and efficient recovery process.''';
   static const String venomInt = '''
   Swipe three times with a magnet or your hand on any length of the governing meridian, while holding an intention to release the energy of this toxin from the body, while at the same time directing the body to remove the toxin through its normal elimination channels.''';
   static const String poisonousInt = '''

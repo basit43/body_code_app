@@ -471,9 +471,9 @@ class Images {
   static const String bodyWork = 'assets/images/bodyWork.png';
   static const String detoxification = 'assets/images/detoxication.png';
   static const String mentalOrEmotionalFitness =
-      'assets/images/mentalOrEmotionalFitness.png';
+      'assets/images/mentalOrEmotionalFiness.png';
   static const String adjunctiveTherapy = 'assets/images/adjunctiveTherapy.png';
-  static const String physicalNeed = 'assets/images/PhysicalNeed.png';
+  static const String physicalNeed = 'assets/images/physicalNeed.png';
   static const String energyMedicine = 'assets/images/energyMedicine.png';
   static const String nutrient = 'assets/images/nutrition.png';
   static const String food = 'assets/images/food.png';

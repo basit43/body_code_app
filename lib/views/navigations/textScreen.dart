@@ -180,7 +180,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.idealAllergyDec,
         'association': Associations.idealAllergyAss,
         'intention': Intentions.idealAllergyInt,
-        'Charts': Images.ideaAllergyChart,
+        'Chart': Images.ideaAllergyChart,
       };
     } else if (widget.parentScreen == "Idea Intolerance") {
       data = {
@@ -188,7 +188,7 @@ class _TextScreenState extends State<TextScreen> {
         'decoding': DecodingData.ideaIntoleranceDec,
         'association': Associations.ideaIntoleranceAss,
         'intention': Intentions.ideaIntoleranceInt,
-        'Charts': Images.ideaAllergyChart,
+        'Chart': Images.ideaAllergyChart,
       };
     } else if(widget.parentScreen == 'Belief Code') {
       data = {
@@ -511,17 +511,17 @@ class _TextScreenState extends State<TextScreen> {
       };
     } else if (widget.parentScreen == 'Amalgam Filling') {
       data = {
-        'explanation': Explanations.thirdMolar,
-        'decoding': DecodingData.absorbTrappedEmotionsDec,
-        'association': Associations.absorbTrappedEmotionsAss,
+        'explanation': Explanations.amalgam,
+        'decoding': DecodingData.amalgamDec,
+        'association': Associations.amalgamAss,
         'intention': Intentions.amalgamInt,
         'Chart': Images.white,
       };
     } else if (widget.parentScreen == 'Root Canal') {
       data = {
-        'explanation': Explanations.thirdMolar,
-        'decoding': DecodingData.absorbTrappedEmotionsDec,
-        'association': Associations.absorbTrappedEmotionsAss,
+        'explanation': Explanations.rootCanal,
+        'decoding': DecodingData.rootCanalDec,
+        'association': Associations.rootCanalAss,
         'intention': Intentions.rootCanalInt,
         'Chart': Images.white,
       };
@@ -1405,7 +1405,7 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.stressAss,
         'intention': Intentions.nutrientToxicInt,'Chart': Images.white,
       };
-    } else if (widget.parentScreen == 'Toxin Sound') {
+    } else if (widget.parentScreen == 'Toxic Sound') {
       data = {
         'explanation': Explanations.toxic,
         'decoding': DecodingData.metabolicDec,
@@ -1787,17 +1787,17 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.stressAss,
         'intention': Intentions.stresssInt,'Chart': Images.white,
       };
-    } else if (widget.parentScreen == 'Spiritual Nutrition') {
+    } else if (widget.parentScreen == 'Spiritual Nutrition' || widget.parentScreen == 'Spirtual Nutrition') {
       data = {
         'explanation': Explanations.spiritualNutrition,
-        'decoding': DecodingData.stressDec,
+        'decoding': DecodingData.spirtualDec,
         'association': Associations.stressAss,
         'intention': Intentions.stressInt,'Chart': Images.white,
       };
     } else if (widget.parentScreen == 'Creativity') {
       data = {
         'explanation': Explanations.creativity,
-        'decoding': DecodingData.stressDec,
+        'decoding': DecodingData.creativityDec,
         'association': Associations.stressAss,
         'intention': Intentions.stressInt,'Chart': Images.white,
       };
@@ -1854,9 +1854,9 @@ class _TextScreenState extends State<TextScreen> {
     } else if(widget.parentScreen == 'Water Deficiency') {
     data = {
     'explanation': Explanations.waterDeficiency,
-    'decoding': DecodingData.colorEfficiency,
-    'association': Associations.colorEfficiencyAss,
-    'intention': Intentions.deficiencyInt,'Chart': Images.white,
+    'decoding': DecodingData.waterAbsDec,
+    'association': Associations.waterAbsAss,
+    'intention': Intentions.waterAbsInt,'Chart': Images.white,
     };
     }
     else if(widget.parentScreen == 'Water Quality') {
@@ -1870,33 +1870,33 @@ class _TextScreenState extends State<TextScreen> {
     else if(widget.parentScreen == 'Water Absorption') {
     data = {
     'explanation': Explanations.waterAbsorption,
-    'decoding': DecodingData.colorEfficiency,
-    'association': Associations.colorEfficiencyAss,
-    'intention': Intentions.deficiencyInt,'Chart': Images.white,
+    'decoding': DecodingData.waterAbsDec,
+    'association': Associations.waterAbsAss,
+    'intention': Intentions.waterAbsInt,'Chart': Images.white,
     };
     }
     else if(widget.parentScreen == 'Water Utilization') {
     data = {
     'explanation': Explanations.waterUtilization,
-    'decoding': DecodingData.colorEfficiency,
-    'association': Associations.colorEfficiencyAss,
-    'intention': Intentions.deficiencyInt,'Chart': Images.white,
+    'decoding': DecodingData.waterUtiDec,
+    'association': Associations.waterUtiAss,
+    'intention': Intentions.waterUtiInt,'Chart': Images.white,
     };
     }
     else if(widget.parentScreen == 'Electrolyte Deficiency') {
     data = {
     'explanation': Explanations.electrolyteDeficiency,
-    'decoding': DecodingData.colorEfficiency,
-    'association': Associations.colorEfficiencyAss,
-    'intention': Intentions.deficiencyInt,'Chart': Images.white,
+    'decoding': DecodingData.electrolyteDec,
+    'association': Associations.electrolyteAss,
+    'intention': Intentions.electrolyteInt,'Chart': Images.white,
     };
     }
     else if(widget.parentScreen == 'Electrolyte Utilization') {
     data = {
     'explanation': Explanations.electrolyteUtilization,
-    'decoding': DecodingData.colorEfficiency,
-    'association': Associations.colorEfficiencyAss,
-    'intention': Intentions.deficiencyInt,'Chart': Images.white,
+    'decoding': DecodingData.electrolyteUtiDec,
+    'association': Associations.electrolyteUtiAss,
+    'intention': Intentions.electrolyteUtiInt,'Chart': Images.white,
     };
     } else if (widget.parentScreen ==
         'Emotional Reverberation (formerly Resonance)') {
@@ -2803,13 +2803,20 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.thymusAss,
         'intention': Intentions.thymusInt,'Chart': Images.white,
       };
-    } else if (widget.parentScreen == 'Adrenals' || widget.parentScreen == 'Adrenal') {
+    } else if (widget.parentScreen == 'Adrenals') {
       data = {
         'explanation': Explanations.adrenals,
         'decoding': DecodingData.adrenalsDec,
         'association': Associations.adrenalsAss,
         'intention': Intentions.adrenalsInt,'Chart': Images.white,
       };
+    } else if (widget.parentScreen == 'Adrenal') {
+    data = {
+    'explanation': Explanations.adrenals,
+    'decoding': DecodingData.adrenalsDec,
+    'association': Associations.adrenalsAss,
+    'intention': Intentions.adrenalInt,'Chart': Images.white,
+    };
     } else if (widget.parentScreen == 'Thyroid') {
       data = {
         'explanation': Explanations.thyroid,
@@ -2824,13 +2831,20 @@ class _TextScreenState extends State<TextScreen> {
         'association': Associations.pancreaseAss,
         'intention': Intentions.pancreaseInt,'Chart': Images.white,
       };
-    } else if (widget.parentScreen == 'Parathyroid' || widget.parentScreen == 'Parathyroid Gland') {
+    } else if (widget.parentScreen == 'Parathyroid') {
       data = {
         'explanation': Explanations.parathyroid,
         'decoding': DecodingData.parathyroidDec,
         'association': Associations.parathyroidAss,
         'intention': Intentions.parathyroidInt,'Chart': Images.white,
       };
+    } else if (widget.parentScreen == 'Parathyroid Gland') {
+    data = {
+    'explanation': Explanations.parathyroid,
+    'decoding': DecodingData.parathyroidDec,
+    'association': Associations.parathyroidAss,
+    'intention': Intentions.parathyroiddInt,'Chart': Images.white,
+    };
     } else if (widget.parentScreen == 'Adipose Tissue') {
       data = {
         'explanation': Explanations.adipose,
@@ -3102,7 +3116,7 @@ class _TextScreenState extends State<TextScreen> {
         'explanation': Explanations.mitral,
         'decoding': DecodingData.mitralDec,
         'association': Associations.mitralAss,
-        'intention': Intentions.mitralInt,'Chart': Images.white,
+        'intention': Intentions.kidneyInt,'Chart': Images.white,
       };
     } else if (widget.parentScreen == 'Colon') {
       data = {

@@ -3,19 +3,43 @@ class DecodingData {
   static const String boneMarrowDec = '''
   You’ve already identified the imbalanced tissue. Continue to Association.
 ''';
+  static const String electrolyteDec = '''
+You have already identified that dehydration has occurred because of lack of mineral (electrolyte) intake. Continue to Association.''';
   static const String nasalDec = '''
   Ask: Is it necessary to determine which side this imbalance is on? 
 
 ● If no, move to Association.
 ● If yes, determine left or right side and continue to Association.''';
+  static const String electrolyteUtiDec = '''
+  You have already identified that dehydration has occurred because of trouble absorbing or utilizing electrolytes. Continue to Association.
+''';
+  static const String rootCanalDec = '''
+  Most people will know which tooth has had a root canal, but if not:
+
+Ask: Is it necessary to determine which tooth this concerns? 
+
+● If no, move to Association.
+● If yes, see Toxins > Dental Toxins > Teeth (for reference) to locate the precise tooth or teeth, then continue to Association.''';
+
+  static const String waterAbsDec = '''
+  You have already identified that dehydration has occurred because of improper absorption of water. Continue to Association.
+''';
+  static const String amalgamDec = '''
+  Ask: Is it necessary to determine which tooth this concerns?
+
+● If no, move to Association.
+● If yes, see Toxins > Dental Toxins > Teeth (for reference) to locate the precise tooth or teeth, then continue to Association.''';
   static const String tracheaDec = '''
   You’ve already identified the imbalance. Continue to Association.
 ''';
   static const String pharynxDec = '''
   You’ve already identified the imbalance. Continue to Association.
 ''';
+  static const String waterUtiDec = '''
+  You have already identified that dehydration has occurred because of improper utilization of water. Continue to Association.
+''';
   static const String larynxDec = '''
-  Ask: Is it necessary to know any details about this misalignment?  
+  Ask: Is it necessary to know any details about this misalignment?
 
 ● If no, move to Association.
 ● vIf yes, muscle test to see which of the following details need to be identified. (Continue to Association only once you have identified the necessary details).
@@ -1791,6 +1815,15 @@ Ask: Would you benefit from a flower remedy?
   sk: Is there an excess of _______?  (Fill in the blank using list above)
 
 ● Once you’ve identified the color, continue to Association.''';
+  static const String spirtualDec = '''
+  Ask: Would you benefit from doing ______? (Fill in the blank using list above)
+
+● Be creative, ask friends for suggestions, and do research online to help you decide how to proceed. ''';
+
+  static const String creativityDec = '''
+  Ask: Would you benefit from doing ______? (Fill in the blank using list above) 
+
+● Think outside the box, ask friends for suggestions, and do research online to help you decide how to proceed.''';
   static const String distortionDec = '''
   Ask: Is it necessary to know any details about this distortion?  
 
@@ -1804,9 +1837,9 @@ Ask: Would you benefit from a flower remedy?
 ● See Systems in Circuits and Systems section if desired 
 ● When you don’t need to know more, move to Association''';
   static const String stressDec = '''
-  Ask: Would you benefit from doing ______? (Fill in the blank using list above) 
+Ask: Would you benefit from doing ______? (Fill in the blank using list above) 
 
-● Ask friends for suggestions and do research online to help you decide how to proceed. ''';
+● Ask friends for suggestions and do research online to help you decide how to proceed ''';
 //   static const String nutrientDec = '''
 //   Step 1:
 //
