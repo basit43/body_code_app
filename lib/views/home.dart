@@ -14,13 +14,18 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0; // To keep track of the selected tab
+  Map<int, GlobalKey<NavigatorState>> navigatorKeys = {
+    0: GlobalKey<NavigatorState>(),
+    1: GlobalKey<NavigatorState>(),
+    2: GlobalKey<NavigatorState>(),
+  };
 
   final List<Widget> _widgetOptions = <Widget>[
     // Replace these widgets with the content for each tab
-    EmotionCode(),
-    BodyCode(),
-    BeliefCode(),
-    Setting()
+    const EmotionCode(),
+    const BodyCode(),
+    const BeliefCode(),
+    const Setting()
   ];
 
   void _onItemTapped(int index) {
@@ -32,7 +37,6 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex), // Display content based on selected tab
       ),
@@ -64,6 +68,14 @@ class _HomeScreenState extends State<HomeScreen> {
         onTap: _onItemTapped,
         unselectedItemColor: Colors.grey, // Set unselected item color to white (optional)
       ),
+    );
+  }
+  buildNavigator() {
+    return Navigator(
+      key: navigatorKeys[_selectedIndex],
+      onGenerateRoute: (RouteSettings settings){
+        return MaterialPageRoute(builder: (_) => _widgetOptions.elementAt(_selectedIndex));
+      },
     );
   }
 }

@@ -1667,35 +1667,35 @@ class _TextScreenState extends State<TextScreen> {
     } else if (widget.parentScreen == 'Cosmetic') {
       data = {
         'explanation': Explanations.cosmetic,
-        'decoding': DecodingData.otherDec,
+        'decoding': DecodingData.cleaningDec,
         'association': Associations.leadAss,
         'intention': Intentions.leadInt,'Chart': Images.white,
       };
     } else if (widget.parentScreen == 'Building Material') {
       data = {
         'explanation': Explanations.building,
-        'decoding': DecodingData.otherDec,
+        'decoding': DecodingData.cleaningDec,
         'association': Associations.leadAss,
         'intention': Intentions.leadInt,'Chart': Images.white,
       };
     } else if (widget.parentScreen == 'Cleaning Product') {
       data = {
         'explanation': Explanations.cleaning,
-        'decoding': DecodingData.otherDec,
+        'decoding': DecodingData.cleaningDec,
         'association': Associations.leadAss,
         'intention': Intentions.leadInt,'Chart': Images.white,
       };
     } else if (widget.parentScreen == 'Carpet & Furnishing') {
       data = {
         'explanation': Explanations.carpet,
-        'decoding': DecodingData.otherDec,
+        'decoding': DecodingData.cleaningDec,
         'association': Associations.leadAss,
         'intention': Intentions.leadInt,'Chart': Images.white,
       };
     } else if (widget.parentScreen == 'Agriculture') {
       data = {
         'explanation': Explanations.agricultural,
-        'decoding': DecodingData.otherDec,
+        'decoding': DecodingData.cleaningDec,
         'association': Associations.leadAss,
         'intention': Intentions.leadInt,'Chart': Images.white,
       };

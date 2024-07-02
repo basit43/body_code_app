@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
               useMaterial3: true,
             ),
             darkTheme: ThemeData.dark(),
-            themeMode: themeProvider?.themeMode,
+            themeMode: themeProvider.themeMode,
             initialRoute: RoutesName.splash,
             onGenerateRoute: Routes.generateRoute,
             home: const SplashScreen(),

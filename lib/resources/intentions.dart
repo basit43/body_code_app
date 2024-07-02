@@ -239,7 +239,7 @@ There are three options for removing an entity.
   static const String circadianCycleInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
   static const String spiritBodyInt =
-      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
+      '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to reset the energy body or spirit.''';
   static const String auraInt =
       '''Swipe three times with a magnet or your hand on any length of the governing meridian, holding the intention to both release the energy (life-force) of the mold, and instruct the immune system to seek and eliminate the physical organisms.''';
   static const String skinInt =

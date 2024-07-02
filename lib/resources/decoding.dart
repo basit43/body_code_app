@@ -2051,6 +2051,14 @@ Ask: Do we need to know which side this misalignment is on?
 ● If no, move to Association.
 ● If yes, determine the left or  right side and continue to Association.
   ''';
+  static const String cleaningDec = '''
+  Ask: Is it necessary to know any details about this toxin?  
+
+● If no, move to Association.
+● If yes, muscle test to see which of the following details need to be identified. (Continue to Association only once you have identified the necessary details.)
+○ Which form: energetic or physical 
+○ Age of exposure
+○ Source of exposure''';
   static const String largeMeridianDec = '''
     Ask: Is it necessary to identify more about this imbalance?
 
